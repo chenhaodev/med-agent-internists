@@ -22,8 +22,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # 匹配 [p.N] 和 [p.N | 页码 F]（新格式）
 PAGE_RE = re.compile(r"^\[p\.(\d+)(?:\s*\|\s*页码\s*(\d+))?\]\s*$")
-FOLIO_RE = re.compile(r"^\d{2,4}$")
-FOLIO_MIN, FOLIO_MAX = 10, 1600  # 本书印刷页范围
+FOLIO_RE = re.compile(r"^\d{1,4}$")
+FOLIO_MIN, FOLIO_MAX = 2, 1600  # 本书印刷页范围（第1章「分子医学概论」起于印刷页码 2，故下限为 2）
 
 
 def extract_folio_from_page_text(text: str) -> "int | None":

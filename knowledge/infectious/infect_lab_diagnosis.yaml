@@ -1,0 +1,141 @@
+specialty: infectious
+specialty_zh: 感染
+disease: infect_lab_diagnosis
+disease_zh: 感染性疾病的实验室诊断
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SPECIMEN_COLLECTION
+  title: 标本采集与处理的重要性
+  source_page: 900
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标本采集不当会严重影响检测结果，实验室有标准流程和拒收标准。
+  - 如痰标本污染鳞状上皮细胞或硬条状粪便送艰难梭菌检测会被拒收。
+  - 所有参与采集的人员应熟悉采集装置、技术及运送要求。
+- id: RAPID_DIAG_METHODS
+  title: 快速诊断方法概述
+  source_page: 901
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数主要诊断检验可在1-4小时内完成，包括直接观察、抗原/核酸/生物标志物检测。
+  - 快速不等于高预测价值；有些传统项目因假阳性多已不常规推荐。
+  - 患者往往在就诊当天即可获得结果。
+- id: DIRECT_SMEAR
+  title: 直接涂片检查
+  source_page: 902
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 直接涂片（如革兰染色）可快速提示病原，数分钟至数小时出结果。
+  - 敏感性和特异性取决于标本采集是否恰当（如抗生素使用前）及患者免疫状态。
+  - 荧光染色可提高真菌、抗酸杆菌检出率，直接荧光抗体比传统染色更特异。
+- id: POINT_OF_CARE_TESTING
+  title: 床旁体外诊断实验
+  source_page: 902
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 床旁检测可在就诊时出结果，但多为快速抗原检测，诊断价值受标本类型、病原和疾病流行情况影响。
+  - 阳性结果较可靠，阴性结果可能为假阴性（如流感时敏感性约50%）。
+  - 流感样疾病住院患者快速抗原阴性时，推荐用分子检测复测。
+- id: MOLECULAR_TESTING
+  title: 分子检测方法
+  source_page: 903
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分子检测包括杂交法（不扩增）和扩增法（如PCR、TMA、LAMP），实时PCR可同时扩增和检测。
+  - 可检测单一病原或一组病原（如性传播疾病、呼吸道病毒），也可用于病毒载量监测。
+  - 多重检测平台可同时检测14-24种呼吸道或胃肠道病原。
+- id: CULTURE_AND_IDENTIFICATION
+  title: 培养与快速鉴定
+  source_page: 903
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 培养仍是多数标本诊断的基石；血培养和抗酸杆菌培养可实时监测阳性信号。
+  - 阳性标本可立即进行染色、鉴定和药敏试验。
+  - 快速鉴定方法包括PNA FISH、MALDI-TOF MS等，数分钟至数小时出结果。
+- id: MALDI_TOF_MS
+  title: MALDI-TOF MS技术
+  source_page: 904
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MALDI-TOF MS通过蛋白光谱快速鉴定微生物，数分钟完成，准确率高。
+  - 该技术已获FDA批准，可鉴定细菌、真菌、分枝杆菌。
+  - 虽然仪器昂贵，但能大幅缩短鉴定时间，已广泛用于临床微生物实验室。
+- id: SUSCEPTIBILITY_TESTING
+  title: 药敏试验与耐药基因检测
+  source_page: 904
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 药敏试验通常需要微生物在含抗生素的培养基中生长。
+  - 分子技术可快速筛查MRSA、VRE、耐碳青霉烯菌及耐利福平结核菌等耐药基因。
+  - 但耐药基因的临床解读尚需谨慎，基因表达不一定等同于表型耐药。
+- id: CONTAMINATED_SPECIMEN
+  title: 污染标本的判断与处理
+  source_page: 905
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 清洁尿液标本若检出3种以上等量微生物，视为污染标本，应重新取样。
+  - 其他标本类型也需列出无意义的检出微生物，避免混淆临床判断。
+  - 标本污染可导致错误诊断和抗生素滥用。
+- id: MULTIPLEX_PLATFORMS
+  title: 多重检测平台的应用
+  source_page: 903
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多重检测可同时筛查多种病原（如14-24种呼吸道病毒或胃肠道病原）。
+  - 有助于减少抗生素滥用，明确病因，尤其适用于混合感染。
+  - 结果解读需结合流行病学与临床表现。
+- id: BIOMARKERS
+  title: 降钙素原与C反应蛋白
+  source_page: 901
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 降钙素原（PCT）和C反应蛋白（CRP）是感染相关生物标志物。
+  - PCT在鉴别细菌性脓毒症方面优于CRP。
+  - 可用于辅助诊断和监测治疗效果，但不可单独用于确诊。
+- id: RAPID_ANTIGEN_FALSE_NEGATIVE
+  title: 快速抗原检测的假阴性问题
+  source_page: 902
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 快速抗原检测阳性可靠，但阴性结果可能为假阴性，尤其流感季节敏感度约50%。
+  - 住院患者或高风险人群阴性时，建议用分子检测确认。
+  - 多重病毒检测可发现其他病原，有助于减少抗生素使用。
+- id: VIRAL_LOAD_MONITORING
+  title: 病毒载量测定
+  source_page: 903
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分子扩增技术可定量HIV、HCV、HBV的病毒载量，用于监测治疗效果和疾病进展。
+  - 病毒载量结果需结合临床和其他检查综合判断。
+  - 定期监测有助于调整抗病毒治疗方案。
+- id: CLINICAL_INTERPRETATION
+  title: 检验结果的临床解读
+  source_page: 904
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 任何实验室结果都需结合患者病史、体征及其他检查综合判断。
+  - 阳性分子结果不一定代表活动性感染，需考虑定植、污染或既往感染。
+  - 阴性结果不能完全排除感染，尤其是免疫抑制患者或采样不当时。
+- id: LAB_CLINICAL_COLLABORATION
+  title: 实验室与临床协作
+  source_page: 905
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 微生物学家、药剂师和医师协作有助于优化感染控制与抗生素管理。
+  - 循证指南推荐标准化报告和解读，尤其对正常菌群污染标本。
+  - 宏基因组测序等新技术的应用需临床与实验室共同评估其价值。

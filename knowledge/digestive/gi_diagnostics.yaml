@@ -1,0 +1,126 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: gi_diagnostics
+disease_zh: 内镜及影像学检查
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: UGI_ENDOSCOPY
+  title: 上消化道内镜（胃镜）检查
+  source_page: 417
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胃镜可直接观察食管、胃和十二指肠，评估消化不良、胃灼热、吞咽困难等症状。
+  - 可用于Barrett食管和食管静脉曲张的筛查与监测。
+  - 检查中可进行止血、息肉切除、扩张狭窄等治疗。
+  - 常见风险包括出血（0.3%～1%）、穿孔（0.05%～0.5%）及镇静相关低血压或缺氧（1%～5%），死亡率极低（0～0.01%）。
+- id: COLONOSCOPY
+  title: 结肠镜检查
+  source_page: 418
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 结肠镜可检查整个大肠和末端回肠，是结直肠癌筛查的首选方法。
+  - 也用于评估慢性腹泻、缺铁性贫血、显性或隐性消化道出血及炎性肠病。
+  - 检查前需口服聚乙二醇等清肠剂，并需镇静镇痛。
+  - 可进行息肉切除、下消化道止血、支架置入等治疗。
+- id: CAPSULE_ENDOSCOPY
+  title: 视频胶囊内镜检查
+  source_page: 418
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胶囊内镜大小约11mm×26mm，吞服后无线传输图像，无需镇静。
+  - 小肠胶囊内镜是检查小肠的“金标准”，用于不明原因消化道出血和可疑炎性肠病。
+  - 食管胶囊内镜可用于食管静脉曲张筛查及反流性食管炎评估。
+  - 最可能的并发症是胶囊滞留，通常发生在病变部位。
+- id: ERCP
+  title: 内镜逆行胰胆管造影
+  source_page: 419
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - ERCP联合内镜和X线，检查胆管和胰管，评估梗阻、胆管炎、胰腺炎等。
+  - 可进行括约肌切开、取石、放置支架等治疗。
+  - 并发症风险较高（约5%），包括胰腺炎、出血和穿孔。
+  - 操作前需充分评估获益与风险。
+- id: ENDOSCOPIC_ULTRASOUND
+  title: 超声内镜检查
+  source_page: 419
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 超声内镜在镜身末端装有超声探头，可显示胃肠壁各层（黏膜、黏膜下层、肌层、浆膜）。
+  - 用于判断肿瘤浸润深度、皮下肿物来源，并可观察胰腺、肝脏等邻近结构。
+  - 可在超声引导下进行细针穿刺活检（FNA），获取病理组织。
+  - 还可用于假性囊肿引流、腹腔神经松解等治疗。
+- id: ABDOMINAL_XRAY
+  title: 腹部平片检查
+  source_page: 420
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹部平片是初步评估腹痛、恶心、呕吐的常用方法。
+  - 可发现腹腔积气（穿孔）、肠管扩张及气液平面（梗阻）、粪便过多或肠袢移位。
+  - 也可检测钙化灶，如慢性胰腺炎胰腺钙化或胆结石。
+  - 通常无特殊准备，但辐射剂量较低。
+- id: GI_CONTRAST
+  title: 消化道造影检查
+  source_page: 420
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 经口或直肠给予钡剂或水溶性造影剂，显示黏膜异常、狭窄、疝、憩室等。
+  - 双重对比（造影剂+空气）可发现较小的溃疡或息肉。
+  - 电视透视检查（改良吞钡）评估吞咽功能及误吸风险。
+  - 上消化道造影可评估胃出口梗阻，小肠造影用于克罗恩病或不明原因出血。
+- id: ABDOMINAL_CT
+  title: 计算机断层扫描（CT）
+  source_page: 421
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - CT通过口服和/或静脉造影剂增强对比，检测脏器实质肿瘤、囊肿、脓肿。
+  - 可显示肠壁厚度、轮廓，辅助诊断炎性肠病、憩室炎、阑尾炎。
+  - CT结肠成像（虚拟结肠镜）敏感度70%～90%，用于不能完成结肠镜者。
+  - 可引导穿刺活检或引流管置入。
+- id: ABDOMINAL_ULTRASOUND
+  title: 腹部超声检查
+  source_page: 421
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹部超声是胆绞痛、黄疸、肝功能异常的首选影像学检查，无辐射。
+  - 可检测脂肪肝、肝硬化、肿块、胆结石、胆管扩张、腹腔积液等。
+  - 用于引导穿刺活检或液体引流，但受骨骼和气体干扰。
+  - 对胃肠道病变诊断价值有限。
+- id: MRI_MRCP
+  title: 磁共振成像（MRI/MRCP）
+  source_page: 422
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MRI无辐射，需长时间平卧在封闭管道内，对软组织显像好。
+  - MRCP无创显示胰胆管，用于检查扩张、狭窄、结石及先天性异常。
+  - 对肝血管瘤、局灶性结节性增生、脂肪肝的显示优于CT。
+  - 直肠MRI可评估瘘管、肛门括约肌及肿瘤分期。
+- id: SIGMOIDOSCOPY
+  title: 乙状结肠镜检查
+  source_page: 418
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 乙状结肠镜可检查直肠、乙状结肠及降结肠脾曲以下部分。
+  - 检查时间短（<10分钟），痛苦小，通常不需镇静。
+  - 用于结直肠癌筛查、慢性腹泻及远端结肠出血评估。
+  - 检查前需灌肠清洁肠道。
+- id: ENTEROSCOPY
+  title: 小肠镜检查（气囊辅助）
+  source_page: 417
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气囊辅助小肠镜可检查整个小肠（经口或经肛），用于普通内镜无法到达的病变。
+  - 可进行活检、息肉切除等治疗，但操作时间较长。
+  - 术中小肠镜最具侵入性，需外科切口配合。
+  - 主要适用于不明原因消化道出血或可疑克罗恩病。

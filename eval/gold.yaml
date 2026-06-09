@@ -2623,3 +2623,324 @@ questions:
   source_refs:
   - 西氏内科学精要
   must_not: []
+
+# ─── 全书全覆盖新增：23 个章节（6 患者向缺口 + 17 背景章）的评测用例 ───────────
+- id: MOL_BASIS_01
+  question: 基因检测能查出遗传病吗？携带致病基因就一定会发病吗？
+  expected_domain:
+  - molecular:molecular_basis
+  expected_topics:
+  - 基因检测能提示风险但不能预测全部疾病
+  - 携带突变不等于一定发病
+  - 结果需遗传咨询师解读
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言基因检测能确诊或预测所有疾病
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_STRUCT_01
+  question: 心脏是怎么工作的？正常结构和功能是怎样的？
+  expected_domain:
+  - cardiology:cv_structure
+  expected_topics:
+  - 心脏四腔的分工
+  - 心脏泵血的基本过程
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_ASSESS_01
+  question: 看心脏病时医生做心脏听诊能发现什么问题？
+  expected_domain:
+  - cardiology:cv_assessment
+  expected_topics:
+  - 听诊可发现心脏杂音等异常
+  - 病史与体格检查是评估基础
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 仅凭听诊即下确诊结论
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_DIAG_01
+  question: 心电图能查出什么问题？
+  expected_domain:
+  - cardiology:cv_diagnostics
+  expected_topics:
+  - 可发现心律失常与心肌缺血线索
+  - 正常心电图不能完全排除心脏病
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言心电图正常即无心脏病
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_BASICS_01
+  question: 健康的肺是怎么进行气体交换的？
+  expected_domain:
+  - respiratory:lung_basics
+  expected_topics:
+  - 肺泡是气体交换的场所
+  - 氧气与二氧化碳的交换过程
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_ASSESS_01
+  question: 呼吸疾病患者一般怎么评估和检查思路是什么？
+  expected_domain:
+  - respiratory:resp_assessment
+  expected_topics:
+  - 病史与症状评估
+  - 结合体征与辅助检查
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_LUNGFUNC_01
+  question: 肺功能检查怎么做？能查出什么？
+  expected_domain:
+  - respiratory:lung_function
+  expected_topics:
+  - 评估气流受限与肺容量
+  - 配合用力呼吸的检查方法
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RENAL_STRUCT_01
+  question: 肾单位是什么？肾脏正常功能有哪些？
+  expected_domain:
+  - renal:renal_structure
+  expected_topics:
+  - 肾单位是肾脏的基本结构单位
+  - 肾脏的滤过与调节功能
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RENAL_PATIENT_01
+  question: 肾活检是怎么回事？做肾脏检查一般查哪些项目？
+  expected_domain:
+  - renal:renal_patient
+  expected_topics:
+  - 尿检与血肌酐是基础评估
+  - 肾活检用于明确病理诊断
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RENAL_NONGLOM_01
+  question: 肾结石平时要注意什么？
+  mode: patient
+  expected_domain:
+  - renal:non_glomerular
+  expected_topics:
+  - 多饮水
+  - 根据结石类型调整饮食
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 具体排石药物加剂量
+- id: RENAL_NONGLOM_02
+  question: 多囊肾会遗传吗？日常要注意什么？
+  expected_domain:
+  - renal:non_glomerular
+  expected_topics:
+  - 多囊肾有遗传倾向
+  - 控制血压与定期随访
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIG_GISYMP_01
+  question: 消化道症状有哪些常见类型？
+  expected_domain:
+  - digestive:gi_symptoms
+  expected_topics:
+  - 腹痛腹胀恶心等常见表现
+  - 报警症状需就医
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIG_GIDIAG_01
+  question: 做胃镜前要注意什么？胃镜和肠镜有什么区别？
+  expected_domain:
+  - digestive:gi_diagnostics
+  expected_topics:
+  - 胃镜检查上消化道
+  - 检查前需空腹
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIG_LIVERLABS_01
+  question: 肝功能化验单怎么看？转氨酶升高是什么意思该怎么解读？
+  expected_domain:
+  - digestive:liver_labs
+  expected_topics:
+  - 转氨酶反映肝细胞损伤
+  - 需结合其他指标综合判断
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 仅凭单项指标下确诊结论
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIG_ALF_01
+  question: 急性肝衰竭是什么？有哪些危险信号？
+  mode: patient
+  expected_domain:
+  - digestive:acute_liver_failure
+  expected_topics:
+  - 肝功能短期内急剧恶化
+  - 意识改变是危险信号
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 自行服用保肝药替代就医
+- id: HEM_HEMATOP_01
+  question: 造血干细胞是什么？血细胞是怎么生成的？
+  expected_domain:
+  - hematology:hematopoiesis
+  expected_topics:
+  - 造血干细胞分化为各类血细胞
+  - 骨髓是主要造血器官
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: HEM_NEUTRO_01
+  question: 化验提示中性粒细胞减少了怎么办？
+  expected_domain:
+  - hematology:neutrophil
+  expected_topics:
+  - 减少程度决定感染风险
+  - 需查明原因
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 自行使用升白针
+  doctor_must_have_tags:
+  - 证据等级
+- id: HEM_COAG_01
+  question: 凝血功能检查包括哪些项目？生理止血是怎么回事？
+  expected_domain:
+  - hematology:coagulation_basics
+  expected_topics:
+  - 血小板与凝血因子共同止血
+  - PT/APTT等反映凝血功能
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_MALEREPRO_01
+  question: 睾酮低、性腺功能减退该怎么办？
+  expected_domain:
+  - endocrine:male_repro_endo
+  expected_topics:
+  - 需查明原发性或继发性
+  - 就医评估激素水平
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 自行补充睾酮制剂加剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEUM_ASSESS_01
+  question: 风湿病患者一般怎么评估和检查？
+  expected_domain:
+  - rheumatology:rheum_assessment
+  expected_topics:
+  - 病史关节体征评估
+  - 自身抗体检查的意义
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEUM_SOFT_01
+  question: 纤维肌痛是什么？非关节性软组织疼痛怎么处理？
+  mode: patient
+  expected_domain:
+  - rheumatology:soft_tissue
+  expected_topics:
+  - 表现为广泛软组织疼痛
+  - 规律作息与适度运动
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 长期自行服用止痛药
+- id: RHEUM_SJOGREN_01
+  question: 干燥综合征眼睛干、口干怎么护理？
+  mode: patient
+  expected_domain:
+  - rheumatology:sjogrens
+  expected_topics:
+  - 人工泪液缓解眼干
+  - 多次少量饮水缓解口干
+  - 注意口腔护理防龋齿
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: INF_HOSTDEF_01
+  question: 宿主如何防御感染？人体的免疫防御是怎么工作的？
+  expected_domain:
+  - infectious:host_defense
+  expected_topics:
+  - 物理屏障与免疫系统协同防御
+  - 先天与适应性免疫
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: INF_LABDX_01
+  question: 细菌培养和药敏试验是查什么的？感染怎么做病原学诊断？
+  expected_domain:
+  - infectious:infect_lab_diagnosis
+  expected_topics:
+  - 培养鉴定病原体
+  - 药敏指导抗菌药物选择
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级

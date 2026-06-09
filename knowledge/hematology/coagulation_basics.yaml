@@ -1,0 +1,104 @@
+specialty: hematology
+specialty_zh: 血液
+disease: coagulation_basics
+disease_zh: 生理止血
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HEMOSTASIS_BALANCE
+  title: 生理止血的平衡概念
+  source_page: 574
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 止血是人体促凝血和抗凝血力量的平衡，维持血液流动和血管完整。
+  - 血管损伤后形成血小板-纤维蛋白血栓止血，随后经历血栓保持、伤口愈合、溶解和组织修复。
+  - 平衡破坏可导致出血性疾病或血栓性疾病。
+- id: ARTERIAL_VENOUS_HEMOSTASIS
+  title: 动脉与静脉止血差异
+  source_page: 574
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 动脉压力高，出血快，依赖血小板快速止血；静脉血流慢，更依赖凝血酶生成。
+  - 抗血小板药（如阿司匹林）用于动脉血栓预防，抗凝药（如肝素、华法林）用于静脉血栓。
+- id: ENDOTHELIAL_FUNCTION
+  title: 血管内皮细胞的抗凝与促凝
+  source_page: 575
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 完整内皮细胞分泌前列环素、一氧化氮等抑制血小板活化和聚集，维持血流。
+  - 内皮细胞损伤后，暴露内皮下胶原和组织因子，启动凝血。
+- id: ENDOTHELIAL_PROCOAGULANT
+  title: 内皮细胞的促凝血因子
+  source_page: 575
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 损伤激活的内皮细胞表达选择素、整合素和vWF多聚体，介导白细胞和血小板黏附。
+  - 暴露的内皮下基质含vWF、胶原等，促进血小板黏附和活化。
+- id: PLATELET_BASICS
+  title: 血小板的基本生理
+  source_page: 575
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血小板是无核细胞，直径2-4μm，来自巨核细胞，寿命7-10天。
+  - 正常血小板计数为150,000-450,000/μl，每日约7,100/μl满足基本止血需求。
+- id: PLATELET_COUNT_BT
+  title: 血小板计数与出血时间
+  source_page: 576
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出血时间正常<8分钟，血小板<100,000/μl时出血时间延长，无法区分数量或功能异常。
+  - PFA-100等体外试验同样受血小板数量影响，血小板低时结果异常不能判断原因。
+- id: PLATELET_ADHESION
+  title: 血小板黏附于血管壁
+  source_page: 578
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高剪切力下，血小板通过GPⅠb-Ⅸ-Ⅴ受体与内皮下的vWF多聚体结合，滚动减速。
+  - vWF多聚体由ADAMTS-13酶切割调节，缺乏时形成超大vWF导致微血管血栓。
+  - 胶原通过GPⅠa/Ⅱa和GPⅥ受体捕获并激活血小板，增强黏附。
+- id: PLATELET_ACTIVATION
+  title: 血小板活化与聚集
+  source_page: 579
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 活化后GPⅡb/Ⅲa受体构象改变，与纤维蛋白原或vWF结合，形成血小板-配体-血小板基质。
+  - 血小板释放ADP、血清素等激动剂，募集更多血小板，同时暴露促凝磷脂表面。
+- id: PLATELET_PROCOAGULANT
+  title: 血小板的促凝血特性
+  source_page: 578
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血小板表面提供凝血反应平台，加速凝血酶生成和纤维蛋白形成。
+  - 分泌α颗粒和致密颗粒含凝血因子、抗纤溶酶等，巩固血栓。
+- id: COAGULATION_CASCADE
+  title: 凝血瀑布通路
+  source_page: 577
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 经典凝血瀑布分内源和外源途径，PT检测外源途径，PTT检测内源途径。
+  - 现代观点认为组织因子启动凝血，少量凝血酶正反馈放大，产生大量纤维蛋白。
+- id: THROMBIN_ROLE
+  title: 凝血酶的作用
+  source_page: 577
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 凝血酶将纤维蛋白原转化为纤维蛋白，形成稳固血栓。
+  - 凝血酶活化Ⅺ、Ⅷ、Ⅴ因子，在血小板表面放大凝血反应。
+- id: VWF_ADAMTS13
+  title: vWF与ADAMTS-13
+  source_page: 578
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - vWF是大分子多聚体，在高剪切力下粘附血小板，对动脉止血至关重要。
+  - ADAMTS-13酶切割超大vWF，其缺乏导致血小板黏附不受控，引发微血管血栓（TTP）。

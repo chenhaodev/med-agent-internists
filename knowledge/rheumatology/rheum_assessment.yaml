@@ -1,0 +1,132 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: rheum_assessment
+disease_zh: 风湿病患者的处理
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: RHEUM_CONCEPT
+  title: 风湿病基本概念
+  source_page: 829
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风湿病是累及关节及周围组织的全身性疾病，与免疫、炎症、创伤和感染有关。
+  - 包括痛风、骨关节炎、类风湿关节炎、系统性红斑狼疮等。
+  - 详细问诊和体检是诊断关键，实验室检查主要用于证实而非初步诊断。
+- id: HISTORY_AGE_GENDER
+  title: 年龄性别与风湿病提示
+  source_page: 829
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者年龄和性别有助于初步判断风湿病类型。
+  - 年轻男性多见脊柱关节病；育龄女性好发系统性红斑狼疮。
+  - 中年男性和绝经后女性易患痛风；骨关节炎常见于老年人。
+- id: INFLAM_VS_NONINFLAM
+  title: 炎症性与非炎症性关节炎区分
+  source_page: 829
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 炎症性关节炎特征：休息时仍痛、晨僵（僵硬感）、关节肿胀压痛。
+  - 非炎症性（如骨关节炎）休息时不痛，活动后疼痛加重。
+  - 突然发作的关节炎可能为晶体（如痛风），缓慢发作多为其他关节炎。
+- id: JOINT_PATTERN
+  title: 关节受累类型与疾病提示
+  source_page: 830
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 单关节炎（单个关节）常见于感染或晶体性关节炎。
+  - 寡关节炎（2-4个关节）可见于反应性关节炎或银屑病关节炎。
+  - 多关节炎（≥5个关节）对称性多见于类风湿关节炎或红斑狼疮。
+- id: SYSTEMIC_EXAM
+  title: 全身系统检查线索
+  source_page: 831
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风湿病可累及全身多个系统，需全面体检。
+  - 注意脱发、眼炎、口腔溃疡、皮疹、淋巴结肿大等。
+  - 肺部间质纤维化、心脏瓣膜病、肝功能异常等均可能相关。
+- id: EMERGENCY_RHEUM
+  title: 需紧急处理的风湿情况
+  source_page: 831
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现感染性关节炎（发热、寒战、关节红肿热痛）需立即就医。
+  - 脊髓压迫、肌腱断裂、骨折等急性事件需紧急处理。
+  - 血管炎、狼疮活动可能导致脑卒中、肾衰竭、失明等危象。
+- id: SYNOVIAL_FLUID
+  title: 滑液分析的作用与解读
+  source_page: 831
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 滑液分析可区分炎症性和非炎症性关节炎，诊断感染和晶体性关节炎。
+  - 白细胞计数和分类、晶体检查、革兰染色和培养是基本内容。
+  - 所有急性关节病和可疑感染都应做此检查。
+- id: AUTOANTIBODIES_ANA
+  title: 抗核抗体的临床应用
+  source_page: 831
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抗核抗体（ANA）阳性可见于狼疮、硬皮病等多种风湿病，但健康人也可阳性。
+  - ANA不是诊断工具，不能用于普通人群筛查。
+  - 结果必须结合临床症状，不能仅凭阳性确诊。
+- id: RF_ANTICCP
+  title: 类风湿因子和抗CCP抗体
+  source_page: 832
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 类风湿因子（RF）在多数类风湿关节炎患者中阳性，但其他疾病也可阳性。
+  - 抗环瓜氨酸肽（抗CCP）抗体对类风湿关节炎特异性高（>90%）。
+  - 这些抗体有助于诊断、评估进展和指导治疗。
+- id: ACUTE_PHASE_PROTEINS
+  title: 血沉和C反应蛋白的意义
+  source_page: 832
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血沉（ESR）和C反应蛋白（CRP）升高提示体内有炎症。
+  - 对巨细胞动脉炎、风湿性多肌痛等有诊断和监测价值。
+  - 但为非特异性指标，感染、肿瘤等也可升高。
+- id: XRAY_FEATURES
+  title: X线检查对关节炎的作用
+  source_page: 832
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - X线可显示类风湿关节炎的侵蚀性改变、痛风的骨质破坏。
+  - 强直性脊柱炎可见骶髂关节炎和竹节样脊柱。
+  - 骨关节炎可见关节间隙狭窄、骨刺。急性关节炎早期X线可能正常。
+- id: MRI_OTHER_IMAGING
+  title: MRI和其他影像检查适用场景
+  source_page: 832
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MRI对早期缺血性骨坏死（如股骨头坏死）、半月板及肩袖损伤敏感。
+  - MRI也用于评估椎间盘病变、肌肉感染或非感染性肌病。
+  - 超声可发现滑囊囊肿（如Baker囊肿），CT和核素扫描各有用途。
+- id: BIOPSY_INDICATIONS
+  title: 组织活检的诊断价值
+  source_page: 833
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肌肉活检有助于确诊炎性肌病；神经活检可诊断血管炎。
+  - 皮肤活检可区分不同风湿性皮肤病变。
+  - 肾活检对明确疾病诊断、指导治疗和判断预后很重要。
+- id: ASSESSMENT_SUMMARY
+  title: 风湿病患者评估流程
+  source_page: 833
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 评估始于详细病史：受累关节部位、类型、炎症性特征及全身表现。
+  - 考虑年龄、性别、家族史、用药史和其他疾病史。
+  - 影像学和实验室检查（尤其滑液分析）可提供确诊信息。

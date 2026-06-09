@@ -1,0 +1,105 @@
+specialty: hematology
+specialty_zh: 血液
+disease: neutrophil
+disease_zh: 中性粒细胞相关临床疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NEUT_FUNC
+  title: 中性粒细胞的作用
+  source_page: 552
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中性粒细胞是血液中数量最多的白细胞，专门识别和杀死细菌
+  - 它通过趋化、黏附、吞噬和胞内杀菌步骤清除入侵细菌
+  - 功能依赖细胞表面的蛋白和内部的特殊颗粒
+- id: NEUT_INCREASE
+  title: 中性粒细胞增多的原因
+  source_page: 555
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 大多由感染、应激、药物等引起，通常是一过性的
+  - 持续升高需排查慢性粒细胞白血病等骨髓增殖性疾病
+  - 医生会检查BCR/ABL基因和JAK2突变来明确诊断
+- id: NEUT_DEFINE
+  title: 中性粒细胞减少症的定义
+  source_page: 555
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中性粒细胞绝对值低于1500/μl称为中性粒细胞减少
+  - 低于500/μl时感染风险显著增加
+  - 不同种族正常值有差异，如非裔美国人可能偏低
+- id: NEUT_CAUSES
+  title: 中性粒细胞减少的病因
+  source_page: 555
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分两大类：骨髓生成减少或外周破坏/扣留增多
+  - 常见原因包括药物、感染、免疫疾病、脾大、骨髓衰竭
+  - 评估时先查脾脏大小和可疑药物
+- id: NEUT_DRUG
+  title: 药物诱发的粒细胞减少
+  source_page: 556
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见药物：氯氮平、柳氮磺胺吡啶、噻氯匹啶、抗甲状腺药
+  - 停药后绝大多数可恢复，使用G-CSF可加速康复
+  - 出现不明原因粒细胞减少时应咨询用药史
+- id: NEUT_INFECTION
+  title: 减少时的感染预防与就医
+  source_page: 557
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中性粒细胞低于500/μl时，发热或感染症状须立即就医
+  - 感染时即使找不到明确病灶也要积极使用抗生素
+  - 日常注意手卫生、避免接触生病的人群以降低感染风险
+- id: NEUT_TREAT
+  title: 中性粒细胞减少的治疗
+  source_page: 557
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻度减少（1000-1500）通常不需特殊治疗
+  - 中度（500-1000）需监测感染迹象，重度（<500）需干预
+  - 常用药物包括G-CSF、糖皮质激素、静脉免疫球蛋白
+- id: NEUT_SCN
+  title: 严重先天性中性粒细胞减少
+  source_page: 556
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 是一种遗传病，出生后不久就出现严重感染
+  - G-CSF可延长生命，但需警惕白血病转化风险
+  - 需定期随访血常规和骨髓检查
+- id: NEUT_CYCLIC
+  title: 周期性中性粒细胞减少
+  source_page: 556
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 良性过程，中性粒细胞计数呈周期性高低波动
+  - 低谷期易发感染，但通常症状轻微
+  - 通过连续血常规检测可明确诊断
+- id: NEUT_EVAL
+  title: 中性粒细胞减少的检查
+  source_page: 556
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 首先停用所有可疑药物，并检查自身抗体
+  - 骨髓检查对诊断骨髓衰竭、白血病很重要
+  - 必须做细胞遗传学分析以排除骨髓增生异常
+- id: NEUT_AUTO
+  title: 自身免疫性中性粒细胞减少
+  source_page: 556
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 婴幼儿最常见，90%以上2年内可自愈
+  - 成年人常与系统性红斑狼疮、类风湿关节炎相关
+  - 病情多反映原发病活动度，需治疗基础病

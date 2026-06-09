@@ -1,0 +1,123 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: male_repro_endo
+disease_zh: 男性生殖内分泌学
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HYPOGONADISM_CLASS
+  title: 性腺功能减退症分类与病因
+  source_page: 705
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性腺功能减退症分三类：睾丸本身问题（原发性）、下丘脑/垂体问题（继发性）、雄激素作用缺陷。
+  - 原发性者睾酮低、LH/FSH高；继发性者睾酮低、LH/FSH低。
+  - 常见原发病因包括染色体异常、感染、药物、放射、乙醇等。
+- id: KLINEFELTER_SYNDROME
+  title: 克莱恩费尔特综合征（遗传病因）
+  source_page: 705
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约每600名男婴中1例，因母方减数分裂染色体不分离致XXY核型。
+  - 表现：小而硬睾丸（最长径<2cm）、男性乳房发育、无精症、类无睾体型。
+  - 确诊需染色体核型分析，是原发性性腺功能减退常见遗传原因。
+- id: KALLMANN_SYNDROME
+  title: 卡曼综合征（先天性嗅觉障碍）
+  source_page: 705
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 因GnRH神经元移行异常，导致低促性腺激素性性腺功能减退伴嗅觉减退或缺失。
+  - 青春期前发育停滞，睾丸小而硬，类无睾体型。
+  - 是继发性性腺功能减退的先天性原因之一。
+- id: CRYPTORCHIDISM
+  title: 隐睾症（睾丸下降异常）
+  source_page: 705
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约3%足月男婴有一侧或双侧睾丸未降入阴囊，多数在1岁内自行下降。
+  - 1岁后未下降需就医，腹腔内高温可致精子生成障碍。
+  - Leydig细胞功能常正常，成年后睾酮水平通常正常。
+- id: MALE_INFERTILITY_CAUSES
+  title: 男性不育常见原因
+  source_page: 707
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约40%不孕夫妇原因为男性，包括睾丸问题、输精管阻塞、逆行射精等。
+  - 甲状腺/肾上腺疾病、Y染色体微缺失、抗精子抗体也可导致不育。
+  - 精液分析和果糖测定可帮助鉴别阻塞性与非阻塞性病因。
+- id: ANDROGEN_DEF_SYMPTOMS
+  title: 雄激素缺乏的临床表现
+  source_page: 704
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 青春期前缺乏：肌肉发育不良、类无睾体型、腋毛阴毛稀少、声音高尖。
+  - 青春期后缺乏：性欲下降、勃起功能障碍、体力下降、面部体毛减少。
+  - 出现上述症状应及时就医检查性激素水平。
+- id: DIAGNOSIS_PROCESS
+  title: 性腺功能减退症的诊断流程
+  source_page: 706
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 第一步测定血清LH、FSH、睾酮及精液分析。
+  - 低睾酮+低促性腺激素提示下丘脑-垂体异常，需查泌乳素和影像。
+  - 高促性腺激素+低/正常睾酮提示原发性睾丸异常，需查染色体或HCG刺激试验。
+- id: TESTOSTERONE_THERAPY
+  title: 睾酮治疗的注意事项
+  source_page: 707
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 适用于下丘脑-垂体或睾丸疾病导致的雄激素缺乏，可改善性功能、肌肉和体力。
+  - 常见副作用：痤疮、液体潴留、红细胞增多症、良性前列腺增生。
+  - 前列腺癌患者禁用，用药期间需监测血常规和前列腺指标。
+- id: GYNECOMASTIA_CAUSES
+  title: 男性乳腺发育症常见病因
+  source_page: 707
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 良性乳房增大见于青春期末及50~80岁男性，与雌激素/雄激素失衡有关。
+  - 病理性原因包括睾丸肿瘤、肝病、甲亢、性腺功能减退及多种药物。
+  - 停用相关药物或治疗原发病后乳腺可萎缩。
+- id: GYNECOMASTIA_VS_CANCER
+  title: 男性乳腺发育与乳腺癌鉴别
+  source_page: 708
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 乳腺癌常单侧、偏心、质硬、与基底粘连，可伴皮肤凹陷或乳头溢液。
+  - 男性乳腺发育以乳头为中心，与基底不固定，多为双侧。
+  - 体格检查多可鉴别，必要时行乳腺X线检查。
+- id: ETHANOL_RISK
+  title: 乙醇对睾丸的损害
+  source_page: 706
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 乙醇摄入是获得性曲细精管损伤的常见病因，可导致少精症或无精症。
+  - 长期大量饮酒可能损伤Leydig细胞，引起睾酮合成减少。
+  - 减少或避免乙醇摄入有助于保护男性生殖功能。
+- id: WHEN_SEE_DOCTOR_GYNECOMASTIA
+  title: 乳房增大或疼痛的就医时机
+  source_page: 708
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 青春期短期乳房发育通常可自行消退，1年后不消失需就医。
+  - 成人新发、进行性、痛性乳房增大应查甲状腺、肝肾功能及性激素。
+  - 一旦发现乳房硬块、皮肤凹陷或乳头异常，需立即排除乳腺癌。
+- id: HYPOGONADISM_TREATMENT_FERTILITY
+  title: 性腺功能减退症的不育治疗选择
+  source_page: 707
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 下丘脑病变患者可用GnRH泵改善生精；垂体病变可注射促性腺激素。
+  - 原发性睾丸衰竭伴少精症可行人工授精或体外受精。
+  - 输精管阻塞可手术再通或附睾取精后行体外受精。

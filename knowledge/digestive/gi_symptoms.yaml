@@ -1,0 +1,103 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: gi_symptoms
+disease_zh: 胃肠道疾病的常见临床表现
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ABDOMINAL_PAIN_PHYSIOLOGY
+  title: 腹痛的生理机制与分类
+  source_page: 397
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹痛分为内脏性（钝痛、定位模糊）和躯体性（锐痛、定位明确），内脏器官对切割、撕裂不敏感，但牵拉、炎症或缺血会引起疼痛。
+  - 热、机械或化学刺激激活腹痛受体，疼痛信号通过A纤维（快速）和C纤维（慢速）传递。
+- id: ACUTE_ABDOMEN_EVALUATION
+  title: 急腹症的快速评估
+  source_page: 398
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急腹症由炎症、穿孔、梗阻或梗死引起，需快速判断是否需要急诊手术，早期外科会诊比等待检查更重要。
+  - 全血细胞计数、血淀粉酶、脂肪酶、电解质是必要检查；白细胞极度升高提示急性肠缺血。
+  - 腹部立位平片可发现游离气体（穿孔），CT有助于快速诊断，但使用造影剂需谨慎。
+- id: CHRONIC_ABDOMINAL_PAIN_COMMON
+  title: 慢性腹痛的常见病因
+  source_page: 399
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 慢性腹痛常见功能性病因包括消化不良（上腹不适、腹胀）和肠易激综合征（腹痛伴排便改变、腹胀）。
+  - 出现体重减轻、贫血、夜间症状或50岁后新发症状，需警惕器质性疾病（如肿瘤、炎性肠病）。
+- id: FUNCTIONAL_ABDOMINAL_PAIN
+  title: 功能性腹痛综合征
+  source_page: 399
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛持续数月或数年，与进食、排便或月经无关，多见于女性，多次检查阴性，需排除器质性疾病并认可疼痛的真实性。
+  - 治疗需结合心理评估和疼痛管理，避免重复检查，转诊疼痛专家或精神科可能有帮助。
+- id: GI_BLEED_CLINICAL_PRESENTATION
+  title: 急性消化道出血的表现
+  source_page: 400
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 呕血（咖啡渣样或鲜红）提示上消化道出血（屈氏韧带以上），黑便（柏油样）常见于上消化道，便血（鲜红/暗红）多来自下消化道。
+  - 急性大量失血可导致乏力、头晕、气促、直立性低血压、心动过速，需立即评估血流动力学状态。
+- id: GI_BLEED_ETIOLOGY
+  title: 急性消化道出血的常见病因
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 上消化道出血常见病因：食管炎、胃十二指肠溃疡（与NSAID或幽门螺杆菌相关）、食管胃底静脉曲张、贲门黏膜撕裂。
+  - 下消化道出血常见病因：憩室、血管发育不良、炎性肠病、结肠癌、缺血性结肠炎、痔疮。
+- id: GI_BLEED_RESUSCITATION
+  title: 急性消化道出血的稳定与复苏
+  source_page: 401
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 首先稳定生命体征：建立大口径静脉通路输注林格液或生理盐水，必要时输血；推荐限制性输血策略（血红蛋白<7g/dl时输血）。
+  - 评估失血程度：从仰卧到直立收缩压下降>10mmHg或脉搏增快>10次/分提示失血≥800ml；休克提示失血≥1500ml。
+- id: UGI_VS_LGI_BLEED_DIFFERENTIATION
+  title: 上消化道与下消化道出血的鉴别
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 呕血或黑便应先检查上消化道（胃镜）；便血但血流动力学不稳定者，需排除上消化道快速出血（约10-15%）。
+  - 鼻胃管抽吸无血不能排除十二指肠溃疡出血，因出血可能不反流入胃。
+- id: ENDOSCOPY_IN_GI_BLEED
+  title: 内镜在消化道出血中的作用
+  source_page: 402
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 内镜可直接观察出血部位并进行治疗（电凝、止血夹、注射等），降低再出血率、死亡率、输血和手术需求。
+  - 对高危溃疡（活动性出血、可见血管）内镜治疗后再出血风险从50%降至约10-20%。
+- id: REBLEED_RISK_STRATIFICATION
+  title: 再出血风险分层
+  source_page: 402
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - Forrest分级和Rockall评分用于预测再出血风险；Forrest Ⅰ（活动性出血）和Ⅱ（可见血管）为高危，溃疡基底洁净者预后良好。
+  - 高风险患者应在重症监护病房治疗，并尽早内镜治疗。
+- id: ABDOMINAL_EXAMINATION_TIPS
+  title: 腹痛的体格检查要点
+  source_page: 398
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 注意患者体位：辗转反侧提示梗阻，屈膝不动提示腹膜炎。腹部膨隆可能为梗阻或腹水。
+  - 肠鸣音消失提示肠梗阻，高调金属音也提示梗阻；需轻柔触诊避免诱发肌紧张，反跳痛提示腹膜刺激。
+- id: IBS_DYSPEPSIA_MANAGEMENT
+  title: 功能性消化不良与肠易激综合征
+  source_page: 399
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 消化不良：慢性上腹不适、腹胀，抑酸药或根除幽门螺杆菌不一定有效，可能需促动力药。
+  - IBS：腹痛与排便相关，排便后缓解；左下腹多见，常伴腹胀和排便习惯改变；利那洛肽可用于便秘型IBS。

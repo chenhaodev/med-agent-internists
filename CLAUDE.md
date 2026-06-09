@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A Chinese-language **internal-medicine (西式内科学) psychoeducation/Q&A agent**, grounded in
 **《西氏内科学精要》(Cecil Essentials of Medicine)** — a two-volume Chinese PDF (`上卷` + `下卷` under
-`pdfs/`, git-ignored). It serves two audiences (patient/家属 and clinician) over 17 specialties.
+`pdfs/`, git-ignored). It serves two audiences (patient/家属 and clinician) over 18 specialties.
 
 **No RAG / no vector store.** It uses **structured knowledge injection + deterministic keyword routing**,
 with every fact traceable to a printed page (`source_page`) in the Cecil book. Both questions and source
@@ -17,13 +17,21 @@ psychiatry agent), reusing the internal-medicine domain data of the older `../me
 core pipeline scripts are nearly identical across all three projects (common ancestor); the divergences are
 listed under "Internal-medicine specifics" below.
 
-Coverage: **17 specialties / ~110 diseases** (`knowledge/{specialty}/{disease}.yaml`), spanning 101 of the
-~109 patient-facing clinical chapters in the book. Known remaining gaps (patient-facing chapters not yet
-extracted): `acute_liver_failure`, rheumatology `sjogrens`/`soft_tissue`, hematology `neutrophil`, renal
-`non_glomerular`, endocrine `male_repro_endo` (gout/osteoporosis are covered under a sibling specialty). To
-close a gap: the chapter MD already exists under `source/chapters/`, so run `extract.py` on it then wire
-router keywords + gold (see "Adding a disease"). Infectious disease was the largest gap and is now fully
-covered (16/16 chapters).
+Coverage: **full-book — all 126 chapters extracted** (`knowledge/{specialty}/{disease}.yaml`), across
+**18 specialties** (`molecular` was added as the home of ch1 「人类疾病的分子基础」). This includes every
+patient-facing clinical chapter plus the 17 background chapters (normal structure/function, patient
+assessment, imaging/endoscopy, lab diagnostics, host defense, etc.). Background chapters are extracted with
+`extract.py --background` (a clinical-reference system prompt that drops the lifestyle-mandate of the
+patient-facing prompt) and routed with deliberately **narrow** keywords that sit before the `*:general`
+fallback but after disease routes, so they never poach disease-level traffic.
+
+Two chapters are marked `patient_facing` in `chapters.yaml` but are intentionally **not** re-extracted
+because their content already lives under a sibling slug — these are sibling-mapped, not gaps:
+`rheumatology/gout` → `endocrine/gout.yaml`, and `bone_mineral/osteoporosis` → `rheumatology/osteoporosis.yaml`.
+
+To add a *new* chapter (none remain in this book): the chapter MD exists under `source/chapters/`, so run
+`extract.py` (add `--background` for non-patient-facing chapters) then wire router keywords + gold (see
+"Adding a disease").
 
 ## Architecture
 
@@ -116,6 +124,10 @@ python3 bin/extract.py --specialty cardiology
   `audit_grounding_sample.py` enforces each `source_page` falls within its disease's chapter folio range
   (built from `source/chapters/*.md`, tolerance ±2). **This gate needs `source/chapters/` to exist — run
   `bin/ingest.py --all` first** (reuse-of-data mode does not generate it automatically).
+- **Folio floor is 2, not 10**: `bin/folio_map.py` detects printed folios with `FOLIO_MIN=2` because the
+  book's front chapter (ch1 分子医学概论) starts at printed page 2. An earlier `FOLIO_MIN=10` silently
+  dropped the folio tags on ch1's first pages, which made `molecular_basis` entries (folios 2–9) fail
+  page-grounding. If you re-tune this floor, re-ingest **ch1** and re-run `audit_grounding_sample.py`.
 - **`schema/sections.yaml` is the single source of truth** for section names; `output_schema*.md`,
   `judge_prompt*.md`, and `postprocess.sh` all derive from / are checked against it by `audit_schema.py`.
 - **Disease ↔ chapter is 1:1** for grounding. When a disease spans multiple book chapters (e.g. the 肝炎

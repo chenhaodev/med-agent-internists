@@ -1,0 +1,104 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: liver_labs
+disease_zh: 肝脏疾病的实验室检查
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LFT_OVERVIEW
+  title: 肝功能检测指标概览
+  source_page: 472
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肝功能检测（LFT）常包括总蛋白、白蛋白、AST、ALT、碱性磷酸酶、GGT、胆红素和凝血酶原时间。
+  - 这些指标不能直接测量肝脏功能，而是反映肝细胞或胆管细胞损伤的模式。
+  - 应将LFT结果与病史和体格检查结合，全面评估肝脏疾病。
+- id: AST_ALT
+  title: 肝细胞损伤酶学指标
+  source_page: 472
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - AST和ALT是肝细胞内酶，肝细胞损伤时释放入血，AST正常5～40 U/L，ALT正常5～65 U/L。
+  - ALT对肝损伤特异性更高；AST也存在于心肌、骨骼肌等。
+  - ALT升高≥AST常见于病毒性肝炎或药物性肝损伤；酒精性肝病时通常AST/ALT>2，>3时诊断酒精性肝损伤特异性达97%。
+  - ALT和AST显著升高（>正常上限15倍）提示急性肝细胞坏死（如病毒、对乙酰氨基酚中毒）。
+  - 无症状的ALT/AST轻度升高（ALT>AST）常见于非酒精性脂肪性肝病（NAFLD）。
+- id: CHOLESTASIS_MARKERS
+  title: 胆汁淤积相关指标
+  source_page: 473
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 碱性磷酸酶（ALP）升高提示胆汁淤积，来源于胆管黏膜细胞，正常39～136 U/L。
+  - 孤立的ALP升高需排查胆总管阻塞、肝脏肿瘤或肉芽肿性疾病。
+  - 若ALP升高而5'-核苷酸酶（5'-NT）和GGT正常，可能由骨病、妊娠、肾衰等非肝脏原因引起。
+  - GGT（7～45 U/L）对肝脏和胆汁淤积的特异性高于GGT本身，但需结合其他指标。
+- id: BILIRUBIN
+  title: 胆红素与高胆红素血症
+  source_page: 473
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常血清总胆红素低于1 mg/dl（约17 μmol/L），结合胆红素约占30%。
+  - 高胆红素血症的原因：生成过多（溶血）→间接胆红素升高；肝细胞代谢障碍（先天异常或肝病）；排泄障碍（胆道梗阻）→直接胆红素升高。
+  - 胆红素升高本身不特异，需结合其他检查明确原因。
+- id: SYNTHESIS_FUNCTION
+  title: 肝脏合成功能评估
+  source_page: 474
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血清白蛋白（3.5～5.5 g/dl）和凝血酶原时间（PT 11～14秒）反映肝脏合成蛋白质的能力。
+  - PT依赖于凝血因子Ⅱ、Ⅴ、Ⅶ、Ⅹ，半衰期短（约6小时），能快速反映肝功能变化。
+  - 白蛋白半衰期14～20天，长期肝病或急性肝损伤会引起下降；低白蛋白还需考虑营养、肾脏或肠道蛋白丢失。
+  - 评估PT时需排除维生素K缺乏或已补充维生素K的情况。
+- id: SPECIFIC_DISEASE_MARKERS
+  title: 特异性疾病标志物
+  source_page: 474
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - γ-球蛋白升高：自身免疫性肝炎常伴IgG升高及ANA、ASMA、抗-LKM1阳性。
+  - IgG4相关疾病可致IgG4升高，引起自身免疫性胆管炎和胰腺炎。
+  - 酒精性肝硬化常见IgA升高；原发性胆汁性肝硬化常见IgM升高。
+  - 病毒性肝炎可通过PCR和基因分型检测；血色病检测铁沉积和HFE基因突变。
+  - α1-抗胰蛋白酶水平、铜蓝蛋白分别用于筛查α1-抗胰蛋白酶缺乏和Wilson病。
+  - 血氨可用于辅助评估肝性脑病，但并非肝功能良好指标；CDT（糖缺失性转铁蛋白）检测慢性酒精摄入。
+- id: NONINVASIVE_FIBROSIS
+  title: 肝纤维化无创评估
+  source_page: 475
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肝活检是评估纤维化的金标准，但有出血（1/1000）和死亡（1/10000）风险。
+  - 无创血清标志物如FibroTest（含α2-巨球蛋白、结合珠蛋白、载脂蛋白A1、GGT、总胆红素、ALT）可计算纤维化概率（F0-F4）。
+  - NAFLD纤维化评分使用年龄、BMI、AST、ALT、血小板、白蛋白六变量预测纤维化。
+  - 弹性成像（FibroScan、ARFI）通过测量肝组织硬度来评估纤维化，特异性高于血清标志物。
+- id: LIVER_BIOPSY
+  title: 肝穿刺活检的适应症与价值
+  source_page: 475
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肝活检仍是诊断肝硬化、纤维化、炎症、脂肪变性、肿瘤和坏死的金标准。
+  - 常用于慢性病毒性肝炎诱导治疗前及多原因肝衰竭移植前评估。
+  - 可采用经皮或经颈静脉入路，操作相对安全。
+- id: BIOPSY_RISKS_CONTRAINDICATIONS
+  title: 肝活检的风险与禁忌
+  source_page: 475
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重并发症包括出血（发生率约1/1000）和死亡（约1/10000）。
+  - 禁忌证：患者无法配合、凝血功能障碍（INR>1.5）、血小板减少（<50,000～60,000/μl）、近期（7-10天内）使用非甾体抗炎药、肝棘球蚴囊病。
+- id: LFT_INTERPRETATION_APPROACH
+  title: 肝功能异常的诊断流程
+  source_page: 474
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 以AST/ALT升高为主时，需检测病毒血清学、自身抗体、铁系列、铜蓝蛋白等，并考虑脂肪肝可能。
+  - 以ALP或胆红素升高为主时，先行腹部超声检查有无胆管扩张，再行抗线粒体抗体（AMA）、MRCP/ERCP等排查PBC、PSC。
+  - 应核对药物史，排除药物性肝损伤。
+  - 若仍需明确诊断，可考虑肝活检。

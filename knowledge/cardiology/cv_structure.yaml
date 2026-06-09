@@ -1,0 +1,141 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: cv_structure
+disease_zh: 心脏和血管的正常结构与功能
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CIRCULATION_SYSTEM
+  title: 循环系统的组成与功能
+  source_page: 17
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 循环系统由心脏和动静脉血管网组成，动脉与静脉伴行，通过毛细血管网沟通。
+  - 心脏由左/右心房和左/右心室组成，心房存储血液，心室泵血。
+  - 左心室室壁更厚，满足体循环高压需求。
+- id: HEART_VALVES
+  title: 心脏瓣膜的结构与作用
+  source_page: 17
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 四个单向瓣膜保证心腔内单向血流：二尖瓣、三尖瓣、主动脉瓣、肺动脉瓣。
+  - 房室瓣通过腱索与乳头肌相连，防止脱垂。
+  - 半月瓣隔开心室与动脉，防止血液倒流。
+- id: PERICARDIUM
+  title: 心包的结构与功能
+  source_page: 17
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心包是包绕心脏的双层结构，脏层心包紧贴心脏，壁层心包与周围固定。
+  - 心包腔有少量液体（<50ml）润滑，减少摩擦。
+  - 心包积液过多会限制心室充盈，引起室间隔运动异常。
+- id: BLOOD_CIRCULATION_PATH
+  title: 体循环与肺循环通路
+  source_page: 17
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 体循环：左心室泵血至全身，收集废物回右心房。
+  - 肺循环：右心室泵血至肺，交换气体后回左心房。
+  - 心脏自身由左、右冠状动脉供血。
+- id: CORONARY_CIRCULATION
+  title: 冠状动脉的分支与供血
+  source_page: 18
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 左冠状动脉分前降支和回旋支，供应左心前壁、侧壁和前间隔。
+  - 右冠状动脉供应右心，并常发出后降支供应左心室下壁、后壁。
+  - 冠状动脉优势类型有右冠优势、左冠优势和均衡型。
+- id: CONDUCTION_SYSTEM
+  title: 心脏传导系统
+  source_page: 18
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 窦房结是正常起搏点，位于上腔静脉与右心房交界。
+  - 房室结电冲动延迟下传，保证心室充分充盈。
+  - 希氏束-浦肯野纤维系统快速传导冲动至心室肌。
+- id: AUTONOMIC_NERVOUS
+  title: 自主神经对心脏的调节
+  source_page: 19
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 交感神经兴奋加快心率、增强收缩力。
+  - 副交感神经（迷走神经）减慢心率、减弱收缩力。
+  - 迷走神经传入纤维介导心脏反射（如压力感受器反射）。
+- id: MYOCARDIUM_STRUCTURE
+  title: 心肌细胞结构与收缩机制
+  source_page: 19
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心肌细胞通过闰盘连接，传递机械张力。
+  - 心肌细胞含大量线粒体和肌质网，存储钙离子。
+  - 肌小节由肌动蛋白、肌球蛋白及调节蛋白构成。
+- id: CALCIUM_CONTRACTION
+  title: 钙触发钙释放的收缩机制
+  source_page: 19
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 去极化时钙离子经T管流入，触发肌质网释放大量钙。
+  - 钙离子与肌钙蛋白C结合，暴露肌动蛋白结合位点。
+  - 肌动蛋白-肌球蛋白横桥循环产生收缩，能量来自ATP。
+- id: CARDIAC_CYCLE
+  title: 心动周期的时相与压力变化
+  source_page: 20
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心动周期分收缩期和舒张期，瓣膜开闭由压力阶差决定。
+  - 等容收缩期和等容舒张期室内压剧烈变化但容积不变。
+  - 舒张期快速充盈与心房收缩保证心室充盈，心房颤动会减少充盈。
+- id: HEMODYNAMIC_PARAMETERS
+  title: 常用血流动力学参数正常值
+  source_page: 21
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心率正常60-100次/分；心排血量4-6L/min。
+  - 心指数2.5-4 L/(min·m²)，表示体型标化后的心排血量。
+  - 各心腔压力正常范围见表2-1，如右心房压力≤9mmHg。
+- id: STROKE_VOLUME_FACTORS
+  title: 心搏量的决定因素
+  source_page: 21
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 前负荷是心室舒张末容积，主要反映静脉回心血量。
+  - 后负荷是心室射血需克服的阻力，与动脉压和室壁应力相关。
+  - 心肌收缩力独立于前、后负荷，受神经体液和药物调控。
+- id: FRANK_STARLING
+  title: Frank-Starling机制
+  source_page: 21
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 前负荷增加使心肌纤维拉长，通过增加钙敏感性增强收缩力。
+  - 心室充盈压（如舒张末压）反映前负荷大小。
+  - 此机制确保心输出量与静脉回心血量匹配。
+- id: CORONARY_OXYGEN_BALANCE
+  title: 心肌供氧与耗氧平衡
+  source_page: 22
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心肌耗氧量(MvO₂)随心率、收缩力、室壁应力增加而增加。
+  - 静息时心肌氧摄取率已接近最大，增加供氧主要靠增加冠脉血流。
+  - 收缩期心肌压迫冠脉，血流主要在舒张期，心率过快减少舒张期供血。
+- id: PERICARDIAL_EFFUSION_WARNING
+  title: 心包积液的警示
+  source_page: 17
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常心包液<50ml，润滑作用。
+  - 心包积液过多会限制心室充盈和室间隔运动，应及时就医。
+  - 心包疾病可参考《西氏内科学》第25版第77章。

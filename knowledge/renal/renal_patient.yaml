@@ -1,0 +1,126 @@
+specialty: renal
+specialty_zh: 肾
+disease: renal_patient
+disease_zh: 了解肾脏病患者
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CKD_DEFINITION
+  title: 慢性肾脏病定义
+  source_page: 306
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 慢性肾脏病（CKD）是估算肾小球滤过率（eGFR）<60ml/(min·1.73m²)且持续至少3个月。
+  - CKD患者重点关注查找病因、稳定肾功能、预防并发症及准备肾脏替代治疗。
+- id: AKI_VS_CKD
+  title: 区分急慢性肾损伤
+  source_page: 306
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血肌酐升高后需先评估病程，区分急性肾损伤（AKI）和慢性肾脏病（CKD）。
+  - 病史、体格检查、实验室检查和影像学（如B超肾脏缩小提示CKD）有助于鉴别。
+- id: SERUM_CREATININE
+  title: 血肌酐与肾功能
+  source_page: 307
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血肌酐是衡量肾功能的常用指标，但约40%肾功能丧失后才会超过正常上限。
+  - 肌肉量少（如营养不良、肝硬化）会导致血肌酐假性降低，需结合肌肉外观评估。
+  - 不稳定期（如急性肾损伤）血肌酐变化滞后，需用eGFR公式更准确评估。
+- id: EGFR_FORMULA
+  title: 估算肾小球滤过率（eGFR）
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - eGFR通过血肌酐、年龄、性别、种族计算，常用MDRD或CKD-EPI公式。
+  - CKD-EPI公式在eGFR>60时更准确，可避免低估肾功能。
+  - 在线计算器或APP可便捷计算eGFR，用于CKD分期。
+- id: URINE_PROTEIN
+  title: 尿蛋白评估与意义
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 尿白蛋白排泄率正常<10mg/天，≥30mg/天为轻度升高，≥300mg/天为重度升高。
+  - 随机尿白蛋白/肌酐比值≥30mg/g提示轻度升高，≥300mg/g提示重度升高。
+  - 大量蛋白尿（>2200mg/天白蛋白）可致肾病综合征，常见于糖尿病肾病等。
+- id: HYPERTENSION_MGMT
+  title: 高血压评估与管理
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - CKD患者常合并高血压，需警惕白大衣高血压和隐匿性高血压。
+  - 家庭血压监测或24小时动态血压监测有助于准确评估。
+  - 每月连续1周每日测2次血压可辅助诊断和调整治疗。
+- id: DIETARY_SODIUM
+  title: 饮食钠盐摄入管理
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 稳定期患者可通过24小时尿钠评估饮食钠摄入，指导限盐。
+  - 24小时尿肌酐排泄率可判断尿液收集是否完整（女性约1g/天，男性1.5g/天）。
+  - 限盐有助于改善血压、抑制肾素血管紧张素系统，保护心肾。
+- id: URINALYSIS_MICROSCOPY
+  title: 显微镜下尿液分析
+  source_page: 310
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 新鲜尿液离心后镜检，观察细胞、管型、结晶等，为CKD病因提供线索。
+  - 红细胞管型或大量变形红细胞提示非糖尿病肾病原因，需进一步评估。
+- id: RENAL_ULTRASOUND
+  title: 肾脏超声检查
+  source_page: 310
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 肾脏超声可测量肾脏大小、回声，发现囊肿、结石、梗阻或肿瘤。
+  - 双侧肾脏长径<9cm提示肾脏瘢痕（CKD），但糖尿病肾病肾脏可增大（11-13cm）。
+  - 阻力指数>0.8提示肾血管病变，介入治疗可能无益。
+- id: KIDNEY_CT_MRI
+  title: 肾脏CT与MRI检查
+  source_page: 310
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - CT用于评估复杂囊肿、结石、肿块及腹膜后病变；需注意造影剂肾毒性。
+  - MRI用于血管成像（如肾动脉狭窄），但钆造影剂在eGFR<30时禁用，以免肾纤维化。
+  - 体内有金属植入物（如起搏器）不能做MRI。
+- id: RENAL_BIOPSY
+  title: 肾活检适应症
+  source_page: 306
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 当常规检查不能明确诊断时，肾活检可鉴别AKI和CKD，确定病因。
+  - 但CKD患者肾脏瘢痕严重时可能无法行活检。
+- id: HISTORY_PHYSICAL
+  title: 病史与体格检查要点
+  source_page: 307
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 注意糖尿病、高血压、肾毒性药物（如NSAID、锂剂）及家族史（如多囊肾、Alport综合征）。
+  - 体格检查关注贫血、皮疹、水肿、视网膜病变及肾脏大小。
+  - 评估患者整体功能状态，决定治疗选择（如肾移植 vs 透析 vs 保守）。
+- id: BUN_CR_RATIO
+  title: 尿素氮与肌酐比值
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常尿素氮（BUN）/肌酐比值约10:1。比值>20:1提示容量不足、分解代谢增加或尿路梗阻。
+  - 比值<10:1可见于肝硬化、低蛋白饮食等。
+- id: AKI_URGENCY
+  title: 急性肾损伤处理原则
+  source_page: 306
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - AKI患者住院治疗，重点明确肾衰竭原因，评估是否可逆。
+  - 首先纠正血容量不足（如失水、失血），必要时行肾脏替代治疗。

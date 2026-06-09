@@ -1,0 +1,117 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: lung_basics
+disease_zh: 健康肺与病肺
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LUNG_STRUCTURE_FUNC
+  title: 肺的基本结构与功能
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺是呼吸系统的一部分，包括气道、血管和肺泡，负责气体交换。
+  - 肺还能加湿空气、过滤微粒，并通过免疫细胞防御感染。
+  - 全部血液流经肺循环，肺可过滤血中的废物和感染物质。
+  - 健康人运动时肺功能通常不受限，但疾病可导致全身低氧血症。
+- id: RESP_SYSTEM_COMPONENTS
+  title: 呼吸系统的组成
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 呼吸系统包括脑呼吸中枢、脊髓、周围神经、呼吸肌、气道和血管。
+  - 上气道（鼻、咽、喉）可加湿空气并过滤微粒。
+  - 胸壁保护心、肺、肝，肺和胸壁联动维持肺充气。
+  - 呼吸肌主要是膈肌，疾病时辅助肌会代偿。
+- id: LUNG_DEV_STAGES
+  title: 肺的发育阶段
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺发育分5阶段：胚胎期（3-7周）、假腺管期（5-17周）、小管期（17-24周）、囊形期（24-38周）、肺泡期（36周至出生后2年）。
+  - 小管期肺泡毛细血管膜厚度达成人水平。
+  - 肺泡期肺泡继续发育，至2岁时肺成熟。
+  - 早产儿因表面活性物质不足易患呼吸窘迫综合征，可用外源性药物和激素治疗。
+- id: CONGENITAL_LUNG_DISEASE
+  title: 先天性肺疾病
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 先天性肺疾病包括肺囊性腺瘤样畸形、肺发育不全、肺大泡。
+  - 血管异常包括肺隔离症、先天性肺动脉缺如。
+  - 这些疾病发生率很低，早产相关的肺问题更常见。
+- id: IRDS_PREMATURE
+  title: 早产儿呼吸窘迫综合征
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早产儿Ⅱ型肺泡细胞发育不全，导致表面活性物质不足。
+  - 表面活性物质可降低肺泡表面张力，防止塌陷。
+  - 治疗包括补充外源性表面活性物质和皮质类固醇促进肺发育。
+  - 严重时需机械通气和氧疗，但可能引起支气管肺发育不良。
+- id: LUNG_DISEASE_EPIDEMIOLOGY
+  title: 肺疾病流行病学概述
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺癌、慢性下呼吸道疾病和流感/肺炎是美国前十死因中的三种肺病。
+  - COPD是美国第三大死因，致残率第二，患者约1600万且仍在增加。
+  - 美国8%成人、9.5%儿童患哮喘，住院率和死亡率上升。
+  - 少数民族肺病发病率及死亡率更高，与社会经济、污染、就医便利性有关。
+- id: OBSTRUCTIVE_LUNG_DISEASE
+  title: 阻塞性肺疾病
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阻塞性肺疾病表现为气流受限，常见包括COPD、哮喘和支气管扩张。
+  - COPD主要由吸烟引起，病情进展缓慢，死亡率仍上升。
+  - 哮喘发病率在成人和儿童中均较高，需长期管理。
+- id: INTERSTITIAL_LUNG_DISEASE
+  title: 间质性肺疾病
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 间质性肺疾病包含120多种疾病，多数病因不明。
+  - 常表现为限制性生理异常（肺容积减小），但部分疾病可表现为气流受限。
+  - 特发性肺纤维化是最常见的特发性间质性肺炎，美国年新发8.5-10万例。
+- id: PULM_VASCULAR_DISEASE
+  title: 肺血管疾病
+  source_page: 196
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺血管疾病导致肺血管阻力升高，如肺栓塞和肺动脉高压。
+  - 肺栓塞由血栓阻塞血流引起，肺动脉高压由血管重构、血管床减少导致。
+- id: RESP_CONTROL_DISORDER
+  title: 呼吸调控异常
+  source_page: 196
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 呼吸调控异常包括肺外原因导致的通气障碍，如睡眠呼吸暂停。
+  - 神经肌肉疾病（如重症肌无力、多发性肌炎）可因呼吸肌无力导致通气异常。
+- id: PLEURAL_CHEST_MEDIASTINUM
+  title: 胸膜、胸壁和纵隔疾病
+  source_page: 196
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 按解剖结构分类，包括感染（如肺炎）、肿瘤（如肺癌、间皮瘤）。
+  - 良性肿瘤如错构瘤，恶性肿瘤包括肺癌和胸膜间皮瘤。
+  - 胸壁疾病如肥胖、脊柱侧凸也可影响呼吸功能。
+- id: LUNG_DISEASE_CLASSIFICATION
+  title: 肺疾病的分类方法
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 按解剖部位分为间质性、胸膜、气道等疾病。
+  - 按生理学分为阻塞性（气流受限）和限制性（肺容积减小）。
+  - 不同病因的疾病可表现相似的生理异常，需结合临床综合判断。

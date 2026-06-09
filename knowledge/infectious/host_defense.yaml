@@ -1,0 +1,145 @@
+specialty: infectious
+specialty_zh: 感染
+disease: host_defense
+disease_zh: 宿主如何防御感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HOST_DEFENSE_OUTCOMES
+  title: 宿主与病原体的四种结局
+  source_page: 891
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 病原体与人类相互作用的结局有四种：宿主死亡、病原体被清除、和谐共生、潜伏感染。
+  - 例如肺炎球菌肺炎可致命，但免疫系统也能清除它；大肠杆菌在肠道共生有益。
+  - 结核分枝杆菌常导致无症状的潜伏感染，全球近1/3人口有潜伏感染，仅约10%会发展为活动性。
+  - 免疫缺陷（如HIV）和年龄增长会增加潜伏感染转为活动性的风险。
+- id: NONIMMUNE_BARRIERS
+  title: 非免疫防御屏障
+  source_page: 892
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 皮肤和黏膜是阻挡病原体进入体内的第一道物理屏障。
+  - 呼吸道通过纤毛运动和咳嗽排出黏液和病原体，流感病毒可能破坏纤毛功能。
+  - 胃酸能杀死许多病原体，腹泻和呕吐也有助于清除肠道病原体。
+  - 泌尿道通过排尿、酸性环境和抗菌蛋白防止感染，肾结石或前列腺肥大可增加感染风险。
+- id: INNATE_VS_ADAPTIVE
+  title: 固有免疫与获得性免疫的区别
+  source_page: 893
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 固有免疫反应快速、非特异、无记忆；获得性免疫特异、反应慢、有记忆。
+  - 固有免疫通过少量模式识别受体识别病原体通用结构；获得性免疫通过大量抗原特异性抗体识别各种抗原。
+  - 初次遇到病原时固有免疫立即作用，获得性免疫需1-2周启动；再次遇到时获得性免疫需3-7天发挥作用。
+- id: PHAGOCYTES
+  title: 吞噬细胞（中性粒细胞和巨噬细胞）
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中性粒细胞是血液中的吞噬细胞，被趋化因子招募到感染部位，通过超氧化物爆发和颗粒酶杀死病原体。
+  - 巨噬细胞驻留在组织中，也在固有免疫中起核心作用，并释放细胞因子调节炎症。
+  - 中性粒细胞减少症患者严重感染时可能缺乏红肿热痛等典型炎症表现。
+  - 嗜酸性粒细胞主要对抗寄生虫感染，也参与过敏反应和哮喘。
+- id: COMPLEMENT_SYSTEM
+  title: 补体系统的功能和激活途径
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 补体是肝脏产生的可溶性蛋白质，通过经典、旁路和甘露糖结合凝集素三条途径激活。
+  - 补体激活后产生炎症因子（C3a/C5a）、调理病原体（C3b）和形成膜攻击复合体溶解细菌。
+  - 经典途径由抗原-抗体复合物激活，旁路途径由细菌细胞壁直接激活。
+- id: CYTOKINES_ROLE
+  title: 细胞因子在免疫中的作用
+  source_page: 893
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 细胞因子是可溶性蛋白质，调节炎症、激活免疫细胞、抗病毒（如干扰素）。
+  - 白细胞介素（如IL-1、IL-6、TNF-α）促进炎症和发热；IL-10等则下调炎症。
+  - 趋化因子吸引白细胞到感染部位，整合素帮助白细胞黏附并穿过血管壁。
+- id: TOLL_LIKE_RECEPTORS
+  title: Toll样受体识别病原体
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - Toll样受体（TLR）位于巨噬细胞和树突状细胞表面，识别病原体特有的分子模式（如脂多糖、双链RNA）。
+  - 不同TLR识别不同类型病原体：TLR2识别肽聚糖（革兰氏阳性菌），TLR4识别脂多糖（革兰氏阴性菌）。
+  - TLR激活后通过核转录因子-κB促进炎症细胞因子生成，启动免疫反应。
+- id: NORMAL_FLORA
+  title: 正常菌群的保护作用
+  source_page: 892
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 皮肤、呼吸道和肠道内的正常菌群与病原体竞争营养，并产生抗菌物质。
+  - 使用抗生素可能破坏肠道正常菌群，导致念珠菌或艰难梭菌等过度生长引起感染。
+- id: IMMUNE_DEFICIENCY_RISK
+  title: 免疫缺陷增加特定感染风险
+  source_page: 891
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中性粒细胞减少（如化疗后）易感细菌和真菌感染。
+  - 免疫球蛋白缺乏者易发肺炎链球菌等荚膜菌感染。
+  - 脾切除后对肺炎链球菌、脑膜炎奈瑟菌等更易感，可致严重脓毒症。
+  - 使用TNF-α抑制剂（如治疗类风湿关节炎）可激活潜伏的结核。
+- id: LATENT_INFECTION
+  title: 潜伏感染与活动性感染
+  source_page: 891
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 潜伏感染指病原体在体内非复制状态（如结核分枝杆菌），无临床症状但具有潜在活动风险。
+  - HIV感染后病毒持续复制，即使无症状，也会逐渐破坏CD4+T细胞，推荐早期治疗。
+  - 任何不明原因发热、持续感染或免疫缺陷症状应就医评估。
+- id: INFLAMMATION_SIGNS
+  title: 炎症的临床表现和意义
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 炎症典型表现包括红、肿、热、痛和功能障碍，由微生物、组织损伤或自身免疫引起。
+  - 中性粒细胞是炎症的核心，其缺乏时感染部位可能不红不肿。
+  - 持续发热、局部红肿热痛明显时需及时就医，特别是免疫力低下者。
+- id: EOSINOPHILS_PARASITES
+  title: 嗜酸性粒细胞与寄生虫感染
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 嗜酸性粒细胞主要防御多细胞寄生虫（如蠕虫），被趋化因子激活后释放阳离子蛋白杀死寄生虫。
+  - IL-5促进嗜酸性粒细胞增殖和分化。
+  - 血常规中嗜酸性粒细胞比例升高可能提示寄生虫感染或过敏、哮喘等疾病。
+- id: HISTAMINE_ACTION
+  title: 组胺在免疫中的作用
+  source_page: 894
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 组胺储存于嗜碱性粒细胞和肥大细胞的颗粒中，通过IgE或补体激活释放。
+  - 组胺引起支气管收缩、瘙痒、血管扩张和通透性增加，是过敏反应的核心介质。
+  - 抗组胺药可缓解过敏症状，但严重过敏反应需紧急就医。
+- id: RISK_FACTORS_INFECTION
+  title: 影响感染风险的因素
+  source_page: 891
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年龄（婴幼儿和老年人）、营养状况不良、糖尿病、慢性肺病等基础疾病增加感染风险。
+  - 病原体的毒力和接种量也决定感染是否发生及严重程度。
+  - 旅行、暴露于特定环境（如医院）也会改变感染风险。
+- id: WHEN_SEEK_CARE
+  title: 何时就医评估感染
+  source_page: 891
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现不明原因的持续发热（超过3天）、寒战、呼吸急促、意识改变等需立即就医。
+  - 反复感染、伤口红肿不愈合、局部脓液、或免疫抑制剂使用者出现任何感染迹象。
+  - 旅行后出现腹泻、皮疹、发热等，应告知医生旅行史。
+  - 有脾切除、HIV、化疗等免疫缺陷者，即使轻微症状也应尽早评估。

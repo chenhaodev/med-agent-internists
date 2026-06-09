@@ -1,0 +1,114 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: sjogrens
+disease_zh: 干燥综合征与系统性疾病的风湿样表现
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SS_DEF
+  title: 干燥综合征基本概念
+  source_page: 884
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 干燥综合征是一种慢性自身免疫病，主要影响分泌眼泪和口水的腺体。
+  - 女性发病率是男性的9倍，40岁以上更常见。
+  - 可单独出现（原发性）或伴随类风湿关节炎等其他风湿病（继发性）。
+- id: SS_EYE_MOUTH
+  title: 眼干和口干的表现
+  source_page: 884
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 眼干常表现为眼磨砂感、瘙痒、畏光，而非单纯干燥感。
+  - 口干易导致龋齿、牙龈萎缩、口腔念珠菌感染，影响咀嚼和吞咽。
+  - 建议使用人工泪液、不含糖的口腔湿润剂，定期口腔检查。
+- id: SS_EXTRA
+  title: 干燥综合征全身表现
+  source_page: 885
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 约1/3患者有腺体外症状，如关节痛、肺间质病、皮肤血管炎。
+  - 皮肤可出现环形红斑、紫癜，雷诺现象（手指遇冷变色）。
+  - 若出现不明原因干咳、呼吸困难或关节肿胀，应及时就医评估。
+- id: SS_JOINT
+  title: 干燥综合征关节症状
+  source_page: 885
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 约半数患者有关节疼痛，常对称累及手和膝关节。
+  - 通常不引起关节变形或骨侵蚀，但需与类风湿关节炎鉴别。
+  - 非甾体抗炎药可缓解症状，但需在医生指导下使用。
+- id: DM_HAND
+  title: 糖尿病手关节病变
+  source_page: 883
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 特点为手指皮肤蜡样增厚、手指屈曲受限，无法完全合掌。
+  - 与糖尿病病程和血糖控制有关，但也可能出现在糖尿病诊断前。
+  - 控制血糖是基础，手部功能锻炼有助于维持活动度。
+- id: THYROID_ARTHRITIS
+  title: 甲状腺功能减退性关节炎
+  source_page: 883
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 可有手、腕小关节对称性肿痛，类似类风湿关节炎但不出现骨破坏。
+  - 常伴腕管综合征（手麻）、扳机指、雷诺现象。
+  - 补充甲状腺激素后关节症状通常可改善。
+- id: HYPERTHYROID_MYOPATHY
+  title: 甲亢相关近端肌无力
+  source_page: 883
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 常见于老年患者，表现为大腿、臀部无力，下蹲起立困难。
+  - 常被误认为正常老化，需引起重视。
+  - 甲状腺功能恢复正常后肌力可恢复。
+- id: HEMOCHROMATOSIS_JOINT
+  title: 血色素沉着症关节病
+  source_page: 884
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 常累及双手第二、三掌指关节，X线可见钩状骨赘。
+  - 可伴腕、膝关节软骨钙化，急性发作类似假性痛风。
+  - 放血治疗可减少铁沉积，但对已发生的关节损伤效果有限。
+- id: SICKLE_BONE
+  title: 镰状细胞病骨并发症
+  source_page: 882
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 常见疼痛危象，大关节痛性关节炎，手足综合征（手足肿痛）。
+  - 反复骨缺血可导致股骨头、肩部骨坏死。
+  - 感染风险高，尤其沙门菌骨髓炎，出现发热、剧痛需尽快就医。
+- id: HOA_SIGNS
+  title: 肥大性骨关节病警示
+  source_page: 881
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 以杵状指、长骨疼痛（尤其下垂时加重）和关节炎为特征。
+  - 常与肺癌、化脓性肺疾病相关，需做胸部影像检查。
+  - 原发病治疗后关节症状可缓解，难治可咨询双膦酸盐药物。
+- id: PARANEOPLASTIC_WARN
+  title: 肿瘤相关风湿症状警示
+  source_page: 881
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 50岁以上新发不对称关节痛、下肢为主、类风湿因子阴性，应警惕肿瘤。
+  - 突发雷诺现象（年龄>50岁、症状不对称、指端溃疡）提示潜在肿瘤。
+  - 常规风湿治疗效果差时，需排除血液系统或实体肿瘤。
+- id: SARCOID_JOINT
+  title: 结节病相关关节炎
+  source_page: 884
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 急性结节病常伴踝、膝关节肿痛、结节红斑和肺门淋巴结肿大。
+  - 关节炎通常自限、不留畸形，但慢性型可致骨囊肿。
+  - 若出现关节肿痛伴结节红斑，可查胸部CT和血管紧张素转换酶。

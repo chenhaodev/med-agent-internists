@@ -1,0 +1,96 @@
+specialty: hematology
+specialty_zh: 血液
+disease: hematopoiesis
+disease_zh: 造血与造血衰竭
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HEMATOPOIESIS_OVERVIEW
+  title: 造血的基本过程
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 造血是血细胞形成和发育的全过程，始于多能造血干细胞。
+  - 多能干细胞通过自我更新和多向分化维持血液系统的稳定。
+  - 骨髓是终身的主要造血器官，活跃造血存在于中轴骨和近端股骨、肱骨。
+- id: PERIPHERAL_BLOOD_NORMAL_VALUES
+  title: 外周血细胞正常参考值
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血红蛋白：女性12-16g/dL，男性13.5-17.5g/dL。
+  - 血小板：150,000-400,000/μL；白细胞：4500-11,000/μL。
+  - 中性粒细胞绝对值：1800-7700/μL；淋巴细胞：1000-4800/μL。
+- id: HEMATOPOIETIC_GROWTH_FACTORS
+  title: 造血生长因子及其临床作用
+  source_page: 514
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 红细胞生成素（EPO）可治疗肾性贫血、化疗相关贫血。
+  - G-CSF和GM-CSF可缩短中性粒细胞缺乏期，降低感染风险。
+  - 促血小板生成药物（罗米司亭、艾曲波帕）用于免疫性血小板减少症和骨髓衰竭。
+- id: STEM_CELL_TRANSPLANT_TYPES
+  title: 造血干细胞移植的类型与来源
+  source_page: 516
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自体移植：先采集并冷冻保存自身干细胞，大剂量化疗后回输。
+  - 异基因移植：使用健康供者（亲属或非亲缘）的干细胞替代患病骨髓。
+  - 脐带血干细胞对HLA要求较低，但恢复更慢，常用于儿童或年轻成人。
+- id: APLASTIC_ANEMIA_DEFINITION
+  title: 再生障碍性贫血概述
+  source_page: 517
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 再生障碍性贫血是骨髓造血功能衰竭，导致全血细胞减少和骨髓增生低下。
+  - 表现为贫血、出血和感染（因红细胞、血小板、白细胞减少）。
+  - 分为先天性和获得性，获得性最常见为自身免疫性损伤。
+- id: PANCYTOPENIA_DIFFERENTIAL_DIAGNOSIS
+  title: 全血细胞减少需排查的疾病
+  source_page: 516
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 全血细胞减少可能由原发性骨髓疾病（如再障、MDS、白血病）引起。
+  - 也可继发于营养缺乏（维生素B12、叶酸）、感染、自身免疫病或脾功能亢进。
+  - 发现全血细胞减少时应及时就医明确原因。
+- id: BONE_MARROW_BIOPSY_SITE
+  title: 骨髓穿刺部位与意义
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 成人骨髓活检通常取自髂后上嵴或胸骨。
+  - 中轴骨（胸骨、脊椎、骨盆）为活跃造血区，是诊断血液病的重要依据。
+  - 当骨髓纤维化或严重溶血时，脾脏等髓外器官可能恢复造血。
+- id: GVHD_EXPLANATION
+  title: 移植物抗宿主病（GVHD）
+  source_page: 516
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - GVHD是移植后供者免疫细胞攻击受者组织的并发症。
+  - 可导致皮肤、肝脏和胃肠道损伤，是异基因移植的主要风险之一。
+  - 通过HLA配型、免疫抑制药物等方式降低发生率和严重程度。
+- id: HEMATOPOIETIC_STEM_CELL_PROPERTIES
+  title: 造血干细胞的特点
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 造血干细胞占骨髓细胞不足1%，无特殊形态，靠功能特性识别。
+  - 具有高度增殖和自我更新能力，可终身补充各类血细胞。
+  - 多数时间处于静止状态，应激时（如感染、出血）可迅速增殖分化。
+- id: STEM_CELL_PLURIPOTENCY_CONTROVERSY
+  title: 干细胞可塑性与争议
+  source_page: 515
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 研究提示造血干细胞可能转化为非血细胞（如肌细胞、肝细胞），但存在争议。
+  - 可塑性可能源自细胞融合或分离技术的人为因素。
+  - 成人造血干细胞仍是组织修复的重要潜在资源。

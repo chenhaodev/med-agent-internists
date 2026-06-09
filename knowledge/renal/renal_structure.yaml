@@ -1,0 +1,141 @@
+specialty: renal
+specialty_zh: 肾
+disease: renal_structure
+disease_zh: 肾脏的结构与功能
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: KIDNEY_ANATOMY
+  title: 肾脏的位置与大小
+  source_page: 299
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾脏位于腹膜后，靠近腹后壁，易穿刺活检。
+  - 正常肾脏长约11cm、宽6cm、厚3cm，重120-170克。
+  - 肾脏大小有个体差异，超声测量的长径是常用指标。
+- id: KIDNEY_FUNCTIONS
+  title: 肾脏三大主要功能
+  source_page: 299
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排泄功能：清除血液中的废物和多余水分。
+  - 代谢功能：参与糖异生，调节能量代谢。
+  - 内分泌功能：分泌肾素、促红细胞生成素等激素。
+- id: NEPHRON_STRUCTURE
+  title: 肾单位结构
+  source_page: 300
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾脏约有100万个肾单位，每个由肾小球和肾小管组成。
+  - 肾小球负责滤过血液，肾小管负责重吸收和分泌。
+  - 肾单位分为浅表肾单位和近髓肾单位，功能略有差异。
+- id: GLOMERULAR_BARRIER
+  title: 肾小球滤过屏障
+  source_page: 301
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 滤过屏障由内皮细胞、基底膜和足细胞构成。
+  - 屏障带负电荷，阻止带负电的大分子（如白蛋白）滤过。
+  - 屏障损伤可导致蛋白尿，见于肾小球肾炎。
+- id: GFR_CONCEPT
+  title: 肾小球滤过率(GFR)
+  source_page: 303
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - GFR是衡量整体肾功能的重要指标，单位时间滤过体积。
+  - 计算公式：GFR=Kf×(静水压差-胶体渗透压差)。
+  - 许多肾脏疾病（如肾小球病、低灌注）可降低GFR。
+- id: TUBULAR_REABSORPTION
+  title: 肾小管重吸收功能
+  source_page: 302
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾小管重吸收大部分滤过的水和溶质，防止流失。
+  - 近端小管承担大部分重吸收，远端小管进行精细调节。
+  - 重吸收减少会导致水电解质丢失，需精确调控。
+- id: TUBULAR_SECRETION
+  title: 肾小管分泌功能
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分泌是钾、氢离子及部分毒素的排泄方式。
+  - 近端小管分泌肌酐，导致肌酐清除率高估GFR。
+  - 分泌功能对维持酸碱平衡和药物清除很重要。
+- id: URINE_CONCENTRATION
+  title: 尿液浓缩与稀释
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾脏可产生高渗或低渗尿液，范围50-1200 mOsm/kg。
+  - 抗利尿激素(ADH)控制集合管对水的通透性。
+  - 该机制依赖髓质高渗和直小血管的逆流交换。
+- id: SODIUM_REGULATION
+  title: 肾脏对钠平衡的调节
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 钠主要靠滤过-重吸收机制调节，受有效动脉血容量影响。
+  - 交感神经、血管紧张素Ⅱ、醛固酮促进钠重吸收。
+  - 心房利钠肽等抑制钠重吸收，维持平衡。
+- id: POTASSIUM_REGULATION
+  title: 肾脏对钾平衡的调节
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 钾大量滤过后在近端和髓袢重吸收，分泌决定排泄量。
+  - 醛固酮和远端小管钠转运是调节钾分泌的关键。
+  - 血钾异常可导致心律失常等严重问题。
+- id: CALCIUM_PHOSPHATE
+  title: 肾脏对钙磷的调节
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 钙通过细胞旁和跨细胞途径重吸收，受PTH、维生素D调节。
+  - 磷酸盐主要在近端小管重吸收，受PTH和FGF-23调节。
+  - 平衡紊乱可导致骨质疏松或肾结石。
+- id: ACID_BASE_BALANCE
+  title: 肾脏对酸碱平衡的调节
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾脏重吸收滤过的碳酸氢根(HCO₃⁻)，分泌氢离子(H⁺)。
+  - H⁺与尿氨等缓冲液结合排出，维持酸碱平衡。
+  - 肾脏或集合管可分泌碳酸氢盐以排泄多余碱。
+- id: KIDNEY_METABOLISM
+  title: 肾脏的代谢功能
+  source_page: 304
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾脏是重要代谢器官，消耗多种底物产生ATP。
+  - 肾脏可进行糖异生，调节血糖水平。
+  - 约80-90%的氧耗用于钠转运，能量需求高。
+- id: KIDNEY_ENDOCRINE
+  title: 肾脏的内分泌功能
+  source_page: 301
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾小球旁器分泌肾素，调节血压和血容量。
+  - 深层皮质成纤维细胞感知氧浓度，分泌促红细胞生成素。
+  - 肾脏还活化维生素D，影响钙代谢。
+- id: KIDNEY_ISCHEMIA
+  title: 肾脏易缺血特点
+  source_page: 300
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 直小血管的逆流交换导致髓质低氧，易缺血。
+  - 急性肾损伤常见原因之一是缺血性损伤。
+  - 肾血流减少（如低血压）会显著影响肾功能。

@@ -1,0 +1,111 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: acute_liver_failure
+disease_zh: 急性肝衰竭
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ALF_DEF
+  title: 急性肝衰竭定义
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 指既往无肝病者，黄疸后6个月内出现意识障碍。
+  - 肝损伤表现为凝血指标异常（INR>1.5）和转氨酶、胆红素升高。
+- id: ALF_CAUSE
+  title: 常见病因
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最常见是病毒（甲、乙、丙、丁、戊肝）和有毒药物或食物。
+  - 其他病因包括瑞氏综合征、妊娠期脂肪肝、Wilson病等。
+- id: ALF_SYMPTOM
+  title: 临床表现
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型表现是黄疸和意识障碍，无慢性肝病基础。
+  - 常见恶心、呕吐、食欲差、右上腹痛、发热、乏力、尿色深、大便颜色变浅。
+- id: ALF_DIAG
+  title: 诊断要点
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 医生会详细询问病史，包括肝炎接触史、用药史、妊娠情况等。
+  - 抽血检查肝功能、凝血指标、病毒标志物、对乙酰氨基酚浓度等。
+- id: ALF_ACET
+  title: 对乙酰氨基酚中毒
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 过量服用对乙酰氨基酚是欧美常见病因，需仔细评估用药史。
+  - 血液检测可能为阴性，不能排除过量，应尽早给予特效解毒药。
+- id: ALF_SUPPORT
+  title: 支持治疗原则
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要靠支持治疗，在重症监护室严密监护，利于肝细胞再生。
+  - 最好在有肝移植条件的医院治疗，以应对可能出现的并发症。
+- id: ALF_HE
+  title: 肝性脑病处理
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 去除诱因（如感染、低血糖、使用镇静剂等），可用乳果糖口服或灌肠。
+  - 严重者需气管插管保护气道，避免误吸。
+  - 与慢性肝病脑病不同，只能随肝功能好转而改善。
+- id: ALF_EDEMA
+  title: 脑水肿管理
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脑水肿是主要死因，需监测颅内压，目标<20mmHg。
+  - 治疗包括头抬高20-30度、甘露醇脱水、必要时紧急肝移植。
+- id: ALF_HYPO
+  title: 低血糖监测
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肝功能恶化可致低血糖，需定时监测血糖。
+  - 必要时静脉输注葡萄糖，防止意识障碍恶化。
+- id: ALF_INFECT
+  title: 感染预防
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 超过80%患者会并发感染，即使无发热、白细胞不高也要警惕。
+  - 需反复进行细菌培养，放宽抗生素使用指征。
+- id: ALF_BLEED
+  title: 出血与凝血问题
+  source_page: 490
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胃黏膜损伤和凝血异常可致消化道出血，应预防性用抑酸药和维生素K。
+  - 有创操作前需补充新鲜冰冻血浆纠正凝血功能。
+- id: ALF_LTX
+  title: 肝移植指征
+  source_page: 491
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 当支持治疗无效、肝功能难以恢复时应考虑肝移植。
+  - 需在出现严重并发症（昏迷、脑水肿、出血、感染）前转运至移植中心。
+- id: ALF_WHEN
+  title: 何时就医
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现不明原因黄疸（皮肤、眼睛发黄）、意识模糊、恶心呕吐、右上腹痛时立即就医。
+  - 有肝毒性药物（如对乙酰氨基酚）过量或可疑食物中毒史时也应紧急就诊。

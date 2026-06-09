@@ -1,0 +1,144 @@
+specialty: renal
+specialty_zh: 肾
+disease: non_glomerular
+disease_zh: 常见非肾小球疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AIN
+  title: 急性间质性肾炎
+  source_page: 349
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见药物如抗生素、非甾体抗炎药、质子泵抑制剂可能引发本病。
+  - 症状包括发热、红疹、嗜酸性粒细胞升高，少数有少尿。
+  - 尿检可见白细胞、红细胞和管型，嗜酸性粒细胞有提示意义。
+  - 治疗关键是停用可疑致敏药物，控制感染或自身免疫。
+  - 早期使用激素（7-14天内）可能缩短病程、保护肾功能。
+  - 停药后多数可恢复，但约40%肾功能无法完全恢复，10%需透析。
+- id: CIN
+  title: 慢性间质性肾炎
+  source_page: 350
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 长期使用止痛药（尤其是非甾体抗炎药）是常见病因。
+  - 症状隐匿，逐渐出现乏力、食欲差、恶心、高血压、贫血。
+  - 可导致尿液酸化障碍、范科尼综合征、夜尿增多。
+  - 化验常见血肌酐升高、轻度蛋白尿、贫血。
+  - 治疗需停用致病药物，控制原发病，延缓肾衰竭。
+  - 最终可能进展为终末期肾病需透析。
+- id: ANALGESIC_NEPHROPATHY
+  title: 镇痛剂肾病
+  source_page: 350
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 长期联合使用阿司匹林、非那西汀、对乙酰氨基酚等可导致。
+  - 好发于60-80岁女性，表现为肾功能下降、蛋白尿、无菌脓尿。
+  - 肾乳头坏死时出现侧腹痛、明显血尿。
+  - CT可见肾乳头微小钙化灶。
+  - 治疗关键是彻底停用所有镇痛药。
+  - 长期随访易发生泌尿系上皮细胞肿瘤。
+- id: ARISTOLOCHIC_ACID_NEPHROPATHY
+  title: 马兜铃酸肾病
+  source_page: 350
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与服用含马兜铃酸的中草药（如减肥药）或食用污染面粉有关。
+  - 女性多见，家族聚集性（巴尔干地方性肾病）。
+  - 约50%患者会并发尿路上皮移行细胞癌。
+  - 目前无特效治疗，以支持治疗为主。
+  - 需定期监测泌尿系统恶性肿瘤。
+  - 避免使用含马兜铃酸的中草药是关键预防措施。
+- id: HEAVY_METAL_NEPHROPATHY
+  title: 重金属肾病
+  source_page: 351
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 镉、铅、铬等重金属通过吸烟、食物、水、职业接触进入人体。
+  - 典型表现为近端肾小管受损，出现范科尼综合征。
+  - 铅中毒可伴有痛风、溶血性贫血、脑病。
+  - 诊断需明确重金属接触史和肾小管功能异常。
+  - 治疗主要是脱离接触，支持治疗。
+  - 螯合剂对急性中毒有效，长期肾损害获益不确定。
+- id: SARCOIDOSIS_TUBULOINTERSTITIAL
+  title: 结节病相关肾损害
+  source_page: 351
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约20%结节病患者出现肉芽肿性肾小管间质性肾炎。
+  - 激素治疗有效，可保护肾功能。
+  - 部分患者需长期激素治疗，注意副作用。
+  - 可联用麦考酚酯、硫唑嘌呤等以减少激素用量。
+- id: RADIATION_NEPHROPATHY
+  title: 放射性肾炎
+  source_page: 351
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 放射剂量超过2300cGy时易发生，照射后6-12个月出现肾损伤。
+  - 电离辐射直接损伤DNA并引发氧化应激。
+  - 诊断依赖放射暴露史和肾损伤表现。
+  - 治疗以对症支持为主。
+- id: SICKLE_CELL_NEPHROPATHY
+  title: 镰状细胞病肾病
+  source_page: 351
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 镰状红细胞堵塞肾脏微血管导致缺血，出现夜尿多、血尿。
+  - 肾乳头坏死可致血尿、梗阻性肾病。
+  - 蛋白尿提示肾小球滤过率增高。
+  - 控制原发病（镰状细胞病）是核心。
+  - 针对肾小管异常可补充钾盐、碳酸氢盐。
+  - 终末期肾衰竭需透析或肾移植。
+- id: LITHIUM_NEPHROPATHY
+  title: 锂中毒肾病
+  source_page: 351
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 锂盐常用于精神疾病，可导致慢性间质性肾炎。
+  - 40%患者出现肾性尿崩症，表现为多饮多尿。
+  - 锂接触后8周即可出现尿崩症。
+  - 可使用阿米洛利（ENaC阻断剂）治疗尿崩症。
+  - 定期监测肾功能和尿量。
+- id: URINARY_OBSTRUCTION
+  title: 尿路梗阻性肾病
+  source_page: 352
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 老年男性前列腺肥大、结石、肿瘤是常见原因。
+  - 表现：无尿、肾绞痛、尿流不畅、夜尿增多或尿潴留。
+  - 可导致急性或慢性肾衰竭。
+  - 初步检查：膀胱残余尿（>125ml有意义）、泌尿系超声。
+  - 治疗：尽快解除梗阻（导尿、肾造瘘等）。
+  - 及时解除梗阻肾功能可完全恢复，延误可致永久性损伤。
+- id: SIMPLE_RENAL_CYST
+  title: 单纯性肾囊肿
+  source_page: 353
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最常见，通常为单侧、薄壁、无分隔钙化。
+  - 多见于老年人，多数无症状，偶然发现。
+  - 囊肿直径0.5-4cm，很少引起症状。
+  - 如无症状不需处理。
+  - 合并感染、疼痛或高血压时可考虑经皮引流。
+  - 与遗传性囊肿性肾病鉴别需靠形态、年龄、家族史。
+- id: COMPLEX_RENAL_CYST
+  title: 复杂性肾囊肿
+  source_page: 353
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 超声或CT提示囊肿分隔、壁厚、钙化或强化。
+  - Bosniak分类：I类良性，II类恶性风险0-5%，III类约50%恶性，IV类高度恶性。
+  - III类、IV类需按恶性处理，手术切除。
+  - 单纯性囊肿出血感染后可演变为复杂性囊肿。
+  - 建议专科随访评估。

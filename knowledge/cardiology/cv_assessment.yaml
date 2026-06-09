@@ -1,0 +1,94 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: cv_assessment
+disease_zh: 心血管疾病患者的评估
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HISTORY_IMPORTANCE
+  title: 病史与体格检查是基础
+  source_page: 25
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 详细病史和体格检查是评估心血管疾病患者的基石，应优先于昂贵的影像检查。
+  - 让患者用自己的语言描述症状，例如“压迫感”可能比“胸痛”更准确。
+- id: CHEST_PAIN_ANGINA
+  title: 典型心绞痛特点
+  source_page: 26
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心绞痛常为胸骨后压迫感、紧缩感，由运动、寒冷等诱发，休息或含硝酸甘油2-10分钟缓解。
+  - 疼痛可放射至左肩、左臂内侧、颈部或下颌，伴随恶心、出汗、气短。
+- id: CHEST_PAIN_OTHER
+  title: 其他胸痛病因鉴别
+  source_page: 26
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心包炎胸痛为锐利刺痛，前倾坐位减轻，深呼吸加重；主动脉夹层为突发撕裂样痛，放射至背部。
+  - 肺栓塞胸痛常伴呼吸困难，吸气加重；胃食管反流胸痛有烧灼感，抑酸药可缓解。
+- id: DYSPNEA_CARDIAC
+  title: 心源性呼吸困难表现
+  source_page: 27
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心脏疾病导致的呼吸困难常因左心衰肺淤血引起，表现为劳力性气短、夜间阵发性呼吸困难。
+  - 端坐呼吸（平卧时气短）需高枕或坐位睡眠，是左心衰的典型表现。
+- id: PALPITATIONS
+  title: 心悸的常见病因
+  source_page: 27
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心悸是对心跳快速或有力的主观感受，可能由早搏、房颤、室上速等引起。
+  - 房颤时心率快且极不规整；室性心律失常常伴头晕或晕厥。
+- id: SYNCOPE_CARDIAC
+  title: 心源性晕厥的特点
+  source_page: 28
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心源性晕厥常突然发生，无前驱症状，由严重心律失常或瓣膜狭窄导致心排血量骤降。
+  - 晕厥后很快恢复意识；运动时晕厥提示主动脉瓣狭窄或左室流出道梗阻。
+- id: SYNCOPE_NEUROCARDIOGENIC
+  title: 神经心源性晕厥
+  source_page: 28
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 神经心源性晕厥有恶心、出汗、头晕等前驱症状，多由体位变化引起血管异常扩张。
+  - 在意识丧失前可有潮红、恶心，发作时间短，苏醒后常面色苍白。
+- id: EDEMA_CARDIAC
+  title: 心源性水肿特征
+  source_page: 28
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心源性水肿通常从足踝开始，对称分布，按压后留下压痕（凹陷性），夜间加重。
+  - 双足水肿常见，体重增加5-10磅后出现明显水肿，常伴端坐呼吸或夜间呼吸困难。
+- id: CYANOSIS
+  title: 发绀的类型与含义
+  source_page: 28
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 发绀是血氧饱和度低于85%时皮肤呈蓝色，中心性发绀（嘴唇、躯干）提示右向左分流。
+  - 周围性发绀（四肢末端）常见于低心排或寒冷环境，局部发绀提示血栓。
+- id: SILENT_ISCHEMIA
+  title: 无症状心肌缺血
+  source_page: 28
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多达1/3的心肌梗死患者无明显症状，尤其在糖尿病患者和老年人中更常见。
+  - 动态心电图可发现无症状缺血，提示即使无胸痛也应警惕心血管疾病。
+- id: RISK_FACTORS
+  title: 主要心血管危险因素
+  source_page: 25
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高血压、高脂血症、糖尿病是心血管疾病的重要危险因素，应常规筛查和控制。
+  - 吸烟、饮酒、肥胖、缺乏运动等生活方式因素也显著增加患病风险。

@@ -1,0 +1,104 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: lung_function
+disease_zh: 肺结构与功能的评估
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AIRWAY_ANATOMY
+  title: 气道结构与功能
+  source_page: 203
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气道分为传导区（前15级，不参与气体交换）和呼吸区（后8级，参与气体交换）。
+  - 传导区也称为解剖无效腔，正常成人约150毫升。
+  - 主气道横截面积约2.5cm²，肺泡管总横截面积高达300cm²，因此小气道阻力小。
+- id: ALVEOLI_GAS_EXCHANGE
+  title: 肺泡结构与气体交换
+  source_page: 203
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 人体约有3亿个肺泡，总表面积约130平方米。
+  - 肺泡壁由Ⅰ型和Ⅱ型上皮细胞组成，Ⅱ型细胞分泌表面活性物质。
+  - 肺泡-毛细血管界面厚度不超过1微米，利于氧气和二氧化碳交换。
+- id: PULMONARY_CIRCULATION
+  title: 肺循环低阻低压特点
+  source_page: 204
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺循环阻力仅为体循环的1/10，平均肺动脉压约15mmHg。
+  - 运动时心排血量增加，肺血管可开放更多以保持低压，肺动脉压基本不变。
+  - 肺血管床有低氧性血管收缩特性，调节局部血流匹配通气。
+- id: VENTILATION_ALVEOLAR
+  title: 通气与肺泡通气量
+  source_page: 204
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 每分通气量=潮气量×呼吸频率。
+  - 只有进入肺泡的气体（肺泡通气量）参与气体交换，无效腔约占潮气量的1/3。
+  - 深慢呼吸可减少无效腔比例，增加肺泡通气量。
+- id: RESPIRATORY_MECHANICS
+  title: 呼吸力学与肺顺应性
+  source_page: 205
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常呼吸系统顺应性约100ml/cmH₂O（肺和胸廓各200ml/cmH₂O）。
+  - 肺纤维化使肺僵硬（顺应性降低），肺气肿使肺弹性减弱（顺应性增加）。
+  - 表面活性物质降低肺泡表面张力，防止肺泡塌陷。
+- id: AIRWAY_RESISTANCE
+  title: 气道阻力分布特点
+  source_page: 203
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 80%的气道阻力来自前7级中央气道，外周小气道（直径<2mm）仅占20%。
+  - 气道阻力随肺容积增大而减小，因为气道直径增大。
+  - 气道阻塞疾病（如哮喘、肿瘤）可明显增加气道阻力。
+- id: VENTILATION_DISTRIBUTION
+  title: 直立位通气分布不均
+  source_page: 207
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 直立位时，肺底部通气比肺尖更好。
+  - 原因是肺尖胸膜腔负压更大，肺泡处于顺应性较差区域。
+  - 正常从肺尖到肺底胸膜腔压差约8cmH₂O。
+- id: RESPIRATORY_CONTROL
+  title: 呼吸的化学控制
+  source_page: 207
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 动脉血二氧化碳分压（PaCO₂）是控制通气的主要因素。
+  - 只有当动脉血氧分压（PaO₂）低于50mmHg时，低氧才会明显刺激通气。
+  - 颈动脉体可感知低氧、高二氧化碳和酸中毒，通过神经调节通气。
+- id: HYPOXIC_VASOCONSTRICTION
+  title: 低氧性血管收缩作用
+  source_page: 208
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺血管对低氧区域产生收缩反应，减少该区域血流。
+  - 有助于将血流重新分配到通气良好的区域，改善通气-血流匹配。
+- id: COMPLIANCE_DISEASES
+  title: 肺顺应性异常相关疾病
+  source_page: 206
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺纤维化：肺弹性回缩力增强，顺应性降低，肺变得僵硬。
+  - 肺气肿：弹性蛋白破坏，顺应性增加，肺弹性回缩减弱。
+  - 顺应性异常影响呼吸做功和气体交换。
+- id: SURFACTANT
+  title: 表面活性物质的功能
+  source_page: 203
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - Ⅱ型肺泡上皮细胞分泌表面活性物质（磷脂）。
+  - 降低肺泡气-液界面表面张力，使肺泡易于扩张。
+  - 肺容积减小时防止肺泡塌陷，维持气体交换。

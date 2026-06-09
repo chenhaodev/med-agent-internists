@@ -1,0 +1,96 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: soft_tissue
+disease_zh: 非关节性软组织疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NSTD_OVERVIEW
+  title: 非关节软组织疾病概述
+  source_page: 876
+  evidence_level: 低
+  recommendation: 未注明
+  key_points:
+  - 非关节软组织疾病包括滑囊炎、肌腱炎和纤维肌痛等。
+  - 常见诱发因素为过度使用、重复活动或生物力学异常。
+  - 多数疾病病因和发病机制尚不清楚。
+- id: FIBRO_EPIDEMIOLOGY
+  title: 纤维肌痛流行病学
+  source_page: 876
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 纤维肌痛是20-55岁女性广泛性肌肉骨骼疼痛最常见原因。
+  - 全球平均发病率约为2.7%。
+  - 常伴有抑郁症、偏头痛、肠易激综合征等。
+- id: SEPTIC_BURSITIS_WHEN_SEEK
+  title: 细菌性滑囊炎识别与就医
+  source_page: 877
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 浅表滑囊（如肘、膝前）出现红、肿、热、痛及发热时警惕感染。
+  - 若怀疑脓毒性滑囊炎，应立即就医抽吸囊液检查。
+  - 常见病原体为金黄色葡萄球菌，需抗生素治疗。
+- id: ASEPSIS_BURSITIS_TREATMENT
+  title: 无菌性滑囊炎治疗原则
+  source_page: 878
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 休息、局部热敷可缓解症状。
+  - 若无禁忌，可使用非甾体抗炎药（NSAID）。
+  - 局部皮质类固醇注射最有效，深层囊需超声引导。
+- id: TENDINITIS_SPECIAL_TIPS
+  title: 肌腱炎治疗注意事项
+  source_page: 878
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 治疗包括休息、NSAID、物理治疗和符合人体工学的锻炼。
+  - 皮质类固醇应注射入腱鞘而非肌腱本身，以免肌腱断裂。
+  - 跟腱应避免注射皮质类固醇。
+- id: FIBRO_DIAGNOSTIC_CRITERIA
+  title: 纤维肌痛诊断标准
+  source_page: 879
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 根据ACR标准，广泛疼痛指数≥7且症状严重度评分≥5可诊断。
+  - 需排除其他导致疼痛的疾病。
+  - 实验室和影像学检查通常正常，主要用于鉴别诊断。
+- id: FIBRO_MEDICATION
+  title: 纤维肌痛药物管理注意事项
+  source_page: 879
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 低剂量阿米替林或环苯扎林（10-30mg）有效且耐受良好。
+  - 新型抗抑郁药（度洛西丁、文拉法辛）和α2δ配体（普瑞巴林）可联用。
+  - 药物需由医生指导，不可自行调整剂量。
+- id: FIBRO_EXERCISE
+  title: 纤维肌痛渐进性活动锻炼
+  source_page: 879
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 鼓励开始渐进、低等级有氧运动计划，改善肌肉健康。
+  - 运动可带来健康感，有助于管理病情。
+  - 运动量应循序渐进，避免过度疲劳。
+- id: TENDON_INJECTION_CAUTION
+  title: 皮质类固醇注射禁忌与安全
+  source_page: 878
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 避免直接向肌腱内注射皮质类固醇，可导致肌腱断裂。
+  - 跟腱部位严禁注射皮质类固醇。
+  - 深层滑囊（如髂腰肌、贝克囊肿）需在超声引导下操作。
+- id: FIBRO_DIFFERENTIAL_DIAGNOSIS
+  title: 纤维肌痛与其他疾病鉴别
+  source_page: 879
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 需排除风湿性多肌痛、甲状腺功能减退、肌炎、红斑狼疮等。
+  - 症状持续数月且无其他结缔组织病迹象时，诊断纤维肌痛。
+  - 建议进行血沉、类风湿因子、抗核抗体等检查辅助鉴别。

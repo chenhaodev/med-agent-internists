@@ -1,0 +1,109 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: resp_assessment
+disease_zh: 呼吸疾病患者的诊治思路
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: DYSPNEA_BASICS
+  title: 呼吸困难的基本评估
+  source_page: 197
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 呼吸困难是肺部疾病常见症状，需区分急性（数分钟至数小时）和慢性（缓慢进展）。
+  - 突发呼吸困难伴胸痛，需警惕气胸、肺栓塞或肺水肿。
+  - 缓慢进展的呼吸困难常见于慢性阻塞性肺病（COPD）、肺纤维化等。
+  - 体位性呼吸困难（平卧加重）提示心力衰竭或膈肌麻痹。
+- id: COUGH_COMMON_CAUSES
+  title: 慢性咳嗽的三大病因
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 慢性咳嗽（超过8周）最常见的三大病因：鼻后滴漏、哮喘、胃食管反流病。
+  - 干咳可能由血管紧张素转换酶抑制剂（ACEI）等药物引起。
+  - 百日咳或病毒感染后咳嗽可迁延3个月以上。
+  - 夜间咳嗽建议关注哮喘、心力衰竭或胃食管反流。
+- id: HEMOPTYSIS_URGENCY
+  title: 咯血的评估与紧急处理
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 咯血常见原因：支气管炎（美国）或结核（全球），少量咯血多自限。
+  - 大咯血定义为24小时内咯血量超过500ml，属于内科急症。
+  - 大咯血病因包括肺癌、空洞型肺结核、支气管扩张等。
+  - 需与鼻出血、呕血区分，仔细上气道检查很必要。
+- id: CHEST_PAIN_CLUES
+  title: 胸痛的肺部原因
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胸膜炎性胸痛特点：深呼吸时锐痛或刺痛，常见于肺栓塞、感染、气胸。
+  - 肺实质无痛觉神经，肺癌只有侵犯胸膜、胸壁时才引起疼痛。
+  - 肺动脉高压可出现与呼吸无关的前胸壁钝痛。
+  - 其他原因：食管疾病、带状疱疹、肌肉骨骼痛，需排除心脏病。
+- id: HISTORY_RISK_FACTORS
+  title: 病史中需重点关注的危险因素
+  source_page: 199
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 吸烟是肺部疾病最常见的有毒环境因素，戒烟可降低肺癌风险。
+  - 职业史要询问无机粉尘（石棉、二氧化硅）、有机粉尘（过敏性肺炎）暴露。
+  - 旅游史有助于判断特殊感染如组织胞浆菌病、球孢子菌病。
+  - 家族史对囊性纤维化、α1-抗胰蛋白酶缺乏等遗传病评估重要。
+  - 某些药物有肺毒性：口服避孕药（肺栓塞）、细胞毒药物（肺纤维化）等。
+- id: PHYSICAL_EXAM_KEY
+  title: 体格检查的关键体征
+  source_page: 199
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 视诊：呼吸频率快、辅助呼吸肌参与、缩唇呼吸提示呼吸费力。
+  - 杵状指常见于肺纤维化、慢性感染等，需排除肥大性肺性骨关节病。
+  - 气管偏移提示肺不张或肿块；颈部静脉怒张可能为上腔静脉梗阻。
+  - 听诊：肺底湿啰音提示肺水肿或间质性肺病；局部哮鸣音提示气道阻塞。
+  - 胸膜摩擦音（皮革样）提示胸膜炎，常伴大量胸腔积液引流后出现。
+- id: PULMONARY_FUNCTION_TESTS
+  title: 肺功能检查的作用
+  source_page: 200
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺功能检查可区分阻塞性（如COPD、哮喘）和限制性（如纤维化）通气障碍。
+  - 呼吸量测定法评估气流受限严重程度；肺容积测定判断肺过度充气。
+  - 弥散量（DLCO）评估气体交换功能；动脉血气分析可测氧合和酸碱状态。
+  - 6分钟步行试验可发现运动后缺氧，帮助确定是否需要氧气治疗。
+- id: IMAGING_MODALITIES
+  title: 胸部影像学的选择与意义
+  source_page: 200
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胸片快速评估肺实质、胸膜、心脏轮廓及纵隔结构，对比旧片很重要。
+  - CT提供更精细的肺和纵隔信息，是诊断间质性肺病、肺癌的必要工具。
+  - PET-CT可评估肺部肿块的代谢活性，辅助鉴别良恶性。
+  - CT结合通气-灌注扫描已成为评估肺血管疾病（如肺栓塞）的主要方法。
+- id: INVASIVE_DIAGNOSTICS
+  title: 侵入性检查的适用情况
+  source_page: 201
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 当无创检查不能确诊时，可考虑支气管镜（软性或硬性）获取标本。
+  - 经胸细针穿刺或引导性支气管镜用于评估周围型肺病变。
+  - 开胸肺活检或胸腔镜肺活检可获取大块组织，用于疑难病例。
+  - 所有侵入性检查均有风险，需在医生评估后决定。
+- id: WHEN_TO_SEEK_CARE
+  title: 何时需要进一步就医
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现大咯血（24小时超过500ml）需立即就医。
+  - 突发呼吸困难伴胸痛、咳血或意识改变应紧急就诊。
+  - 慢性咳嗽超过8周且自行处理无效，建议排查鼻后滴漏、哮喘或反流。
+  - 长期吸烟者新发咳嗽、咳血、胸痛或体重下降，需排除肺癌。
+  - 肺功能或影像检查异常，应遵医嘱专科随访。

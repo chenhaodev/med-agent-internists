@@ -1,0 +1,96 @@
+specialty: molecular
+specialty_zh: 分子医学
+disease: molecular_basis
+disease_zh: 人类疾病的分子基础
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: DNA_GENE_BASICS
+  title: DNA和基因的基本结构
+  source_page: 2
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 人类细胞有23对染色体，DNA由碱基对组成双螺旋结构。
+  - 基因是编码蛋白质的DNA片段，人约有30000个基因。
+  - DNA复制时通过碱基互补配对高保真复制遗传信息。
+- id: CENTRAL_DOGMA
+  title: 基因表达中心法则
+  source_page: 3
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传信息从DNA转录为RNA，再翻译为蛋白质。
+  - mRNA是携带DNA信息的中间分子，指导蛋白质合成。
+  - 中心法则是所有生命遗传信息流动的基本规律。
+- id: RNA_PROCESSING
+  title: RNA合成与加工
+  source_page: 3
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - RNA聚合酶以DNA为模板合成前体mRNA。
+  - 前体mRNA需加帽、加poly-A尾和剪接去除内含子。
+  - 选择性剪接使一个基因产生多种蛋白质产物。
+- id: PROTEIN_TRANSLATION
+  title: 蛋白质翻译过程
+  source_page: 4
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核糖体阅读mRNA上的三碱基密码子，合成多肽链。
+  - tRNA携带氨基酸，通过反密码子与密码子配对。
+  - 多种抗生素可抑制翻译过程，如红霉素、氯霉素。
+- id: TRANSCRIPTION_REGULATION
+  title: 转录调控机制
+  source_page: 5
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 启动子、增强子等DNA元件与转录因子结合调控基因表达。
+  - 转录因子占基因组编码蛋白的3%～5%，决定基因开关。
+  - 甲基化通常抑制基因转录，影响表达水平。
+- id: EPIGENETICS
+  title: 表观遗传调控
+  source_page: 6
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 表观遗传是DNA序列不变但基因表达可遗传的改变。
+  - DNA甲基化和组蛋白修饰（如乙酰化）调控基因活性。
+  - 某些抗癌药通过抑制组蛋白去乙酰化酶改变染色质结构。
+- id: MICRORNA
+  title: microRNA与基因沉默
+  source_page: 6
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - miRNA是非编码小RNA，通过结合mRNA沉默基因表达。
+  - 参与发育、细胞分化及疾病（如癌症、心脏缺陷）。
+  - miRNA的研究为神经退行性疾病等提供新治疗思路。
+- id: MUTATION_TYPES
+  title: 基因突变类型与影响
+  source_page: 6
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 突变包括点突变、缺失、插入等，可改变蛋白质功能。
+  - 同义突变不改变氨基酸；错义突变改变氨基酸；无义突变提前终止。
+  - 移码突变由碱基插入/缺失引起，通常导致功能丧失。
+- id: CHROMATIN_REMODELING
+  title: 染色质重塑与基因活性
+  source_page: 6
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 染色质由DNA和组蛋白构成，压缩状态影响基因表达。
+  - 组蛋白尾巴的化学修饰（乙酰化等）可激活或抑制转录。
+  - 染色质重塑允许转录因子结合DNA，调控基因开关。
+- id: DRUG_MECHANISM
+  title: 抑制基因表达的毒物与抗生素
+  source_page: 3
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - α-鹅膏蕈碱（毒蘑菇）抑制RNA聚合酶Ⅱ，阻碍转录。
+  - 放线菌素D嵌入DNA抑制转录，用于抗肿瘤。
+  - 氨基糖苷类抗生素破坏mRNA-tRNA配对，抑制翻译。
