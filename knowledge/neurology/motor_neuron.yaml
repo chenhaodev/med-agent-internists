@@ -1,0 +1,156 @@
+specialty: neurology
+specialty_zh: neurology
+disease: motor_neuron
+disease_zh: motor_neuron
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ALS_DEFINITION
+  title: 肌萎缩侧索硬化概述
+  source_page: 1178
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肌萎缩侧索硬化（ALS）是最常见的运动神经元病，进行性加重。
+  - 发病率约2/10万，男性多发，发病高峰60岁左右。
+  - 危险因素包括吸烟、接触杀虫剂、田径运动等。
+  pdf_page: 566
+- id: ALS_SYMPTOMS
+  title: ALS的症状和体征
+  source_page: 1178
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 上运动神经元受累：活动笨拙、肌肉僵硬、情绪不稳。
+  - 下运动神经元受累：肌肉无力、萎缩、肌束震颤。
+  - 早期可表现为单肢无力或吞咽困难，眼球运动通常不受影响。
+  pdf_page: 566
+- id: ALS_DIAGNOSIS
+  title: ALS的诊断方法
+  source_page: 1178
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需排除其他病因，如颈椎压迫或肿瘤。
+  - 常用检查包括神经影像、实验室检查和肌电图。
+  - 肌电图可显示失神经支配和纤颤电位。
+  pdf_page: 566
+- id: ALS_TREATMENT
+  title: ALS的治疗策略
+  source_page: 1178
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多学科团队管理可延长生存期（B级证据）。
+  - 利鲁唑可延长生存期2-3个月（A级证据）。
+  - 无创正压通气（NPPV）可延长生存期达20个月。
+  pdf_page: 566
+- id: ALS_RESPIRATORY
+  title: ALS呼吸管理
+  source_page: 1179
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 当用力肺活量小于50%时，考虑启动无创正压通气。
+  - 夜间通气不足症状包括白天疲劳、晨起头痛。
+  - 咳痰机可帮助清除呼吸道分泌物，减少肺炎风险。
+  pdf_page: 567
+- id: ALS_NUTRITION
+  title: ALS营养支持
+  source_page: 1179
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 吞咽困难时考虑经皮胃造瘘（PEG）管。
+  - PEG可延长生存期和稳定体重（B级证据）。
+  - 吸痰器可用于辅助清除上呼吸道分泌物。
+  pdf_page: 567
+- id: ALS_SYMPTOM_MGMT
+  title: ALS症状管理
+  source_page: 1179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 流涎可用阿米替林或肉毒毒素治疗。
+  - 痉挛状态可用巴氯芬或丹曲林缓解。
+  - 假性延髓麻痹（强哭强笑）可用抗抑郁药或右美沙芬/奎尼丁。
+  pdf_page: 567
+- id: ALS_PROGNOSIS
+  title: ALS的预后
+  source_page: 1179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 平均生存期2-5年，10%患者可存活超过10年。
+  - 主要死因为呼吸肌衰竭和吸入性肺炎。
+  - 早期多学科干预可改善生活质量。
+  pdf_page: 567
+- id: OTHER_MND
+  title: 其他运动神经元病
+  source_page: 1179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 进行性肌萎缩（PMA）仅累及下运动神经元，预后较好。
+  - 原发性侧索硬化（PLS）仅累及上运动神经元，进展缓慢。
+  - 肯尼迪病（BSMA）为X连锁遗传，伴男性乳房发育。
+  pdf_page: 567
+- id: SMA_OVERVIEW
+  title: 脊髓性肌萎缩概述
+  source_page: 1179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脊髓性肌萎缩（SMA）是遗传性下运动神经元病。
+  - SMA可始于宫内、婴儿期或成人期。
+  - 相关基因包括SMN和NAIP。
+  pdf_page: 567
+- id: BRACHIAL_PLEXUS
+  title: 臂丛神经病
+  source_page: 1180
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 臂丛神经病表现为肩部或手臂无力、疼痛和感觉缺失。
+  - 常见原因包括外伤、肿瘤浸润或放射性损伤。
+  - 急性自身免疫性臂丛神经炎常伴剧烈疼痛，多数可恢复。
+  pdf_page: 568
+- id: LUMBOSACRAL_PLEXUS
+  title: 腰骶丛神经病
+  source_page: 1180
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腰骶丛神经病导致大腿近端疼痛和无力。
+  - 常见病因包括糖尿病、肿瘤、放疗或感染。
+  - 可伴有膀胱和直肠功能障碍。
+  pdf_page: 568
+- id: PERIPHERAL_NEUROPATHY
+  title: 周围神经病概述
+  source_page: 1180
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 周围神经病包括单神经病、多发性单神经病和多发性神经病。
+  - 成人发病率2%-8%，随年龄增加。
+  - 糖尿病和酒精中毒是最常见原因。
+  pdf_page: 568
+- id: MONONEUROPATHY
+  title: 常见单神经病
+  source_page: 1181
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腕管综合征：手腕重复屈曲导致拇指和手指麻木。
+  - 尺神经麻痹：肘部压迫导致小指和环指麻木。
+  - 腓总神经损伤：交叉腿或下蹲导致足下垂。
+  pdf_page: 569
+- id: POLYNEUROPATHY
+  title: 多发性神经病特点
+  source_page: 1181
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轴索性神经病：早期踝反射消失，足部麻木和无力。
+  - 脱髓鞘性神经病：近端和面部肌肉无力，反射减弱。
+  - 血管炎性神经病：急性不对称起病，伴严重疼痛。
+  pdf_page: 569

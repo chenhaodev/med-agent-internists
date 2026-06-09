@@ -1,0 +1,96 @@
+specialty: infectious
+specialty_zh: 感染
+disease: uti
+disease_zh: uti
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: UTI_DEFINITION
+  title: 尿路感染的定义与分类
+  source_page: 990
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 尿路感染指尿液中有细菌并伴有尿路症状，如尿痛、尿频。
+  - 分为非复杂性和复杂性两类，后者需进一步检查。
+  - 膀胱炎症状包括排尿困难、耻骨上压痛；肾盂肾炎有发热、腰痛。
+- id: UTI_RISK_FACTORS
+  title: 尿路感染的危险因素
+  source_page: 991
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 性活跃女性、绝经后女性、老年男性（前列腺增生）风险高。
+  - 使用阴道隔膜和杀精子药、有家族史者易感染。
+  - 留置导尿管患者几乎都会发生尿路感染。
+- id: UTI_SYMPTOMS
+  title: 尿路感染的症状识别
+  source_page: 990
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 膀胱炎：尿痛、尿频、耻骨上不适，尿中可能有血。
+  - 肾盂肾炎：腰痛、发热、寒战、恶心呕吐。
+  - 老年人或意识不清者可能仅表现为精神改变或低血压。
+- id: UTI_DIAGNOSIS
+  title: 尿路感染的诊断方法
+  source_page: 990
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型症状的年轻女性可不做检查直接治疗。
+  - 诊断不清或复杂性感染需做尿常规和尿培养。
+  - 留尿前需在膀胱存留至少2小时，标本冷藏不超过8小时。
+- id: UTI_ASYMPTOMATIC
+  title: 无症状菌尿的处理
+  source_page: 990
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 无症状菌尿指尿中有细菌但无尿路症状。
+  - 除孕妇、中性粒细胞减少者外，一般不需治疗。
+  - 肾移植患者的无症状菌尿通常需要治疗。
+- id: UTI_LIFESTYLE_PREVENTION
+  title: 生活方式预防尿路感染
+  source_page: 991
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 性生活前后排尿、多饮水、不憋尿不能预防感染。
+  - 擦拭方式、盆浴、内衣类型与感染无关。
+  - 绝经后女性局部使用雌激素可减少复发。
+- id: UTI_TREATMENT_UNCOMPLICATED
+  title: 非复杂性尿路感染的治疗
+  source_page: 992
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 一线药物包括呋喃妥因、复方磺胺甲噁唑和磷霉素。
+  - 二线药物为氟喹诺酮类和β-内酰胺类。
+  - 治疗需根据当地耐药情况选择，避免滥用抗生素。
+- id: UTI_RECURRENT
+  title: 复发性尿路感染的预防
+  source_page: 992
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 性活跃女性可性生活后单次服用抗生素预防。
+  - 每年感染少于2次者可自行治疗。
+  - 绝经后女性可每日阴道局部用雌激素。
+- id: UTI_COMPLICATED
+  title: 复杂性尿路感染的处理
+  source_page: 992
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 复杂性感染需根据尿培养结果和合并症治疗。
+  - 孕妇治疗后必须复查尿培养。
+  - 怀疑肾结石或梗阻时需做影像学检查。
+- id: UTI_WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 990
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现发热、寒战、腰痛、恶心呕吐时立即就医。
+  - 尿痛、尿频持续不缓解或加重需就诊。
+  - 老年人或孕妇出现任何尿路症状应尽早就医。

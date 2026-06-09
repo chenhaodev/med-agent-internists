@@ -1,0 +1,108 @@
+specialty: hematology
+specialty_zh: 血液
+disease: thrombosis
+disease_zh: thrombosis
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: THR_CAUSE
+  title: 血栓形成的原因
+  source_page: 606
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 血栓形成由血流缓慢、血管损伤和血液凝固异常三大因素引起。
+  - 遗传因素如因子V Leiden突变可增加静脉血栓风险。
+  - 手术、创伤、长期卧床等获得性因素也易诱发血栓。
+- id: THR_SYMPTOM
+  title: 血栓的症状识别
+  source_page: 608
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 深静脉血栓常表现为单侧下肢肿胀、疼痛、皮肤发红或发热。
+  - 肺栓塞可突发胸痛、呼吸困难、咯血，需立即就医。
+  - 动脉血栓可能导致肢体剧痛、苍白、无脉，需紧急处理。
+- id: THR_DIAG
+  title: 血栓的诊断方法
+  source_page: 608
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 医生通过血液D-二聚体检测和超声检查初步判断血栓。
+  - 遗传性易栓症需抽血检测抗凝血酶、蛋白C、蛋白S等指标。
+  - 因子V Leiden和凝血酶原G20210A突变需基因检测确诊。
+- id: THR_LIFESTYLE
+  title: 生活方式预防血栓
+  source_page: 607
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 术后或长期卧床时，尽早下床活动或做腿部屈伸运动。
+  - 避免久坐久站，每1-2小时起身活动，促进血液循环。
+  - 多喝水，保持血液不黏稠，减少血栓形成风险。
+- id: THR_DIET
+  title: 饮食与血栓预防
+  source_page: 607
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 补充叶酸、维生素B6和B12可能降低同型半胱氨酸水平。
+  - 多吃绿叶蔬菜、豆类、全谷物，有助于控制同型半胱氨酸。
+  - 均衡饮食，避免高脂肪高糖食物，维持健康体重。
+- id: THR_MEDICATION
+  title: 抗血小板药物注意事项
+  source_page: 607
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 阿司匹林常用于预防心梗和脑卒中，需遵医嘱长期服用。
+  - 氯吡格雷等药物与阿司匹林联用可增强效果，但需注意出血风险。
+  - 服用抗血小板药期间，避免自行加用其他止痛药或保健品。
+- id: THR_ANTICOAG
+  title: DVT/PE抗凝治疗患者教育——服药、监测与出血预防
+  source_page: 612
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 抗凝治疗（华法林/LMWH/DOAC）必须按医嘱规律服用，不可自行停药或减量；停药可导致血栓复发或肺栓塞。
+  - 华法林需定期监测INR（目标治疗范围INR 2～3），并持续使用至INR达标后至少48小时再转换；INR超标（>4）时需减量并复查。
+  - 出血监测：每日观察牙龈出血、皮肤瘀斑扩大、黑便（柏油样）、血尿、咯血——出现上述任何症状立即联系医生。
+  - VTE抗凝疗程：有明确诱因的DVT（如手术后）通常3～6个月；无明确诱因或复发性VTE需更长时间（由医生决定）。
+  - 避免高风险受伤活动（如接触性运动）；使用软毛牙刷；告知所有就诊医生正在使用抗凝药。
+  pdf_page: 631
+- id: THR_PREGNANCY
+  title: 妊娠期血栓预防
+  source_page: 610
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 有血栓病史或遗传易栓症的孕妇，需评估血栓风险。
+  - 产后尽早活动，必要时使用低分子肝素预防血栓。
+  - 妊娠期避免长时间卧床，适当散步促进循环。
+- id: THR_SURGERY
+  title: 手术前后血栓预防
+  source_page: 610
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 骨科大手术患者常规使用低分子肝素预防静脉血栓。
+  - 术后尽早下床活动，或使用弹力袜、间歇充气加压装置。
+  - 有出血风险时，医生可能放置下腔静脉过滤器防肺栓塞。
+- id: THR_COMPLICATION
+  title: 血栓并发症预防
+  source_page: 608
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 深静脉血栓脱落可导致肺栓塞，需及时抗凝治疗。
+  - 抗血小板或抗凝治疗期间，注意观察有无异常出血。
+  - 支架术后患者需坚持双抗治疗至少12个月，防支架内血栓。
+- id: THR_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 608
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 单侧下肢突然肿胀、疼痛，尤其是术后或长期卧床后。
+  - 突发胸痛、呼吸困难、咯血，怀疑肺栓塞时立即急诊。
+  - 服用抗凝药期间出现严重出血，如呕血、黑便或意识改变。

@@ -1,0 +1,146 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: pneumonia
+disease_zh: 肺炎
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PNEUMONIA_DEF
+  title: 肺炎的定义与病因
+  source_page: 268
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 肺炎是细菌、病毒等引起的肺部感染，不是普通感冒。
+  - 常见病原体包括肺炎链球菌、流感嗜血杆菌等。
+  - 儿童和老人是高危人群，冬季发病增多。
+  pdf_page: 289
+- id: PNEUMONIA_SYMPTOMS
+  title: 肺炎的常见症状
+  source_page: 268
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 典型症状包括咳嗽、咳痰、发热、呼吸困难、胸痛。
+  - 细菌性肺炎起病急，数天到数周；结核起病慢。
+  - 出现高热、呼吸急促、意识改变需立即就医。
+  pdf_page: 289
+- id: PNEUMONIA_DIAGNOSIS
+  title: 肺炎的诊断方法
+  source_page: 268
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 胸部X光或CT是诊断肺炎的主要手段。
+  - 痰培养和血培养可帮助找到病原体。
+  - C反应蛋白和降钙素原可辅助判断细菌感染。
+  pdf_page: 289
+- id: CAP_TREATMENT
+  title: 社区获得性肺炎治疗
+  source_page: 269
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 轻症可口服大环内酯类抗生素7-10天。
+  - 有心脏病史者慎用阿奇霉素。
+  - 住院患者需尽快使用抗生素，延迟超过8小时增加死亡风险。
+  pdf_page: 290
+- id: CAP_HOSPITAL_INDICATORS
+  title: 肺炎住院指征
+  source_page: 269
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 年龄≥65岁、有糖尿病或心衰等合并症需考虑住院。
+  - 呼吸频率>30次/分、血氧低于90%需住院。
+  - 收缩压低于90mmHg、高热不退需紧急就医。
+  pdf_page: 290
+- id: HAP_VAP_PREVENTION
+  title: 医院内肺炎预防
+  source_page: 270
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 住院超过48小时发生的肺炎为医院获得性肺炎。
+  - 气管插管患者易发生呼吸机相关性肺炎。
+  - 家属应协助患者勤翻身、保持口腔清洁。
+  pdf_page: 291
+- id: PLEURAL_EFFUSION
+  title: 肺炎旁胸腔积液
+  source_page: 270
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 肺炎可引起胸腔积液，轻症仅需抗生素。
+  - 若积液变脓或pH<7.1需引流。
+  - 出现胸痛加重、呼吸困难需及时告知医生。
+  pdf_page: 291
+- id: LUNG_ABSCESS
+  title: 肺脓肿的预防与治疗
+  source_page: 270
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 误吸是肺脓肿主因，醉酒、癫痫、中风患者风险高。
+  - 保持口腔卫生可减少厌氧菌感染。
+  - 抗生素疗程通常6周，巨大脓肿需引流。
+  pdf_page: 291
+- id: TB_TRANSMISSION
+  title: 结核病的传播与症状
+  source_page: 270
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 结核通过患者咳嗽飞沫传播，吸入后感染。
+  - 多数为潜伏感染，不传染；活动性结核有传染性。
+  - 症状包括慢性咳嗽、发热、盗汗、体重减轻。
+  pdf_page: 291
+- id: TB_DIAGNOSIS
+  title: 结核病的诊断方法
+  source_page: 271
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 结核菌素皮试（PPD）阳性提示曾感染。
+  - QuantiFERON血检可区分卡介苗接种与感染。
+  - 活动性结核需结合症状、胸片和痰检确诊。
+  pdf_page: 292
+- id: TB_TREATMENT
+  title: 结核病的治疗原则
+  source_page: 271
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 潜伏感染常用异烟肼治疗9个月。
+  - 活动性结核需联合4种药物至少6个月。
+  - 耐药结核需用3种以上敏感药物，疗程18-24个月。
+  pdf_page: 292
+- id: PCP_PREVENTION
+  title: 肺孢子菌肺炎的预防
+  source_page: 272
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - HIV患者CD4<250时需预防性用药。
+  - 常用磺胺甲噁唑-甲氧苄啶口服预防。
+  - 出现干咳、发热、呼吸困难需警惕。
+  pdf_page: 293
+- id: PCP_TREATMENT
+  title: 肺孢子菌肺炎的治疗
+  source_page: 272
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 首选磺胺甲噁唑-甲氧苄啶，注意白细胞减少等副作用。
+  - 重症患者（血氧低）可加用糖皮质激素。
+  - 治疗失败可换用克林霉素等替代方案。
+  pdf_page: 293
+- id: VACCINATION
+  title: 肺炎的疫苗预防
+  source_page: 272
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 接种流感嗜血杆菌和肺炎链球菌疫苗可降低风险。
+  - 儿童和老人应优先接种。
+  - 合理使用抗生素可预防耐药。
+  pdf_page: 293

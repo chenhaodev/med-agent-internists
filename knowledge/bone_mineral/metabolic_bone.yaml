@@ -1,0 +1,151 @@
+specialty: bone_mineral
+specialty_zh: bone_mineral
+disease: metabolic_bone
+disease_zh: metabolic_bone
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PAGET_DEF
+  title: Paget骨病概述
+  source_page: 811
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - Paget骨病是局部骨病，常见于骨盆、椎骨、颅骨等。
+  - 多数患者无症状，常因血检或影像检查意外发现。
+  pdf_page: 200
+- id: PAGET_SYMP
+  title: Paget骨病症状与并发症
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状包括骨痛、骨畸形、骨折、耳聋、椎管狭窄。
+  - 罕见并发症为骨肉瘤，发生率低于1%。
+  pdf_page: 201
+- id: PAGET_DIAG
+  title: Paget骨病诊断方法
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断依靠血碱性磷酸酶升高和骨扫描、X线检查。
+  - 骨扫描可发现病变部位和范围。
+  pdf_page: 201
+- id: PAGET_TREAT
+  title: Paget骨病治疗原则
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 治疗目标为缓解症状和预防并发症。
+  - 主要药物为双膦酸盐，需同时补充钙和维生素D。
+  pdf_page: 201
+- id: HPTH_BONE
+  title: 甲旁亢性骨病概述
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 甲旁亢性骨病由甲状旁腺激素长期升高引起。
+  - 原发性甲旁亢多因腺瘤，继发性常因维生素D缺乏或肾衰。
+  pdf_page: 201
+- id: HPTH_SYMP
+  title: 甲旁亢性骨病症状与诊断
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者常有骨痛、不适，血钙升高（原发）或正常（继发）。
+  - X线可见颅骨胡椒盐样、指骨骨膜下吸收等特征。
+  pdf_page: 201
+- id: HPTH_TREAT
+  title: 甲旁亢性骨病治疗
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 治疗包括手术切除病变甲状旁腺或纠正病因。
+  - 术后可能出现低钙血症（骨饥饿综合征），需监测。
+  pdf_page: 201
+- id: OSTEOMAL_DEF
+  title: 骨软化症与佝偻病概述
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 骨软化症（成人）和佝偻病（儿童）是骨矿化障碍。
+  - 常见病因包括维生素D缺乏、低血磷、慢性酸中毒。
+  pdf_page: 203
+- id: OSTEOMAL_SYMP
+  title: 骨软化症症状与诊断
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状包括骨痛、假骨折、长骨弯曲、牙齿畸形。
+  - 诊断需结合血钙、磷、碱性磷酸酶和25羟维生素D水平。
+  pdf_page: 203
+- id: OSTEOMAL_TREAT
+  title: 骨软化症治疗原则
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 治疗需针对病因，补充维生素D、钙、磷。
+  - 停用有害药物（如抗癫痫药）可改善病情。
+  pdf_page: 205
+- id: RENAL_OSTEO
+  title: 肾性骨营养不良症
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾性骨病常见于终末期肾病或透析患者。
+  - 表现为骨痛、骨折，与血磷升高和维生素D缺乏有关。
+  pdf_page: 205
+- id: RENAL_TREAT
+  title: 肾性骨病治疗
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 治疗包括活性维生素D、钙剂、磷结合剂和西那卡塞。
+  - 需明确病因，早期治疗可预防骨痛和骨折。
+  pdf_page: 205
+- id: GENETIC_BONE
+  title: 遗传性骨病概述
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 成骨不全由胶原基因突变导致，骨脆性增加。
+  - 低磷酸酶症表现为骨去矿化，血碱性磷酸酶极低。
+  pdf_page: 205
+- id: INFILTR_BONE
+  title: 浸润性骨病
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多发性骨髓瘤、白血病等可导致广泛骨量减少。
+  - 遇到意外骨质疏松时需考虑这些疾病。
+  pdf_page: 205
+- id: TRANSPLANT_BONE
+  title: 移植相关性骨病
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 器官移植前后常出现严重骨质疏松。
+  - 原因包括免疫抑制剂和原发器官衰竭。
+  pdf_page: 206
+- id: BM_METABOLIC_EXERCISE
+  title: 代谢性骨病与体力活动
+  source_page: 817
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 体力活动不足和营养不良可促进骨骼去矿化，增加代谢性骨病和骨折风险
+  - 终末期肺、心脏或肾脏疾病患者因活动减少，骨量丢失风险显著升高
+  - 在病情允许时维持适量体力活动有助于延缓骨量丢失
+  pdf_page: 206

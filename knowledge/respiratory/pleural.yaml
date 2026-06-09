@@ -1,0 +1,50 @@
+specialty: respiratory
+specialty_zh: 呼吸系统
+disease: pleural
+disease_zh: 胸膜疾病（胸腔积液、气胸、胸膜炎）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PLEURAL_EFFUSION_CLASSIFICATION
+  title: 胸腔积液的渗出液与漏出液鉴别（Light标准）
+  source_page: 262
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Light标准判定渗出液（满足任意一条）：①胸液蛋白/血清蛋白>0.5；②胸液LDH/血清LDH>0.6；③胸液LDH>血清LDH正常上限的2/3。
+  - 漏出液最常见原因：充血性心力衰竭（最多见）、肝硬化、肾病综合征。
+  - 渗出液最常见原因：肺炎旁积液/脓胸、恶性积液（肺癌最常见，其次乳腺癌、淋巴瘤）、结核性积液。
+  - 恶性积液是第二常见的渗出液原因，预后差。
+  pdf_page: 283
+
+- id: PARAPNEUMONIC_EFFUSION
+  title: 肺炎旁积液与脓胸的处理
+  source_page: 263
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肺炎旁积液分为单纯性（可自行吸收）和复杂性（需要引流）。
+  - 复杂性肺炎旁积液需要引流的指征：胸液pH<7.2（最重要）、葡萄糖<40mg/dl、革兰氏染色阳性、或分隔/包裹积液。
+  - 结核性积液：腺苷脱氨酶（ADA）>50 U/L高度提示结核；胸液以淋巴细胞为主。
+  pdf_page: 283
+
+- id: PNEUMOTHORAX
+  title: 气胸的诊断与处理
+  source_page: 265
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 自发性气胸：多见于高大瘦长的年轻男性（原发性）；继发于COPD、肺大疱等基础疾病（继发性）。
+  - 张力性气胸：气体只进不出导致纵隔移位、静脉回流受阻、心排量下降，是医疗急症——立即减压处理，无需等待胸片。
+  - 小的气胸（<20%肺容积）可观察等待；较大气胸或有症状者需穿刺抽气或胸腔引流。
+  pdf_page: 285
+
+- id: PLEURAL_TUMORS
+  title: 胸膜肿瘤与纵隔疾病
+  source_page: 266
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 间皮瘤（mesothelioma）：多见于>55岁，与石棉暴露密切相关；预后极差，确诊后中位生存期约1年。
+  - 纵隔肿块位置提示诊断：前纵隔（胸腺瘤/生殖细胞肿瘤/淋巴瘤）；中纵隔（淋巴结/主动脉异常）；后纵隔（神经源性肿瘤/食管来源）。
+  - 胸腺瘤患者中约1/3合并重症肌无力。
+  pdf_page: 266

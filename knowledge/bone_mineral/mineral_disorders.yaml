@@ -1,0 +1,157 @@
+specialty: bone_mineral
+specialty_zh: bone_mineral
+disease: mineral_disorders
+disease_zh: mineral_disorders
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HYPERCAL_SYMPTOMS
+  title: 高钙血症的症状
+  source_page: 802
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 高钙血症可能导致乏力、便秘、意识模糊甚至昏迷。
+  - 血钙高于13mg/dl时通常会出现明显症状。
+  - 老年人或服用镇静剂者，血钙轻度升高也可能引发严重症状。
+  pdf_page: 191
+- id: HYPERCAL_CAUSES
+  title: 高钙血症的常见病因
+  source_page: 802
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 住院患者高钙血症最常见原因是恶性肿瘤。
+  - 门诊患者最常见原因是原发性甲状旁腺功能亢进。
+  - 其他原因包括肉芽肿病、药物、制动和乳碱综合征。
+  pdf_page: 191
+- id: HYPERCAL_TREATMENT
+  title: 高钙血症的治疗原则
+  source_page: 804
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 轻度甲旁亢且无并发症者可观察，不需治疗。
+  - 容量不足时需补充生理盐水并加用利尿剂。
+  - 骨吸收增加时可用双膦酸盐抑制骨吸收。
+  - 药物引起的高钙血症应停用相关药物。
+  pdf_page: 193
+- id: HYPOCAL_SYMPTOMS
+  title: 低钙血症的症状
+  source_page: 804
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 低钙血症可导致手足抽搐、口周麻木和肌肉痉挛。
+  - 陶瑟征和面神经征是医生检查时的典型体征。
+  - 心电图可能出现QTc间期延长。
+  pdf_page: 193
+- id: HYPOCAL_CAUSES
+  title: 低钙血症的常见病因
+  source_page: 805
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 最常见原因是甲状旁腺功能减退，多因手术或自身免疫病。
+  - 维生素D缺乏或吸收不良也可导致低钙血症。
+  - 慢性肾衰竭和某些药物（如利尿剂）也可能引起。
+  pdf_page: 194
+- id: HYPOCAL_TREATMENT
+  title: 低钙血症的治疗原则
+  source_page: 805
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲旁减患者需补充大剂量钙剂（每日可达6-8克）。
+  - 必要时加用活性维生素D（如骨化三醇）。
+  - 治疗期间需监测尿钙，以防肾结石。
+  pdf_page: 194
+- id: PHPT_DIAGNOSIS
+  title: 原发性甲旁亢的诊断
+  source_page: 803
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 诊断依据为血钙升高同时血PTH水平升高。
+  - 典型表现包括低血磷、高尿钙和肾结石。
+  - 部分患者骨密度下降，可发展为纤维囊性骨炎。
+  pdf_page: 192
+- id: PHPT_TREATMENT
+  title: 原发性甲旁亢的治疗选择
+  source_page: 803
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 有肾结石、骨量减低或血钙明显升高者需手术。
+  - 无法手术者可选用双膦酸盐或西那卡塞控制血钙。
+  - 轻度患者可定期监测，无需立即治疗。
+  pdf_page: 192
+- id: FHH_DIAGNOSIS
+  title: 家族性低尿钙性高钙血症
+  source_page: 803
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 这是一种遗传病，通常无症状，血钙轻度升高。
+  - 尿钙低是区别于甲旁亢的关键特征。
+  - 正确诊断可避免不必要的手术。
+  pdf_page: 192
+- id: GRANULOMA_HYPERCAL
+  title: 肉芽肿病引起的高钙血症
+  source_page: 803
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 结节病、结核等肉芽肿病可导致高钙血症。
+  - 治疗需控制原发病，限制钙和维生素D摄入。
+  - 严重高钙血症可用糖皮质激素治疗。
+  pdf_page: 192
+- id: DRUG_HYPERCAL
+  title: 药物引起的高钙血症
+  source_page: 804
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 噻嗪类利尿剂、锂剂、维生素D过量可致高钙血症。
+  - 乳碱综合征因大量摄入钙剂和抗酸剂引起。
+  - 停用相关药物后血钙通常可恢复正常。
+  pdf_page: 193
+- id: IMMOBILIZATION_HYPERCAL
+  title: 制动引起的高钙血症
+  source_page: 804
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 长期卧床或瘫痪可导致骨钙流失和高钙血症。
+  - 主动负重锻炼和补水是有效治疗措施。
+  - 严重时需用双膦酸盐抑制骨吸收。
+  pdf_page: 193
+- id: RENAL_HYPERCAL
+  title: 肾衰竭相关的高钙血症
+  source_page: 804
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 慢性肾衰竭患者使用含钙药物或维生素D可致高钙血症。
+  - 需监测血钙水平，调整药物剂量。
+  - 急性肾衰竭恢复期也可能出现高钙血症。
+  pdf_page: 193
+- id: HYPOPARATHYROID_TREAT
+  title: 甲旁减的长期管理
+  source_page: 805
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 需长期补充钙剂和活性维生素D。
+  - 定期监测血钙和尿钙，预防肾结石。
+  - 避免高磷饮食，以防钙磷乘积升高。
+  pdf_page: 194
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 802
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 出现严重乏力、意识模糊或抽搐时需立即就医。
+  - 已知有高钙或低钙风险者应定期复查血钙。
+  - 肾结石、骨痛或不明原因骨折需排查钙代谢异常。
+  pdf_page: 191

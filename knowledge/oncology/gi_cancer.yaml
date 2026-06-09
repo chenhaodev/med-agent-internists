@@ -1,0 +1,145 @@
+specialty: oncology
+specialty_zh: oncology
+disease: gi_cancer
+disease_zh: gi_cancer
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: GI_CANCER_RISK
+  title: 胃肠肿瘤风险因素
+  source_page: 645
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟和饮酒增加食管鳞癌风险。
+  - 肥胖、反流病和代谢综合征增加食管腺癌风险。
+  - 幽门螺杆菌感染与胃癌相关，注意卫生可降低风险。
+  - 慢性胰腺炎和吸烟是胰腺癌危险因素。
+  - 肝硬化、乙肝和丙肝是肝癌主要风险。
+  - 高脂红肉饮食、低纤维和肥胖增加结直肠癌风险。
+  - HPV感染与肛管癌密切相关，接种疫苗可预防。
+  pdf_page: 35
+- id: GI_CANCER_SYMPTOMS
+  title: 常见症状与警示
+  source_page: 645
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吞咽困难是食管癌主要症状，需及时就医。
+  - 胃癌三联征：贫血、厌食、衰弱。
+  - 无痛性黄疸和背痛提示胰胆管癌。
+  - 便血和排便习惯改变是结直肠癌典型症状。
+  - 肛周瘙痒、疼痛或肿块感需警惕肛管癌。
+  - 新发糖尿病（无肥胖原因）可能提示胰腺癌。
+  pdf_page: 35
+- id: GI_CANCER_DIAGNOSIS
+  title: 诊断方法概述
+  source_page: 645
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 内镜加活检是食管、胃和结直肠癌确诊金标准。
+  - 增强CT用于评估肿瘤是否转移。
+  - 肝癌可通过甲胎蛋白和影像学诊断，不一定活检。
+  - 内镜超声可评估肿瘤侵犯深度和淋巴结。
+  - 结肠镜可切除息肉，预防结直肠癌。
+  pdf_page: 35
+- id: ESOPHAGEAL_CA_TREATMENT
+  title: 食管癌治疗原则
+  source_page: 645
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期食管癌首选手术切除，可治愈。
+  - 局部晚期需化疗、放疗和手术联合治疗。
+  - 晚期以化疗为主，可加靶向药（如曲妥珠单抗）。
+  - 吞咽困难可局部放疗或放置饲管缓解。
+  pdf_page: 35
+- id: GASTRIC_CA_TREATMENT
+  title: 胃癌治疗要点
+  source_page: 646
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 手术是治疗非转移性胃癌的基石。
+  - 局部晚期可围术期化疗或术后放化疗。
+  - 转移性胃癌可用姑息化疗延长生存。
+  - HER2阳性患者可加用曲妥珠单抗。
+  pdf_page: 36
+- id: PANCREATIC_CA_TREATMENT
+  title: 胰胆管癌治疗
+  source_page: 647
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 胰胆管癌难治，手术切除率低。
+  - 化疗（如吉西他滨联合方案）可改善生存。
+  - 疼痛可用阿片类药物或腹腔神经丛阻断。
+  - 黄疸可放置胆道支架或经皮引流。
+  - 厌食可用食欲刺激剂，消化不良补充胰酶。
+  pdf_page: 37
+- id: HCC_TREATMENT
+  title: 肝癌治疗选择
+  source_page: 647
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 小肝癌可手术切除或肝移植，5年生存率约50%。
+  - 肝移植需符合米兰标准（肿瘤大小和数量限制）。
+  - 不适合手术者可射频消融或化疗栓塞。
+  - 晚期肝癌可用索拉非尼靶向治疗。
+  pdf_page: 37
+- id: COLORECTAL_CA_TREATMENT
+  title: 结直肠癌治疗
+  source_page: 649
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期结直肠癌手术可治愈，5年生存率50%-95%。
+  - Ⅲ期术后需辅助化疗（氟嘧啶+奥沙利铂）。
+  - 直肠癌术前放化疗可降低复发。
+  - 转移性结直肠癌可用化疗加靶向药（如贝伐单抗）。
+  - 治疗后需定期复查CT和癌胚抗原。
+  pdf_page: 39
+- id: ANAL_CA_TREATMENT
+  title: 肛管癌治疗
+  source_page: 649
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肛管癌多数可放化疗治愈，避免手术造口。
+  - 早期小病变可完全切除。
+  - HPV疫苗可预防肛管癌。
+  pdf_page: 39
+- id: GI_CANCER_NUTRITION
+  title: 营养与生活方式管理
+  source_page: 645
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 胃肠肿瘤患者易营养不良，需保证充足营养。
+  - 结直肠癌患者减少红肉和脂肪，增加蔬果纤维。
+  - 增加运动、补充叶酸和阿司匹林可能降低风险。
+  - 戒烟限酒可降低多种胃肠癌风险。
+  pdf_page: 35
+- id: GI_CANCER_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 645
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现吞咽困难、便血、黄疸或不明原因体重减轻。
+  - 新发糖尿病或贫血需排查胰腺癌或胃癌。
+  - 有胃肠癌家族史应定期筛查。
+  - 肛周病变不愈合需警惕肛管癌。
+  pdf_page: 35
+- id: GI_CANCER_SCREENING
+  title: 筛查建议
+  source_page: 649
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 结直肠癌筛查包括粪便潜血、结肠镜等。
+  - 结肠镜可切除息肉，预防癌症。
+  - 肝癌高危人群（肝硬化）定期查甲胎蛋白和超声。
+  - 胃癌高发地区（如日本）推荐内镜筛查。
+  pdf_page: 39

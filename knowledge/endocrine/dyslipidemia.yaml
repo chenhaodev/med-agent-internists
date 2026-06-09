@@ -1,0 +1,105 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: dyslipidemia
+disease_zh: 血脂异常
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LIPID_DEF
+  title: 血脂异常定义与患病率
+  source_page: 743
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血脂异常指血液中胆固醇或甘油三酯水平异常，约20%的成年人患病。
+  - 冠心病患者中约70%伴有血脂异常，治疗可降低死亡风险。
+  pdf_page: 133
+- id: LIPID_RISK
+  title: 血脂异常的危险因素
+  source_page: 745
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传因素如家族性高胆固醇血症可导致血脂异常。
+  - 糖尿病、肥胖、甲状腺功能减退等疾病可继发血脂异常。
+  - 不良生活方式如高脂饮食、缺乏运动也会增加风险。
+  pdf_page: 135
+- id: LIPID_DIAG
+  title: 血脂异常的诊断标准
+  source_page: 746
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 诊断需空腹10小时后抽血，检测总胆固醇、甘油三酯和脂蛋白。
+  - 异常值需两次不同日检测确认，总胆固醇>200mg/dl或HDL<40mg/dl需复查。
+  - 男性35岁、女性45岁后建议常规筛查血脂。
+  pdf_page: 136
+- id: LIPID_SCREEN
+  title: 血脂筛查建议
+  source_page: 746
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 20岁起应检查空腹血脂，每5年复查一次。
+  - 有冠心病、糖尿病或家族史者需每年复查血脂。
+  - 吸烟、高血压、低HDL也是增加筛查频率的因素。
+  pdf_page: 136
+- id: LIPID_DIET
+  title: 生活方式调整建议
+  source_page: 747
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 减少饱和脂肪摄入（如肥肉、黄油），总脂肪占热量25%-35%。
+  - 每日胆固醇摄入低于200mg，多吃燕麦、豆类等可溶性纤维。
+  - 用不饱和脂肪（如橄榄油、鱼油）替代饱和脂肪，避免反式脂肪。
+  pdf_page: 137
+- id: LIPID_MED
+  title: 药物治疗原则
+  source_page: 747
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 生活方式调整后血脂仍不达标，需在医生指导下用药。
+  - 他汀类药物是首选，可降低LDL胆固醇20%-60%。
+  - 服药后1-2个月复查疗效，最大剂量仍不达标可联合其他药物。
+  pdf_page: 137
+- id: LIPID_TG
+  title: 高甘油三酯管理
+  source_page: 747
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 甘油三酯>200mg/dl为异常，需饮食和运动干预。
+  - 若>500mg/dl，需用贝特类或鱼油药物预防胰腺炎。
+  - 甘油三酯<500mg/dl时，他汀类药物仍为一线治疗。
+  pdf_page: 137
+- id: LIPID_HDL
+  title: 低HDL胆固醇管理
+  source_page: 747
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - HDL<40mg/dl增加冠心病风险，每下降5mg/dl风险上升。
+  - 改善生活方式如减少饱和脂肪、戒烟可提升HDL。
+  - 烟酸或贝特类药物可提升HDL，但目标值尚无明确推荐。
+  pdf_page: 137
+- id: LIPID_COMP
+  title: 并发症预防
+  source_page: 745
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高LDL胆固醇可导致动脉粥样硬化斑块，引发冠心病。
+  - 严重高甘油三酯（>1000mg/dl）可诱发胰腺炎，需紧急处理。
+  - 控制血脂可降低心肌梗死和脑卒中的风险。
+  pdf_page: 135
+- id: LIPID_WHEN
+  title: 何时就医
+  source_page: 746
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现黄色瘤（皮肤或眼睑黄色斑块）或角膜环需查血脂。
+  - 有冠心病、糖尿病或家族性高脂血症者应定期就医。
+  - 服用降脂药后出现肌肉疼痛或无力需立即联系医生。
+  pdf_page: 136

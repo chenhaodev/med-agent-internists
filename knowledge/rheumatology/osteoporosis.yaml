@@ -1,0 +1,151 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: osteoporosis
+disease_zh: 骨质疏松症
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: OSTEO_DEF
+  title: 骨质疏松症定义
+  source_page: 818
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 骨质疏松是骨强度下降导致骨折风险增加的疾病。
+  - 骨强度包括骨密度和骨质量两方面。
+  pdf_page: 207
+- id: OSTEO_EPID
+  title: 流行病学数据
+  source_page: 819
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 50岁以上女性患病率约50%，男性约25%。
+  - 每年美国约200万人发生骨质疏松性骨折。
+  - 髋部骨折后1年内死亡率超过20%。
+  pdf_page: 208
+- id: OSTEO_RISK
+  title: 危险因素
+  source_page: 819
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 遗传、性别、年龄是主要因素，女性绝经后骨量丢失加速。
+  - 糖皮质激素、抗癫痫药等药物可导致骨量丢失。
+  - 跌倒风险因素包括视力减退、肌肉无力、平衡差等。
+  pdf_page: 208
+- id: OSTEO_SYMP
+  title: 临床表现
+  source_page: 819
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 骨折前通常无症状，被称为“寂静”的疾病。
+  - 椎体骨折可导致背痛、身高变矮、驼背。
+  - 髋部骨折多由跌倒引起，恢复困难。
+  pdf_page: 208
+- id: OSTEO_DIAG
+  title: 诊断标准
+  source_page: 820
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 骨密度T值≤-2.5诊断为骨质疏松。
+  - 骨密度T值在-1.0至-2.5之间为骨量低下。
+  - 诊断需通过双能X线吸收法（DEXA）测量。
+  pdf_page: 209
+- id: OSTEO_SCREEN
+  title: 筛查建议
+  source_page: 821
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 65岁以上女性应进行骨密度筛查。
+  - 70岁以上男性建议进行骨密度筛查。
+  - 有骨折史或使用激素者应提前筛查。
+  pdf_page: 210
+- id: OSTEO_FRAX
+  title: 骨折风险评估工具
+  source_page: 821
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - FRAX工具可预测10年内骨折风险。
+  - 需结合年龄、性别、骨密度、吸烟等因素。
+  - 用于治疗前评估，帮助制定预防方案。
+  pdf_page: 210
+- id: OSTEO_LAB
+  title: 实验室检查
+  source_page: 822
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 需查血钙、维生素D、碱性磷酸酶等。
+  - 男性应检测睾酮水平。
+  - 排除继发性骨质疏松病因。
+  pdf_page: 211
+- id: OSTEO_PREV
+  title: 预防措施
+  source_page: 823
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每日钙摄入1200毫克，可通过饮食或补充剂。
+  - 维生素D对钙吸收和防跌倒很重要。
+  - 规律运动如步行、力量训练可增强骨密度。
+  - 预防跌倒：改善照明、清除障碍、使用扶手。
+  pdf_page: 212
+- id: OSTEO_MED
+  title: 药物管理注意事项
+  source_page: 823
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 双膦酸盐是常用药物，需遵医嘱服用。
+  - 长期使用双膦酸盐（>5年）可能增加非典型骨折风险。
+  - 药物假期需在医生指导下进行。
+  - 不自行停药或调整剂量。
+  pdf_page: 212
+- id: BISPHOSPHONATE_ADMIN
+  title: 口服双膦酸盐正确服用方法
+  source_page: 825
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 口服双膦酸盐（阿仑膦酸钠、利塞膦酸钠等）必须在清晨空腹时随一满杯水（约200ml）服下
+  - 服药后30分钟（阿仑膦酸钠/利塞膦酸钠）或60分钟（伊班膦酸钠）内不可进餐，且不可仰卧，须保持直立（站立或坐姿）以防食管损伤
+  - 不可与钙剂、牛奶或其他药物同服，以免影响吸收
+  - 潜在副作用包括上消化道反应、烧心和食管炎，若服药后出现吞咽困难或胸痛应就医
+  must_warn:
+  - 服药后30-60分钟内卧倒可引起食管炎甚至食管溃疡，需严格保持直立
+  - 肾功能不全（eGFR<30ml/min）是口服双膦酸盐的禁忌证，用药前需告知医生
+  pdf_page: 214
+- id: OSTEO_COMP
+  title: 并发症预防
+  source_page: 819
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 髋部骨折后死亡率高，需积极预防跌倒。
+  - 椎体骨折可导致慢性背痛和畸形。
+  - 定期复查骨密度，监测治疗效果。
+  pdf_page: 208
+- id: OSTEO_WHEN
+  title: 何时就医
+  source_page: 819
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现不明原因背痛、身高变矮、驼背时就医。
+  - 跌倒后出现髋部或大腿疼痛需立即就医。
+  - 长期使用激素或抗癫痫药者应定期评估骨密度。
+  pdf_page: 208
+- id: RHE_OSTEO_LIFESTYLE
+  title: 骨质疏松生活方式管理
+  source_page: 823
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 充足的钙和维生素D摄入、适量体力活动及预防跌倒是骨质疏松患者的基础管理措施
+  - 负重运动（如步行、太极、力量训练）可维持骨密度并改善平衡功能，降低跌倒骨折风险
+  - 戒烟、限酒（主动和被动吸烟均有害骨骼），以及减少引起骨量丢失的药物（如激素）使用
+  pdf_page: 212

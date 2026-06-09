@@ -1,0 +1,102 @@
+specialty: oncology
+specialty_zh: oncology
+disease: tumor_complications
+disease_zh: tumor_complications
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: TUMOR_THROMBOSIS
+  title: 肿瘤相关性血栓形成
+  source_page: 665
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肿瘤患者血栓风险高，是死亡第二大原因，需警惕。
+  - 注意呼吸困难、肢体肿胀等症状，及时就医。
+  - 住院患者可预防性使用抗凝药物，如低分子量肝素。
+  - 已发生血栓者首选低分子量肝素治疗，优于华法林。
+  - 避免使用促红细胞生成因子，增加血栓风险。
+  pdf_page: 55
+- id: SPINAL_CORD_COMPRESSION
+  title: 脊髓压迫症
+  source_page: 666
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 新发背痛需高度怀疑脊髓压迫，尽快做MRI检查。
+  - 运动无力、感觉异常是严重标志，需紧急处理。
+  - 治疗包括糖皮质激素、放疗和手术减压。
+  - 早期治疗可提高行走能力恢复机会。
+  - Valsalva动作（如用力排便）会加重背痛。
+  pdf_page: 56
+- id: SUPERIOR_VENA_CAVA_SYNDROME
+  title: 上腔静脉综合征
+  source_page: 666
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 呼吸困难、面部肿胀是常见症状，仰卧时加重。
+  - 胸部增强CT是确诊首选检查。
+  - 治疗以缓解症状为主，包括抬高头部和利尿。
+  - 化疗或放疗取决于原发肿瘤类型。
+  - 严重症状可考虑血管内支架置入。
+  pdf_page: 56
+- id: HYPERCALCEMIA
+  title: 高钙血症
+  source_page: 667
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高钙血症早期症状包括便秘、恶心、多饮多尿。
+  - 精神状态改变是常见表现，需立即处理。
+  - 治疗首先停用钙剂和维生素D，积极补液。
+  - 双膦酸盐（如唑来膦酸）是首选药物。
+  - 严重高钙血症可短期使用降钙素快速降钙。
+  pdf_page: 57
+- id: FEBRILE_NEUTROPENIA
+  title: 发热性中性粒细胞减少症
+  source_page: 667
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 化疗后发热（≥38℃）伴白细胞低需立即就医。
+  - 经验性广谱抗生素治疗是关键，不能等待培养结果。
+  - 低风险患者可在门诊治疗，但需医生评估。
+  - 预防性使用粒细胞集落刺激因子可降低风险。
+  - 长期白细胞低需警惕真菌感染。
+  pdf_page: 57
+- id: CHEMO_NAUSEA_VOMITING
+  title: 化疗引起的恶心呕吐
+  source_page: 668
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 预防恶心呕吐比治疗更重要，需提前用药。
+  - 高度致吐化疗需联合使用多种止吐药。
+  - 延迟性恶心在化疗后2-5天出现，需持续管理。
+  - 年轻女性和焦虑患者风险更高。
+  - 预期性恶心可通过控制首次症状预防。
+  pdf_page: 58
+- id: SKIN_TOXICITY
+  title: 皮肤毒性
+  source_page: 668
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 靶向药可引起痤疮样皮疹，需局部类固醇治疗。
+  - 手足综合征表现为手掌足底红肿疼痛。
+  - 防晒霜和润肤露可预防皮肤反应。
+  - 严重皮疹需暂停用药或减量。
+  - 避免长时间站立或行走以减轻足底症状。
+  pdf_page: 58
+- id: TUMOR_LYSIS_SYNDROME
+  title: 肿瘤溶解综合征
+  source_page: 669
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高增殖肿瘤化疗后易发生，需预防。
+  - 积极水化是预防关键，持续至肿瘤负荷减小。
+  - 监测血尿酸、钾、磷、钙水平。
+  - 高风险患者可用别嘌醇或拉布立酶预防。
+  - 出现高尿酸血症和肾损伤需紧急处理。
+  pdf_page: 59

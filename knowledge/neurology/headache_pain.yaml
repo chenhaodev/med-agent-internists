@@ -1,0 +1,109 @@
+specialty: neurology
+specialty_zh: neurology
+disease: headache_pain
+disease_zh: headache_pain
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HEADACHE_CLASSIFICATION
+  title: 头痛分类概述
+  source_page: 1085
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 头痛分为原发性、继发性和脑神经痛三类，需明确诊断。
+  - 原发性头痛包括偏头痛、紧张性头痛等，继发性头痛由其他疾病引起。
+  pdf_page: 473
+- id: MIGRAINE_DEFINITION
+  title: 偏头痛定义与特点
+  source_page: 1085
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偏头痛是发作性神经系统疾病，1/3患者有先兆（如闪光暗点）。
+  - 女性患病率18%，男性6%，常见于青春期和成年早期。
+  pdf_page: 473
+- id: MIGRAINE_SYMPTOMS
+  title: 偏头痛症状识别
+  source_page: 1086
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛常为搏动性、单侧额颞部，伴恶心、呕吐、畏光、畏声。
+  - 先兆持续5-20分钟，不超过60分钟，需与癫痫或TIA鉴别。
+  pdf_page: 474
+- id: MIGRAINE_TRIGGERS
+  title: 偏头痛诱因管理
+  source_page: 1086
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 记录头痛日记，识别食物、压力、睡眠不足、月经等诱因。
+  - 避免已知诱因，如酒精、咖啡因、强光或噪声。
+  pdf_page: 474
+- id: MIGRAINE_ACUTE_TREATMENT
+  title: 偏头痛急性期治疗
+  source_page: 1087
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻中度发作可用对乙酰氨基酚、阿司匹林或非甾体抗炎药。
+  - 重度发作需就医，可能使用曲普坦类药物或止吐药。
+  - 避免过度使用止痛药，以防药物过度使用性头痛。
+  pdf_page: 475
+- id: MIGRAINE_PREVENTION
+  title: 偏头痛预防治疗
+  source_page: 1088
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每月发作≥4次时考虑预防用药，如β受体阻滞剂或抗癫痫药。
+  - 预防药物需足量足疗程，目标减少头痛频率50%以上。
+  - 补充镁、核黄素（维生素B2）可能对部分患者有效。
+  pdf_page: 476
+- id: CLUSTER_HEADACHE
+  title: 丛集性头痛特点
+  source_page: 1088
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛剧烈、单侧，伴鼻塞、流泪、面部出汗，男性多见。
+  - 常于入睡后2-3小时发作，持续约1小时，数周内丛集出现。
+  pdf_page: 476
+- id: CLUSTER_TREATMENT
+  title: 丛集性头痛治疗
+  source_page: 1088
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性发作时面罩吸氧（7-10L/min，15分钟）可缓解。
+  - 预防用药包括锂剂、维拉帕米等，需医生指导。
+  pdf_page: 476
+- id: TENSION_HEADACHE
+  title: 紧张性头痛管理
+  source_page: 1088
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛为压迫感或钳夹感，常伴颈部不适，无先兆。
+  - 低剂量三环类抗抑郁药（如阿米替林）可预防。
+  - 放松、按摩、物理治疗或针灸可能有助于缓解。
+  pdf_page: 476
+- id: RED_FLAGS_HEADACHE
+  title: 头痛危险信号
+  source_page: 1089
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 突发剧烈头痛（“此生最严重”）需警惕蛛网膜下腔出血。
+  - 头痛伴发热、颈强直、呕吐，可能为脑膜炎，需急诊。
+  - 头痛伴局灶症状、视盘水肿或意识改变，需排除脑肿瘤。
+  pdf_page: 477
+- id: IIH_MANAGEMENT
+  title: 特发性颅内压增高
+  source_page: 1090
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见于肥胖女性，头痛清晨或用力时加重，可伴视力障碍。
+  - 需就医检查眼底和脑脊液压力，避免失明风险。
+  pdf_page: 478

@@ -1,0 +1,118 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: hypertension
+disease_zh: 高血压
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HTN_DEFINITION
+  title: 高血压定义与分级
+  source_page: 177
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 正常血压：收缩压<120且舒张压<80 mmHg。
+  - 高血压前期：收缩压120-139或舒张压80-89 mmHg。
+  - 高血压1级：收缩压140-159或舒张压90-99 mmHg。
+  - 高血压2级：收缩压≥160或舒张压≥100 mmHg。
+  - 分级以较高值为准，需多次测量确认。
+  pdf_page: 198
+- id: HTN_MEASUREMENT
+  title: 正确测量血压方法
+  source_page: 177
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 测量前静坐休息至少5分钟。
+  - 裸露上臂，袖带与心脏齐平。
+  - 使用合适尺寸袖带，肥胖者需大号。
+  - 测量前30分钟避免咖啡因和烟草。
+  - 首次就诊应测双上肢血压。
+  pdf_page: 198
+- id: HTN_HOME_MONITOR
+  title: 家庭血压监测
+  source_page: 177
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 家庭自测血压平均值应低于135/85 mmHg。
+  - 每次测量至少3次，间隔1分钟以上。
+  - 家庭监测可排除白大衣高血压。
+  - 鼓励患者参与健康管理。
+  pdf_page: 198
+- id: HTN_AMBULATORY
+  title: 动态血压监测
+  source_page: 178
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 24小时平均血压不高于130/80 mmHg。
+  - 白天平均血压正常上限135/85 mmHg。
+  - 夜间正常上限120/70 mmHg。
+  - 可发现隐匿性高血压和夜间高血压。
+  pdf_page: 199
+- id: HTN_RISK_FACTORS
+  title: 心血管危险因素
+  source_page: 178
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高血压常合并高脂血症、吸烟、糖尿病。
+  - 整体心血管风险需专业评估。
+  - 控制血压可降低心脏病和脑卒中风险。
+  pdf_page: 199
+- id: HTN_SECONDARY_CAUSES
+  title: 继发性高血压原因
+  source_page: 178
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 慢性肾病是最常见继发性高血压原因。
+  - 肾动脉狭窄多见于老年或年轻女性。
+  - 原发性醛固酮增多症常伴低血钾。
+  - 嗜铬细胞瘤有阵发性头痛、出汗。
+  - 睡眠呼吸暂停可导致高血压。
+  pdf_page: 199
+- id: HTN_LIFESTYLE
+  title: 生活方式改善
+  source_page: 181
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 减少钠摄入，教材建议将每日食盐从约10g降至6g（即6克NaCl≈2.4克Na+）；调味料、腌制品、外卖中的"隐形盐"也计入总量
+  - DASH饮食：多吃新鲜水果蔬菜（富含钾）和低脂食物，已被研究证实可以降压
+  - 减重、戒烟、限酒及规律有氧锻炼均有助于降压；具体目标由医生根据病情制定
+  - 生活方式改善是降压药物的辅助措施，不可替代药物；正在服用降压药的患者不可自行停药或减量，需遵医嘱调整
+  pdf_page: 202
+- id: HTN_MEDICATION_CLASSES
+  title: 降压药物种类
+  source_page: 181
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 常用药物包括利尿剂、β受体阻滞剂等。
+  - 不同药物有不同禁忌和副作用。
+  - 用药需遵医嘱，不可自行调整。
+  - 具体剂量由医生根据病情决定。
+  pdf_page: 202
+- id: HTN_COMPLICATIONS
+  title: 高血压并发症预防
+  source_page: 177
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 控制血压可预防心脏病和脑卒中。
+  - 长期高血压可损害肾脏功能。
+  - 定期检查心、脑、肾等靶器官。
+  - 出现症状及时就医。
+  pdf_page: 198
+- id: HTN_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 178
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 血压突然升高或控制不佳时就医。
+  - 出现头痛、心悸、出汗等症状。
+  - 药物效果不佳或副作用明显。
+  - 怀疑继发性高血压时需专科检查。
+  pdf_page: 199

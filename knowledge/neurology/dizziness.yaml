@@ -1,0 +1,146 @@
+specialty: neurology
+specialty_zh: neurology
+disease: dizziness
+disease_zh: dizziness
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: DIZ_DEF
+  title: 头晕的定义与分类
+  source_page: 1102
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 头晕是常见症状，包括眩晕、头昏、定向障碍或不平衡。
+  - 眩晕是一种运动错觉，通常有旋转感。
+  - 约30%的人曾经历令人困扰的头晕。
+  pdf_page: 490
+- id: DIZ_CAUSE
+  title: 头晕的病因来源
+  source_page: 1102
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 头晕可源于内耳、神经系统或全身性疾病。
+  - 常见外周前庭疾病包括前庭神经炎、梅尼埃病和BPPV。
+  - 中枢神经系统疾病如卒中也可引起头晕。
+  pdf_page: 490
+- id: VEST_SYS
+  title: 前庭系统基本功能
+  source_page: 1102
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 前庭系统维持平衡和移动时视觉清晰。
+  - 前庭眼反射（VOR）连接内耳和眼球运动。
+  - 前庭系统不平衡会导致眩晕和眼球震颤。
+  pdf_page: 490
+- id: NYSTAGMUS
+  title: 眼球震颤的类型与意义
+  source_page: 1103
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 眼球震颤模式可帮助判断病变位置。
+  - 垂直或旋转性眼震提示垂直半规管问题。
+  - 水平眼震提示水平半规管问题。
+  pdf_page: 491
+- id: HEAD_IMPULSE
+  title: 甩头试验的意义
+  source_page: 1102
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 甩头试验阳性提示一侧前庭功能受损。
+  - 阳性表现为头部快速转动后眼睛需重新注视目标。
+  - 此试验可在床边简单评估前庭神经功能。
+  pdf_page: 490
+- id: VEST_NEURITIS
+  title: 前庭神经炎的特征
+  source_page: 1103
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 表现为突发严重眩晕、恶心和失平衡。
+  - 由前庭神经病毒感染引起，类似贝尔麻痹。
+  - 检查可见单侧水平旋转性眼震和甩头试验阳性。
+  pdf_page: 491
+- id: MENIERE
+  title: 梅尼埃病的特征
+  source_page: 1104
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复发作眩晕，持续数小时，伴听力损害。
+  - 发作时单侧耳鸣、耳胀满感或听力下降。
+  - 低盐饮食或利尿剂可能减轻发作频率。
+  pdf_page: 492
+- id: BPPV
+  title: 良性阵发性位置性眩晕
+  source_page: 1104
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 头部运动触发短暂眩晕（<1分钟）。
+  - 常见于抬头、上床或翻身时。
+  - Dix-Hallpike试验可确诊，Epley手法复位有效。
+  pdf_page: 492
+- id: BPPV_TREAT
+  title: BPPV的手法复位治疗
+  source_page: 1104
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Epley手法复位对后半规管BPPV高度有效。
+  - 复位通过特定头位移动将耳石移出半规管。
+  - 需重复治疗直至消除眼球震颤。
+  pdf_page: 492
+- id: CNS_WARN
+  title: 中枢性头晕的警示征象
+  source_page: 1103
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现其他神经系统症状如言语或运动障碍需警惕。
+  - 眼球震颤方向随注视改变提示中枢问题。
+  - 持续向下跳动的位置性眼震需排查脑部病变。
+  pdf_page: 491
+- id: WHEN_SEEK
+  title: 何时就医
+  source_page: 1103
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性持续眩晕伴胸痛或心血管危险因素需急诊。
+  - 反复发作眩晕伴听力下降或耳鸣应就诊。
+  - 不平衡为主要症状且步态异常需排查卒中。
+  pdf_page: 491
+- id: CHRONIC_DIZ
+  title: 慢性头晕的管理
+  source_page: 1105
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 慢性头晕可通过生活方式改善如锻炼和优化睡眠。
+  - 压力控制和饮食调整可能有益。
+  - 偏头痛预防药物对部分患者有效但证据不足。
+  pdf_page: 493
+- id: MED_SIDE
+  title: 药物副作用致头晕
+  source_page: 1105
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 头晕是常见药物副作用，需检查用药清单。
+  - 抗组胺药和苯二氮䓬类可控制急性症状。
+  - 这些药物不适合长期使用。
+  pdf_page: 493
+- id: VEST_REHAB
+  title: 前庭康复治疗
+  source_page: 1105
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 前庭康复是前庭神经炎的首选治疗。
+  - 通过特定训练促进前庭代偿。
+  - 可改善平衡和减少眩晕发作。
+  pdf_page: 493

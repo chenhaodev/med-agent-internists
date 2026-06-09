@@ -1,0 +1,48 @@
+guideline_name: 中国高血压防治指南
+year: 2024
+scope:
+  - hypertension
+  - all
+
+entries:
+  - id: GL2024_TARGET
+    title: 血压控制目标（2024指南更新）
+    evidence_level: A
+    recommendation: I类推荐
+    key_points:
+      - 一般高血压患者首选目标：收缩压<130 mmHg（2024版较2018版更严格）
+      - 老年患者（65-79岁）：<140/90 mmHg；能耐受且无明显不适者降至<130/80 mmHg
+      - 高龄（≥80岁）：收缩压<150 mmHg；若耐受可降至<140 mmHg
+      - 合并糖尿病：<130/80 mmHg（同一般严格目标）
+      - 合并CKD（蛋白尿≥300mg/d）：<130/80 mmHg
+
+  - id: GL2024_LIFESTYLE
+    title: 生活方式干预（2024版更新）
+    evidence_level: A
+    recommendation: I类推荐
+    key_points:
+      - 限盐目标强化至每天<5g（国际建议），理想目标<3g
+      - 运动方案更新：有氧运动推荐每周≥150分钟中等强度或≥75分钟高强度
+      - 新增：减少久坐，每小时起来活动5分钟
+      - 地中海饮食模式证据等级上升（A级）：多蔬果、全谷物、橄榄油、鱼类
+      - 精神压力管理：纳入生活方式干预，建议规律放松练习
+
+  - id: GL2024_MEDICATION_START
+    title: 启动药物治疗时机（2024版）
+    evidence_level: A
+    recommendation: I类推荐
+    key_points:
+      - 2级高血压（≥160/100 mmHg）：确诊后即启动药物治疗，无需等待生活方式干预期
+      - 1级高血压合并心血管高风险：生活方式干预同时启动药物
+      - 1级高血压无高风险因素：先3个月生活方式干预，无效再启动药物
+      - 初始用药推荐：优先联合治疗（"一片"固定复方制剂）而非单药起步
+
+  - id: GL2024_SELFMONITORING
+    title: 家庭血压监测（HBPM）指南建议
+    evidence_level: B
+    recommendation: I类推荐
+    key_points:
+      - 家庭血压正常值：平均<135/85 mmHg（低于诊室血压阈值）
+      - 推荐频率：初始治疗或调药期每天早晚各测，稳定后每周测1-2天
+      - 晨峰高血压需特别关注：起床后1小时内收缩压升高≥35 mmHg为异常
+      - 白大衣高血压和隐性高血压的识别需要家庭血压监测确认

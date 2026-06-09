@@ -1,0 +1,121 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: pancreas
+disease_zh: pancreas
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AP_DEFINITION
+  title: 急性胰腺炎定义与发病率
+  source_page: 457
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 急性胰腺炎是胰腺的急性炎症，可能影响肺、肾等器官。
+  - 美国每年超20万人因该病住院，总体发病率约1/4000。
+- id: AP_CAUSES
+  title: 急性胰腺炎常见病因
+  source_page: 457
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 胆结石和饮酒是两大主因，分别占45%和35%。
+  - 其他病因包括高血脂、药物、创伤、感染、肿瘤等。
+  - 约10%-20%的病例病因不明。
+- id: AP_SYMPTOMS
+  title: 急性胰腺炎典型症状
+  source_page: 459
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 突发中上腹持续性剧痛，可放射至背、胸或肋部。
+  - 常伴恶心、呕吐，上腹有严重压痛和反跳痛。
+- id: AP_DIAGNOSIS
+  title: 急性胰腺炎诊断标准
+  source_page: 460
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 诊断需满足以下至少两条：典型腹痛、血淀粉酶或脂肪酶升高超3倍、影像学改变。
+  - 血脂肪酶比淀粉酶更准确，升高持续时间更长。
+  - 酶水平高低不代表病情严重程度。
+- id: AP_SEVERITY
+  title: 急性胰腺炎严重程度分级
+  source_page: 461
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 轻症最常见（80%），无器官衰竭，数日内恢复。
+  - 中度重症有一过性器官衰竭或局部并发症。
+  - 重症（15%-20%）伴持续器官衰竭超48小时，死亡率高。
+- id: AP_FLUID_MANAGEMENT
+  title: 急性胰腺炎输液管理
+  source_page: 462
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 早期充分补液可减少胰腺坏死和器官衰竭风险。
+  - 首选乳酸林格液，初始速度250-500ml/h。
+  - 避免使用生理盐水，因其可能增加并发症。
+- id: AP_ANTIBIOTICS
+  title: 急性胰腺炎抗生素使用
+  source_page: 462
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 无菌性坏死不推荐常规使用抗生素。
+  - 怀疑感染性坏死时，需根据细菌培养结果选药。
+  - 常用能穿透胰腺组织的抗生素如头孢菌素类。
+- id: AP_COMPLICATIONS
+  title: 急性胰腺炎并发症预防
+  source_page: 460
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 警惕胰周积液、假性囊肿、感染性坏死等局部并发症。
+  - 注意呼吸、肾脏、循环衰竭等全身并发症。
+  - 出现Grey Turner征或Cullen征提示出血坏死性胰腺炎。
+- id: AP_WHEN_TO_SEEK_CARE
+  title: 急性胰腺炎何时就医
+  source_page: 459
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 突发中上腹剧痛伴恶心呕吐，应立即就医。
+  - 出现呼吸困难、尿少、意识模糊等器官衰竭迹象需紧急处理。
+  - 有胆结石或酗酒史者出现腹痛更需警惕。
+- id: AP_LIFESTYLE_ALCOHOL
+  title: 酒精性胰腺炎戒酒建议
+  source_page: 458
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 饮酒是急性胰腺炎第二大病因，完全戒酒可预防复发。
+  - 慢性酗酒者中约10%会发生胰腺炎。
+  - 戒酒有助于减轻胰腺损伤和并发症风险。
+- id: AP_LIFESTYLE_SMOKING
+  title: 吸烟与胰腺炎风险
+  source_page: 458
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 吸烟是急性和慢性胰腺炎的独立危险因素。
+  - 戒烟可降低胰腺炎发病风险。
+  - 吸烟与饮酒协同作用，增加胰腺损伤。
+- id: AP_LIFESTYLE_DIET
+  title: 急性胰腺炎饮食管理
+  source_page: 462
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 急性期需禁食，通过静脉或鼻饲提供营养。
+  - 恢复期从低脂流质开始，逐步过渡到正常饮食。
+  - 避免高脂、油炸食物，减少胰腺负担。
+- id: AP_GENETIC_TESTING
+  title: 遗传性胰腺炎基因检测
+  source_page: 458
+  evidence_level: 低
+  recommendation: 可考虑
+  key_points:
+  - 不明原因胰腺炎可考虑基因检测，但需医生决定。
+  - 检测可避免不必要检查，指导家庭生育计划。
+  - 注意检测结果可能影响保险和就业。

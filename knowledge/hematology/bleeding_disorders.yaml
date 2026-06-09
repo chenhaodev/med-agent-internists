@@ -1,0 +1,81 @@
+specialty: hematology
+specialty_zh: 血液
+disease: bleeding_disorders
+disease_zh: bleeding_disorders
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: BLEEDING_EVAL
+  title: 出血评估方法
+  source_page: 585
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 详细描述出血情况（如鼻出血、月经过多、血肿）及发生时间
+  - 告知医生是否使用阿司匹林等药物或患有肝病
+  - 提供家族出血史，尤其是血友病等遗传病史
+- id: VASCULAR_PURPURA
+  title: 血管性紫癜管理
+  source_page: 588
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 老年性紫癜和类固醇引起的紫癜通常无需特殊治疗
+  - 坏血病需补充维生素C改善出血
+  - 遗传性血管疾病患者避免使用阿司匹林等加重出血的药物
+- id: THROMBOCYTOPENIA_CAUSES
+  title: 血小板减少原因
+  source_page: 589
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 血小板减少可能由生成减少、脾滞留或破坏增加引起
+  - 化疗、酒精、营养缺乏（如叶酸、维生素B12）可导致生成减少
+  - 脾大（如肝病）可导致血小板滞留
+- id: DRUG_NUTRITION_PLATELET
+  title: 药物与营养对血小板影响
+  source_page: 590
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 停用导致血小板减少的药物后，血小板计数通常可恢复
+  - 酒精和叶酸/维生素B12缺乏需戒酒并补充相应营养素
+  - 反复化疗可能导致慢性血小板减少
+- id: CONGENITAL_THROMBOCYTOPENIA
+  title: 先天性血小板减少综合征
+  source_page: 590
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 儿童血小板减少可能由遗传缺陷引起，如范科尼贫血
+  - Wiskott-Aldrich综合征伴湿疹和免疫缺陷
+  - 部分先天性血小板减少可通过造血干细胞移植治疗
+- id: SPLENIC_SEQUESTRATION
+  title: 脾滞留致血小板减少
+  source_page: 591
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脾大（如肝病、骨髓增殖性疾病）可导致血小板减少
+  - 脾切除术需权衡利弊，仅用于特定患者
+  - 治疗原发疾病（如肝移植）可改善血小板计数
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 585
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 出现不明原因瘀斑、血肿或月经过多时及时就医
+  - 出血后需输血或血液制品时立即就诊
+  - 家族有出血性疾病史者出现症状应尽早检查
+- id: ITP_CLINICAL
+  title: 免疫性血小板减少症（ITP）临床特点与危险分层
+  source_page: 591
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - ITP患者血小板计数通常<20 000/µl（通常低至1 000～2 000/µl），表现为瘀点状出血和黏膜出血（皮肤瘀斑、鼻出血、牙龈出血）；血涂片见大血小板，无其他异常细胞。
+  - 严重出血风险与血小板计数极低相关：出血性死亡在儿童急性ITP中<2%，慢性难治性ITP死亡率2%～5%，成人ITP<10%死于出血。
+  - 最严重并发症为颅内出血，红旗症状：突发剧烈头痛、呕吐、视力改变、意识改变 → 立即急诊。
+  - 治疗：儿童急性ITP可自然缓解；病情严重者使用糖皮质激素或IVIG（80%儿童急性ITP可迅速缓解）；脾切除术用于慢性药物无效患者（>70%有效）。
+  - 不可自行停用激素治疗（停药不当可导致血小板再次下降和出血风险增加）。
+  pdf_page: 610

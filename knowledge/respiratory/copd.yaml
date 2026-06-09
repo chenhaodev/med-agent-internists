@@ -1,0 +1,119 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: copd
+disease_zh: 慢性阻塞性肺疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: COPD_DEF
+  title: 慢阻肺定义与特点
+  source_page: 220
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢阻肺是一种持续气流受限的肺部疾病，通常进行性加重。
+  - 主要与吸入有害气体或颗粒（如烟草烟雾）引起的慢性炎症有关。
+  - 肺功能检查是确诊关键，用药后FEV1/FVC仍小于0.7提示阻塞。
+  pdf_page: 241
+- id: COPD_RISK
+  title: 主要危险因素
+  source_page: 221
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟是慢阻肺最重要的环境病因，包括二手烟暴露。
+  - 空气污染、职业粉尘、生物燃料烟雾也可导致慢阻肺。
+  - 少数患者有遗传因素，如α1-抗胰蛋白酶缺乏。
+  pdf_page: 242
+- id: COPD_SYMPTOM
+  title: 常见症状与体征
+  source_page: 223
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 早期症状为运动或活动后呼吸困难（运动耐量下降），逐渐加重，甚至休息时也气短。
+  - 慢性咳嗽、咳痰常见，痰量增多可能提示感染。
+  - 晚期可出现桶状胸、使用辅助呼吸肌、体重下降。
+  pdf_page: 244
+- id: COPD_DIAG
+  title: 诊断与检查
+  source_page: 220
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肺功能检查是诊断慢阻肺的核心，需在用药后评估。
+  - 胸部CT可帮助鉴别肺气肿、支气管扩张等其他疾病。
+  - 40岁以下患者出现肺气肿应检测α1-抗胰蛋白酶水平。
+  pdf_page: 241
+- id: COPD_LIFESTYLE
+  title: 生活方式管理
+  source_page: 221
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒烟是延缓肺功能下降最有效的措施，任何时候开始都有益。
+  - 避免接触烟雾、粉尘和化学刺激物，保持室内空气清洁。
+  - 适度锻炼（如步行）可改善耐力，但需避免过度劳累。
+  pdf_page: 242
+- id: COPD_MED
+  title: 药物管理注意事项
+  source_page: 225
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 支气管扩张剂是缓解症状的主要药物，需按医嘱规律使用。
+  - 吸入性糖皮质激素用于频繁加重患者，不可自行停药。
+  - α1-抗胰蛋白酶缺乏者可考虑替代治疗，需医生评估。
+  pdf_page: 246
+- id: COPD_EXACERB
+  title: 急性加重预防与处理
+  source_page: 223
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 感染是急性加重最常见诱因，注意保暖、接种流感疫苗。
+  - 出现呼吸困难加重、痰量增多或颜色改变时需及时就医。
+  - 急性加重后需数周恢复，避免过早恢复剧烈活动。
+  pdf_page: 244
+- id: COPD_COMPL
+  title: 并发症预防
+  source_page: 223
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 慢阻肺可合并睡眠呼吸暂停，加重二氧化碳潴留。
+  - 长期缺氧可能导致红细胞增多症和发绀，需监测血氧。
+  - 体重下降和肌肉消耗常见，注意营养支持和康复训练。
+  pdf_page: 244
+- id: COPD_REHAB
+  title: 肺康复与运动指导
+  source_page: 226
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 对因肺部疾病影响日常活动的患者，综合性肺康复计划可改善生活质量并减少主观呼吸困难（1级证据）
+  - 步行等适度有氧活动有助于改善运动耐量；运动强度应循序渐进，以不引起明显呼吸困难为宜
+  - 运动中若出现呼吸困难明显加重、心悸或胸痛，应立即停止并休息；如症状不缓解，及时就医
+  - 肺康复还包括营养评估，因晚期慢阻肺患者常见营养不良和肌肉消耗，需注意营养支持
+  pdf_page: 247
+- id: COPD_WHEN
+  title: 何时就医
+  source_page: 223
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 呼吸困难突然加重或休息时也气短，需立即就医。
+  - 咳嗽、咳痰加重或痰液变黄、变绿，提示感染可能。
+  - 出现意识模糊、嗜睡或嘴唇发紫，可能是呼吸衰竭征兆。
+  pdf_page: 244
+- id: COPD_EXACERB_TREAT
+  title: COPD急性加重住院治疗——抗生素与无创通气
+  source_page: 226
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性加重应包括经验性抗生素治疗，已被证明可提高治疗成功率（2级证据）；最常见细菌病原体为肺炎链球菌、流感嗜血杆菌、卡他莫拉菌。
+  - 慢阻肺急性加重导致高碳酸性呼吸衰竭时，无创正压通气（NIV）有助于减少呼吸功、缓解膈肌疲劳和减少气管插管需求（1级证据）。
+  - 住院指征：静息时呼吸困难、脓性痰增多、初始治疗无效、血氧饱和度<90%或PaCO₂>50 mmHg合并pH<7.35（呼吸衰竭）、意识改变。
+  - 急性加重使用全身性糖皮质激素（2级证据）：静脉给药后72小时过渡至口服，逐渐减量约2周。
+  - 高流量吸氧在院前慢阻肺急性加重中有害（1级证据）；应滴定氧浓度维持SpO₂ 90%～92%。
+  pdf_page: 247

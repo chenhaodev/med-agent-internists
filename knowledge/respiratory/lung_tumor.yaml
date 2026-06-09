@@ -1,0 +1,50 @@
+specialty: respiratory
+specialty_zh: 呼吸系统
+disease: lung_tumor
+disease_zh: 肺肿瘤（原发性肺癌）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LUNG_CANCER_EPIDEMIOLOGY
+  title: 肺癌流行病学与危险因素
+  source_page: 281
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肺癌是美国癌症死亡的首位原因；NSCLC（鳞癌/腺癌/大细胞癌）>80%，SCLC<20%。
+  - 吸烟：男性患肺癌风险增加23倍，女性增加13倍；被动吸烟增加20%~30%风险。
+  - 整体5年生存率约15%；SCLC局限期：中位生存15~20个月，5年生存率10%~13%；广泛期：中位8~13个月，5年1%~2%。
+  pdf_page: 302
+
+- id: LUNG_CANCER_SCREENING
+  title: 肺癌筛查——低剂量CT（LDCT）
+  source_page: 282
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - NLST（美国国家肺癌筛查试验）证实：低剂量螺旋CT（LDCT）筛查可降低肺癌死亡率20%。
+  - 筛查适应人群：55~74岁、吸烟≥30包年（现吸烟者或戒烟<15年）。
+  - 筛查目的是早期发现可切除肿瘤，改善预后。
+  pdf_page: 302
+
+- id: NSCLC_TREATMENT
+  title: 非小细胞肺癌（NSCLC）治疗原则
+  source_page: 283
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - I/II期NSCLC：外科手术切除是唯一可能治愈的方法（1B证据）。
+  - EGFR突变（多见于女性、非吸烟者、亚裔）：厄洛替尼/吉非替尼作为一线治疗，优于化疗。
+  - 不可切除III期/IV期：铂类为基础的联合化疗；靶向治疗（EGFR/ALK抑制剂）根据基因突变状态选择。
+  pdf_page: 303
+
+- id: SCLC_TREATMENT
+  title: 小细胞肺癌（SCLC）治疗原则
+  source_page: 284
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - SCLC对化疗高度敏感；标准方案：铂类（顺铂/卡铂）+依托泊苷，4~6个疗程（1A证据）。
+  - 局限期SCLC：化放疗联合；广泛期：化疗为主。
+  - 局限期化放疗后完全缓解者可予预防性颅脑照射（PCI），降低脑转移风险。
+  - 尽管初始缓解率高，几乎所有患者都会复发——SCLC预后整体差。
+  pdf_page: 284

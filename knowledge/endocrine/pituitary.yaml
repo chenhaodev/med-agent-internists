@@ -1,0 +1,41 @@
+specialty: endocrine
+specialty_zh: 内分泌系统
+disease: pituitary
+disease_zh: 垂体疾病（泌乳素瘤、肢端肥大症、垂体功能减退）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PITUITARY_TUMORS_OVERVIEW
+  title: 垂体肿瘤分类与垂体功能减退症
+  source_page: 673
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 垂体肿瘤占颅内肿瘤10%~15%；最常见类型：泌乳素瘤（40%~45%）→生长激素瘤（20%）→ACTH瘤（10%~12%）→促性腺激素瘤（15%）→无功能腺瘤→TSH瘤。
+  - 大腺瘤（≥10mm）可压迫视交叉→双颞侧偏盲（bitemporal hemianopia）；小腺瘤（<10mm）多无视野缺损。
+  - 垂体功能减退症中激素缺乏顺序：生长激素最早→FSH/LH→TSH→ACTH；替代治疗需按此顺序评估。
+  - 高泌乳素血症发病率：男性约20/100 000，女性约90/100 000，25~35岁高发。
+  pdf_page: 673
+
+- id: PROLACTINOMA_TREATMENT
+  title: 泌乳素瘤——诊断与治疗
+  source_page: 675
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 女性典型表现：月经紊乱+溢乳+不育；男性：性欲减退+勃起功能障碍（LH/FSH受抑）；大腺瘤可引起头痛、视野改变。
+  - 诊断：单次血清泌乳素高于正常上限即可；水平>250ng/ml通常提示泌乳素瘤（血清水平与肿瘤体积相关）。
+  - 首选治疗：多巴胺激动剂——卡麦角林（cabergoline）或溴隐亭（bromocriptine）；>80%患者泌乳素恢复正常、肿瘤缩小和性腺功能恢复。
+  - 无症状的微泌乳素瘤不需要治疗；大腺瘤引起视力/视野改变时多巴胺激动剂也作为初始治疗（有效快）。
+  - 停药条件：维持正常泌乳素水平≥2年且无肉眼可见残余肿瘤→可安全停药；停药后复发风险26%~69%。
+  pdf_page: 675
+
+- id: ACROMEGALY_CUSHING_DISEASE
+  title: 肢端肥大症与库欣病
+  source_page: 677
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肢端肥大症：GH分泌亢进（几乎均为GH瘤）→手足肥大、凸颌、咬合不良、腕管综合征；诊断：血清IGF-1升高（筛查），OGTT不能抑制GH<1ng/ml（确诊）；70%为大腺瘤。
+  - 肢端肥大症治疗：经蝶窦手术为主（微腺瘤治愈率75%~95%）；辅助药物：生长抑素受体配体（奥曲肽/兰瑞肽）使40%~65%患者GH/IGF-1正常化；培维索孟（GH受体拮抗剂）使97%患者IGF-1正常。
+  - 库欣病（垂体ACTH瘤）：诊断三步：①确认高皮质醇血症（24h尿游离皮质醇UFC>50µg/24h，或过夜1mg地塞米松抑制试验不抑制）；②定位ACTH来源（血浆ACTH）；③鉴别垂体vs异位（大剂量DST/双侧岩下窦取血IPSS）。
+  pdf_page: 677

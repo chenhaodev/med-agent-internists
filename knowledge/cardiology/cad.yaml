@@ -1,0 +1,131 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: cad
+disease_zh: 冠心病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CAD_RISK_FACTORS
+  title: 冠心病危险因素
+  source_page: 92
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 不可控因素包括年龄、性别和家族史，需定期监测。
+  - 可控因素如高血脂、高血压、糖尿病、吸烟等，应积极管理。
+  - 代谢综合征（腰围大、血脂异常等）增加风险，需综合干预。
+  pdf_page: 113
+- id: CAD_SYMPTOMS
+  title: 心绞痛症状识别
+  source_page: 95
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型表现为胸骨后压迫感或紧缩感，可放射至手臂、喉部。
+  - 症状常由运动或情绪激动诱发，休息或含服硝酸甘油可缓解。
+  - 若症状持续超过20分钟，可能为心肌梗死，需立即就医。
+  pdf_page: 116
+- id: CAD_DIAGNOSIS
+  title: 诊断检查方法
+  source_page: 96
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 心电图可发现心肌缺血导致的ST段改变。
+  - 负荷试验（如运动心电图）评估心脏在应激下的反应。
+  - 超声心动图或核素显像可观察室壁运动和心肌灌注。
+  pdf_page: 117
+- id: CAD_LIFESTYLE
+  title: 生活方式管理
+  source_page: 93
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 规律有氧运动（如快走）可降低冠心病风险。
+  - 戒烟后2年内，冠心病事件风险可下降50%。
+  - 控制体重（BMI<30），减少腹型肥胖。
+  pdf_page: 114
+- id: CAD_DIET
+  title: 饮食与饮酒建议
+  source_page: 93
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 少量饮酒（每日1-2盎司）可能有益，过量则增加风险。
+  - 高脂血症患者需低脂饮食，降低低密度脂蛋白。
+  - 控制三酰甘油和胆固醇水平，保护高密度脂蛋白。
+  pdf_page: 114
+- id: CAD_MEDICATION
+  title: 药物管理注意事项
+  source_page: 96
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 稳定型心绞痛常用阿司匹林、硝酸甘油和他汀类药物。
+  - 不稳定型心绞痛需联合抗血小板药（如氯吡格雷）和肝素。
+  - 变异型心绞痛可用钙通道阻滞剂和硝酸酯类药物。
+  pdf_page: 117
+- id: CAD_COMPLICATIONS
+  title: 并发症预防
+  source_page: 94
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 控制高血压和糖尿病可减少心肌梗死风险。
+  - 定期监测血脂和血糖，预防斑块破裂。
+  - 避免情绪紧张和寒冷刺激，减少心绞痛发作。
+  pdf_page: 115
+- id: CAD_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 95
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 心绞痛发作频率增加或静息时出现，需立即就医。
+  - 症状持续超过20分钟或含服硝酸甘油无效，警惕心肌梗死。
+  - 伴有呼吸困难、出汗或恶心，提示严重缺血。
+  pdf_page: 116
+- id: CARD_CAD_EXERCISE
+  title: 冠心病与体力活动
+  source_page: 96
+  evidence_level: 高
+  recommendation: 建议
+  key_points:
+  - 体力活动是稳定型心绞痛的常见诱因，活动中出现胸痛或胸闷应立即停止活动并休息
+  - 含服硝酸甘油可在数分钟内缓解活动诱发的心绞痛，随身携带并了解正确使用方法
+  - 经治疗后症状稳定的冠心病患者在医生指导下可进行适量有氧运动
+  pdf_page: 117
+- id: CARD_CAD_REHAB
+  title: 冠心病心脏康复
+  source_page: 115
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 心肌梗死后应积极开展患者教育，使患者充分了解治疗价值及冠心病危险因素控制
+  - 心脏康复计划包括运动训练、危险因素管理（戒烟、血压、血糖、血脂控制）和心理支持
+  - 参与规范心脏康复计划可显著降低再次心肌梗死和心血管死亡风险
+  pdf_page: 136
+- id: TOBACCO_CESSATION
+  title: 戒烟辅助方法
+  source_page: 135
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒烟是减少心血管和其他疾病风险最重要的可改变生活方式因素；继续吸烟可使心肌梗死后1年内再发事件风险增加1倍
+  - 系统制订戒烟方案配合辅助药物可提高成功率：尼古丁替代疗法（贴片、口香糖）是一线非处方选择；处方药物包括伐尼克兰（varenicline，烟碱受体部分激动剂）和安非他酮
+  - 戒烟有效策略：明确一个具体的戒烟日期；告知家人/朋友以获得支持；避免诱发饮酒、聚会等可能触发吸烟欲望的场合
+  - 戒断症状（焦虑、烦躁、注意力下降、失眠）通常在戒烟后2-4周内逐渐改善；这是正常生理反应，不代表戒烟失败
+  must_warn:
+  - 伐尼克兰、安非他酮等处方戒烟药需医生开具，不可自行购买使用；有心理疾病史者使用前须告知医生
+  - 尼古丁贴片/口香糖为OTC产品，但仍应按说明书剂量使用，过量可引起恶心、心跳加速
+  pdf_page: 135
+- id: CAD_ANTIANGINAL
+  title: 稳定型心绞痛抗心绞痛药物治疗
+  source_page: 100
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 硝酸酯类药物（硝酸甘油）扩张容量静脉降低前负荷并扩张冠状动脉，舌下含服硝酸甘油对心绞痛治疗和预防起重要作用；长效制剂需设8小时空窗期以防耐药。
+  - β受体阻滞剂通过减慢心率、降低心肌收缩力和血压来减少心肌需氧量，可有效减少活动相关心绞痛发作；心动过缓、高度房室传导阻滞及严重COPD患者慎用。
+  - 钙通道阻滞剂通过扩张动脉、降低心肌收缩力减少心肌耗氧量；二氢吡啶类（如氨氯地平）主要扩张血管，维拉帕米对心率和传导影响更显著。
+  - 不稳定型心绞痛（发作频率增加、静息痛或硝酸甘油无效）是高危信号，需立即就医并联合阿司匹林、氯吡格雷及肝素积极处理。
+  - 上述抗心绞痛药物可控制慢性稳定型心绞痛症状，但不如阿司匹林或他汀类药物能降低死亡率。

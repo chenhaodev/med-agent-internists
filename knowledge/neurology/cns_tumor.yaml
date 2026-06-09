@@ -1,0 +1,113 @@
+specialty: neurology
+specialty_zh: neurology
+disease: cns_tumor
+disease_zh: cns_tumor
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CNS_TUMOR_DEF
+  title: 中枢神经系统肿瘤分类
+  source_page: 1162
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 中枢神经系统肿瘤分为原发性和转移性两类。
+  - 原发性肿瘤起源于脑或脊髓本身，转移性肿瘤由其他部位癌症扩散而来。
+  pdf_page: 550
+- id: CNS_TUMOR_RISK
+  title: 病因与危险因素
+  source_page: 1162
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 多数中枢神经系统肿瘤病因不明，电离辐射是已知的环境致病因素。
+  - 某些遗传病如神经纤维瘤病、结节性硬化症会增加患病风险，但仅占1%。
+  pdf_page: 550
+- id: CNS_TUMOR_SYMPTOMS
+  title: 常见症状
+  source_page: 1163
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 头痛、癫痫发作、人格改变、恶心呕吐是常见症状。
+  - 新发或进行性加重的头痛，尤其是夜间或晨起出现，需警惕脑肿瘤。
+  - 儿童脑肿瘤常表现为复视、共济失调、吞咽困难。
+  pdf_page: 551
+- id: CNS_TUMOR_DIAGNOSIS
+  title: 诊断方法
+  source_page: 1163
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 怀疑脑肿瘤时，首选头颅MRI增强扫描，可清晰显示病变。
+  - 如无法做MRI，可行头颅CT检查，但MRI更敏感。
+  - 病理活检是确诊肿瘤类型和分级的金标准。
+  pdf_page: 551
+- id: CNS_TUMOR_SURGERY
+  title: 手术治疗原则
+  source_page: 1164
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 除原发性中枢神经系统淋巴瘤外，手术全切是主要治疗目标。
+  - 手术可缓解症状、明确诊断，并改善预后。
+  - 单发脑转移瘤且全身状况良好者，也可考虑手术切除。
+  pdf_page: 552
+- id: CNS_TUMOR_RADIATION
+  title: 放疗应用
+  source_page: 1164
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高级别胶质瘤术后常需放疗，剂量通常为60Gy。
+  - 多发性脑转移瘤（>3个）通常采用全脑放疗。
+  - 儿童髓母细胞瘤需全脑脊髓放疗，但3岁以下儿童因毒性不推荐。
+  pdf_page: 552
+- id: CNS_TUMOR_CHEMO
+  title: 化疗与靶向治疗
+  source_page: 1164
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 胶质母细胞瘤术后常用替莫唑胺化疗，可延长生存期。
+  - 贝伐单抗可用于复发性胶质母细胞瘤，但总生存获益不明显。
+  - 间变型少突神经胶质瘤对化疗敏感，尤其1p/19q缺失者。
+  pdf_page: 552
+- id: CNS_TUMOR_EDEMA
+  title: 脑水肿管理
+  source_page: 1165
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 地塞米松是首选激素，可快速减轻脑水肿，改善神经症状。
+  - 常用剂量为4-24mg/天，分2-4次服用，需用最低有效剂量。
+  - 严重脑水肿或脑疝时，需静脉注射地塞米松并紧急就医。
+  pdf_page: 553
+- id: CNS_TUMOR_SEIZURE
+  title: 癫痫处理
+  source_page: 1165
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 癫痫发作需积极用抗癫痫药物控制，首选非酶诱导类药物。
+  - 无癫痫发作的患者，不推荐预防性使用抗癫痫药物。
+  pdf_page: 553
+- id: CNS_TUMOR_PROGNOSIS
+  title: 预后因素
+  source_page: 1165
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 胶质母细胞瘤预后最差，中位生存期约1年。
+  - 低级别胶质瘤中位生存期约5年，但50%可能恶性转化。
+  - 脑转移瘤中位生存期3-6个月，手术联合放疗可延长至40周。
+  pdf_page: 553
+- id: CNS_TUMOR_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 1163
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 新发头痛、癫痫、人格改变或神经功能缺损时，应立即就医。
+  - 儿童出现复视、共济失调、呕吐，需警惕颅后窝肿瘤。
+  - 脑肿瘤患者出现意识障碍或脑疝症状，需紧急处理。
+  pdf_page: 551

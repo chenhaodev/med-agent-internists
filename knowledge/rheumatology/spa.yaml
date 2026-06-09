@@ -1,0 +1,41 @@
+specialty: rheumatology
+specialty_zh: 风湿免疫系统
+disease: spa
+disease_zh: 脊柱关节炎（强直性脊柱炎及相关疾病）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SPA_CLASSIFICATION
+  title: 脊柱关节炎（SpA）分类与流行病学
+  source_page: 840
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - SpA包括6个亚型：强直性脊柱炎（AS）、反应性关节炎（ReA）、银屑病关节炎（PsA）、炎症性肠病相关关节炎、幼年SpA、未分化SpA。
+  - HLA-B27与SpA密切相关：AS中90%阳性，ReA中80%阳性；但HLA-B27本身不是诊断标准，一般人群中HLA-B27阳性者只有5%发生SpA。
+  - 炎性脊柱痛特点：<40岁起病、隐匿起病、活动后改善（休息不改善）、夜间疼痛（后半夜疼醒）——与机械性腰痛鉴别。
+  - 骶髂关节炎是AS的病理基础；影像学：X线平片（晚期）→MRI更敏感（早期骨髓水肿）。
+  pdf_page: 840
+
+- id: SPA_TREATMENT
+  title: 脊柱关节炎治疗策略
+  source_page: 844
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 中轴型SpA脊柱疼痛：NSAIDs（吲哚美辛、萘普生等）为一线用药（1级证据）；活动性患者持续使用NSAIDs可能减缓放射学进展。
+  - TNF-α抑制剂（英夫利昔单抗/阿达木单抗/戈利木单抗）：对NSAIDs反应不足的患者推荐（1级证据）；对关节外受累（葡萄膜炎、炎症性肠病）也有效。
+  - 外周关节受累（如膝/踝）：柳氮磺胺吡啶/甲氨蝶呤对外周症状有效（2级证据），但对中轴病变无效。
+  - 物理治疗：脊柱伸展锻炼是长期管理的重要组成部分，维持脊柱活动度。
+  pdf_page: 841
+
+- id: SPA_COMPLICATIONS
+  title: SpA的关节外表现与并发症
+  source_page: 842
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 葡萄膜炎（前部，即虹膜睫状体炎）是最常见的关节外表现，在HLA-B27阳性患者中多见；急性发作需及时眼科就诊（滴糖皮质激素眼液）。
+  - 心脏受累：主动脉根部扩张→主动脉瓣反流（长期AS并发症）。
+  - 肺受累：肺尖纤维化（少见，晚期AS）；与结核鉴别。
+  - 脊柱骨折风险增加（骨质疏松+脊柱僵直）；竹节样改变（bamboo spine）是晚期AS X线特征。
+  pdf_page: 843

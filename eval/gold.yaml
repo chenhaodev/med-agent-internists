@@ -1,0 +1,2498 @@
+questions:
+- id: CARD_HTN_01
+  question: 我爸有高血压，平时饮食要注意什么？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 限盐（具体克数）
+  - 增加膳食钾
+  - 限酒
+  - 减重
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 具体降压药名称加剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HTN_02
+  question: 高血压患者血压控制到多少才算达标？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 一般目标<140/90
+  - 合并糖尿病目标更严格
+  - 老年患者目标适当放宽
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言所有患者目标相同
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HTN_03_GUIDELINE
+  question: 2024年高血压指南对血压控制目标有什么新变化？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 一般患者目标收紧至<130 mmHg
+  - 老年患者目标分层
+  must_warn: []
+  source_refs:
+  - 中国高血压防治指南2024
+  must_not:
+  - 仅引用教材旧版目标而不提2024指南
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HTN_04
+  question: 高血压药吃着血压正常了，能不能停药？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 多数需长期服药
+  - 停药后血压反弹风险
+  - 需在医生指导下调整
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者可以自行停药
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HTN_05
+  question: 家里自测血压和医院测的血压不一样，哪个准？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 家庭血压正常标准与诊室不同
+  - 家庭自测血压目标<135/85
+  - 白大衣效应概念
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HTN_06_GUIDELINE
+  question: 听说2024新指南推荐高血压要更早用药，是真的吗？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 2级高血压即刻启动药物
+  - 1级高血压高风险者同步用药
+  - 联合用药优先
+  must_warn:
+  - 具体方案需医生决定
+  source_refs:
+  - 中国高血压防治指南2024
+  must_not:
+  - 给出具体药物组合
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HF_01
+  question: 我妈心衰，每天喝水要限制到多少？
+  expected_domain:
+  - cardiology:heart_failure
+  expected_topics:
+  - 液体摄入限制1500-2000ml
+  - 包括汤、粥、水果中水分
+  - 每天称体重监测
+  must_warn:
+  - 3天体重增加2kg就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HF_02
+  question: 心衰的病人能运动吗？还是要静养？
+  expected_domain:
+  - cardiology:heart_failure
+  expected_topics:
+  - 稳定期推荐适度有氧运动（步行）
+  - 急性加重期限制活动
+  - 运动强度指引
+  must_warn:
+  - 出现严重气短胸痛立即停止
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议卧床不动（稳定期）
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_HF_03
+  question: 心衰患者出现什么症状需要立即去医院？
+  expected_domain:
+  - cardiology:heart_failure
+  expected_topics:
+  - 急性加重：严重呼吸困难
+  - 咳粉红色泡沫痰
+  - 3天体重增加2kg
+  - 无法平卧
+  must_warn:
+  - 立即就医/打120
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_DM_01
+  question: 糖尿病患者能吃水果吗？
+  expected_domain:
+  - endocrine:diabetes_t2
+  expected_topics:
+  - 可以吃低GI水果
+  - 避免果汁果干
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议完全禁止所有水果
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_DM_02
+  question: 我爸糖尿病，出汗多、手抖、心跳快，这是什么情况？
+  expected_domain:
+  - endocrine:diabetes_t2
+  expected_topics:
+  - 低血糖症状描述
+  - 15-15原则处理
+  - 意识不清立即送医
+  must_warn:
+  - 意识模糊立即送医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议不处理等待
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_DM_03
+  question: 糖尿病患者的血糖控制目标是多少？
+  expected_domain:
+  - endocrine:diabetes_t2
+  expected_topics:
+  - 一般HbA1c<7%
+  - 老年/低血糖高风险者放宽（可个体化至8%或更高）
+  - 强化血糖控制可减少微血管并发症和心血管疾病风险
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言所有患者目标相同
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_DM_04
+  question: 糖尿病足怎么护理？
+  expected_domain:
+  - endocrine:diabetes_t2
+  expected_topics:
+  - 每天检查双脚
+  - 温水洗脚（肘部测温）
+  - 选合适的鞋袜
+  - 伤口不愈就医
+  must_warn:
+  - 足部伤口不愈超1周立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_DM_05
+  question: 糖尿病要定期做哪些检查？
+  expected_domain:
+  - endocrine:diabetes_t2
+  expected_topics:
+  - 每年眼底检查
+  - 尿微量白蛋白
+  - 足部检查
+  - 血脂血压
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_COPD_01
+  question: 慢阻肺患者能做什么运动？
+  expected_domain:
+  - respiratory:copd
+  expected_topics:
+  - 肺康复计划可改善生活质量和减轻呼吸困难
+  - 步行等有氧活动改善运动耐量
+  - 运动时如呼吸困难明显加重应停止
+  must_warn:
+  - 呼吸困难急性加重时应暂停运动并及时就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_ASTHMA_01
+  question: 哮喘患者的吸入药物可以感觉好了就停用吗？
+  expected_domain:
+  - respiratory:asthma
+  expected_topics:
+  - 控制药（ICS）需每天用不能停
+  - 缓解药（沙丁胺醇）按需用
+  - 两种药的区别
+  must_warn:
+  - 不可自行停控制药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议可以自行停药
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_HBV_01
+  question: 乙肝抗病毒药物可以自己停药吗？
+  expected_domain:
+  - digestive:hepatitis
+  expected_topics:
+  - 不可自行停药（停药反弹可能导致肝衰竭）
+  - 需医生评估停药标准
+  - 定期复查HBV DNA
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议可以自行停药
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_HP_01
+  question: 幽门螺杆菌治疗期间需要注意什么？
+  expected_domain:
+  - digestive:gi
+  expected_topics:
+  - 严格按疗程服药（14天）
+  - 治疗结束后4周复查
+  - 家庭成员分餐
+  must_warn:
+  - 不可自行中断治疗
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 低级别证据
+  - 临床常用
+- id: RENAL_CKD_01
+  question: 慢性肾病患者饮食要注意什么？
+  expected_domain:
+  - renal:ckd
+  expected_topics:
+  - 低蛋白饮食原则
+  - 限钾（分期相关）
+  - 限磷
+  - 限盐
+  must_warn:
+  - 布洛芬等消炎药禁用
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RENAL_CKD_02
+  question: 肾功能不好，哪些药不能用？
+  expected_domain:
+  - renal:ckd
+  expected_topics:
+  - NSAIDs（布洛芬等）严格禁用
+  - 含钆造影剂需告知肾功能
+  - 马兜铃酸类中草药禁用
+  must_warn:
+  - 服药前告知医生肾功能情况
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体药物剂量建议
+  doctor_must_have_tags:
+  - 证据等级
+- id: HEMA_ANEMIA_01
+  question: 缺铁性贫血补铁要注意什么？
+  expected_domain:
+  - hematology:anemia
+  expected_topics:
+  - 空腹或餐后1小时服铁剂
+  - 与维生素C同服增加吸收
+  - 避免与茶/咖啡/钙片同时服
+  - 大便变黑属正常
+  must_warn:
+  - 查找失血原因
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: INFEC_FEVER_01
+  question: 发烧到多少度需要去医院？
+  expected_domain:
+  - infectious:general
+  expected_topics:
+  - ≥38.5℃退热处理
+  - 发热超过3天就医
+  - ≥39.5℃应就医
+  must_warn:
+  - 发热伴意识改变立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体抗生素推荐
+  doctor_must_have_tags:
+  - 证据等级
+- id: INFEC_ATB_01
+  question: 抗生素可以用几天感觉好了就停吗？
+  mode: patient
+  expected_domain:
+  - infectious:general
+  expected_topics:
+  - 不可自行提前停药（耐药风险）
+  - 足疗程的重要性
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: RHEU_RA_01
+  question: 类风湿关节炎缓解了还需要继续吃药吗？
+  mode: patient
+  expected_domain:
+  - rheumatology:ra
+  expected_topics:
+  - 达标治疗原则
+  - 缓解≠痊愈，不可自行停药
+  - 定期复查评估
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议可以自行停药
+- id: RHEU_OSTEO_01
+  question: 骨质疏松补钙要注意什么？
+  expected_domain:
+  - rheumatology:osteoporosis
+  expected_topics:
+  - 每天钙1000-1200mg，分次服
+  - 维生素D同时补充
+  - 负重运动有助骨密度
+  - 跌倒预防
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEU_GOUT_01
+  question: 痛风发作时应该怎么处理？能用降尿酸药吗？
+  expected_domain:
+  - endocrine:gout
+  expected_topics:
+  - 急性期不用降尿酸药（加重发作）
+  - 卧床患肢抬高
+  - 冷敷而非热敷
+  - 大量饮水
+  must_warn:
+  - 急性期不可突然加用降尿酸药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议急性期使用降尿酸药
+  doctor_must_have_tags:
+  - 证据等级
+- id: GL_HTN_01
+  question: 医生说我要按2024年新指南把血压控制得更严，具体要降到多少？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 一般患者<130 mmHg（2024新标准）
+  - 与教材旧标准的区别
+  - 老年患者分层目标
+  must_warn:
+  - 调整降压药需在医生指导下
+  source_refs:
+  - 中国高血压防治指南2024
+  must_not:
+  - 仅给出<140/90而不提2024新标准
+  doctor_must_have_tags:
+  - 证据等级
+- id: GL_HTN_02
+  question: 2024高血压指南说要怎么监测血压？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - 家庭血压<135/85为正常
+  - 晨峰血压监测
+  - 稳定后每周测1-2天
+  must_warn: []
+  source_refs:
+  - 中国高血压防治指南2024
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: GL_HTN_03
+  question: 高血压患者的生活方式干预有哪些循证依据？DASH饮食和有氧锻炼的效果如何？
+  expected_domain:
+  - cardiology:hypertension
+  expected_topics:
+  - DASH饮食已被研究证实可以降压（富含新鲜水果蔬菜和低脂食物）
+  - 限盐：将钠摄入从10g/d减至6g/d
+  - 减重、戒烟、限酒及规律有氧锻炼均有助于降压
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ONCO_NAUSEA_01
+  question: 爸爸化疗后一直恶心呕吐，在家怎么帮他缓解？
+  expected_domain:
+  - oncology:tumor_complications
+  expected_topics:
+  - 少量多餐，进食清淡
+  - 避免进食前后剧烈活动
+  - 姜茶/冰镇食物可能帮助
+  - 严重呕吐（无法进食）需告知医生
+  must_warn:
+  - 呕吐超过24小时无法进食应就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体止吐药名称和剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: ONCO_CANCER_PAIN_01
+  question: 妈妈晚期癌症疼痛很厉害，止痛药可以多吃一点吗？
+  expected_domain:
+  - palliative:palliative_care
+  expected_topics:
+  - 按时服药（不是按需）是正确方式
+  - 疼痛控制目标说明
+  - 告知医生疼痛评分，医生可调整方案
+  must_warn:
+  - 不可自行调整阿片类药物剂量
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行加量
+  doctor_must_have_tags:
+  - 证据等级
+- id: ONCO_LIFESTYLE_01
+  question: 得了肺癌还能运动吗？
+  expected_domain:
+  - oncology:lung_cancer
+  expected_topics:
+  - 稳定期可进行适度运动（步行、太极、瑜伽）
+  - 运动有助于改善疲劳和生活质量
+  - 化疗或放疗期间运动强度需根据体力和副作用动态调整（血小板低或发热时暂停）
+  must_warn:
+  - 运动方案需与医师确认，化疗期间不强迫运动
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_STROKE_01
+  question: 脑梗急救时有什么要注意的？家里人能做什么？
+  expected_domain:
+  - neurology:stroke
+  expected_topics:
+  - FAST识别（Face/Arm/Speech/Time）
+  - 立即拨打120，不要等待观察
+  - 不可给患者吃东西或药物
+  - 时间窗概念（越早越好）
+  must_warn:
+  - 立即打120，不自行开车送医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议等"看看再说"或先服药
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_PD_01
+  question: 帕金森病人跌倒风险大，家里要怎么防？
+  expected_domain:
+  - neurology:movement_disorders
+  expected_topics:
+  - 清除地毯/障碍物
+  - 安装浴室扶手
+  - 教患者"冻结步态"解除方法
+  - 适度运动改善平衡（太极/物理治疗）
+  must_warn:
+  - 跌倒后若头部受伤需就医排除颅内出血
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_DEMENTIA_01
+  question: 奶奶老年痴呆，晚上总是乱走乱叫，怎么办？
+  expected_domain:
+  - neurology:dementia
+  expected_topics:
+  - 日落综合征概念
+  - 增加白天活动减少白天睡眠
+  - 安全环境（门锁/夜灯）
+  - 固定作息时间
+  must_warn:
+  - 安全隐患（走失/煤气）需提前防范
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议用镇静药让患者安静（不告知需医生评估）
+  patient_must_not_phrases:
+  - 伸展
+  - 体操
+  - 健身
+  - 八段锦
+  - 关节活动
+  - 力量训练
+  - 原地踏步
+  - 哑铃
+  - 坐姿操
+  - 太极
+  - 太极拳
+  - 广场舞
+  - 弹力带
+  - 快走
+  - 慢跑
+  - 拉伸
+  - 散步
+  - 普拉提
+  - 有氧操
+  - 步行
+  - 每周3次
+  - 每周5次
+  - 每天10
+  - 每天15
+  - 每天20
+  - 每天30
+  - 气功
+  - 游泳
+  - 爬山
+  - 爬楼梯
+  - 瑜伽
+  - 自行车
+  - 跑步
+  - 阻力训练
+  - 骑车
+  doctor_must_have_tags:
+  - 证据等级
+  - 低级别证据
+  - 临床常用
+  mode: patient
+- id: BONE_OSTEO_01
+  question: 妈妈骨质疏松，打喷嚏后腰很痛，需要去医院吗？
+  expected_domain:
+  - rheumatology:osteoporosis
+  expected_topics:
+  - 骨质疏松患者轻微外力可致脆性骨折
+  - 椎体压缩骨折可由打喷嚏触发
+  - 建议就医检查（X光/MRI）
+  must_warn:
+  - 应及时就医排除椎体骨折
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家观察不用就医
+  doctor_must_have_tags:
+  - 证据等级
+- id: BONE_BISPHOSPHO_01
+  question: 医生开了阿仑膦酸钠治骨质疏松，怎么正确服用？
+  expected_domain:
+  - rheumatology:osteoporosis
+  expected_topics:
+  - 晨起空腹服用
+  - 用200ml温水送服
+  - 服药后30分钟内保持直立
+  - 避免与钙片同时服
+  must_warn:
+  - 服药后卧倒可能引起食管损伤
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: GERI_POLY_01
+  question: 老人吃的药很多，家里人担心药物相互作用，怎么处理？
+  mode: patient
+  expected_domain:
+  - geriatrics:elderly_care
+  expected_topics:
+  - 整理所有用药清单（含中药/补品）
+  - 就医时带全部药物或清单
+  - 定期请医生审查多重用药
+  must_warn:
+  - 不可自行停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体哪些药可以停
+- id: GERI_POLY_DR_01
+  question: 老年多重用药患者如何管理药物相互作用风险？
+  mode: doctor
+  expected_domain:
+  - geriatrics:elderly_care
+  expected_topics:
+  - 定期审查用药清单
+  - 识别并停用不必要药物（去处方化）
+  - 评估药物相互作用风险
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体哪些药可以停
+  doctor_must_have_tags:
+  - 证据等级
+- id: GERI_FALL_01
+  question: 老人走路越来越不稳，怎么预防跌倒？
+  expected_domain:
+  - geriatrics:elderly_care
+  expected_topics:
+  - 家庭环境改造（扶手/防滑/夜灯）
+  - 适度运动改善肌肉力量
+  - 检查是否有影响平衡的药物
+  must_warn:
+  - 跌倒后头痛/意识改变立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: PALL_COMFORT_01
+  question: 爸爸晚期癌症，医生说要转安宁疗护，这是放弃治疗吗？
+  expected_domain:
+  - palliative:palliative_care
+  expected_topics:
+  - 安宁疗护不是放弃，而是换目标
+  - 聚焦于减轻痛苦和生活质量
+  - 可以同时包括症状控制医疗
+  - 家属支持和心理疏导同样重要
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 暗示安宁疗护意味着停止所有治疗
+  doctor_must_have_tags:
+  - 证据等级
+- id: PALL_PAIN_01
+  question: 家人在安宁疗护阶段，疼痛控制用吗啡会上瘾吗？
+  expected_domain:
+  - palliative:palliative_care
+  expected_topics:
+  - 医疗用途阿片类成瘾风险极低
+  - 按时给药才是正确方式
+  - 舒适为首要目标
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 夸大成瘾风险导致患者忍痛
+  doctor_must_have_tags:
+  - 证据等级
+- id: WOME_MENO_01
+  question: 妈妈更年期潮热出汗很严重，有什么办法？
+  expected_domain:
+  - womens_health:womens_health
+  expected_topics:
+  - 轻症：降低室温/穿着调节/避免诱因（辛辣/咖啡）
+  - 中重症：激素替代治疗（需医生评估）
+  - 非激素选项（如某些抗抑郁药需遵医嘱）
+  must_warn:
+  - 激素替代治疗需医生评估适应证和禁忌证
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行购买激素补充
+  doctor_must_have_tags:
+  - 证据等级
+- id: WOME_BONE_01
+  question: 女性绝经后为什么更容易骨质疏松？需要补什么？
+  expected_domain:
+  - womens_health:womens_health
+  expected_topics:
+  - 雌激素减少导致骨吸收增加
+  - 绝经后骨密度快速下降期
+  - 钙+维生素D基础补充
+  - 骨密度检测建议
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: MENS_BPH_01
+  question: 爸爸前列腺增生，夜里要起来小便四五次，有什么方法改善？
+  expected_domain:
+  - mens_health:mens_health
+  expected_topics:
+  - 睡前限水（减少夜间饮水）
+  - 避免咖啡因/酒精（傍晚后）
+  - 排尿日记
+  - 建议泌尿科评估
+  must_warn:
+  - 完全排不出尿（尿潴留）需急诊
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: MENS_ED_01
+  question: 老公有糖尿病，最近出现性功能问题，和糖尿病有关系吗？
+  expected_domain:
+  - mens_health:mens_health
+  expected_topics:
+  - 糖尿病是ED常见原因（血管/神经损害）
+  - ED可能是心血管疾病的早期信号
+  - 建议就医（内科+泌尿科）评估
+  - 血糖控制对ED有帮助
+  must_warn:
+  - 应就医评估，排除其他心血管问题
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 推荐具体的PDE5抑制剂或剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: SUBS_ALCOHOL_01
+  mode: patient
+  question: 家人酒精依赖，想戒酒但害怕戒断反应，怎么办？
+  expected_domain:
+  - substance_use:alcohol_drugs
+  expected_topics:
+  - 严重酒精依赖突然停酒有生命风险
+  - 戒断反应包括震颤/幻觉/癫痫
+  - 需要医疗监督下戒酒
+  - 家属支持但不替代专业治疗
+  must_warn:
+  - 严重依赖者不可突然自行断酒
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家自行突然断酒
+- id: SUBS_SMOKE_01
+  question: 帮助家人戒烟，有哪些实用方法？
+  expected_domain:
+  - cardiology:cad
+  expected_topics:
+  - 尼古丁替代（贴片/口香糖）
+  - 确定戒烟日期
+  - 避免诱因（饮酒/吸烟场合）
+  - 告知戒断症状通常2-4周改善
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 推荐具体处方戒烟药（需医生）
+  doctor_must_have_tags:
+  - 证据等级
+- id: PERI_PREOP_01
+  question: 妈妈要做手术，有高血压糖尿病，术前降压药和降糖药要停吗？
+  expected_domain:
+  - perioperative:periop_management
+  expected_topics:
+  - 降压药通常手术当天继续服（遵医嘱）
+  - 降糖药需调整（二甲双胍可能需停）
+  - 务必告知外科医生和麻醉科所有用药
+  must_warn:
+  - 不可自行停药，必须与医生确认
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行停所有慢性病药物
+  doctor_must_have_tags:
+  - 证据等级
+- id: PERI_POSTOP_01
+  question: 手术后腿肿起来了，是正常的吗？
+  expected_domain:
+  - hematology:thrombosis
+  expected_topics:
+  - 术后下肢肿胀需警惕DVT（深静脉血栓）
+  - 早期下床活动是预防措施
+  - 单侧肿胀/疼痛/发热更需警惕
+  must_warn:
+  - 单侧腿肿伴疼痛/发热应立即告知医生
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言腿肿是完全正常的术后反应
+  doctor_must_have_tags:
+  - 证据等级
+- id: OA_DAILY_01
+  question: 我妈膝盖疼，医生说是骨关节炎，日常管理要注意什么？
+  expected_domain:
+  - rheumatology:oa
+  expected_topics:
+  - 有氧运动和肌肉强化锻炼
+  - 减轻体重减少关节负荷
+  - 疼痛药物最小有效剂量
+  - 太极或辅助器具改善稳定性
+  must_warn:
+  - 布洛芬等非甾体药长期使用需注意胃肠和心血管风险
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议手术或推荐具体手术方式
+  doctor_must_have_tags:
+  - 证据等级
+- id: OA_PAIN_01
+  question: 骨关节炎膝盖疼，能长期吃止痛药吗？
+  expected_domain:
+  - rheumatology:oa
+  expected_topics:
+  - 对乙酰氨基酚可用于轻中度疼痛（不超过每日3克）
+  - 非甾体抗炎药最低有效剂量短期使用
+  - 局部外用非甾体或辣椒素作为替代
+  must_warn:
+  - 非甾体抗炎药长期使用有胃肠和心血管风险
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议长期大量使用非甾体消炎药而不提风险
+  doctor_must_have_tags:
+  - 证据等级
+- id: PE_EMERGENCY_01
+  question: 家人长途飞机后腿肿疼痛，医生怀疑深静脉血栓，有多危险？
+  expected_domain:
+  - hematology:thrombosis
+  expected_topics:
+  - DVT可脱落导致肺栓塞（危及生命）
+  - 单侧下肢肿胀/疼痛/皮肤发红是典型表现
+  - 需立即就医检查（D-二聚体/超声）
+  must_warn:
+  - 突发胸痛/呼吸困难/咯血需立即急诊（肺栓塞可能）
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议回家观察不用急诊
+  doctor_must_have_tags:
+  - 证据等级
+- id: PE_ANTICOAG_01
+  question: 家人确诊肺栓塞，医生开了抗凝药，日常需要注意什么？
+  expected_domain:
+  - hematology:thrombosis
+  expected_topics:
+  - 按时服药，不可自行停药
+  - 注意异常出血（牙龈出血/黑便/血尿）
+  - 避免外伤和可能出血的活动
+  - 定期复查凝血功能（华法林需监测INR）
+  must_warn:
+  - 严重出血（呕血/黑便/头痛）需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行调整抗凝药剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: AKI_CAUSE_01
+  question: 老人感冒发烧后肌酐突然升高，医生说是急性肾损伤，是什么原因造成的？
+  expected_domain:
+  - renal:aki
+  expected_topics:
+  - 肾前性因素（脱水/发烧）是常见原因
+  - 感染本身及退烧药也可影响肾功能
+  - 老年人基础肾功能储备少，更易受损
+  must_warn:
+  - 尿量减少或无尿需立即告知医生
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体的补液量或药物调整建议
+  doctor_must_have_tags:
+  - 证据等级
+- id: AKI_MONITOR_01
+  question: 急性肾损伤住院期间，家属需要重点观察哪些情况？
+  expected_domain:
+  - renal:aki
+  expected_topics:
+  - 监测尿量（24小时尿量/每小时）
+  - 水肿情况（体重、下肢/眼睑）
+  - 意识和精神状态（高钾/尿毒症脑病）
+  must_warn:
+  - 尿量骤减、意识改变、呼吸困难需立即告知医护
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者大量喝水补液而不说需遵医嘱
+  doctor_must_have_tags:
+  - 证据等级
+- id: UTI_RECUR_01
+  question: 老人反复尿路感染，怎么预防复发？
+  expected_domain:
+  - infectious:uti
+  expected_topics:
+  - 多饮水保持尿量
+  - 绝经后女性局部使用雌激素可减少复发
+  - 性活跃女性可性生活后单次抗生素预防
+  - 避免留置导尿管（可能的话）
+  must_warn:
+  - 出现发热/腰痛（肾盂肾炎）需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议长期预防性使用广谱抗生素而不提耐药风险
+  doctor_must_have_tags:
+  - 证据等级
+- id: UTI_SERIOUS_01
+  question: 尿路感染什么时候会变严重？家属需要注意什么警告信号？
+  expected_domain:
+  - infectious:uti
+  expected_topics:
+  - 膀胱炎未治疗可上行成肾盂肾炎
+  - 老年人可能仅表现为精神改变而不是尿路症状
+  - 发热/寒战/腰痛提示上尿路感染
+  must_warn:
+  - 发热/寒战/腰痛/恶心呕吐需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议等待观察出现发热再就医
+  doctor_must_have_tags:
+  - 证据等级
+- id: HIV_DAILY_01
+  question: 家人确诊了HIV，日常护理和接触要注意什么？
+  mode: patient
+  expected_domain:
+  - infectious:hiv
+  expected_topics:
+  - 日常接触（握手/共餐/拥抱）不传播HIV
+  - 血液/性接触/母婴是传播途径
+  - 家属无需过度隔离，保持正常关系
+  - 患者坚持抗病毒治疗可正常生活
+  must_warn:
+  - 接触血液（伤口处理）需戴手套
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议日常生活完全隔离患者
+- id: HIV_TREAT_01
+  question: HIV感染者一定要治疗吗？治疗期间家属要注意什么？
+  expected_domain:
+  - infectious:hiv
+  expected_topics:
+  - 抗病毒治疗（ART）可将病毒载量降至检测不到水平
+  - 坚持服药是治疗成功的关键（依从性极重要）
+  - 治疗可预防机会性感染和AIDS进展
+  - 治疗中的HIV感染者几乎不传播病毒
+  must_warn:
+  - 不可自行停药（耐药风险）
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议"症状好了可以先停药"
+  doctor_must_have_tags:
+  - 证据等级
+- id: BLEED_ITP_01
+  question: 家人诊断了免疫性血小板减少症，血小板很低，什么情况下最危险？
+  expected_domain:
+  - hematology:bleeding_disorders
+  expected_topics:
+  - 血小板极低（<10-20×10⁹/L）时颅内出血风险
+  - 颅内出血（头痛/呕吐/意识改变）是最严重并发症
+  - 皮肤瘀斑/鼻出血/牙龈出血是常见但较轻的表现
+  must_warn:
+  - 突发剧烈头痛/意识改变需立即急诊
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行停用激素治疗
+  doctor_must_have_tags:
+  - 证据等级
+- id: BLEED_SAFE_01
+  question: 血小板减少的患者，日常生活要怎么预防出血？
+  expected_domain:
+  - hematology:bleeding_disorders
+  expected_topics:
+  - 避免外伤和剧烈接触性运动
+  - 避免阿司匹林/非甾体抗炎药等影响血小板的药物
+  must_warn:
+  - 牙龈出血不止/黑便/血尿需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者完全卧床不活动
+  doctor_must_have_tags:
+  - 证据等级
+- id: THR_DVT_01
+  question: 家人手术后诊断了深静脉血栓，开始抗凝治疗，日常要注意什么？
+  expected_domain:
+  - hematology:thrombosis
+  expected_topics:
+  - 按时服用抗凝药，不可自行停药
+  - 注意出血迹象（牙龈/黑便/血尿）
+  - 华法林需定期监测INR
+  - 避免外伤
+  must_warn:
+  - 突发胸痛/呼吸困难需立即急诊（肺栓塞）
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行调整抗凝药剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: THR_PREVENT_01
+  question: 长途乘坐飞机或火车，怎么预防深静脉血栓？
+  expected_domain:
+  - hematology:thrombosis
+  expected_topics:
+  - 每1-2小时起身走动或做踝泵运动
+  - 保持充足饮水，避免脱水
+  - 高风险人群（手术后/有血栓史）可穿弹力袜
+  - 长途旅行前有血栓病史者需咨询医生
+  must_warn:
+  - 回程后腿肿疼痛需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: BILI_ASYMP_01
+  question: 体检发现胆囊结石但完全没有症状，需要手术吗？
+  expected_domain:
+  - digestive:biliary
+  expected_topics:
+  - 无症状胆囊结石大多数不需要立即手术
+  - 定期超声随访观察
+  - 出现症状（腹痛/发热/黄疸）时需就医
+  must_warn:
+  - 若出现右上腹剧痛伴发热/黄疸需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议立即手术切除所有无症状胆囊结石
+  doctor_must_have_tags:
+  - 证据等级
+- id: BILI_DIET_01
+  question: 胆囊结石患者饮食要注意什么？能吃鸡蛋吗？
+  expected_domain:
+  - digestive:biliary
+  expected_topics:
+  - 高脂肪饮食可诱发胆绞痛发作
+  - 适量摄入低脂食物
+  - 鸡蛋可以适量吃，不必完全禁止
+  - 肥胖是危险因素，控制体重有益
+  must_warn:
+  - 急性胆绞痛发作（右上腹剧痛）需就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议完全禁止所有蛋白质或脂肪摄入
+  doctor_must_have_tags:
+  - 证据等级
+- id: ILD_DAILY_01
+  question: 家人确诊了肺纤维化（ILD），日常要注意什么？
+  expected_domain:
+  - respiratory:ild
+  expected_topics:
+  - 避免加重因素（烟尘/有机粉尘/职业暴露）
+  - 戒烟对保护肺功能至关重要
+  - 流感和肺炎疫苗接种
+  - 肺康复训练改善呼吸功能
+  must_warn:
+  - 出现急性加重（呼吸骤然恶化）需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言肺纤维化可以治愈
+  doctor_must_have_tags:
+  - 证据等级
+- id: ILD_BREATHLESS_01
+  question: 肺纤维化患者越来越喘，有什么实用方法改善？
+  expected_domain:
+  - respiratory:ild
+  expected_topics:
+  - 呼吸技巧（缩唇呼吸/腹式呼吸）
+  - 节能技巧减少活动耗氧
+  - 低氧血症患者需氧疗评估
+  - 肺康复项目改善运动耐量
+  must_warn:
+  - 呼吸困难突然加重需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议完全卧床不动
+  doctor_must_have_tags:
+  - 证据等级
+- id: PANCREAS_DIET_01
+  question: 家人得了急性胰腺炎，出院后饮食怎么恢复？
+  expected_domain:
+  - digestive:pancreas
+  expected_topics:
+  - 从流质/低脂软食逐渐过渡到正常饮食
+  - 严格戒酒（酒精是重要病因）
+  - 低脂饮食减少胰腺分泌负担
+  - 少量多餐，避免暴饮暴食
+  must_warn:
+  - 腹痛复发/加重需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议出院后立即恢复高脂饮食
+  doctor_must_have_tags:
+  - 证据等级
+- id: PANCREAS_ALCOHOL_01
+  question: 医生说胰腺炎和饮酒有关，戒酒能预防复发吗？
+  expected_domain:
+  - digestive:pancreas
+  expected_topics:
+  - 酒精是慢性和复发性胰腺炎的主要原因
+  - 戒酒可显著降低复发风险
+  - 戒酒困难者需专业干预
+  must_warn:
+  - 继续饮酒显著增加胰腺炎复发风险
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 淡化酒精与胰腺炎的关系
+  doctor_must_have_tags:
+  - 证据等级
+- id: ELECTRO_HYPERK_01
+  question: 血钾很高（高钾血症），有什么危险？家属要注意什么？
+  expected_domain:
+  - renal:electrolytes
+  expected_topics:
+  - 高钾血症可导致致命性心律失常
+  - 严重高钾（>6.5 mmol/L）需紧急处理
+  - 症状包括肌无力/心悸/心电图异常
+  must_warn:
+  - 出现肌肉无力/心跳异常需立即就医/急诊
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者自行停钾补充剂而不就医
+  doctor_must_have_tags:
+  - 证据等级
+- id: ELECTRO_HYPONAT_01
+  question: 老人血钠很低（低钠血症），会有什么表现？
+  expected_domain:
+  - renal:electrolytes
+  expected_topics:
+  - 低钠血症可引起头痛/恶心/意识模糊/抽搐
+  - 老年人和肾功能差者更易发生
+  - 过快纠正低钠可导致脑桥脱髓鞘综合征（并发症）
+  must_warn:
+  - 意识改变/抽搐需立即急诊
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议大量补盐水快速纠正低钠
+  doctor_must_have_tags:
+  - 证据等级
+- id: LYMPHOMA_FAMILY_01
+  mode: patient
+  question: 家人确诊淋巴瘤，作为家属能做什么帮助？
+  expected_domain:
+  - hematology:lymphocyte
+  expected_topics:
+  - 陪同就诊和治疗（化疗期间需人陪护）
+  - 营养支持（保持体重和营养状态）
+  - 心理支持，防止患者抑郁
+  - 监测发热（化疗后免疫低下时危险信号）
+  must_warn:
+  - 化疗后发热（中性粒细胞减少性发热）需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议用偏方代替正规化疗
+- id: LYMPHOMA_SIGN_01
+  question: 淋巴结肿大，怎么判断是不是淋巴瘤？
+  expected_domain:
+  - hematology:lymphocyte
+  expected_topics:
+  - 无痛性持续性淋巴结肿大是警惕信号
+  - 伴有发热/盗汗/体重减轻（B症状）需高度警惕
+  - 需医院检查（活检）确诊
+  must_warn:
+  - 淋巴结肿大超过2周不消退需就医评估
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议等待观察超过1个月不就医
+  doctor_must_have_tags:
+  - 证据等级
+- id: SEPSIS_WARNING_01
+  question: 老人发烧多天，家属怎么判断是不是脓毒症？有哪些危险信号？
+  expected_domain:
+  - infectious:sepsis
+  expected_topics:
+  - 脓毒症征象：高热或低体温+心跳加快+呼吸急促
+  - 意识改变/血压下降提示感染性休克
+  - 老人可能仅表现为精神萎靡不振
+  must_warn:
+  - 意识改变/血压低/呼吸急促需立即急诊
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家观察发热超过3天
+  doctor_must_have_tags:
+  - 证据等级
+- id: SEPSIS_CARE_01
+  question: 家人ICU脓毒症治疗，家属需要了解什么？
+  expected_domain:
+  - infectious:sepsis
+  expected_topics:
+  - 脓毒症死亡率高，需重症监护
+  - 家属需配合医疗团队决策（可能需要各种有创操作）
+  - 康复期可能较长，需心理准备
+  must_warn:
+  - 器官支持治疗（透析/呼吸机）可能是必要的
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 承诺脓毒症肯定能治好
+  doctor_must_have_tags:
+  - 证据等级
+  mode: patient
+- id: CNS_MENINGITIS_01
+  question: 家人突然高烧头痛很严重，医生说要排除脑膜炎，有多严重？
+  expected_domain:
+  - infectious:cns_infection
+  expected_topics:
+  - 细菌性脑膜炎是医疗急症，死亡率高
+  - 颈项强直/畏光/剧烈头痛是典型表现
+  - 需立即就医，延误治疗预后差
+  must_warn:
+  - 怀疑脑膜炎应立即急诊，不要等待
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家服止痛药观察
+  doctor_must_have_tags:
+  - 证据等级
+- id: CNS_ENCEPH_01
+  question: 家人脑炎出院后，家属日常护理要注意什么？
+  expected_domain:
+  - infectious:cns_infection
+  expected_topics:
+  - 脑炎后可能有神经认知障碍需康复
+  - 癫痫是常见后遗症，需遵医嘱服用抗癫痫药
+  - 疲乏/认知下降/情绪变化需告知医生
+  must_warn:
+  - 出现癫痫发作需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行停用抗癫痫药物
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_COPD_02
+  mode: patient
+  question: 妈妈有慢阻肺，最近几天喘得越来越重，嘴唇有点发紫，需要马上去医院吗？
+  expected_domain:
+  - respiratory:copd
+  expected_topics:
+  - 慢阻肺急性加重表现（呼吸困难、咳嗽、咳痰明显加重）
+  - 严重者可导致急性呼吸衰竭甚至死亡
+  - 唇发绀提示缺氧，需紧急就医
+  must_warn:
+  - 唇发绀或静息呼吸困难应立即就医或拨 120
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家自行处理等待好转
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_ASTHMA_02
+  mode: patient
+  question: 孩子哮喘突然发作，喘得很厉害，家里有沙丁胺醇喷雾，怎么用，什么时候需要急诊？
+  expected_domain:
+  - respiratory:asthma
+  expected_topics:
+  - 沙丁胺醇（速效β2受体激动剂）用于急性支气管痉挛
+  - 吸入β2受体激动剂是急性发作的一线处置
+  - 用药后症状不缓解需急诊就医
+  must_warn:
+  - 急性发作药物无效时立即急诊，不可继续等待
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 给出具体剂量建议（如几喷几次）
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_LIVER_02
+  mode: patient
+  question: 爸爸得了肝硬化，最近肚子越来越大，神志也有点不对劲，需要马上去医院吗？
+  expected_domain:
+  - digestive:liver
+  expected_topics:
+  - 腹水是肝硬化常见并发症
+  - 肝性脑病（神志改变）是严重并发症，需紧急处理
+  - 肝硬化并发症（腹水/肝性脑病/消化道出血）需及时就医
+  must_warn:
+  - 出现神志改变（意识模糊、嗜睡）应立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行服用利尿药
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_GI_02
+  mode: patient
+  question: 爸爸有消化性溃疡，今天大便是黑色的，头有点晕，这是什么情况，需要急诊吗？
+  expected_domain:
+  - digestive:gi
+  expected_topics:
+  - 黑便（柏油便）是上消化道出血的典型表现
+  - 消化性溃疡是上消化道出血最常见原因
+  - 头晕可能提示出血量较大、循环不稳定
+  must_warn:
+  - 黑便伴头晕应立即急诊，可能存在消化道出血
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议在家观察等下次复诊
+  doctor_must_have_tags:
+  - 证据等级
+- id: HEMA_ANEMIA_02
+  mode: patient
+  question: 妈妈有贫血，最近感觉心跳很快、爬几步楼梯就喘，是不是贫血加重了？
+  expected_domain:
+  - hematology:anemia
+  expected_topics:
+  - 贫血的常见症状包括乏力、活动耐量降低、呼吸困难和心悸
+  - 上述症状加重提示贫血可能加重，需及时就医
+  must_warn:
+  - 心悸或静息呼吸困难需尽快就医排除贫血加重
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行补铁或购买补血保健品
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEU_RA_02
+  mode: patient
+  question: 妈妈类风湿关节炎在吃甲氨蝶呤，最近发烧38.5度，需要停药吗？需要立即就医吗？
+  expected_domain:
+  - rheumatology:ra
+  expected_topics:
+  - 使用DMARD/生物制剂增加感染风险包括机会性感染
+  - 急性感染情况下应暂停DMARD和生物制剂
+  - 免疫抑制患者发热需及时就医排除严重感染
+  must_warn:
+  - 免疫抑制患者发热应及时就医，不可拖延
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行停药或自行加用抗生素
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEU_OSTEO_02
+  mode: patient
+  question: 奶奶有骨质疏松，担心她在家跌倒，我们能做什么来预防？
+  expected_domain:
+  - rheumatology:osteoporosis
+  expected_topics:
+  - 在卫生间安装扶手杆和楼梯扶手
+  - 地面避免松散地毯和电线
+  - 保证床边良好照明
+  must_warn:
+  - 跌倒是骨质疏松骨折的主要原因，家居改造非常重要
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议完全卧床不动以避免跌倒
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEU_GOUT_02
+  mode: patient
+  question: 爸爸痛风好几年了，医生说要长期控制尿酸，平时饮食该怎么注意？
+  expected_domain:
+  - endocrine:gout
+  expected_topics:
+  - 减少高嘌呤食物（贝类、动物内脏）摄入
+  - 避免含果糖饮料和酒精（尤其啤酒）
+  - 多喝水每日至少1.5升促进尿酸排泄
+  - 低脂乳制品有助于降低尿酸
+  must_warn:
+  - 已在服降尿酸药的患者不能随意停药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行调整降尿酸药剂量
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_STROKE_02
+  mode: patient
+  question: 爸爸三个月前脑梗，医生开了阿司匹林，他说感觉好了想停药，可以吗？
+  expected_domain:
+  - neurology:stroke
+  expected_topics:
+  - 抗血小板治疗可降低卒中复发风险约20-25%（A级证据）
+  - 卒中二级预防需严格控制危险因素
+  - 擅自停用抗血小板药物增加复发风险
+  must_warn:
+  - 绝对不可自行停用抗血小板药或他汀，需遵医嘱
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行停药或减量
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_MOV_02
+  mode: patient
+  question: 爸爸帕金森病，最近开始出现吞咽困难，有时候吃东西会呛，这正常吗，需要看医生吗？
+  expected_domain:
+  - neurology:movement_disorders
+  expected_topics:
+  - 球部无力（吞咽困难、呛咳）是神经系统疾病的重要症状
+  - 早期吞咽困难可能提示非典型帕金森综合征
+  - 吞咽困难需及时就医评估，存在吸入性肺炎风险
+  must_warn:
+  - 吞咽困难出现或加重应及时就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行调整帕金森药物
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_DEM_02
+  mode: patient
+  question: 奶奶阿尔茨海默病，最近总是烦躁发脾气，有时候半夜乱走，家属怎么办？
+  expected_domain:
+  - neurology:dementia
+  expected_topics:
+  - 痴呆患者护理包括卫生、营养和监督服药依从性
+  - 抗精神病药、抗抑郁药可控制行为问题
+  - 家属可联系阿尔茨海默病协会获取支持资源
+  must_warn:
+  - 行为症状明显影响生活时应就医评估，必要时调整用药
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议自行给患者服用镇静药或安眠药
+  doctor_must_have_tags:
+  - 证据等级
+- id: SUBS_ALC_02
+  mode: patient
+  question: 哥哥有酒精依赖问题，家人很担心，我们能做些什么来帮助他？
+  expected_domain:
+  - substance_use:alcohol_drugs
+  expected_topics:
+  - 支持性环境和应对机制对戒酒康复重要
+  - 动力增强疗法是四模块的简短干预方式
+  - 建立支持小组和行为矫正可作为补充治疗
+  must_warn:
+  - 戒断症状（如抖动、出汗、躁动）需医护监督，不可自行突然停酒
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者自行突然完全停止饮酒
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_CAD_02
+  mode: patient
+  question: 爸爸有冠心病，医生给了硝酸甘油备用，什么情况下需要用，什么时候该打 120？
+  expected_domain:
+  - cardiology:cad
+  expected_topics:
+  - 舌下含服硝酸甘油用于心绞痛发作的治疗和预防
+  - 不稳定型心绞痛或静息时发生的心绞痛需紧急处理
+  - 硝酸甘油效果不佳的心绞痛是危险信号
+  must_warn:
+  - 静息时胸痛或硝酸甘油无效时立即拨 120，可能是急性心肌梗死
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议反复使用硝酸甘油代替急诊就医
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_COPD_DR_01
+  mode: doctor
+  question: COPD 患者出现急性加重，如何判断严重程度并决定是否住院？
+  expected_domain:
+  - respiratory:copd
+  expected_topics:
+  - 急性加重定义（呼吸困难、咳嗽、咳痰明显加重）
+  - 严重加重可导致急性呼吸衰竭，需住院评估
+  - 急性加重抗生素治疗（2级证据）
+  - 无创正压通气用于高碳酸血症呼吸衰竭
+  must_warn:
+  - 合并呼吸衰竭需评估 NIV 或 ICU 转入
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 无创
+- id: RESP_ASTHMA_DR_01
+  mode: doctor
+  question: 哮喘患者如何进行阶梯式治疗，何时升级或降级治疗方案？
+  expected_domain:
+  - respiratory:asthma
+  expected_topics:
+  - 吸入性支气管扩张剂包括β2受体激动剂（拟交感药物）
+  - 沙丁胺醇是最常用的速效β2受体激动剂
+  - 维持治疗：ICS是基础，LABA可与ICS联用但不可单药使用
+  - 升级时机与降级时机的评估标准（控制水平评估）
+  must_warn:
+  - 严重急性支气管痉挛可危及生命，需紧急处理
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - ICS
+- id: DIGE_LIVER_DR_01
+  mode: doctor
+  question: 肝硬化患者如何评估预后，MELD 评分如何指导临床决策？
+  expected_domain:
+  - digestive:liver
+  expected_topics:
+  - MELD 评分基于胆红素、肌酐、凝血功能评估死亡率
+  - MELD ≥15 具有肝移植指征
+  - 食管静脉曲张破裂出血是严重并发症，近年死亡率下降
+  - 肝性脑病、腹水、急性肾损伤使肝硬化治疗复杂
+  must_warn:
+  - 失代偿性肝硬化需评估肝移植
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 肝移植
+- id: DIGE_GI_DR_01
+  mode: doctor
+  question: 上消化道出血患者内镜下如何评估再出血风险，何时行内镜下止血治疗？
+  expected_domain:
+  - digestive:gi
+  expected_topics:
+  - 上消化道出血患者应尽早行内镜检查（诊断+内镜下止血）
+  - 内镜下不同溃疡特征对应不同再出血风险
+  - 内镜下止血可降低死亡率（含注射、热疗、止血夹）
+  - PUD 占上消化道出血约 50%，80% 可自发停止
+  must_warn:
+  - 高危溃疡特征（活动性出血、血管裸露）需积极内镜干预
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 内镜下止血
+- id: HEMA_ANEMIA_DR_01
+  mode: doctor
+  question: 如何鉴别缺铁性贫血与慢性病贫血？
+  expected_domain:
+  - hematology:anemia
+  expected_topics:
+  - 转铁蛋白饱和度：缺铁时降至10%以下，慢性炎症性贫血（ACD）通常保持≥20%
+  - 小细胞性贫血（MCV 降低）见于缺铁性贫血和慢性病
+  - 两者可共存，铁蛋白是区分关键指标
+  must_warn:
+  - 贫血病因不明时需系统评估，避免漏诊恶性肿瘤
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 铁蛋白
+- id: RHEU_RA_DR_01
+  mode: doctor
+  question: 类风湿关节炎的治疗策略是什么，甲氨蝶呤在 RA 治疗中处于什么地位？
+  expected_domain:
+  - rheumatology:ra
+  expected_topics:
+  - DMARD 阻止疾病进展和残疾，目标是尽可能完全控制炎症
+  - 甲氨蝶呤因确定疗效和已知毒性，是大多数 RA 患者初始 DMARD
+  - 甲氨蝶呤失败后可选择其他传统或生物 DMARD
+  - 生物制剂（TNF 抑制剂等）推荐用于 MTX 治疗失败后
+  must_warn:
+  - 使用 DMARD/生物制剂时增加感染风险，急性感染须停用
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 甲氨蝶呤
+- id: RHEU_OSTEO_DR_01
+  mode: doctor
+  question: 骨质疏松症如何判断骨折高风险，双膦酸盐治疗的适应证是什么？
+  expected_domain:
+  - rheumatology:osteoporosis
+  expected_topics:
+  - 骨质疏松定义：T 值 ≤ -2.5s
+  - FRAX 工具预测 40-90 岁人群 10 年骨折风险
+  - 治疗指征：T ≤-2.5s，或低骨量（-1.0～-2.5s）+10年髋部骨折≥3%或主要骨折≥20%
+  - 双膦酸盐是一线药物
+  must_warn:
+  - 双膦酸盐长期使用超过5年需评估药物假期风险
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - T值
+- id: RHEU_GOUT_DR_01
+  mode: doctor
+  question: 痛风患者急性发作期与间歇期的治疗策略有何不同，降尿酸治疗何时启动？
+  expected_domain:
+  - endocrine:gout
+  expected_topics:
+  - 急性发作期：NSAIDs足量7-10天，或秋水仙碱（24-48h内有效），或激素
+  - 降尿酸治疗初期需联用秋水仙碱或NSAIDs预防发作
+  - 治疗目标：尿酸 <6mg/dl；痛风石患者 <5mg/dl
+  must_warn:
+  - 急性发作期新启动降尿酸治疗可能加重或延长发作
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 别嘌呤醇
+- id: NEURO_STROKE_DR_01
+  mode: doctor
+  question: 缺血性卒中患者溶栓治疗的时间窗和主要适应证是什么？
+  expected_domain:
+  - neurology:stroke
+  expected_topics:
+  - 发病3小时内可行rt-PA溶栓治疗
+  - 时间窗可扩展至4.5小时（结合影像）
+  - 里程碑研究：3小时内rt-PA溶栓改善预后
+  - 溶栓前后收缩压需维持在特定水平
+  must_warn:
+  - 严格把握时间窗和禁忌证，出血风险不可忽视
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - '4.5'
+- id: NEURO_MOV_DR_01
+  mode: doctor
+  question: 帕金森病何时开始左旋多巴治疗，诊断标准有哪些核心特征？
+  expected_domain:
+  - neurology:movement_disorders
+  expected_topics:
+  - 帕金森综合征核心症状：运动迟缓、肌僵直、震颤、姿势不稳
+  - 诊断支持指标：单侧起病、持续不对称、左旋多巴治疗有效
+  - 左旋多巴是主要治疗药物，常与多巴脱羧酶抑制剂合用
+  - 早期姿势不稳或吞咽困难需警惕非典型帕金森综合征
+  must_warn:
+  - 抗精神病药暴露史可能导致药物性帕金森综合征，需排除
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 运动迟缓
+- id: NEURO_DEM_DR_01
+  mode: doctor
+  question: 阿尔茨海默病的诊断标准是什么，胆碱酯酶抑制剂的适应证和疗效如何？
+  expected_domain:
+  - neurology:dementia
+  expected_topics:
+  - AD 诊断标准（表108-6，包括记忆和认知功能损害标准）
+  - 胆碱酯酶抑制剂（多奈哌齐、卡巴拉汀、加兰他敏）是重要进步
+  - 不到50%的患者对胆碱酯酶抑制剂有临床显著改善
+  - 卡巴拉汀对帕金森病痴呆也有疗效（FDA批准）
+  must_warn:
+  - 确诊前需排除可逆/可治疗性痴呆原因（如查血清电解质、维生素B12，颅脑影像排除可治疗病因）
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 不到50%
+- id: SUBS_ALC_DR_01
+  mode: doctor
+  question: 酒精戒断患者如何评估严重程度，苯二氮䓬类药物如何使用？
+  expected_domain:
+  - substance_use:alcohol_drugs
+  expected_topics:
+  - CIWA-Ar 量表评估戒断症状严重性，指导对症治疗
+  - 苯二氮䓬类是唯一批准降低癫痫发作和震颤性谵妄风险的药物
+  - 地西泮/氯氮/劳拉西泮每5-10分钟静脉给药直至症状消失
+  - 严重肝硬化患者首选劳拉西泮（肝内代谢较少）
+  must_warn:
+  - 震颤性谵妄死亡率高，需在ICU或严密监护下管理
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 苯二氮䓬
+- id: CARD_CAD_DR_01
+  mode: doctor
+  question: 稳定性心绞痛患者的抗心绞痛药物有哪些选择，硝酸甘油、β受体阻滞剂和钙通道阻滞剂各有何机制？
+  expected_domain:
+  - cardiology:cad
+  expected_topics:
+  - 硝酸甘油舌下含服对心绞痛的治疗和预防起重要作用
+  - 不稳定型心绞痛或静息心绞痛是高危信号，需积极处理
+  - β受体阻滞剂有效减少活动相关心绞痛，机制为降低心率/心肌耗氧
+  - 钙通道阻滞剂通过扩张动脉、降低心肌收缩力减少心肌耗氧
+  must_warn:
+  - 不稳定型心绞痛（静息痛/硝酸甘油无效）需立即就医处理
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - β受体阻滞剂
+- id: DIGE_HEPATITIS_01
+  mode: patient
+  question: 家人确诊慢性乙肝，日常生活中家属如何防护，患者本人需要注意什么？
+  expected_domain:
+  - digestive:hepatitis
+  expected_topics:
+  - 乙肝通过血液、性接触、母婴传播；日常接触（共餐、握手、拥抱）不传播
+  - 家属/性伴侣应检测乙肝表面抗体，阴性者接种全程乙肝疫苗（3针）
+  - 抗病毒药物须遵医嘱长期服用，不可自行停药（停药可导致病毒反弹）
+  - 定期复查：HBV DNA载量、肝功能（ALT/AST）、腹部超声
+  must_warn:
+  - 禁止饮酒（酒精加速肝纤维化进展）
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: DIGE_HEPATITIS_DR_01
+  mode: doctor
+  question: 慢性HBV感染患者的抗病毒治疗指征是什么？首选药物及治疗目标如何？
+  expected_domain:
+  - digestive:hepatitis
+  expected_topics:
+  - 高复制期（HBsAg+、HBeAg+或HBV DNA>20000 IU/ml、ALT升高）及早期肝硬化患者应启动抗病毒治疗
+  - 恩替卡韦或替诺福韦酯是具有高遗传抗性屏障的核苷类似物，为慢性乙肝一线治疗
+  - 治疗目标：永久抑制HBV复制，减少肝炎活动，减缓肝硬化和肝癌进展
+  - HCV感染后20年内高达20%进展为肝硬化；DAA联合方案使90%基因型1型患者在12周内实现SVR
+  must_warn:
+  - 抗病毒药物自行停药可导致病毒剧烈反弹，甚至急性肝衰竭
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+  - 恩替卡韦
+- id: RESP_SLEEP_01
+  mode: patient
+  question: 我丈夫睡觉鼾声很大，有时候会突然停止呼吸，医生说可能是睡眠呼吸暂停，这个病严重吗？该怎么治？
+  expected_domain:
+  - respiratory:sleep_breathing
+  expected_topics:
+  - 睡眠呼吸暂停（OSA）是最常见的可确认高血压原因
+  - CPAP是一线治疗（1级证据）
+  - 减重可减少AHI（1级证据）
+  - 避免镇静药物和睡前饮酒
+  must_warn:
+  - 未治疗OSA增加高血压、心血管疾病风险
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: RESP_SLEEP_DR_01
+  mode: doctor
+  question: 睡眠呼吸暂停综合征（OSA）的诊断标准和CPAP治疗的循证依据是什么？
+  expected_domain:
+  - respiratory:sleep_breathing
+  expected_topics:
+  - AHI≥5/小时定义为睡眠呼吸障碍；男性患病率24%，女性9%
+  - OSA是最常见的可确认高血压原因（1级证据）
+  - CPAP是1级证据一线治疗；自动调节CPAP效果等同于固定压力CPAP（1级证据）
+  - 减重减少AHI（1级证据）
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_PLEURAL_01
+  mode: patient
+  question: 胸部CT提示有胸腔积液，这是什么意思？需要穿刺抽水吗？
+  expected_domain:
+  - respiratory:pleural
+  expected_topics:
+  - 胸腔积液有渗出液和漏出液之分，原因不同
+  - 漏出液常见于心衰、肝硬化；渗出液提示炎症、感染或肿瘤
+  - Light判断标准用于区分类型
+  - 需要医生评估是否需要穿刺引流
+  must_warn:
+  - 如有发热+胸腔积液，需警惕脓胸
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: RESP_PLEURAL_DR_01
+  mode: doctor
+  question: 如何用Light标准鉴别胸腔积液类型？旁肺炎性胸腔积液的引流指征是什么？
+  expected_domain:
+  - respiratory:pleural
+  expected_topics:
+  - Light标准：蛋白>0.5、LDH>0.6或LDH>2/3正常上限三项之一为渗出液
+  - 旁肺炎性胸腔积液pH<7.2是引流指征
+  - 张力性气胸需立即减压
+  must_warn:
+  - 脓胸需立即引流，延误可致脓毒症
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_LUNG_TUMOR_01
+  mode: patient
+  question: 体检发现肺部有一个0.8厘米的结节，医生说需要随访，我很担心，这个结节是癌吗？
+  expected_domain:
+  - respiratory:lung_tumor
+  expected_topics:
+  - 肺结节大多数是良性的，并非都是癌
+  - 高危人群（重度吸烟史）应遵循指南进行低剂量CT筛查
+  - 小结节通常需要随访复查，不是立即手术
+  - NLST试验显示LDCT筛查可使高危人群死亡率降低20%
+  must_warn:
+  - 吸烟是肺癌最重要的危险因素，戒烟是关键预防措施
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言结节一定是良性的
+- id: RESP_LUNG_TUMOR_DR_01
+  mode: doctor
+  question: 非小细胞肺癌（NSCLC）和小细胞肺癌（SCLC）的初始治疗策略有何不同？EGFR突变如何影响治疗？
+  expected_domain:
+  - respiratory:lung_tumor
+  expected_topics:
+  - NSCLC I/II期手术是唯一可能治愈手段（1B级证据）
+  - EGFR突变阳性一线用酪氨酸激酶抑制剂（厄洛替尼/吉非替尼）
+  - SCLC铂类+依托泊苷是标准化疗方案（1A级证据）
+  - LDCT筛查使高危人群肺癌死亡率降低20%
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RESP_CRITICAL_01
+  mode: patient
+  question: 亲属在ICU被诊断为"急性呼吸窘迫综合征（ARDS）"，医生说需要上呼吸机，这个病严重吗，能治好吗？
+  expected_domain:
+  - respiratory:critical_care
+  expected_topics:
+  - ARDS是严重的呼吸衰竭，需要机械通气支持
+  - 病因多为肺炎、脓毒症等，治疗原发病最关键
+  - 低潮气量通气（6ml/kg理想体重）可改善预后
+  - 病情严重，但部分患者可恢复
+  must_warn:
+  - ARDS病情危重，需ICU专业团队救治
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 承诺一定能治愈
+- id: RESP_CRITICAL_DR_01
+  mode: doctor
+  question: ARDS柏林定义的分级标准是什么？低潮气量通气的循证依据和ECMO的适用指征？
+  expected_domain:
+  - respiratory:critical_care
+  expected_topics:
+  - 柏林2012：轻度PaO2/FiO2 200-300，中度100-200，重度≤100（均需PEEP≥5cmH2O），急性起病<1周
+  - 6ml/kg理想体重低潮气量通气改善生存率（Ⅰ级证据）
+  - FACTT保守性液体管理减少呼吸机使用时间2.5天（Ⅰ级证据）
+  - ECMO：CESAR试验证实重症呼吸衰竭中改善生存率（Ⅰ级证据）
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_VALVE_01
+  mode: patient
+  question: 我妈妈心脏彩超发现主动脉瓣狭窄，医生说目前不需要手术，但需要定期复查，什么时候需要换瓣膜手术？
+  expected_domain:
+  - cardiology:valve_disease
+  expected_topics:
+  - 主动脉瓣狭窄出现症状（心绞痛/晕厥/心衰）是手术指征
+  - 症状一旦出现预后变差：心绞痛5年生存率，晕厥3年，心衰2年
+  - 定期超声心动图随访
+  - 无症状重度狭窄也可能需要手术
+  must_warn:
+  - 出现活动后胸痛、晕厥或呼吸困难须立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: CARD_VALVE_DR_01
+  mode: doctor
+  question: 症状性重度主动脉瓣狭窄的手术指征和TAVI/外科AVR的适应证选择标准是什么？
+  expected_domain:
+  - cardiology:valve_disease
+  expected_topics:
+  - 症状性重度AS是AVR I类适应证（B级证据）
+  - Ross-Braunwald预后数据：心绞痛5年生存率，晕厥3年，心衰2年
+  - TAVI/TAVR：FDA 2012年批准用于外科高危候选人
+  - 机械瓣：血流动力学好、终生耐久，需终身抗凝；生物瓣：无需长期抗凝，耐久性有限（10-20年）
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_PERI_01
+  mode: patient
+  question: 我刚被确诊为急性心包炎，医生开了布洛芬和秋水仙碱，心包炎会复发吗？
+  expected_domain:
+  - cardiology:pericardial
+  expected_topics:
+  - 急性心包炎85%为特发性/病毒性，通常可治愈
+  - NSAIDs（布洛芬）是标准治疗，联合秋水仙碱可减少复发
+  - 前倾坐位可减轻疼痛
+  - 休息、避免剧烈运动
+  must_warn:
+  - 如出现呼吸困难加重、颈静脉怒张、血压下降，需警惕心脏压塞立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: CARD_PERI_DR_01
+  mode: doctor
+  question: 心脏压塞的Beck三联征和紧急处理原则是什么？缩窄性心包炎与限制性心肌病如何鉴别？
+  expected_domain:
+  - cardiology:pericardial
+  expected_topics:
+  - 心脏压塞Beck三联征：低血压、颈静脉怒张、心音低沉
+  - 脉压差变小和奇脉（吸气末血压降低>10mmHg）
+  - 紧急处理：心包穿刺引流；液体复苏维持前负荷
+  - 100-200ml快速积液即可导致重度血流动力学损害
+  must_warn:
+  - 心脏压塞是急症，延误可致死
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_CHD_01
+  mode: patient
+  question: 孩子出生后查出房间隔缺损（ASD），医生说现在不需要手术，要随访，ASD会自己关闭吗？
+  expected_domain:
+  - cardiology:congenital_hd
+  expected_topics:
+  - 小的ASD可能自行关闭，大的需要处理
+  - 目前首选经导管介入封堵（继发孔型）
+  - 定期超声随访
+  - 成人未修复ASD可能并发肺动脉高压
+  must_warn:
+  - 艾森门格综合征（严重肺高压）是不可逆并发症，需及时干预
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言所有ASD都会自行关闭
+- id: CARD_CHD_DR_01
+  mode: doctor
+  question: 先天性心脏病（ASD/VSD）的干预时机和艾森门格综合征的特征是什么？
+  expected_domain:
+  - cardiology:congenital_hd
+  expected_topics:
+  - ASD继发孔型首选经导管封堵；VSD是最常见先心病
+  - 艾森门格综合征：右向左分流+紫绀+肺动脉高压，平均寿命37岁
+  - 主动脉缩窄50-85%合并主动脉瓣二瓣化畸形
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: CARD_OTHER_01
+  mode: patient
+  question: 我爸突然出现剧烈撕裂样胸背痛，去急诊被诊断为主动脉夹层，这个病怎么治疗？
+  expected_domain:
+  - cardiology:other_cardiac
+  expected_topics:
+  - 主动脉夹层Stanford A型（升主动脉）需紧急手术
+  - Stanford B型（仅降主动脉）先内科保守治疗
+  - 控制血压和心率是内科治疗核心
+  - 增强CT是首选诊断手段
+  must_warn:
+  - 主动脉夹层是极高危急症，需立即就医
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议等待观察
+- id: CARD_OTHER_DR_01
+  mode: doctor
+  question: 主动脉夹层Stanford分型的意义和急性期处理原则是什么？Stanford B型的并发症有哪些？
+  expected_domain:
+  - cardiology:other_cardiac
+  expected_topics:
+  - Stanford A（升主动脉受累）：紧急外科手术
+  - Stanford B（仅降主动脉）：降压+降心率内科治疗为主
+  - Stanford B型约20%出现肾动脉受累导致肾功能衰竭
+  - 增强CT诊断敏感性高
+  must_warn:
+  - 主动脉夹层Stanford A是外科急症
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: INFECT_LOWER_RESP_01
+  mode: patient
+  question: 我妈妈查出社区获得性肺炎，医生让住院打抗生素，在家口服不行吗？什么情况需要住院？
+  expected_domain:
+  - infectious:lower_resp_infection
+  expected_topics:
+  - CURB-65评估重症肺炎需住院
+  - 社区获得性肺炎主要病原为肺炎球菌
+  - 严重者需住院静脉抗生素
+  - 早期治疗（青霉素类）大幅降低肺炎球菌肺炎死亡率
+  must_warn:
+  - 肺炎不治疗可进展为脓毒症，老年人尤其危险
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 鼓励所有肺炎患者在家口服治疗
+- id: INFECT_LOWER_RESP_DR_01
+  mode: doctor
+  question: 社区获得性肺炎（CAP）的严重程度评估（CURB-65）和非典型病原体（军团菌/支原体）的经验性治疗选择？
+  expected_domain:
+  - infectious:lower_resp_infection
+  expected_topics:
+  - CURB-65：意识障碍、尿素升高、RR≥30、血压<90/60、年龄≥65
+  - 肺炎球菌是最常见CAP病原
+  - 非典型（军团菌/支原体）选大环内酯类或氟喹诺酮
+  - 青霉素使菌血症肺炎球菌性肺炎死亡率从84%降至17%
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: INFECT_SKIN_01
+  mode: patient
+  question: 腿部皮肤出现红、肿、热、痛，越来越大，医生说是蜂窝织炎，需要用什么抗生素？
+  expected_domain:
+  - infectious:skin_soft_tissue
+  expected_topics:
+  - 急诊最常见的皮肤感染病原是社区相关MRSA
+  - 皮肤软组织感染需抗生素治疗
+  - 若病情迅速加重、出现暗色皮肤或剧烈疼痛，警惕坏死性筋膜炎
+  must_warn:
+  - 坏死性筋膜炎是外科急症，延误手术可致命
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: INFECT_SKIN_DR_01
+  mode: doctor
+  question: 坏死性筋膜炎的分型、诊断要点和紧急处理原则是什么？CA-MRSA对抗生素选择的影响？
+  expected_domain:
+  - infectious:skin_soft_tissue
+  expected_topics:
+  - 坏死性筋膜炎I型（多菌）vs II型（A组链球菌）
+  - 立即外科清创是紧急外科手术指征，延误致命
+  - CA-MRSA是急诊最常见SSTI病原
+  - 链球菌性中毒休克综合征：低血压+多器官衰竭+无菌部位培养阳性
+  must_warn:
+  - 坏死性筋膜炎延误手术可致死亡
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: INFECT_FEVER_01
+  mode: patient
+  question: 我从东南亚旅行回来两周后开始发烧，间歇性，有时候打冷颤，要紧吗？
+  expected_domain:
+  - infectious:fever
+  expected_topics:
+  - 旅行后发热必须考虑疟疾（无论距归来时间多久）
+  - 周期性发热伴间歇正常体温高度提示疟疾
+  - 需进行疟疾血涂片或快速诊断检测
+  must_warn:
+  - 疟疾如不及时治疗可危及生命
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 忽视旅行史未提及疟疾
+- id: INFECT_FEVER_DR_01
+  mode: doctor
+  question: 不明原因发热（FUO）的诊断标准、三大病因类别和诊断策略是什么？
+  expected_domain:
+  - infectious:fever
+  expected_topics:
+  - FUO定义：>38.3°C超过3周+1周评估后无诊断
+  - 三大类：感染性疾病（最常见）、恶性肿瘤（淋巴瘤）、自身免疫/炎症性
+  - 细菌性心内膜炎、腹腔内脓肿和结核是感染性FUO最常见原因
+  - 诊断顺序：详细病史+体查→实验室→影像（CT/PET）→侵入性（骨髓活检）
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_ESOPH_01
+  mode: patient
+  question: 我经常烧心、反酸，特别是晚上睡觉时，这是胃食管反流病吗？需要长期吃药吗？
+  expected_domain:
+  - digestive:esophagus
+  expected_topics:
+  - 症状描述符合胃食管反流病（GERD）
+  - 质子泵抑制剂（PPI）对中重度反流性食管炎效果优于H2阻断剂
+  - 生活方式调整（减重、避免睡前进食、头高脚低位）
+  - 如有吞咽困难、体重减轻，需做内镜检查
+  must_warn:
+  - 警惕报警症状（吞咽困难、吞咽痛、体重下降、消化道出血）需及时就医
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: DIGE_ESOPH_DR_01
+  mode: doctor
+  question: GERD的诊断标准、Barrett食管的监测策略和LA分级的临床意义是什么？
+  expected_domain:
+  - digestive:esophagus
+  expected_topics:
+  - PPI优于H2阻断剂用于中重度侵蚀性食管炎（LA C/D级）
+  - Barrett食管：癌前病变，无异型增生3-5年随访一次，低度异型增生1年一次
+  - 报警症状（吞咽困难、吞咽痛、体重减轻、上消化道出血）需内镜检查
+  must_warn:
+  - Barrett食管不监测可进展为食管腺癌
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: DIGE_JAUNDICE_01
+  mode: patient
+  question: 我最近皮肤和眼睛发黄，医生说是黄疸，要做什么检查查找原因？
+  expected_domain:
+  - digestive:jaundice
+  expected_topics:
+  - 黄疸是胆红素升高的表现，需要找原因
+  - 黄疸分溶血性、肝细胞性、梗阻性，原因不同
+  - 需要进行血液检查（胆红素、肝功能）和影像学检查
+  - 梗阻性黄疸可能需要内镜或手术处理
+  must_warn:
+  - 黄疸伴发热（Charcot三联征）提示急性胆管炎，需紧急处理
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言黄疸一定是肝病
+- id: DIGE_JAUNDICE_DR_01
+  mode: doctor
+  question: 黄疸的病因鉴别要点——溶血性、肝细胞性和梗阻性黄疸的实验室和影像学特征？
+  expected_domain:
+  - digestive:jaundice
+  expected_topics:
+  - 胆红素>2.5mg/dl时可见黄疸
+  - 梗阻性黄疸：ALP>正常3倍；肝细胞性黄疸：AST/ALT>正常10倍
+  - Gilbert综合征：7%人群，良性间歇性非结合型高胆红素血症
+  - 梗阻性：超声/ERCP/PTC；肝细胞性：肝活检
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RENAL_VASC_01
+  mode: patient
+  question: 医生说我患了肾血管性高血压，可能是肾动脉狭窄导致的，和普通高血压有什么不同？
+  expected_domain:
+  - renal:renal_vascular
+  expected_topics:
+  - 肾血管性高血压是继发性高血压的常见原因
+  - 双侧肾动脉狭窄时使用ACEI/ARB可能加重肾功能
+  - 需要影像学评估肾动脉情况
+  must_warn:
+  - 双侧肾动脉狭窄患者使用ACEI/ARB可能导致急性肾损伤
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: RENAL_VASC_DR_01
+  mode: doctor
+  question: TTP和HUS的发病机制及治疗差异是什么？ACEI在双侧肾动脉狭窄中的风险？
+  expected_domain:
+  - renal:renal_vascular
+  expected_topics:
+  - HUS：Shiga毒素相关，禁用抗生素（增加毒素释放），支持治疗为主
+  - TTP：血浆置换是关键治疗
+  - 双侧肾动脉狭窄+ACEI → 急性肾损伤风险
+  - 硬皮病肾危象：ACEI将1年死亡率从75%降至<15%
+  must_warn:
+  - HUS绝对禁用抗生素
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_PITUITARY_01
+  mode: patient
+  question: 女儿检查发现有泌乳素瘤，医生建议先用药不手术，这个药要吃多久？可以停药吗？
+  expected_domain:
+  - endocrine:pituitary
+  expected_topics:
+  - 泌乳素瘤是最常见的垂体腺瘤
+  - 多巴胺激动剂（卡麦角林/溴隐亭）>80%有效
+  - 药物治疗后肿瘤可以缩小
+  - 通常需要长期用药，停药需在医生指导下
+  must_warn:
+  - 不可自行停药，停药可能导致肿瘤复发
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: ENDO_PITUITARY_DR_01
+  mode: doctor
+  question: 肢端肥大症和库欣病的筛查确诊流程，以及垂体腺瘤的一线治疗选择？
+  expected_domain:
+  - endocrine:pituitary
+  expected_topics:
+  - 泌乳素瘤占垂体肿瘤40-45%，多巴胺激动剂>80%有效率
+  - 肢端肥大症：IGF-1筛查+OGTT确认（生长激素未被抑制到<1µg/L）
+  - 库欣病：24h UFC>50µg/24h或过夜DST皮质醇>1.8µg/dl
+  - 经蝶手术：微腺瘤治愈率75-95%
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_ADRENAL_01
+  mode: patient
+  question: 母亲被诊断为艾迪生病（原发性肾上腺皮质功能减退），需要终身服用激素吗？发生肾上腺危象怎么办？
+  expected_domain:
+  - endocrine:adrenal
+  expected_topics:
+  - 艾迪生病需终身激素替代治疗
+  - 氢化可的松早晨15-20mg、下午5mg
+  - 应激时需要加量（手术、感染等情况）
+  - 肾上腺危象需立即就医静脉补充激素
+  must_warn:
+  - 绝对不可自行停药，肾上腺危象危及生命
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议患者可以暂时停药
+- id: ENDO_ADRENAL_DR_01
+  mode: doctor
+  question: 艾迪生病（原发性肾上腺皮质功能不全）、库欣综合征和原发性醛固酮增多症的诊断要点和筛查方法？
+  expected_domain:
+  - endocrine:adrenal
+  expected_topics:
+  - 艾迪生病：65%为自身免疫破坏；ACTH>20pg/ml提示原发性；氢化可的松替代治疗
+  - 库欣综合征筛查：24h UFC>50µg/24h或过夜1mg DST皮质醇>1.8µg/dl
+  - 库欣综合征体征：满月脸、水牛背、紫纹>1cm
+  - 原发性醛固酮增多症：醛固酮/肾素比值>30筛查
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: ENDO_NUTR_01
+  mode: patient
+  question: 家人因消化道手术后在ICU无法正常进食，医生说要打静脉营养，肠内营养和肠外营养有什么区别？
+  expected_domain:
+  - endocrine:nutrition
+  expected_topics:
+  - 肠道能用则用，肠内营养优于肠外营养
+  - 肠外营养适用于肠道功能衰竭时
+  - 肠内营养维持肠道黏膜完整，减少感染并发症
+  - 危重症患者早期肠内喂养是目标
+  must_warn:
+  - 长期营养不良患者突然大量补充营养可发生再喂养综合征（低磷血症）
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: ENDO_NUTR_DR_01
+  mode: doctor
+  question: 再喂养综合征的发病机制和预防措施？ICU危重症患者的营养支持目标和血糖管理？
+  expected_domain:
+  - endocrine:nutrition
+  expected_topics:
+  - 再喂养综合征：快速补充碳水化合物→胰岛素释放→低磷血症（最危险）/低钾/低镁
+  - 预防：高危患者先纠正电解质缺乏，缓慢加量（10-20kcal/kg/d起）
+  - ICU血糖目标：80-150mg/dl
+  - 危重症能量20-25kcal/kg/d，蛋白1.5g/kg/d（分解代谢状态）
+  must_warn:
+  - 再喂养综合征严重低磷血症可致心律失常和呼吸肌无力死亡
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEUM_SPA_01
+  mode: patient
+  question: 我20多岁，腰背痛半年了，早上起来更僵硬，活动后会好一些，检查HLA-B27阳性，这可能是强直性脊柱炎吗？
+  expected_domain:
+  - rheumatology:spa
+  expected_topics:
+  - 炎性腰背痛特点：<40岁、活动后改善、晨僵、夜间痛
+  - HLA-B27与强直性脊柱炎强烈相关
+  - 需要MRI骶髂关节评估早期病变
+  - NSAIDs是一线治疗，物理治疗维持脊柱活动度
+  must_warn:
+  - 未经治疗可能导致脊柱强直（竹节样变），影响活动功能
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 断言HLA-B27阳性就是强直性脊柱炎
+- id: RHEUM_SPA_DR_01
+  mode: doctor
+  question: 脊柱关节炎（SpA）的HLA-B27分布特征、炎性腰背痛诊断标准和TNF-α抑制剂的使用指征？
+  expected_domain:
+  - rheumatology:spa
+  expected_topics:
+  - HLA-B27：AS中90%阳性，ReA中80%阳性；一般人群只有5%发生SpA
+  - NSAIDs一线治疗中轴型SpA（1级证据）
+  - TNF-α抑制剂用于NSAIDs反应不足者（1级证据）；对葡萄膜炎/IBD关节外受累也有效
+  - 柳氮磺胺吡啶/甲氨蝶呤：对外周症状有效（2级证据），对中轴无效
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEUM_SSC_01
+  mode: patient
+  question: 我被诊断为系统性硬化（硬皮病），手指遇冷会变色（白-蓝-红），每周需要监测血压，为什么？
+  expected_domain:
+  - rheumatology:systemic_sclerosis
+  expected_topics:
+  - 雷诺现象是硬皮病最常见的首发症状（>95%患者）
+  - 弥漫皮肤型硬皮病5-10%可出现硬皮病肾危象
+  - 硬皮病肾危象表现为突发高血压+急性肾损伤
+  - 每周监测血压是早期发现肾危象的关键
+  must_warn:
+  - 硬皮病肾危象是急症，出现血压急剧升高须立即就医（ACEI治疗可救命）
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: RHEUM_SSC_DR_01
+  mode: doctor
+  question: 系统性硬化的自身抗体谱与器官受累的预测关系？硬皮病肾危象的预防和处理？
+  expected_domain:
+  - rheumatology:systemic_sclerosis
+  expected_topics:
+  - 抗Scl-70→dcSSc+ILD风险；抗着丝点→lcSSc+PAH风险；抗RNA聚合酶III→SRC风险
+  - SRC：ACEI（卡托普利首选）将1年死亡率从75%降至<15%（3级证据）
+  - dcSSc每周监测血压是预防SRC延误治疗的关键措施
+  - ILD：环磷酰胺RCT证据；PAH：PDE-5/ERA/前列环素（A级证据）
+  must_warn:
+  - 硬皮病肾危象立即ACEI是救命治疗
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: RHEUM_VASC_01
+  mode: patient
+  question: 父亲70岁，最近出现新发头痛和颞部疼痛，有时下颌咀嚼时疼痛，医生怀疑巨细胞动脉炎，为什么要立即用激素？
+  expected_domain:
+  - rheumatology:vasculitis
+  expected_topics:
+  - 巨细胞动脉炎好发于70岁以上老年人，女性多见
+  - 最严重并发症是缺血性视神经病变导致永久性失明
+  - 视觉症状出现24小时内立即糖皮质激素治疗
+  - 颞动脉活检是诊断金标准
+  must_warn:
+  - 巨细胞动脉炎延误治疗可导致永久性失明，不可等待
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议等待活检结果再开始治疗
+- id: RHEUM_VASC_DR_01
+  mode: doctor
+  question: ANCA相关血管炎（GPA/MPA）的ANCA分型、利妥昔单抗vs环磷酰胺诱导治疗的循证依据，以及巨细胞动脉炎（GCA）的紧急处理要点？
+  expected_domain:
+  - rheumatology:vasculitis
+  expected_topics:
+  - GPA=cANCA/抗PR3；MPA=pANCA/抗MPO；约90%活动性AAV血清ANCA阳性
+  - 利妥昔单抗与环磷酰胺诱导疗效相当（RITUXVAS和RAVE试验，1级证据）
+  - GCA：视觉症状24小时内泼尼松1mg/kg/d；颞动脉活检≥2-3cm
+  - 低剂量阿司匹林预防GCA缺血事件（II级证据）
+  must_warn:
+  - GCA视觉症状延误治疗可致永久失明
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: HEMA_MYELOID_01
+  mode: patient
+  question: 哥哥查出慢性髓性白血病（CML），医生建议长期口服伊马替尼，这个药要吃一辈子吗？效果好吗？
+  expected_domain:
+  - hematology:myeloid_clonal
+  expected_topics:
+  - 伊马替尼是首个成功的靶向抗癌药，慢性期约90%获得完全遗传学缓解
+  - 目前多数患者需要长期甚至终身服药
+  - 治疗效果好，总体生存率约89%
+  - 定期PCR检测BCR/ABL分子缓解情况
+  must_warn:
+  - 不可自行停药，停药导致复发
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+- id: HEMA_MYELOID_DR_01
+  mode: doctor
+  question: 真性红细胞增多症（PV）的血栓防治策略和骨髓纤维化（PMF）鲁索利替尼的循证依据？
+  expected_domain:
+  - hematology:myeloid_clonal
+  expected_topics:
+  - PV：未治疗50%在18个月内血栓死亡；放血治疗目标Hct<45%（男）或<42%（女）
+  - JAK2 V617F：PV中97%阳性，ET中50%+阳性
+  - PMF：鲁索利替尼（JAK1/2抑制剂）FDA批准中高危PMF；COMFORT-I/II试验证实（RCT）
+  - ET血小板≥450×10^9/L；高危患者羟基脲一线，阿那格雷二线
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not: []
+  doctor_must_have_tags:
+  - 证据等级
+- id: NEURO_DEMENTIA_DR_01
+  question: 奶奶老年痴呆，晚上总是乱走乱叫，怎么办？
+  expected_domain:
+  - neurology:dementia
+  expected_topics:
+  - 日落综合征概念
+  - 增加白天活动减少白天睡眠
+  - 安全环境（门锁/夜灯）
+  - 固定作息时间
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 建议用镇静药让患者安静（不告知需医生评估）
+  patient_must_not_phrases:
+  - 伸展
+  - 体操
+  - 健身
+  - 八段锦
+  - 关节活动
+  - 力量训练
+  - 原地踏步
+  - 哑铃
+  - 坐姿操
+  - 太极
+  - 太极拳
+  - 广场舞
+  - 弹力带
+  - 快走
+  - 慢跑
+  - 拉伸
+  - 散步
+  - 普拉提
+  - 有氧操
+  - 步行
+  - 每周3次
+  - 每周5次
+  - 每天10
+  - 每天15
+  - 每天20
+  - 每天30
+  - 气功
+  - 游泳
+  - 爬山
+  - 爬楼梯
+  - 瑜伽
+  - 自行车
+  - 跑步
+  - 阻力训练
+  - 骑车
+  doctor_must_have_tags:
+  - 证据等级
+  - 低级别证据
+  - 临床常用
+  mode: doctor
+- id: SEPSIS_CARE_DR_01
+  question: 家人ICU脓毒症治疗，家属需要了解什么？
+  expected_domain:
+  - infectious:sepsis
+  expected_topics:
+  - 脓毒症死亡率高，需重症监护
+  must_warn: []
+  source_refs:
+  - 西氏内科学精要
+  must_not:
+  - 承诺脓毒症肯定能治好
+  doctor_must_have_tags:
+  - 证据等级
+  mode: doctor

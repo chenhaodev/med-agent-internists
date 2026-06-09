@@ -1,0 +1,136 @@
+specialty: infectious
+specialty_zh: 感染
+disease: cns_infection
+disease_zh: cns_infection
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CNS_INF_DEF
+  title: 中枢神经系统感染定义
+  source_page: 926
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 中枢神经系统感染包括脑膜炎、脑炎和脑脓肿，需紧急就医。
+  - 脑膜炎是脑膜炎症，脑炎是脑实质炎症，症状不同。
+- id: MENINGITIS_CAUSE
+  title: 脑膜炎病因与危险因素
+  source_page: 927
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 细菌性脑膜炎常见于肺炎链球菌、脑膜炎奈瑟菌等，与年龄和基础病相关。
+  - 免疫抑制、脾切除、糖尿病、酗酒等增加细菌性脑膜炎风险。
+  - 病毒性脑膜炎多由肠道病毒引起，夏季高发，通常自限。
+  - 真菌性脑膜炎多见于免疫抑制患者，如HIV感染者。
+- id: MENINGITIS_SYMPTOM
+  title: 脑膜炎临床表现
+  source_page: 928
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性脑膜炎典型症状：发热、头痛、颈项强直、意识障碍。
+  - 老年患者症状不典型，可能仅表现为嗜睡或迟钝。
+  - 病毒性脑膜炎病程通常小于1周，腰椎穿刺后症状可改善。
+  - 慢性脑膜炎症状持续数周至数年，需警惕结核或真菌感染。
+- id: MENINGITIS_DIAG
+  title: 脑膜炎诊断方法
+  source_page: 929
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 腰椎穿刺检查脑脊液是确诊脑膜炎的关键。
+  - 脑脊液革兰染色和培养可快速识别细菌病原体。
+  - PCR检测可提高病毒和结核性脑膜炎的诊断准确性。
+  - 血清降钙素原和C反应蛋白有助于区分细菌与病毒性脑膜炎。
+- id: MENINGITIS_TREAT
+  title: 脑膜炎治疗原则
+  source_page: 929
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 细菌性脑膜炎需立即使用抗生素，经验性治疗根据年龄和危险因素选择。
+  - 病毒性脑膜炎通常支持治疗，多数可自愈。
+  - 真菌性脑膜炎需抗真菌治疗，疗程较长。
+  - 结核性脑膜炎需联合抗结核药物治疗，疗程至少6个月。
+- id: MENINGITIS_COMP
+  title: 脑膜炎并发症预防
+  source_page: 928
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脑膜炎可导致脑神经麻痹、癫痫、意识障碍等并发症。
+  - 及时治疗可降低并发症风险，需密切监测神经系统症状。
+  - 老年和免疫抑制患者并发症风险更高，需加强护理。
+- id: MENINGITIS_WHEN
+  title: 何时就医
+  source_page: 928
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现发热、剧烈头痛、颈项强直、意识模糊时立即就医。
+  - 婴幼儿或老年人出现嗜睡、拒食、呕吐时需警惕脑膜炎。
+  - 有免疫抑制或基础病患者出现头痛发热应尽早就诊。
+- id: ENCEPHALITIS_CAUSE
+  title: 脑炎病因与危险因素
+  source_page: 926
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 脑炎多由病毒引起，如单纯疱疹病毒、虫媒病毒等。
+  - 免疫抑制患者更易发生脑炎，需注意预防感染。
+- id: ENCEPHALITIS_SYMPTOM
+  title: 脑炎临床表现
+  source_page: 939
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 脑炎症状包括发热、头痛、意识障碍、癫痫、行为异常。
+  - 单纯疱疹病毒脑炎可导致记忆力减退和人格改变。
+- id: ENCEPHALITIS_DIAG
+  title: 脑炎诊断方法
+  source_page: 929
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 脑脊液PCR检测是诊断病毒性脑炎的重要方法。
+  - 脑电图和影像学检查可辅助诊断脑炎。
+- id: ENCEPHALITIS_TREAT
+  title: 脑炎治疗原则
+  source_page: 929
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 病毒性脑炎需抗病毒治疗，如阿昔洛韦用于单纯疱疹病毒。
+  - 支持治疗包括控制癫痫、降低颅内压和维持生命体征。
+- id: ABSCESS_CAUSE
+  title: 脑脓肿病因与危险因素
+  source_page: 926
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脑脓肿常由细菌感染引起，如链球菌、葡萄球菌。
+  - 危险因素包括中耳炎、鼻窦炎、心内膜炎、头部外伤。
+- id: ABSCESS_SYMPTOM
+  title: 脑脓肿临床表现
+  source_page: 939
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脑脓肿症状包括头痛、发热、局灶性神经症状、癫痫。
+  - 症状进展较慢，需与脑肿瘤鉴别。
+- id: ABSCESS_DIAG
+  title: 脑脓肿诊断方法
+  source_page: 926
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 头颅CT或MRI是诊断脑脓肿的主要影像学方法。
+  - 脑脊液检查需谨慎，避免脓肿破裂风险。
+- id: ABSCESS_TREAT
+  title: 脑脓肿治疗原则
+  source_page: 926
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脑脓肿需抗生素治疗，必要时手术引流。
+  - 治疗需根据病原体培养结果调整抗生素。

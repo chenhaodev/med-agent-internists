@@ -1,0 +1,114 @@
+specialty: renal
+specialty_zh: 肾
+disease: aki
+disease_zh: aki
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AKI_DEFINITION
+  title: 急性肾损伤的定义
+  source_page: 373
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性肾损伤是肾功能突然下降，导致废物在体内堆积。
+  - 即使轻度肾功能异常也可能增加并发症和死亡风险。
+  - 诊断标准包括血肌酐升高和尿量减少。
+- id: AKI_CAUSES
+  title: 急性肾损伤的三大病因
+  source_page: 373
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肾前性：肾脏血流不足，如脱水、心力衰竭。
+  - 肾性：肾脏本身受损，如药物、感染。
+  - 肾后性：尿路梗阻，如前列腺增生、结石。
+- id: AKI_RISK_FACTORS
+  title: 急性肾损伤的危险因素
+  source_page: 374
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢性肾脏病、老年、糖尿病、高血压是主要危险因素。
+  - 住院患者，尤其是ICU患者，风险更高。
+  - 使用肾毒性药物（如某些抗生素、造影剂）增加风险。
+- id: AKI_DIAGNOSIS_STAGING
+  title: 急性肾损伤的分期标准
+  source_page: 374
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 1期：血肌酐升至1.5-1.9倍或尿量减少。
+  - 2期：血肌酐升至2-2.9倍或尿量进一步减少。
+  - 3期：血肌酐升至3倍以上或需要透析。
+- id: AKI_SYMPTOMS_MONITOR
+  title: 急性肾损伤的症状监测
+  source_page: 374
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 注意尿量变化：每天少于400ml为少尿，少于100ml为无尿。
+  - 尿量正常也可能有肾损伤，需警惕非少尿型。
+  - 每日尿量波动大可能提示部分尿路梗阻。
+- id: AKI_HYDRATION_MANAGEMENT
+  title: 急性肾损伤的液体管理
+  source_page: 375
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 脱水或心力衰竭可导致肾前性肾损伤，需评估容量状态。
+  - 医生可能通过补液试验或中心静脉压指导液体治疗。
+  - 避免过度补液，以免加重心脏负担。
+- id: AKI_MEDICATION_CAUTION
+  title: 急性肾损伤的药物注意事项
+  source_page: 374
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 避免使用肾毒性药物，如非甾体抗炎药、某些抗生素。
+  - 使用造影剂前需评估肾功能，必要时预防性补水。
+  - 所有药物需在医生指导下使用，不可自行调整。
+- id: AKI_URINE_TEST
+  title: 急性肾损伤的尿液检查意义
+  source_page: 376
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 尿比重高提示肾前性，等渗尿提示肾性损伤。
+  - 尿沉渣检查可发现红细胞、管型等异常成分。
+  - 尿钠排泄分数有助于区分肾前性和肾小管坏死。
+- id: AKI_IMAGING
+  title: 急性肾损伤的影像学检查
+  source_page: 377
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 肾脏超声是首选，可排除尿路梗阻。
+  - CT或MRI可用于复杂病例，但需注意造影剂风险。
+  - 肾动脉多普勒可评估肾脏血流。
+- id: AKI_BIOPSY_INDICATIONS
+  title: 急性肾损伤的肾活检指征
+  source_page: 377
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 当病因不明或持续少尿超过2-3周时考虑肾活检。
+  - 全身性疾病（如狼疮、血管炎）伴肾损伤时需活检。
+  - 肾活检有出血风险，需在专业医生评估后进行。
+- id: AKI_COMPLICATION_PREVENTION
+  title: 急性肾损伤的并发症预防
+  source_page: 373
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 积极治疗原发病，避免肾功能进一步恶化。
+  - 监测电解质和酸碱平衡，及时纠正异常。
+  - 严重时可能需要肾脏替代治疗（透析）。
+- id: AKI_WHEN_TO_SEEK_CARE
+  title: 急性肾损伤的就医时机
+  source_page: 374
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现尿量明显减少、水肿、呼吸困难时立即就医。
+  - 有慢性肾病、糖尿病等基础病者需定期监测肾功能。
+  - 使用可能伤肾的药物后出现不适，及时咨询医生。

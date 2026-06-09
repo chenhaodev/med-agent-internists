@@ -1,0 +1,112 @@
+specialty: hematology
+specialty_zh: 血液
+disease: anemia
+disease_zh: 贫血
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ANEMIA_DEFINITION
+  title: 贫血的定义与症状
+  source_page: 539
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 贫血是红细胞数量减少，常见症状包括乏力、活动后气短和心悸。
+  - 严重贫血可能引发心绞痛，需及时就医评估。
+  pdf_page: 558
+- id: ANEMIA_CAUSES
+  title: 贫血的常见原因
+  source_page: 539
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 贫血可由营养缺乏、失血、溶血或骨髓疾病引起。
+  - 急性失血或溶血可能导致休克，需紧急处理。
+  pdf_page: 558
+- id: IRON_DEFICIENCY_CAUSES
+  title: 缺铁性贫血的原因
+  source_page: 542
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 缺铁最常见原因是隐性失血，男性和绝经后女性需排查胃肠道出血。
+  - 月经量过多或妊娠是育龄女性缺铁的常见原因。
+  pdf_page: 561
+- id: IRON_DEFICIENCY_DIAGNOSIS
+  title: 缺铁性贫血的诊断检查
+  source_page: 542
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断需查血清铁、总铁结合力和铁蛋白，铁蛋白低于12ng/ml提示缺铁。
+  - 铁蛋白在炎症时可能升高，但高于100ng/ml通常可排除缺铁。
+  pdf_page: 561
+- id: IRON_DEFICIENCY_TREATMENT
+  title: 缺铁性贫血的治疗建议
+  source_page: 542
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 口服铁剂（硫酸亚铁或葡萄糖酸亚铁，每日2～3次）是缺铁性贫血主要治疗方法；需坚持口服至贫血纠正后数月，以补足储存铁。
+  - 铁剂可能引起便秘或腹泻等胃肠道副作用，可从小剂量开始逐渐增加以提高耐受性；也可与少量食物同服减轻副作用（但空腹吸收更好）。
+  - 维生素C可促进铁吸收（临床实践建议同服）；茶、咖啡、牛奶及钙片等含鞣酸/钙物质可抑制铁吸收，服铁剂时应间隔2小时。
+  - 服铁剂后大便变黑（铁剂染色）属正常现象，与消化道出血的柏油样黑便须区分；若伴腹痛或血便则须就医。
+  - 胃肠外补铁（静脉铁剂）适用于口服不耐受、铁吸收不良或口服无法满足需求量的患者（需专科评估）；右旋糖酐铁可引起过敏，较新制剂（葡萄糖酸铁钠、蔗糖铁）更安全。
+  - 所有男性及绝经后女性缺铁性贫血均应首先排除胃肠道出血。
+  pdf_page: 561
+- id: B12_DEFICIENCY_CAUSES
+  title: 维生素B12缺乏的原因
+  source_page: 543
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 最常见原因是恶性贫血，一种自身免疫病导致内因子缺乏。
+  - 胃切除、回肠疾病或长期素食也可能导致B12缺乏。
+  pdf_page: 562
+- id: B12_DEFICIENCY_SYMPTOMS
+  title: 维生素B12缺乏的症状
+  source_page: 544
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 除贫血外，B12缺乏可导致神经症状，如手脚麻木、行走不稳或记忆力下降。
+  - 神经症状可能单独出现，需及时检查B12水平。
+  pdf_page: 563
+- id: FOLATE_DEFICIENCY
+  title: 叶酸缺乏的原因与预防
+  source_page: 543
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 叶酸缺乏常见于饮食中新鲜蔬果摄入不足者。
+  - 妊娠、溶血或透析患者需额外补充叶酸。
+  pdf_page: 562
+- id: MACROCYTIC_ANEMIA
+  title: 大细胞性贫血的常见类型
+  source_page: 542
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 大细胞性贫血分为巨幼细胞性和非巨幼细胞性，前者与B12或叶酸缺乏有关。
+  - 肝病或甲状腺功能减退也可引起大细胞性贫血。
+  pdf_page: 561
+- id: WHEN_TO_SEEK_CARE
+  title: 贫血患者何时就医
+  source_page: 539
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现严重乏力、呼吸困难、心绞痛或黄疸时需立即就医。
+  - 不明原因的贫血或治疗后无改善，应进一步检查病因。
+  pdf_page: 558
+- id: ANEMIA_DIFFERENTIAL
+  title: 贫血鉴别诊断——网织红细胞与MCV分类
+  source_page: 540
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 网织红细胞计数用于鉴别原发性骨髓衰竭所引起的贫血与溶血或失血所引起的贫血。
+  - 正常网织红细胞为红细胞总数的0.5%～1.5%；代偿性贫血时可升至2%以上或绝对值>100 000/µl。
+  - MCV将贫血分为：小细胞性（MCV<80fl，常见于缺铁、慢性病、地中海贫血）、正常细胞性（80～100fl）、大细胞性（>100fl，见于B12/叶酸缺乏）。
+  - 缺铁性贫血与慢性病贫血鉴别：铁蛋白<12ng/ml确认缺铁；铁蛋白>100ng/ml基本排除缺铁；两者可共存。
+  - 不明原因贫血需系统评估（排除恶性肿瘤等可治疗病因）。
+  pdf_page: 559

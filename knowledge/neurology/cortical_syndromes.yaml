@@ -1,0 +1,79 @@
+specialty: neurology
+specialty_zh: neurology
+disease: cortical_syndromes
+disease_zh: cortical_syndromes
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CORTICAL_ANATOMY
+  title: 大脑皮质基本分区
+  source_page: 1064
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 大脑分为额叶、颞叶、顶叶、枕叶四个区域，各司不同功能。
+  - 95%的人语言功能在左侧大脑半球。
+  - 中央沟前是运动皮质，后是感觉皮质，身体各部位有对应区域。
+  pdf_page: 452
+- id: CORTICAL_SYMPTOMS_VARIABILITY
+  title: 皮质病变症状特点
+  source_page: 1064
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 皮质病变症状不如脊髓病变典型，患者可能意识不到缺陷。
+  - 症状出现速度和进展影响缺陷范围，需详细病史和体检。
+  - 下肢症状可能提示矢状窦旁病变，面部和上肢症状可能源于外侧皮质。
+  pdf_page: 452
+- id: APHASIA_TYPES
+  title: 失语症主要类型
+  source_page: 1065
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 失语是语言功能障碍，不同于构音障碍（发音问题）。
+  - Broca失语：说话不流畅，表达困难，理解力较好，常伴右侧面部和上肢无力。
+  - Wernicke失语：说话流畅但无意义，不能理解语言，易被误诊为精神问题。
+  - 传导性失语：能理解、说话流畅，但不能复述。
+  - 全面性失语：语言各方面均受累，源于额叶大病变。
+  pdf_page: 453
+- id: APHASIA_EVALUATION
+  title: 失语症临床评估
+  source_page: 1065
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 评估失语需检查流畅性、理解、复述、命名、阅读、计算和书写。
+  - 孤立的命名困难（叫不出物体名称）定位价值不大。
+  - 书写功能在语言障碍患者中总是受累。
+  pdf_page: 453
+- id: AGNOSIA_APRAXIA
+  title: 失认与失用
+  source_page: 1065
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 失认：感觉功能正常但不能识别刺激，如视觉失认（视力正常但不认识物体）。
+  - 失用：运动功能正常但不能完成习得动作，如梳头、吹蜡烛。
+  - 失认病变常在颞枕区，失用病变常在优势半球顶下小叶。
+  pdf_page: 453
+- id: NEGLECT_SYNDROME
+  title: 偏侧忽视与病觉缺失
+  source_page: 1067
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 非优势半球（常为右侧）顶叶病变可导致左侧身体或视野忽视。
+  - 轻度忽视表现为双侧同时刺激时只注意到同侧。
+  - 病觉缺失：患者意识不到自身缺陷，甚至否认肢体属于自己。
+  pdf_page: 455
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医警示
+  source_page: 1064
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现突然的语言障碍、理解困难或表达不清，需立即就医。
+  - 无法识别熟悉面孔、物体或声音，应咨询神经科医生。
+  - 不能完成日常动作（如梳头、穿衣）但肢体活动正常，需评估。
+  - 对一侧身体或空间完全忽视，或否认自身缺陷，需专业诊断。
+  pdf_page: 452

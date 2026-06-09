@@ -1,0 +1,41 @@
+specialty: endocrine
+specialty_zh: 内分泌系统
+disease: nutrition
+disease_zh: 营养支持（肠内/肠外营养、危重症营养）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NUTRITION_SUPPORT_PRINCIPLES
+  title: 营养支持原则——肠内优先
+  source_page: 738
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 核心原则：肠道能用则用（"If the gut works, use it"）；肠内营养（EN）优于肠外营养（PN）——维持肠道黏膜完整性，减少感染并发症。
+  - 肠外营养（PN）适应证：短肠综合征/肠道功能衰竭、ICU患者无法耐受EN超过3~4天、严重吸收不良。
+  - 能量需求：危重症患者20~25kcal/kg/d（低估可导致营养不足，高估可导致高血糖和并发症）。
+  - 蛋白质需求：分解代谢增强状态（手术后、烧伤、败血症）为1.5g/kg/d（高于普通成人0.8g/kg/d）。
+  - 营养支持指征：BMI<18.5或过去3~6个月体重下降>10%（有明确证据可从营养支持获益）。
+  pdf_page: 736
+
+- id: REFEEDING_SYNDROME
+  title: 再喂养综合征——预防与处理
+  source_page: 738
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 再喂养综合征：长期饥饿/营养不良患者突然快速补充碳水化合物→胰岛素大量分泌→磷、钾、镁向细胞内转移→严重低磷血症（最危险）、低钾血症、低镁血症。
+  - 严重并发症：心律失常、呼吸肌无力、神经肌肉功能障碍甚至死亡。
+  - 预防：高危患者（长期饥饿、神经性厌食、慢性酗酒）营养支持前先纠正电解质缺乏；以低速率开始（10~20kcal/kg/d），缓慢加量；监测血磷/钾/镁。
+  pdf_page: 738
+
+- id: ICU_NUTRITION
+  title: ICU营养支持与血糖管理
+  source_page: 740
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - ICU血糖目标：80~150mg/dl（强化胰岛素治疗目标80~110mg/dl可降低感染并发症，但低血糖风险增加；大多数指南推荐中间目标）。
+  - 早期EN（入ICU 24~48h内）：维持肠道屏障，减少细菌移位，可能减少感染并发症和住院时间。
+  - EDEN试验（1级证据）：ICU机械通气患者早期低量肠内喂养vs全量肠内喂养，60天死亡率和机械通气时间无差别——早期全量EN非必须。
+  - 抗氧化剂、ω-3脂肪酸未被证实改善急性肺损伤临床结局，不推荐。
+  pdf_page: 741

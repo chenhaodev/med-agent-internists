@@ -1,0 +1,41 @@
+specialty: cardiology
+specialty_zh: 心血管系统
+disease: congenital_hd
+disease_zh: 先天性心脏病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CHD_OVERVIEW
+  title: 先天性心脏病概述与流行病学
+  source_page: 71
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 先天性心脏病（CHD）发生率约9/1000新生儿；随手术技术进步，约90%患者可存活至成年。
+  - 室间隔缺损（VSD）是最常见的先天性心脏病。
+  - 房间隔缺损（ASD）分型：继发孔型75%（可经导管封堵）、原发孔型20%（仅可手术修复）、静脉窦型5%；ASD>40岁未修复→房颤发生率>20%，死亡率每年+6%。
+  - 成人CHD长期随访目标：手术修复后仍需终身定期随访，监测晚期并发症。
+  pdf_page: 92
+
+- id: ASD_VSD_TREATMENT
+  title: 房间隔缺损（ASD）和室间隔缺损（VSD）
+  source_page: 71
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - ASD继发孔型（最常见，75%）：首选经导管封堵（介入治疗）；修复年龄<25岁者长期预后好、并发症少。
+  - ASD原发孔型（20%）：仅能外科修复（常伴二尖瓣前叶裂）。
+  - 小限制性VSD：无症状，保守治疗，25年生存率约96%；小VSD并发症：感染性心内膜炎、主动脉瓣反流。
+  - 唐氏综合征患者：40%伴CHD，其中40%为某型房室间隔缺损（AVSD）；须在1岁前修复，否则发生不可逆肺血管病。
+  pdf_page: 92
+
+- id: EISENMENGER_COARCTATION
+  title: 艾森门格综合征与主动脉缩窄
+  source_page: 73
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 艾森门格综合征：大型室间隔/房间隔缺损长期左向右分流→肺动脉高压→分流方向逆转（右向左）→发绀；平均寿命约37岁；主要并发症：右心衰竭、反常栓塞、继发性红细胞增多症。
+  - 主动脉缩窄：占CHD约5%；>95%缩窄位于左锁骨下动脉发出处下方；50%~85%伴二叶主动脉瓣。
+  - 主动脉缩窄临床特征：上半身高血压、下肢脉搏减弱延迟、上下肢血压差（右上肢>下肢）；内镜心肌梗死等血管并发症发生率增加。
+  - 主动脉缩窄即使修复成功，主动脉中膜异常依然存在，主动脉僵硬度持续升高。
+  pdf_page: 74

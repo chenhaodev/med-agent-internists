@@ -1,0 +1,168 @@
+specialty: substance_use
+specialty_zh: substance_use
+disease: alcohol_drugs
+disease_zh: alcohol_drugs
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ALC_DEFINITION
+  title: 酗酒的定义与诊断标准
+  source_page: 1232
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 酗酒指在某个场合饮用5杯或以上含酒精饮料。
+  - 诊断标准包括11项，满足2-3条为轻度，4-5条中度，6条以上严重。
+  - 常见症状：无法履行工作或家庭义务、危险行为、人际关系问题。
+  pdf_page: 618
+- id: ALC_RISK_FACTORS
+  title: 酗酒的危险因素
+  source_page: 1232
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 白种人比其他人种更易饮酒，男性比女性更易酗酒。
+  - 首次饮酒平均年龄为17岁，大学生中超过一半是重度酗酒者。
+  - 30岁以下人群饮酒率最高，但30岁以上仍有约2/3的人饮酒。
+  pdf_page: 618
+- id: ALC_METABOLISM
+  title: 酒精代谢与吸收
+  source_page: 1232
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 酒精主要在小肠吸收，空腹饮酒吸收更快。
+  - 同时摄入碳水化合物或碳酸饮料会加速酒精吸收。
+  - 肝脏代谢约90%酒精，少量通过皮肤、肾和肺排出。
+  pdf_page: 618
+- id: ALC_ORGAN_DAMAGE
+  title: 酒精导致的器官损害
+  source_page: 1233
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 酒精易损伤肝、胰腺、心脏、脑和骨骼。
+  - 酒精性肝病是肝衰竭的主要可预防原因，白种人更易患病。
+  - 酒精相关疾病常伴有营养不足，需补充硫胺素、钾、镁等。
+  pdf_page: 619
+- id: ALC_ACUTE_POISONING
+  title: 急性酒精中毒表现
+  source_page: 1233
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 轻度中毒：口齿不清、走路不稳、协调性差。
+  - 血液酒精浓度达400mg/dl时，可导致木僵和昏迷。
+  - 中毒程度因人而异，需及时就医评估。
+  pdf_page: 619
+- id: ALC_WITHDRAWAL
+  title: 酒精戒断综合征
+  source_page: 1234
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒断症状分三阶段：6-12小时出现焦虑、出汗、失眠。
+  - 12-24小时可能出现幻觉、惊跳反应。
+  - 12-48小时可能发生抽搐（朗姆酒发作），需紧急处理。
+  pdf_page: 620
+- id: ALC_DELIRIUM_TREMENS
+  title: 震颤性谵妄
+  source_page: 1234
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 症状包括意识混乱、幻觉、激动、震颤、发热。
+  - 约5%重度酗酒者发生，未治疗死亡率接近25%。
+  - 早期诊断和治疗可将死亡率降至5%。
+  pdf_page: 620
+- id: ALC_SCREENING
+  title: 酒精滥用筛查工具
+  source_page: 1234
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CAGE问卷：4个问题，2个以上阳性提示酒精问题。
+  - AUDIT测验：10个问题，2-3分钟完成，适合门诊筛查。
+  - 每周饮酒超过14杯或每天超过3杯需进一步评估。
+  pdf_page: 620
+- id: ALC_TREATMENT
+  title: 酗酒的治疗策略
+  source_page: 1234
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 干预包括端正态度、提高知识技能，防止酗酒。
+  - 行为或药物治疗可使2/3患者减少饮酒量50%以上。
+  - 治疗一年后，1/3患者能节制或适度饮酒。
+  pdf_page: 620
+- id: DRUG_ABUSE_TYPES
+  title: 常见滥用药物及危害
+  source_page: 1235
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 大麻类：导致思考减慢、记忆减退、焦虑、心动过速。
+  - 镇静催眠药：引起嗜睡、眩晕、呼吸抑制、成瘾。
+  - 阿片类药物：导致嗜睡、呼吸抑制、便秘、成瘾。
+  pdf_page: 621
+- id: DRUG_ABUSE_COMPLICATIONS
+  title: 药物滥用的健康损害
+  source_page: 1235
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 分离性药物：引起心率血压上升、记忆丧失、恶心。
+  - 致幻剂：导致认知改变、慢性精神异常、病理性重现。
+  - 阿片类：针尖样瞳孔、呼吸抑制、昏迷、死亡风险。
+  pdf_page: 621
+- id: ALC_WHEN_TO_SEEK_HELP
+  title: 何时就医
+  source_page: 1234
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现戒断症状如焦虑、出汗、失眠时需就医。
+  - 发生抽搐或震颤性谵妄（意识混乱、幻觉）需紧急处理。
+  - 每周饮酒超过14杯或每天超过3杯应寻求专业评估。
+  pdf_page: 620
+- id: SUB_ALCOHOL_DIET
+  title: 酒精相关疾病营养管理
+  source_page: 1233
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 酒精本身缺乏蛋白质、矿物质和维生素；长期大量饮酒者常合并严重营养不良
+  - 初始治疗必须补充硫胺素（维生素B1），预防Wernicke脑病；同时纠正钾、镁、钙、锌缺乏
+  - 戒酒后饮食应逐步恢复均衡营养，必要时在营养师指导下制定补充方案
+  pdf_page: 619
+- id: SUB_ALCOHOL_ABSTAIN
+  title: 酒精相关疾病戒酒建议
+  source_page: 1238
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 有酒精滥用史或严重器官损害（如肝病）的患者应完全戒酒，而非仅减少饮酒量
+  - 安全驾驶等公共安全场合禁止饮酒，酒后驾车危害生命
+  - 戒酒过程中可能出现戒断症状（震颤、出汗、癫痫发作），戒断反应严重者需医疗监护
+  pdf_page: 624
+- id: SUB_ALCOHOL_REHAB
+  title: 酒精相关疾病康复治疗
+  source_page: 1241
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 药物治疗（如纳曲酮、阿坎酸）需与心理治疗和结构化康复治疗联用，以达到最佳疗效
+  - 纳曲酮仅在患者完全解毒（戒断完成）后才能使用，使用前须确认无阿片类药物依赖
+  - 社会支持和自助团体（如匿名戒酒会）是长期维持戒酒的重要辅助手段
+  pdf_page: 627
+- id: ALC_WITHDRAWAL_MGMT
+  title: 酒精戒断综合征评估与苯二氮䓬类管理
+  source_page: 1239
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CIWA-Ar（修订版临床戒断反应评估量表）评估戒断症状严重性，在医学情况稳定患者中指导对症治疗。
+  - 苯二氮䓬类是唯一获批准能降低酒精戒断患者癫痫发作和震颤性谵妄风险的药物类别。
+  - 给药方案：地西泮（5～20mg）、氯氮（50～100mg）、劳拉西泮（1～2mg），每隔5～10min静脉给药直至症状消失。
+  - 严重肝硬化患者优先选用劳拉西泮（肝内代谢较少，最为适用）。
+  - 长效苯二氮䓬类（地西泮等）在预防戒断后癫痫方面更佳；短效药物（劳拉西泮等）过度镇静风险较低。
+  pdf_page: 625

@@ -1,0 +1,106 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: thyroid
+disease_zh: 甲状腺疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: THYROID_FUNCTION
+  title: 甲状腺激素功能
+  source_page: 683
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲状腺激素调节能量代谢和产热，影响心率和消化。
+  - 甲状腺功能异常时，症状会增强或减弱。
+  pdf_page: 73
+- id: HYPERTHYROID_SYMPTOMS
+  title: 甲亢症状与体征
+  source_page: 685
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲亢常见症状包括心悸、怕热、体重下降、手抖。
+  - 严重时可能出现高热、心衰，需立即就医。
+  pdf_page: 75
+- id: GRAVES_DIAGNOSIS
+  title: Graves病诊断
+  source_page: 686
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断依据：T4/T3升高、TSH下降，结合甲亢症状。
+  - 甲状腺刺激性免疫球蛋白升高可辅助诊断。
+  pdf_page: 76
+- id: GRAVES_TREATMENT
+  title: Graves病治疗选择
+  source_page: 686
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 治疗方式包括抗甲状腺药物、放射性碘或手术。
+  - 药物需长期服用，停药后部分患者可能复发。
+  pdf_page: 76
+- id: ANTITHYROID_DRUGS
+  title: 抗甲状腺药物注意事项
+  source_page: 686
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 服药期间若出现发热或咽痛，需立即停药就医。
+  - 甲巯咪唑是首选，对肝脏毒性较低。
+  pdf_page: 76
+- id: RADIOIODINE_THERAPY
+  title: 放射性碘治疗要点
+  source_page: 687
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 治疗后多数患者会发展为甲减，需终身服药。
+  - 孕妇禁用，但治疗后怀孕不增加胎儿畸形风险。
+  pdf_page: 77
+- id: SURGERY_INDICATIONS
+  title: 甲亢手术指征
+  source_page: 687
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 巨大甲状腺肿压迫或计划怀孕者可考虑手术。
+  - 术前需用药物控制甲功正常，并口服碘剂。
+  pdf_page: 77
+- id: SUBCLINICAL_HYPERTHYROID
+  title: 亚临床甲亢管理
+  source_page: 687
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - TSH低但T4/T3正常，老年患者心律失常风险高。
+  - 持续TSH降低时，需考虑药物或放射性碘治疗。
+  pdf_page: 77
+- id: THYROIDITIS_TYPES
+  title: 甲状腺炎分类与处理
+  source_page: 687
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 亚急性甲状腺炎常伴颈痛和发热，可用止痛药。
+  - 产后甲状腺炎多在产后6个月内出现，需监测甲功。
+  pdf_page: 77
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 685
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现高热、心慌、意识模糊，可能是甲状腺危象。
+  - 甲状腺结节快速增大或声音嘶哑，需及时检查。
+  pdf_page: 75
+- id: ENDO_THYROID_DIET
+  title: 甲状腺疾病饮食注意事项
+  source_page: 687
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 有甲状腺肿的患者在饮食碘摄入量突然增加时（如大量食用海产品或使用含碘造影剂）可能诱发甲亢
+  - 甲状腺疾病患者在进行需要碘造影剂的检查前应告知医生甲状腺病史
+  - 甲状腺功能减退患者服用左甲状腺素应在空腹时服用，避免与高纤维饮食或钙剂同时服用
+  pdf_page: 77

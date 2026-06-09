@@ -1,0 +1,40 @@
+specialty: rheumatology
+specialty_zh: 风湿免疫系统
+disease: systemic_sclerosis
+disease_zh: 系统性硬化（硬皮病）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SSC_CLASSIFICATION
+  title: 系统性硬化分型与流行病学
+  source_page: 853
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 系统性硬化（SSc）年发病率约20/百万；女:男=3:1；主要亚型：弥漫皮肤型（dcSSc，早期内脏受累多）、局限皮肤型（lcSSc，CREST综合征：钙化、雷诺现象、食管动力障碍、指端硬化、毛细血管扩张）。
+  - 雷诺现象（Raynaud phenomenon）：>95%患者出现，常为首发症状；遇冷/情绪变化后指/趾颜色变化（白→蓝→红三相改变）。
+  - 重要自身抗体：抗Scl-70（拓扑异构酶I）→dcSSc + ILD风险增加；抗着丝点抗体→lcSSc + PAH风险增加；抗RNA聚合酶III→SRC风险增加（dcSSc中）。
+  pdf_page: 853
+
+- id: SSC_COMPLICATIONS
+  title: SSc器官并发症——肾、肺、消化道
+  source_page: 859
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 硬皮病肾危象（SRC）：dcSSc患者突发高血压危象+进行性AKI；发生率5~10%（dcSSc中）；危险因素：病程<3年、快速皮肤进展、抗RNA聚合酶III抗体阳性、使用大剂量糖皮质激素。
+  - SRC处理：立即ACEI（卡托普利首选）→1年死亡率从75%降至<15%（3级证据）；每位dcSSc患者每周监测血压。
+  - 肺间质性疾病（ILD）：最常见死亡原因之一；cyclophosphamide（环磷酰胺）治疗ILD有RCT证据。
+  - 肺动脉高压（PAH）：使用PDE-5抑制剂、内皮素受体拮抗剂（ERA）、前列环素类药物（A级证据）。
+  - 胃食管反流（最常见消化道表现）：PPI治疗；食管动力障碍（蠕动减弱/消失）。
+  pdf_page: 857
+
+- id: SSC_RAYNAUD_TREATMENT
+  title: 雷诺现象的处理
+  source_page: 858
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 一线：保暖（避免寒冷暴露）、戒烟；钙通道阻滞剂（氨氯地平）是药物治疗首选。
+  - 二线：磷酸二酯酶-5抑制剂（他达拉非/西地那非）、内皮素受体拮抗剂（波生坦）用于严重雷诺/指端溃疡。
+  - 严重指端缺血/坏疽：前列环素（依前列醇/伊洛前列素）静脉注射；交感神经阻断（极端情况）。
+  pdf_page: 854

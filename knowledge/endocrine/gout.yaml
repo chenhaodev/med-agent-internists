@@ -1,0 +1,156 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: gout
+disease_zh: 痛风与高尿酸血症
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: GOUT_DEFINITION
+  title: 痛风定义与高尿酸血症
+  source_page: 866
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 痛风是尿酸盐结晶沉积在关节引起的疾病。
+  - 高尿酸血症指血尿酸超过6.8mg/dl。
+  - 只有约20%的高尿酸血症患者会发展为痛风。
+  pdf_page: 255
+- id: GOUT_RISK_FACTORS
+  title: 痛风危险因素
+  source_page: 866
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 男性患病风险是女性的3-6倍。
+  - 绝经后女性风险增加，因雌激素有助排尿酸。
+  - 肥胖、高血压、肾病、利尿剂使用增加风险。
+  pdf_page: 255
+- id: GOUT_CAUSES
+  title: 高尿酸血症病因
+  source_page: 867
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 约90%高尿酸血症因肾脏排泄减少引起。
+  - 尿酸产生过多见于饮食、饮酒、某些疾病。
+  - 富含嘌呤食物（如海鲜、内脏）可加重病情。
+  pdf_page: 256
+- id: GOUT_ACUTE_SYMPTOMS
+  title: 急性痛风发作症状
+  source_page: 868
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 典型表现为单关节剧痛、红肿，常见于大脚趾。
+  - 疼痛在8-24小时内达高峰，5-14天可自行缓解。
+  - 发作间期关节完全无症状。
+  pdf_page: 257
+- id: GOUT_TRIGGERS
+  title: 痛风发作诱因
+  source_page: 868
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 利尿剂、饮酒、手术、外伤可诱发发作。
+  - 高嘌呤食物（如动物内脏、海鲜）也是诱因。
+  - 降尿酸治疗初期也可能诱发发作。
+  pdf_page: 257
+- id: GOUT_CHRONIC
+  title: 慢性痛风与痛风石
+  source_page: 868
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 未治疗的高尿酸血症10年后可转为慢性痛风。
+  - 慢性期关节持续疼痛，发作间期不缓解。
+  - 痛风石是尿酸盐结晶聚集，常见于耳、手指。
+  pdf_page: 257
+- id: GOUT_DIAGNOSIS
+  title: 痛风诊断方法
+  source_page: 868
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 确诊需关节穿刺找到尿酸盐结晶。
+  - 血尿酸在急性期可能正常，不能单靠此诊断。
+  - 需排除感染和其他晶体性关节炎。
+  pdf_page: 257
+- id: GOUT_ACUTE_TREATMENT
+  title: 急性痛风治疗原则
+  source_page: 869
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性期应休息、冰敷受累关节。
+  - 非甾体抗炎药（如布洛芬）是首选，需足量使用7-10天。
+  - 秋水仙碱在发作24-48小时内有效，腹泻时停药。
+  pdf_page: 258
+- id: GOUT_ACUTE_DRUG_CAUTION
+  title: 急性期用药注意事项
+  source_page: 869
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 有胃溃疡、肾病者慎用非甾体抗炎药。
+  - 关节内注射激素适合单关节发作。
+  - 口服激素（如泼尼松）用于多关节发作。
+  pdf_page: 258
+- id: GOUT_ULT_GOAL
+  title: 降尿酸治疗目标
+  source_page: 869
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 目标是将血尿酸降至6mg/dl以下。
+  - 有痛风石者目标更低：5mg/dl以下。
+  - 降尿酸治疗通常需终身进行。
+  pdf_page: 258
+- id: GOUT_ULT_INDICATIONS
+  title: 降尿酸治疗适应证
+  source_page: 869
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 一年内痛风发作两次或以上需降尿酸治疗。
+  - 有痛风石或慢性痛风性关节炎者需治疗。
+  - 复发性肾结石也是适应证。
+  pdf_page: 258
+- id: GOUT_ALLOPURINOL
+  title: 别嘌呤醇使用要点
+  source_page: 869
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 别嘌呤醇是一线降尿酸药，从低剂量开始。
+  - 每2-5周增加剂量，直至尿酸达标。
+  - 出现皮疹、发热等过敏反应需立即停药就医。
+  pdf_page: 258
+- id: GOUT_LIFESTYLE
+  title: 生活方式管理建议
+  source_page: 870
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 减少高嘌呤食物：贝类、肝脏、红肉。
+  - 避免含果糖饮料和酒精（尤其啤酒）。
+  - 多喝水（每天至少1.5升），帮助尿酸排泄。
+  pdf_page: 259
+- id: GOUT_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 868
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 关节突然剧痛、红肿、发热，需就医排除感染。
+  - 痛风发作频繁（一年≥2次）应就诊调整治疗。
+  - 出现痛风石或关节持续疼痛需专科评估。
+  pdf_page: 257
+- id: CPPD_OVERVIEW
+  title: 焦磷酸钙沉积病概述
+  source_page: 870
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 该病是焦磷酸钙晶体沉积在软骨所致。
+  - 常见于老年人，85岁以上半数有影像学证据。
+  - 多数无症状，但可急性发作类似痛风。
+  pdf_page: 259

@@ -1,0 +1,176 @@
+specialty: oncology
+specialty_zh: oncology
+disease: gu_cancer
+disease_zh: gu_cancer
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: RCC_RISK
+  title: 肾癌危险因素
+  source_page: 651
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 吸烟者患肾癌风险是非吸烟者的两倍。
+  - 肥胖和高血压可能增加肾癌风险。
+  - 终末期肾衰竭或多囊肾患者更易患肾癌。
+  pdf_page: 41
+- id: RCC_DIAG
+  title: 肾癌诊断方法
+  source_page: 651
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 增强CT是诊断透明细胞肾癌的主要方法。
+  - 肾脏肿块可能为良性，最终诊断需肾活检或手术。
+  - 小肿块（<4cm）可先观察，生长慢且转移风险低。
+  pdf_page: 41
+- id: RCC_SURGERY
+  title: 肾癌手术治疗
+  source_page: 651
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肾部分切除术可保留肾功能，预后与全切无差别。
+  - 不能手术者可选择冷冻或射频消融治疗。
+  - 转移性肾癌患者若身体好，可切除原发肿瘤获益。
+  pdf_page: 41
+- id: RCC_SYSTEMIC
+  title: 转移性肾癌药物治疗
+  source_page: 652
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - VEGF抑制剂（如舒尼替尼）可控制肿瘤，70%-75%患者有效。
+  - mTOR抑制剂用于低危患者，可延长生存。
+  - 药物联合使用毒性大，不优于单药序贯治疗。
+  pdf_page: 42
+- id: RCC_PROGNOSIS
+  title: 肾癌预后因素
+  source_page: 652
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 局限期肾癌预后取决于肿瘤分期和分级。
+  - 转移性肾癌预后与患者一般状况和实验室指标相关。
+  - 乳酸脱氢酶、血红蛋白、钙离子等指标影响预后。
+  pdf_page: 42
+- id: BLADDER_RISK
+  title: 膀胱癌危险因素
+  source_page: 652
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 吸烟者膀胱癌风险是不吸烟者的4倍。
+  - 职业接触芳香胺（如化工原料）增加风险。
+  - 一级亲属患膀胱癌，个人风险增加一倍。
+  pdf_page: 42
+- id: BLADDER_DIAG
+  title: 膀胱癌诊断方法
+  source_page: 653
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 膀胱镜检查和尿液细胞学是初步评估手段。
+  - 经尿道膀胱肿瘤切除术（TURBT）可获取病理。
+  - 病理标本需包含肌肉，以判断是否侵犯肌层。
+  pdf_page: 43
+- id: BLADDER_TREAT
+  title: 膀胱癌治疗选择
+  source_page: 653
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 非肌层浸润性膀胱癌可行TURBT加膀胱灌注化疗。
+  - 高风险患者可用卡介苗（BCG）灌注或膀胱切除。
+  - 肌层浸润性膀胱癌首选根治性膀胱切除加淋巴结清扫。
+  pdf_page: 43
+- id: BLADDER_METASTATIC
+  title: 转移性膀胱癌治疗
+  source_page: 653
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 顺铂为基础的化疗（如GC方案）可延长生存。
+  - 肾功能不全者可能不适合顺铂，需调整方案。
+  - 一线治疗后进展的患者，治疗以缓解症状为主。
+  pdf_page: 43
+- id: PROSTATE_RISK
+  title: 前列腺癌危险因素
+  source_page: 653
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 年龄、种族和遗传是主要危险因素，确诊中位年龄65岁。
+  - 一级亲属患前列腺癌，个人风险增加5-10倍。
+  - 高动物脂肪饮食可能增加风险，但抗氧化剂无明确保护作用。
+  pdf_page: 43
+- id: PROSTATE_DIAG
+  title: 前列腺癌诊断方法
+  source_page: 654
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - PSA异常或直肠指诊异常后，行经直肠超声活检确诊。
+  - Gleason评分是重要预后指标，8-10分提示预后差。
+  - 高风险患者需行腹盆CT和骨扫描评估转移。
+  pdf_page: 44
+- id: PROSTATE_TREAT
+  title: 前列腺癌治疗选择
+  source_page: 654
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低风险患者可选择主动监测，避免过度治疗。
+  - 手术和放疗是主要根治手段，各有副作用。
+  - 转移性前列腺癌常用去势治疗，需关注骨健康。
+  pdf_page: 44
+- id: PROSTATE_CRPC
+  title: 去势抵抗性前列腺癌治疗
+  source_page: 654
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 去势抵抗后可用sipuleucel-T或醋酸阿比特龙治疗。
+  - 卡巴他赛和恩杂鲁胺用于化疗后进展的患者。
+  - 骨转移患者可用唑来膦酸或狄诺塞麦预防并发症。
+  pdf_page: 44
+- id: TESTIS_RISK
+  title: 睾丸癌危险因素
+  source_page: 655
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 隐睾症是主要危险因素，青春期前手术可降低风险。
+  - 有睾丸癌个人或家族史者风险增加。
+  - 白种人发病率是黑种人的5倍。
+  pdf_page: 45
+- id: TESTIS_DIAG
+  title: 睾丸癌诊断方法
+  source_page: 655
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 阴囊超声发现可疑肿块后，需行腹股沟睾丸切除术。
+  - 经阴囊活检或切除禁忌，以免肿瘤扩散。
+  - 血清AFP、β-HCG和LDH水平用于分期。
+  pdf_page: 45
+- id: TESTIS_TREAT
+  title: 睾丸癌治疗选择
+  source_page: 655
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Ⅰ期精原细胞瘤可监测或单药卡铂化疗。
+  - Ⅰ期非精原细胞瘤需化疗或腹膜后淋巴结清扫。
+  - Ⅱ期及以上需根据肿瘤标志物和体积选择化疗或放疗。
+  pdf_page: 45
+- id: TESTIS_PROGNOSIS
+  title: 睾丸癌预后
+  source_page: 655
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - Ⅰ期患者长期疾病特异性生存率可达99%。
+  - 肿瘤播散期分为低、中、高危，治疗方式不同。
+  - 化疗后肿瘤标志物持续升高提示预后较差。
+  pdf_page: 45

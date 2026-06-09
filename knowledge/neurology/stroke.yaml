@@ -1,0 +1,151 @@
+specialty: neurology
+specialty_zh: neurology
+disease: stroke
+disease_zh: stroke
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: STROKE_DEF
+  title: 脑卒中定义与分类
+  source_page: 1128
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 脑卒中分为缺血性和出血性两种，症状持续数分钟也可能发现脑损伤。
+  - 缺血性卒中占87%，出血性卒中占10%-13%。
+  - 无症状脑梗死也需重视，可能影响认知和步态。
+  pdf_page: 516
+- id: STROKE_RISK
+  title: 可控危险因素
+  source_page: 1129
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高血压是最重要的可控危险因素，控制血压可降低卒中风险。
+  - 心房颤动是心源性栓塞的主因，需定期检查心电图。
+  - 糖尿病、高脂血症、吸烟、缺乏运动、酗酒均增加风险。
+  pdf_page: 517
+- id: HTN_CONTROL
+  title: 高血压管理
+  source_page: 1129
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 血压从115/75mmHg开始，越低卒中风险越低。
+  - 长期高血压患者需缓慢降压，避免脑灌注不足。
+  - 急性卒中时不宜过度降压，以免加重脑损伤。
+  pdf_page: 517
+- id: AF_MANAGE
+  title: 心房颤动管理
+  source_page: 1129
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 心房颤动是高龄患者卒中的重要原因，需抗凝治疗。
+  - 定期监测心律，发现异常及时就医。
+  - 其他心脏病如瓣膜病、心衰也需关注。
+  pdf_page: 517
+- id: TIA_WARNING
+  title: 短暂性脑缺血发作预警
+  source_page: 1130
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - TIA后2天内卒中风险5%，90天内10%，需紧急就医。
+  - 单眼黑矇或肢体无力、失语等症状持续超10分钟需警惕。
+  - MRI发现梗死灶预示高风险，应尽快评估。
+  pdf_page: 518
+- id: LIFESTYLE_MOD
+  title: 生活方式调整
+  source_page: 1129
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 适量饮酒（男性每日≤2杯，女性≤1杯）可降低缺血性卒中风险。
+  - 大量饮酒（每日≥5杯）增加出血性卒中风险。
+  - 规律运动、戒烟、健康饮食有助于预防。
+  pdf_page: 517
+- id: CAROTID_STENOSIS
+  title: 颈动脉狭窄管理
+  source_page: 1130
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 无症状颈动脉狭窄≥75%时，年卒中风险约2%。
+  - 狭窄进展速度和斑块稳定性影响风险。
+  - 定期超声检查，必要时考虑手术。
+  pdf_page: 518
+- id: STROKE_SYMPTOMS
+  title: 卒中症状识别
+  source_page: 1128
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 突发面部歪斜、肢体无力、言语不清需立即就医。
+  - 眩晕、平衡障碍、单眼视力丧失也可能是卒中。
+  - 症状即使短暂消失也需检查，排除TIA。
+  pdf_page: 516
+- id: HEMORRHAGE_CAUSE
+  title: 脑出血常见原因
+  source_page: 1131
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 高血压是脑出血主因，常见部位为壳核、脑桥、小脑。
+  - 老年人脑叶出血可能与淀粉样血管病有关。
+  - 抗凝治疗、外伤、血管畸形也可导致出血。
+  pdf_page: 519
+- id: WHEN_SEEK_CARE
+  title: 何时就医
+  source_page: 1130
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现任何卒中症状（如面瘫、肢体无力、言语困难）立即拨打急救。
+  - TIA症状即使缓解也需在24小时内就医。
+  - 高血压、房颤患者定期随访，控制危险因素。
+  pdf_page: 518
+- id: NEURO_STROKE_EXERCISE
+  title: 脑卒中预防与体力活动
+  source_page: 1129
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 缺乏体力活动是脑卒中的独立危险因素，规律有氧锻炼和运动有助于降低卒中风险
+  - 锻炼可改善血压、血脂、血糖等多种卒中危险因素，建议每周至少150分钟中等强度体力活动
+  - 已发生过TIA或卒中的患者应在医生评估后进行适量运动，避免高强度剧烈运动
+  pdf_page: 517
+- id: NEURO_STROKE_REHAB
+  title: 脑卒中康复
+  source_page: 1138
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 由理疗师和物理康复治疗师组成的专业卒中康复单元对患者功能恢复有重要意义
+  - 卒中康复应尽早启动（病情稳定后48小时内），早期康复可改善运动、语言和认知功能
+  - 卒中后康复是长期过程，出院后仍需继续门诊或居家康复训练
+  pdf_page: 526
+- id: STROKE_ACUTE_TREAT
+  title: 缺血性卒中急性期rt-PA溶栓治疗
+  source_page: 1137
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 发病3小时内的脑梗死患者在CT/MRI排除出血后可给予rt-PA（阿替普酶）溶栓治疗，是标准化治疗（A级证据）
+  - 溶栓治疗时间窗可扩展至4.5小时（结合影像学评估可挽救脑组织）
+  - 里程碑研究显示发病3小时内rt-PA溶栓使达到正常或基本正常功能恢复的患者比例从38%升至50%
+  - 急性期不宜快速降压，收缩压低于220mmHg即可；溶栓前后收缩压须维持在180mmHg以下以减少出血转化
+  - rt-PA出血转化风险增至10倍（安慰剂0.6%→rt-PA 6.0%），须严格把握禁忌证（含时间窗）
+  - 抗血小板及抗凝治疗必须在rt-PA治疗后24小时方可启动
+  pdf_page: 525
+- id: STROKE_SECONDARY_PREV
+  title: 缺血性卒中二级预防——抗血小板与他汀
+  source_page: 1139
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 无心源性栓塞证据的缺血性卒中患者均应长期抗血小板治疗，可降低20%～25%卒中复发风险（A级证据）
+  - 可选药物：阿司匹林（50～325mg/d）、双嘧达莫、氯吡格雷；阿司匹林联合双嘧达莫优于单药
+  - 长期阿司匹林联合氯吡格雷并不优于阿司匹林单药，且增加出血风险
+  - 心房颤动相关心源性栓塞首选华法林（A级证据），也可选新型口服抗凝药
+  - 他汀类药物（SPARCL研究）可降低卒中/TIA患者卒中复发风险（A级证据）
+  pdf_page: 527

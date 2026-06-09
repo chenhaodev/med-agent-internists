@@ -1,0 +1,106 @@
+specialty: infectious
+specialty_zh: 感染
+disease: hiv
+disease_zh: hiv
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HIV_TRANSMISSION
+  title: HIV传播途径
+  source_page: 1010
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - HIV主要通过性接触、血液和母婴传播。
+  - 异性性行为是全球主要传播途径，病毒存在于精液和阴道分泌物中。
+  - 共用针头、输血或血制品也可传播，但自1985年血液筛查后风险极低。
+  - 母婴传播可通过孕期和产后抗病毒治疗降至2%以下。
+  - 医护人员被污染针头刺伤感染风险约0.3%，及时用药可降低至1/10。
+- id: HIV_ACUTE_SYNDROME
+  title: 急性HIV感染症状
+  source_page: 1013
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 感染后2-6周可能出现发热、咽痛、淋巴结肿大、皮疹等症状。
+  - 症状类似单核细胞增多症，持续数天至3周。
+  - 此阶段病毒载量极高，传染性强，需及时就医检测。
+- id: HIV_DIAGNOSIS
+  title: HIV诊断方法
+  source_page: 1015
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 标准检测是查血清或唾液中的HIV抗体，需免疫印迹法确认。
+  - 窗口期约1-2周，期间抗体可能阴性，需重复检测。
+  - 快速检测可在30分钟内出结果，但需抗体检测确认。
+  - 第四代检测可同时查抗原和抗体，提高早期诊断率。
+- id: HIV_WHEN_TEST
+  title: 何时进行HIV检测
+  source_page: 1015
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 建议所有13-64岁人群至少做一次HIV检测。
+  - 孕妇应定期检测，以预防母婴传播。
+  - 有高风险行为（如无保护性行为、共用针头）者需重复检测。
+  - 近期暴露后，应在6周和3个月时复查抗体。
+- id: HIV_CD4_MONITOR
+  title: CD4计数与病情监测
+  source_page: 1011
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CD4计数低于200个细胞/mm³提示艾滋病诊断。
+  - CD4计数下降预示免疫缺陷进展，需定期监测。
+  - 病毒载量（HIV RNA）是评估治疗效果的重要指标。
+  - 治疗目标是将病毒载量抑制到检测不到的水平。
+- id: HIV_OPPORTUNISTIC_INFECTIONS
+  title: 机会性感染预防
+  source_page: 1014
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CD4低于200时易发生肺孢子菌肺炎、弓形体脑炎等。
+  - CD4低于50时风险更高，需预防性用药。
+  - 巨细胞病毒视网膜炎可致盲，需及时治疗。
+  - 有效抗病毒治疗可显著降低机会性感染风险。
+- id: HIV_LIFESTYLE_MANAGEMENT
+  title: 生活方式管理建议
+  source_page: 1015
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 坚持健康饮食和适度运动，增强免疫力。
+  - 避免吸烟、酗酒和吸毒，减少并发症风险。
+  - 保持良好作息，减轻压力，有助于治疗依从性。
+  - 注意个人卫生，预防感染，如勤洗手、避免接触病人。
+- id: HIV_MEDICATION_ADHERENCE
+  title: 抗病毒治疗依从性
+  source_page: 1011
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 抗病毒治疗需长期坚持，不可随意停药。
+  - 依从性差会导致病毒反弹和耐药。
+  - 定期随访，监测病毒载量和CD4计数。
+  - 治疗可显著降低传播风险，保护家人。
+- id: HIV_WHEN_SEEK_CARE
+  title: 何时就医
+  source_page: 1015
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现发热、皮疹、淋巴结肿大等急性症状时立即就医。
+  - 确诊后尽快开始抗病毒治疗，无论CD4水平。
+  - 出现呼吸困难、视力下降、持续腹泻等需紧急处理。
+  - 定期复查，每3-6个月监测CD4和病毒载量。
+- id: HIV_PREVENTION
+  title: HIV预防措施
+  source_page: 1010
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 使用安全套可有效减少性传播风险。
+  - 避免共用针头，使用清洁注射器。
+  - 孕妇接受抗病毒治疗可预防母婴传播。
+  - 暴露后72小时内用药可降低感染风险。

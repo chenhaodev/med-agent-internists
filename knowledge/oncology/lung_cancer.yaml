@@ -1,0 +1,126 @@
+specialty: oncology
+specialty_zh: oncology
+disease: lung_cancer
+disease_zh: lung_cancer
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LC_RISK_FACTORS
+  title: 肺癌主要危险因素
+  source_page: 638
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟是肺癌最主要危险因素，包括主动和被动吸烟。
+  - 石棉、氡暴露等环境危害也会增加肺癌风险。
+  - 有肺癌家族史者风险更高。
+  pdf_page: 28
+- id: LC_SMOKING_CESSATION
+  title: 戒烟的重要性
+  source_page: 638
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒烟可降低肺癌风险，但已戒烟者风险仍较高。
+  - 医生应劝导患者戒烟，家属应支持戒烟。
+  - 戒烟后需长期监测肺部健康。
+  pdf_page: 28
+- id: LC_SCREENING
+  title: 肺癌筛查建议
+  source_page: 642
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 55-80岁、吸烟史30包年或戒烟不足15年者应筛查。
+  - 筛查使用低剂量CT，可早期发现肺癌。
+  - 筛查前需咨询医生评估个人风险。
+  pdf_page: 32
+- id: LC_SYMPTOMS
+  title: 肺癌常见症状
+  source_page: 640
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 早期症状不特异，如咳嗽、喘憋、胸痛、体重下降。
+  - 咯血、声嘶、吞咽困难提示肿瘤侵犯邻近器官。
+  - 面部水肿可能提示上腔静脉阻塞综合征。
+  pdf_page: 30
+- id: LC_WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 640
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 持续咳嗽、胸痛、咯血超过2周应就医。
+  - 出现呼吸困难、声音嘶哑或吞咽困难需紧急就诊。
+  - 有吸烟史或家族史者出现新症状应警惕。
+  pdf_page: 30
+- id: LC_DIAGNOSIS
+  title: 诊断方法
+  source_page: 640
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 确诊需组织活检，如支气管镜或穿刺。
+  - CT和PET用于分期，判断肿瘤扩散范围。
+  - 脑转移需做增强MRI检查。
+  pdf_page: 30
+- id: LC_SOLITARY_NODULE
+  title: 孤立肺结节评估
+  source_page: 642
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 结节直径越大，恶性风险越高。
+  - 边缘光滑、钙化均匀多为良性。
+  - 2年以上无变化的结节通常为良性。
+  pdf_page: 32
+- id: LC_TREATMENT_OVERVIEW
+  title: 治疗原则概述
+  source_page: 642
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期非小细胞肺癌可手术治愈。
+  - 小细胞肺癌以化疗和放疗为主。
+  - 晚期患者需综合治疗，包括靶向和免疫治疗。
+  pdf_page: 32
+- id: LC_TARGETED_THERAPY
+  title: 靶向治疗注意事项
+  source_page: 638
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - EGFR突变患者可用厄洛替尼等靶向药。
+  - ALK重排患者可用克唑替尼。
+  - 靶向治疗前需基因检测，家属应配合送检。
+  pdf_page: 28
+- id: LC_COMPLICATION_PREVENTION
+  title: 并发症预防
+  source_page: 639
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 注意副肿瘤综合征，如低钠血症、高钙血症。
+  - 小细胞肺癌易脑转移，需定期影像检查。
+  - 预防性全脑放疗可提高生存率。
+  pdf_page: 29
+- id: LC_LIFESTYLE_MANAGEMENT
+  title: 生活方式管理
+  source_page: 638
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 戒烟是首要措施，避免二手烟。
+  - 健康饮食、适度运动增强免疫力。
+  - 避免石棉、氡等环境致癌物暴露。
+  pdf_page: 28
+- id: LC_GENETIC_TESTING
+  title: 基因检测意义
+  source_page: 638
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 检测EGFR、ALK等基因指导靶向治疗。
+  - 亚裔、不吸烟女性腺癌患者EGFR突变率高。
+  - KRAS突变常见于吸烟者，目前无靶向药。
+  pdf_page: 28

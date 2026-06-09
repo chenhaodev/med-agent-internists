@@ -1,0 +1,147 @@
+specialty: oncology
+specialty_zh: oncology
+disease: tumor_treatment_principles
+disease_zh: tumor_treatment_principles
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CANCER_DIAGNOSIS
+  title: 癌症诊断与分期
+  source_page: 630
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 癌症确诊通常需要活检取组织样本，影像检查不能完全替代。
+  - 分期评估肿瘤扩散程度，包括临床和病理分期。
+  - TNM分期系统评估原发肿瘤、淋巴结和远处转移。
+  - 分期结果决定治疗方案和预后判断。
+  pdf_page: 20
+- id: BIO_MARKERS
+  title: 生物标志物与治疗
+  source_page: 630
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 生物标志物如激素受体、Her2等可预测预后和治疗反应。
+  - KRAS突变预示对某些靶向药无效，需检测后选择用药。
+  - 基因表达检测帮助决定是否需要辅助治疗。
+  pdf_page: 20
+- id: FUNCTIONAL_STATUS
+  title: 患者功能状态评估
+  source_page: 631
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 功能状态评分评估患者能否耐受治疗。
+  - 评分差或有严重合并症者可能无法从治疗中获益。
+  - 医生会综合评估后决定根治还是姑息治疗。
+  pdf_page: 21
+- id: SURGERY_PRINCIPLES
+  title: 手术治疗原则
+  source_page: 631
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 手术可预防、诊断、分期、根治或姑息治疗癌症。
+  - 局限实体瘤手术切除最有效，需保证安全边缘。
+  - 腹腔镜和前哨淋巴结活检可减少创伤。
+  pdf_page: 21
+- id: RADIATION_THERAPY
+  title: 放射治疗原则
+  source_page: 631
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 放疗可单独或联合化疗根治肿瘤，保护器官功能。
+  - 放疗分次进行，减少正常组织损伤。
+  - 急性损伤可修复，晚期损伤如纤维化需长期监测。
+  pdf_page: 21
+- id: CHEMO_MECHANISM
+  title: 化疗机制与分类
+  source_page: 632
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 化疗药物杀灭快速分裂细胞，包括肿瘤和正常细胞。
+  - 联合化疗可提高疗效，减少耐药。
+  - 剂量强度重要，随意减量可能降低治愈率。
+  pdf_page: 22
+- id: CHEMO_ADJUVANT
+  title: 辅助与新辅助化疗
+  source_page: 633
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 辅助化疗在手术后控制微转移，降低复发风险。
+  - 新辅助化疗在术前缩小肿瘤，利于保乳或保肢。
+  - 晚期转移性化疗可延长生存、改善生活质量。
+  pdf_page: 23
+- id: CHEMO_LIMITATIONS
+  title: 化疗局限性
+  source_page: 633
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 肿瘤生长动力学和耐药性限制化疗效果。
+  - P-糖蛋白和基因突变可导致耐药。
+  - TP53突变保护肿瘤细胞免受化疗杀伤。
+  pdf_page: 23
+- id: STEM_CELL_TRANSPLANT
+  title: 干细胞移植
+  source_page: 633
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 干细胞移植可提高化疗剂量，重建骨髓。
+  - 同种异体移植有移植物抗肿瘤效应，但供体有限。
+  - 并发症包括器官毒性和移植物抗宿主病。
+  pdf_page: 23
+- id: ENDOCRINE_THERAPY
+  title: 内分泌治疗
+  source_page: 634
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 激素受体阳性乳腺癌和前列腺癌可用内分泌治疗。
+  - 他莫昔芬和芳香化酶抑制剂可控制转移和辅助治疗。
+  - 他莫昔芬可降低高风险女性乳腺癌发病率。
+  pdf_page: 24
+- id: TARGETED_THERAPY
+  title: 靶向治疗
+  source_page: 634
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 靶向药特异性攻击癌细胞，副作用不同于化疗。
+  - 伊马替尼对CML和GIST有效，但可能耐药。
+  - 多靶点药物如索拉非尼用于肾癌和肝癌。
+  pdf_page: 24
+- id: IMMUNOTHERAPY
+  title: 生物与免疫治疗
+  source_page: 634
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 免疫治疗通过调节宿主免疫系统对抗肿瘤。
+  - 细胞因子如干扰素和白细胞介素用于某些肿瘤。
+  - 免疫检查点抑制剂是新兴治疗手段。
+  pdf_page: 24
+- id: PALLIATIVE_CARE
+  title: 姑息治疗与支持
+  source_page: 630
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 姑息治疗缓解疼痛、吞咽困难等症状，提高生活质量。
+  - 放疗和手术可用于姑息减症。
+  - 多学科团队协作提供最佳支持。
+  pdf_page: 20
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医
+  source_page: 630
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现新发肿块、疼痛、出血或吞咽困难需及时就医。
+  - 治疗期间出现严重副作用如发热、出血应联系医生。
+  - 定期随访监测复发迹象。
+  pdf_page: 20

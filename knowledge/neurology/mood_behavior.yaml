@@ -1,0 +1,105 @@
+specialty: neurology
+specialty_zh: neurology
+disease: mood_behavior
+disease_zh: mood_behavior
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: MOOD_DISORDER_DEF
+  title: 抑郁与双相障碍概述
+  source_page: 1074
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抑郁发作核心症状包括情绪低落、兴趣缺失、睡眠食欲改变等
+  - 双相障碍既有抑郁发作也有躁狂发作，躁狂时情绪高涨或易怒
+  pdf_page: 462
+- id: DEPRESSION_CRITERIA
+  title: 重性抑郁诊断标准
+  source_page: 1074
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少5种症状持续2周以上，包括情绪低落或兴趣缺失
+  - 症状需引起痛苦或影响日常功能
+  pdf_page: 462
+- id: DEPRESSION_PREVALENCE
+  title: 抑郁症患病率与风险
+  source_page: 1075
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年患病率约7%，女性终身患病率20%-25%
+  - 复发率高，50%-70%患者会再次发作
+  pdf_page: 463
+- id: DEPRESSION_TREATMENT
+  title: 抑郁症治疗选择
+  source_page: 1075
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 轻中度抑郁症可选用心理治疗或抗抑郁药物
+  - 严重抑郁症需药物治疗，电休克治疗有效
+  pdf_page: 463
+- id: BIPOLAR_TREATMENT
+  title: 双相障碍治疗原则
+  source_page: 1077
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 核心治疗是心境稳定药物如锂盐、丙戊酸等
+  - 抗抑郁药可能诱发躁狂，需谨慎使用
+  pdf_page: 465
+- id: ANXIETY_SYMPTOMS
+  title: 焦虑障碍常见症状
+  source_page: 1077
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 焦虑可表现为心悸、胸痛、头晕、出汗等躯体症状
+  - 惊恐发作是短暂急性焦虑，伴濒死感或失控感
+  pdf_page: 465
+- id: ANXIETY_TREATMENT
+  title: 焦虑障碍治疗
+  source_page: 1078
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 认知行为疗法对多数焦虑症有效
+  - 抗抑郁药是惊恐障碍、社交恐惧症等的主要药物
+  pdf_page: 466
+- id: PSYCHOSIS_DEF
+  title: 精神病症状识别
+  source_page: 1078
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 精神病表现为幻觉、妄想、思维混乱
+  - 精神分裂症有阳性症状和阴性症状如情感淡漠
+  pdf_page: 466
+- id: SCHIZOPHRENIA_TREATMENT
+  title: 精神分裂症治疗
+  source_page: 1078
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 抗精神病药物控制急性发作，需长期维持
+  - 心理社会康复和认知行为治疗可改善预后
+  pdf_page: 466
+- id: SOMATIC_SYMPTOM_DISORDER
+  title: 躯体症状障碍特点
+  source_page: 1078
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者有令人痛苦的躯体症状，但检查无相应疾病
+  - 疾病焦虑障碍表现为过度担心健康
+  pdf_page: 466
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医
+  source_page: 1074
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现新发或加重的精神症状，如情绪低落、焦虑、幻觉
+  - 症状影响日常生活或工作，或出现自杀念头
+  pdf_page: 462

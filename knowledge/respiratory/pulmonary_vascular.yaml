@@ -1,0 +1,115 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: pulmonary_vascular
+disease_zh: pulmonary_vascular
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PAH_DEFINITION
+  title: 肺动脉高压定义
+  source_page: 254
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 肺动脉高压指静息时平均肺动脉压超过25mmHg。
+  - 正常肺循环压力低，症状出现较晚。
+- id: PAH_RISK_FACTORS
+  title: 肺动脉高压危险因素
+  source_page: 254
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 遗传因素如BMPR2基因突变可导致遗传性肺动脉高压。
+  - HIV感染、肝硬化、减肥药物等也可能诱发。
+- id: PAH_SYMPTOMS
+  title: 肺动脉高压症状
+  source_page: 254
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 常见症状包括活动后呼吸困难、胸痛和晕厥。
+  - 症状隐匿，出现较晚，需警惕右心衰竭表现。
+- id: PAH_DIAGNOSIS
+  title: 肺动脉高压诊断方法
+  source_page: 257
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 心脏超声可初步评估肺动脉压和心脏结构。
+  - 确诊需右心导管检查，测量肺毛细血管楔压。
+  - 急性血管反应试验可预测钙通道阻滞剂疗效。
+- id: PAH_TREATMENT
+  title: 肺动脉高压治疗原则
+  source_page: 255
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 前列环素静脉滴注可提高生存率，用于重症患者。
+  - 口服内皮素受体拮抗剂或磷酸二酯酶抑制剂用于轻中度患者。
+  - 单药效果不佳可考虑联合治疗。
+- id: PAH_LIFESTYLE
+  title: 肺动脉高压生活方式管理
+  source_page: 256
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肺康复治疗可提高运动耐力，建议在医生指导下进行。
+  - 辅助氧疗可改善低氧症状，需遵医嘱使用。
+- id: PAH_COMPLICATIONS
+  title: 肺动脉高压并发症预防
+  source_page: 256
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 右心衰竭是主要死亡原因，需监测心功能。
+  - 抗凝和利尿剂可辅助治疗，但需医生评估。
+- id: PE_DEFINITION
+  title: 肺栓塞定义与病因
+  source_page: 256
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 肺栓塞是静脉血栓脱落堵塞肺动脉。
+  - 常见病因包括血液淤滞、高凝状态和血管损伤。
+- id: PE_SYMPTOMS
+  title: 肺栓塞症状与体征
+  source_page: 256
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 最常见症状是气短，可伴胸痛、咯血或晕厥。
+  - 体征包括心动过速、呼吸增快，下肢不对称水肿提示深静脉血栓。
+- id: PE_DIAGNOSIS
+  title: 肺栓塞诊断方法
+  source_page: 257
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - D-二聚体阴性可排除低中危肺栓塞。
+  - CT肺血管造影是常用无创检查，准确率高。
+  - 通气-灌注扫描适用于孕妇或肾功能不全者。
+- id: PE_TREATMENT
+  title: 肺栓塞治疗原则
+  source_page: 257
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 无禁忌时立即抗凝治疗，常用肝素或低分子肝素。
+  - 抗凝疗程至少3个月，恶性肿瘤患者优选低分子肝素。
+  - 高危肺栓塞伴血流动力学障碍需考虑溶栓。
+- id: PE_PREVENTION
+  title: 肺栓塞预防与就医时机
+  source_page: 257
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 有抗凝禁忌时放置下腔静脉滤网，但需注意远期风险。
+  - 不明原因肺栓塞复发率高，需个体化延长抗凝。
+  - 出现突发气短、胸痛或晕厥应立即就医。
+- id: COR_PULMONALE
+  title: 肺源性心脏病管理
+  source_page: 256
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 肺源性心脏病是肺动脉高压导致的右心衰竭。
+  - 治疗核心是纠正原发病，如肺动脉高压或肺栓塞。

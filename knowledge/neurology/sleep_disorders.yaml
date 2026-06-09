@@ -1,0 +1,141 @@
+specialty: neurology
+specialty_zh: neurology
+disease: sleep_disorders
+disease_zh: sleep_disorders
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: EDS_ESS
+  title: 白天过度睡眠评估
+  source_page: 1058
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 爱泼沃斯思睡量表（ESS）可评估白天嗜睡程度，总分超过10分提示需进一步检查。
+  - 白天过度睡眠可能影响操作能力，增加事故风险，需重视。
+  pdf_page: 446
+- id: OSA_RISK
+  title: 阻塞性睡眠呼吸暂停危险因素
+  source_page: 1059
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 超重、颈围大（男性>17英寸，女性>16英寸）是主要危险因素。
+  - 非肥胖者需检查头面或上气道异常，如下颌后缩、扁桃体肥大。
+  pdf_page: 447
+- id: OSA_DIAG
+  title: 阻塞性睡眠呼吸暂停诊断
+  source_page: 1059
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 全夜多导睡眠监测可确诊，呼吸暂停-低通气指数（AHI）>5为异常。
+  - AHI 5-10为轻度，10-15为中度，>15为重度。
+  pdf_page: 447
+- id: OSA_TREAT
+  title: 阻塞性睡眠呼吸暂停治疗
+  source_page: 1059
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 中重度患者首选气道正压通气（PAP），需滴定确定适宜压力。
+  - 轻度患者可尝试减重、侧卧睡姿或口腔设备。
+  pdf_page: 447
+- id: OSA_COMP
+  title: 阻塞性睡眠呼吸暂停并发症
+  source_page: 1059
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 未治疗可导致高血压、冠心病、卒中、糖尿病、抑郁和认知障碍。
+  - 及时治疗可降低并发症风险。
+  pdf_page: 447
+- id: NARCO_MAIN
+  title: 发作性睡病核心症状
+  source_page: 1059
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 四联症包括白天过度睡眠、猝倒、睡眠麻痹和睡前幻觉。
+  - 猝倒由情绪诱发，如大笑时突然肌无力，严重可跌倒。
+  pdf_page: 447
+- id: NARCO_DIAG
+  title: 发作性睡病诊断
+  source_page: 1060
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多次睡眠潜伏期试验显示睡眠潜伏期<8分钟且有2次快速眼动起始睡眠可确诊。
+  - 脑脊液食欲素水平<110 pg/ml也可确诊。
+  pdf_page: 448
+- id: NARCO_TREAT
+  title: 发作性睡病治疗
+  source_page: 1060
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 促醒药物如莫达非尼可改善白天过度睡眠，需遵医嘱使用。
+  - 猝倒可用抗抑郁药控制，计划性小睡有助于适应。
+  pdf_page: 448
+- id: PLMD_RLS
+  title: 周期性肢体运动障碍与不安腿综合征
+  source_page: 1061
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 不安腿综合征表现为安静时腿部不适感，需活动缓解。
+  - 周期性肢体运动障碍需多导睡眠监测确诊，常伴不安腿综合征。
+  pdf_page: 449
+- id: INSOMNIA_DEF
+  title: 失眠定义与影响
+  source_page: 1061
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 失眠指难以入睡或维持睡眠，慢性失眠可导致抑郁、焦虑和健康风险。
+  - 慢性失眠（>1个月）累及约10%人群，需积极管理。
+  pdf_page: 449
+- id: INSOMNIA_TREAT
+  title: 失眠非药物治疗
+  source_page: 1062
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 保持规律作息、避免咖啡因和晚间剧烈运动，改善睡眠卫生。
+  - 认知行为治疗（CBT-I）和放松技术有效，建议仅将床用于睡眠。
+  pdf_page: 450
+- id: INSOMNIA_MED
+  title: 失眠药物治疗原则
+  source_page: 1062
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 使用最低有效剂量，间断用药，避免每日服用。
+  - 药物需与非行为治疗联合，逐渐减量以防反弹。
+  pdf_page: 450
+- id: SLEEPWALK
+  title: 慢波睡眠行为障碍
+  source_page: 1062
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 儿童期常见，包括梦游、夜惊，发作时意识模糊，事后不能回忆。
+  - 多数无需治疗，注意安全防护；严重时小剂量氯硝西泮有效。
+  pdf_page: 450
+- id: RBD_MAIN
+  title: 快速眼动行为障碍
+  source_page: 1062
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 多见于50岁以上男性，表现为梦中挥打动作，可致伤害。
+  - 常预示帕金森病等神经变性疾病，需长期随访。
+  pdf_page: 450
+- id: RBD_TREAT
+  title: 快速眼动行为障碍治疗
+  source_page: 1063
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 小剂量氯硝西泮（0.5-2mg）可有效控制症状。
+  - 家庭视频记录有助于诊断，需与夜间癫痫鉴别。
+  pdf_page: 451

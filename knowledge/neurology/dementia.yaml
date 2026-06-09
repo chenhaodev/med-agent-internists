@@ -1,0 +1,158 @@
+specialty: neurology
+specialty_zh: neurology
+disease: dementia
+disease_zh: dementia
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: DEMENTIA_DEF
+  title: 痴呆的定义与核心症状
+  source_page: 1068
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 痴呆是进行性智力衰退，影响日常生活能力。
+  - 记忆减退是核心症状，但语言、空间处理等也可能受损。
+  - 家属应观察患者是否出现记忆、语言或行为异常。
+  pdf_page: 456
+- id: AD_EPIDEMIOLOGY
+  title: 阿尔茨海默病流行病学
+  source_page: 1069
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 阿尔茨海默病占所有痴呆的70%，常见于老年人。
+  - 80岁以上人群患病率高达32%-47%。
+  - 超过50%的照顾者可能患上抑郁症或重大疾病。
+  pdf_page: 457
+- id: AD_RISK_FACTORS
+  title: 阿尔茨海默病危险因素
+  source_page: 1070
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - ApoE-ε4基因增加患病风险，但非绝对。
+  - 低级别证据提示糖尿病、高血压、吸烟可能增加风险。
+  - 地中海饮食、体育锻炼可能降低风险。
+  pdf_page: 458
+- id: AD_DIAGNOSIS
+  title: 阿尔茨海默病诊断标准
+  source_page: 1070
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断需临床检查、精神状态测试和神经心理评估。
+  - 隐匿性起病，进行性认知功能减退。
+  - 记忆减退是首发症状，但语言或执行功能也可能受损。
+  pdf_page: 458
+- id: AD_TREATMENT_MED
+  title: 阿尔茨海默病药物治疗
+  source_page: 1070
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 胆碱酯酶抑制剂（多奈哌齐、卡巴拉汀、加兰他敏）是重要临床进步，可缓解AD症状。
+  - 在临床试验中，胆碱酯酶抑制剂只有不到50%的患者获得临床显著改善；不能预防MCI进展为AD。
+  - 卡巴拉汀对帕金森病痴呆也有疗效，已获FDA批准。
+  - 美金刚用于中重度AD患者，能减缓日常生活能力衰退速度。
+  - 银杏制剂在AD治疗及预防中无效，不推荐使用。
+  pdf_page: 458
+- id: AD_CARE
+  title: 阿尔茨海默病护理与支持
+  source_page: 1071
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 护理包括卫生、营养和服药监督。
+  - 抗精神病药、抗抑郁药可控制行为问题。
+  - 家属可联系当地阿尔茨海默病协会获取支持。
+  pdf_page: 459
+- id: AD_PREVENTION
+  title: 阿尔茨海默病预防措施
+  source_page: 1071
+  evidence_level: 低
+  recommendation: 可考虑
+  key_points:
+  - 无高级别证据表明任何干预可降低风险。
+  - 低级别证据提示地中海饮食、运动可能有益。
+  - 避免吸烟、控制高血压和糖尿病。
+  pdf_page: 459
+- id: DLB_FEATURES
+  title: 弥漫性路易小体病特征
+  source_page: 1071
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 常见视幻觉和波动性认知功能障碍。
+  - 患者对神经安定药高度敏感，需谨慎使用。
+  - 常与阿尔茨海默病病理共存，诊断困难。
+  pdf_page: 459
+- id: VASCULAR_DEMENTIA
+  title: 血管性痴呆管理
+  source_page: 1071
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 控制血管危险因素（如降压、戒烟）可获益。
+  - 早期出现步态异常、尿失禁和情感低沉。
+  - 需进行MRI或CT检查确认卒中证据。
+  pdf_page: 459
+- id: FTD_BEHAVIOR
+  title: 额颞叶痴呆行为症状
+  source_page: 1071
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 行为变异型表现为社交脱抑制或缺乏动机。
+  - 早期记忆和空间定向相对保留。
+  - 执行功能和情感调控明显受损。
+  pdf_page: 459
+- id: PD_DEMENTIA
+  title: 帕金森病痴呆管理
+  source_page: 1071
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 约50%帕金森病患者在85岁时出现痴呆。
+  - 执行功能受损比语言和视觉空间更严重。
+  - 卡巴拉汀被批准用于治疗帕金森病痴呆。
+  pdf_page: 459
+- id: NPH_SYMPTOMS
+  title: 正常颅压脑积水症状
+  source_page: 1072
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 三大主征：痴呆、步态不稳、小便失禁。
+  - 步态表现为行走拖曳、不抬膝盖。
+  - 腰椎穿刺后症状改善可辅助诊断。
+  pdf_page: 460
+- id: CJD_FEATURES
+  title: 克-雅病特征
+  source_page: 1072
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 亚急性起病，数周至数月内进展。
+  - 90%患者有肌阵挛，脑电图有特征性异常。
+  - 常规消毒无法灭活朊蛋白，需特殊处理。
+  pdf_page: 460
+- id: MEMORY_DISORDERS
+  title: 其他记忆障碍类型
+  source_page: 1072
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 头部外伤可导致顺行性和逆行性遗忘。
+  - Korsakoff综合征与慢性酒精中毒相关。
+  - 短暂性全面遗忘多见于50岁以上患者。
+  pdf_page: 460
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医
+  source_page: 1068
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现进行性记忆减退或行为改变时就医。
+  - 怀疑痴呆需进行血清电解质、维生素B12等检查。
+  - 颅脑影像学检查有助于排除可治疗病因。
+  pdf_page: 456

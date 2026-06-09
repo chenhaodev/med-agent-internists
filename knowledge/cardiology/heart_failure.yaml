@@ -1,0 +1,124 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: heart_failure
+disease_zh: 心力衰竭
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HF_DEFINITION
+  title: 心力衰竭定义
+  source_page: 58
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心力衰竭是心脏泵血功能下降，无法满足身体需要。
+  - 常见症状包括乏力、呼吸困难、水肿。
+  pdf_page: 79
+- id: HF_CAUSES
+  title: 心力衰竭病因
+  source_page: 58
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 冠心病、高血压、心肌梗死是常见原因。
+  - 酒精、可卡因、某些化疗药也可导致。
+  - 家族遗传性心肌病需关注三代亲属。
+  pdf_page: 79
+- id: HF_CLASSIFICATION
+  title: 心功能分级
+  source_page: 58
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - NYHA分级：I级日常活动无不适，IV级休息时也气短。
+  - ACCF/AHA分期：A期有危险因素，D期难治性。
+  pdf_page: 79
+- id: HF_SYMPTOMS
+  title: 心力衰竭症状
+  source_page: 62
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 呼吸困难、乏力最常见，平卧加重提示端坐呼吸。
+  - 夜间突然憋醒可能是阵发性呼吸困难。
+  - 脚踝或腿部水肿提示体液潴留。
+  pdf_page: 83
+- id: HF_DIAGNOSIS
+  title: 诊断检查
+  source_page: 62
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 医生通过问诊、听诊和颈静脉检查评估。
+  - 心脏超声可测射血分数，区分收缩或舒张性心衰。
+  pdf_page: 83
+- id: HF_LIFESTYLE
+  title: 生活方式管理（非药物治疗）
+  source_page: 65
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 钠摄入应限制在约2 g/天；液体摄入也应适当限制，以避免低钠血症。
+  - 肥胖患者减轻体重有助于减轻衰竭心脏的负荷。
+  - 科学的心血管锻炼可减轻心力衰竭症状、改善心功能；教材未给出具体运动方式、频率或强度，需由医生评估病情后制定。
+  pdf_page: 86
+- id: HF_MEDICATION
+  title: 药物管理注意事项
+  source_page: 65
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 利尿剂帮助排水，但需监测体重和电解质。
+  - ACEI/ARB和β受体阻滞剂是基础用药，不可随意停。
+  - 遵医嘱服药，勿自行增减剂量。
+  pdf_page: 86
+- id: HF_COMPLICATION
+  title: 并发症预防
+  source_page: 65
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 控制高血压、糖尿病和肥胖可延缓心衰进展。
+  - 避免感染，如感冒可诱发心衰加重。
+  - 定期复查心脏功能，监测心律失常。
+  pdf_page: 86
+- id: HF_WHEN_TO_SEEK
+  title: 心衰何时就医
+  source_page: 62
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 立即拨打120或前往急诊：突发严重呼吸困难无法平卧（端坐呼吸）、夜间突然憋醒（夜间阵发性呼吸困难）、或因急性肺水肿引起的剧烈气短
+  - 立即就医：胸痛或胸部不适、晕厥或意识模糊、口唇发紫（发绀）
+  - 尽快就诊（当天或次日）：3天内体重增加2kg以上（液体潴留信号）、脚踝/小腿水肿明显加重、尿量显著减少、静息时呼吸困难加重
+  - 即使无明显不适，每次就诊均应告知医生当前症状变化及体重记录
+  pdf_page: 83
+- id: HF_RISK_FACTORS
+  title: 危险因素
+  source_page: 60
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年龄越大风险越高，65岁以上更常见。
+  - 男性、黑人、有冠心病或高血压者风险高。
+  - 糖尿病和肥胖也增加心衰风险。
+  pdf_page: 81
+- id: CARD_HF_EXERCISE
+  title: 心力衰竭与体力活动耐量
+  source_page: 58
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 心功能NYHA I级患者体力活动不受限；II级患者日常活动引起轻度症状；III-IV级时活动明显受限
+  - 心力衰竭患者应根据心功能分级调整日常活动强度，避免超出耐受范围
+  - 病情稳定的轻中度心衰患者在医生指导下进行适量有氧运动可改善运动耐量
+  pdf_page: 79
+- id: CARD_HF_DIET
+  title: 心力衰竭饮食管理
+  source_page: 65
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 饮食中钠（盐）和液体过量摄入是心力衰竭急性加重的常见诱因
+  - 心衰患者通常需要限制每日食盐摄入（一般建议每日钠摄入＜2g），并监测液体出入量
+  - 出现体重短期内快速增加（如3天内增加2kg以上）提示液体潴留，应及时就医
+  pdf_page: 86

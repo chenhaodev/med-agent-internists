@@ -1,0 +1,116 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: ra
+disease_zh: 类风湿关节炎
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: RA_EPIDEMIOLOGY
+  title: 类风湿关节炎概述
+  source_page: 834
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 类风湿关节炎是一种慢性炎症性关节病，病因不明。
+  - 女性发病率是男性的3倍，常见于40-50岁。
+  - 吸烟是重要的环境危险因素，尤其与抗CCP抗体阳性相关。
+  pdf_page: 223
+- id: RA_SYMPTOMS
+  title: 典型症状
+  source_page: 836
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 对称性小关节（手、腕、足）肿痛和晨僵超过1小时。
+  - 晨僵是典型特征，活动后缓解，静息时加重。
+  - 可能出现关节畸形，如天鹅颈或纽扣花畸形。
+  pdf_page: 225
+- id: RA_EXTRA_ARTICULAR
+  title: 关节外表现
+  source_page: 836
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可能出现乏力、低热、消瘦等全身症状。
+  - 皮下类风湿结节常见于肘关节伸侧。
+  - 可累及肺、眼、心血管，需定期监测。
+  pdf_page: 225
+- id: RA_DIAGNOSIS
+  title: 诊断标准
+  source_page: 837
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断基于病史、体格检查、实验室和影像学检查。
+  - 抗CCP抗体特异性高（>95%），有助于确诊。
+  - 类风湿因子阳性但非特异性，需结合其他指标。
+  pdf_page: 226
+- id: RA_LIFESTYLE
+  title: 生活方式管理
+  source_page: 837
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性期减少关节负重，使用夹板或辅助工具。
+  - 通过分级运动维持关节活动度，防止肌肉萎缩。
+  - 物理和职业治疗可改善功能，保护关节。
+  pdf_page: 226
+- id: RA_MEDICATION_NSAID
+  title: 症状控制药物
+  source_page: 838
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 非甾体抗炎药用于快速缓解疼痛和肿胀。
+  - 注意肾衰竭和胃肠道出血风险，慎用于多病者。
+  - 糖皮质激素用于急性加重，需低剂量短期使用。
+  pdf_page: 227
+- id: RA_DMARD
+  title: 抗风湿药物
+  source_page: 838
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲氨蝶呤是中重度RA的首选药物（A级证据）。
+  - 传统DMARD起效慢（1-6个月），需监测毒性。
+  - 生物制剂如TNF-α抑制剂用于甲氨蝶呤失败后。
+  pdf_page: 227
+- id: RA_INFECTION_PREVENTION
+  title: 感染预防
+  source_page: 839
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 使用生物制剂前需筛查结核病。
+  - 急性感染期间暂停DMARD和生物制剂。
+  - 接种肺炎、流感和乙肝疫苗；带状疱疹疫苗需在生物制剂前使用。
+  pdf_page: 228
+- id: RA_OSTEOPOROSIS
+  title: 骨质疏松预防
+  source_page: 839
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - RA本身和糖皮质激素增加骨质疏松风险。
+  - 所有患者应筛查并预防骨质疏松。
+  - 补充钙和维生素D，必要时使用抗骨松药物。
+  pdf_page: 228
+- id: RA_CARDIOVASCULAR
+  title: 心血管健康
+  source_page: 839
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 慢性炎症增加心血管疾病风险。
+  - 积极监测血压、血脂和血糖。
+  - 控制炎症有助于降低心血管事件。
+  pdf_page: 228
+- id: RA_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 836
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现对称性小关节肿痛和晨僵超过1小时。
+  - 关节外症状如发热、乏力或皮下结节。
+  - 药物副作用如口腔溃疡、恶心或感染迹象。
+  pdf_page: 225

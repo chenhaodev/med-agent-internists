@@ -1,0 +1,6 @@
+# Ruff 配置 — 内科精要 Agent 的 Python 工具脚本（bin/*.py）
+# PEP-8 允许团队将行宽放宽至 99；本仓库 print 多含中文，按此约定。
+line-length = 99
+
+[lint]
+select = ["E", "F", "I"]  # pycodestyle(E) + pyflakes(F) + isort(I)

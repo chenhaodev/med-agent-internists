@@ -1,0 +1,70 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: hepatitis
+disease_zh: 病毒性肝炎（乙型/丙型/自身免疫性）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HBV_EPIDEMIOLOGY
+  title: 乙型肝炎病毒（HBV）流行病学与传播
+  source_page: 482
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 全世界约有3.5亿HBV携带者，其中75%居住在亚洲和西太平洋地区。
+  - HBV主要通过血液传播、性传播、经皮传播和母婴垂直传播。
+  - 在亚洲和非洲，许多乙肝携带者在婴儿期通过母亲垂直传播感染，婴幼儿期感染慢性化率远高于成人。
+  - 西方成人急性HBV感染中，5%～10%不能清除病毒，进展为慢性肝炎；婴幼儿感染慢性化率更高。
+  - HBV具有高度传染性，家属/性伴侣应接种乙肝疫苗；不共用牙刷、剃须刀等可能接触血液的物品。
+  pdf_page: 501
+
+- id: HBV_CHRONIC_MANAGEMENT
+  title: 慢性乙型肝炎——诊断标准与抗病毒治疗指征
+  source_page: 486
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - HBsAg阳性超过6个月提示慢性HBV感染；HBeAg阳性、HBV DNA高滴度（>20 000 IU/ml）、ALT升高为高复制期特征。
+  - HBeAg阴性慢性乙肝患者如HBV DNA水平仍升高，提示前核心区或核心启动子突变，仍处于高复制状态。
+  - 处于病毒高复制期的患者及早期肝硬化患者，肝硬化和肝癌风险显著增加，应进行抗病毒治疗。
+  - 恩替卡韦（entecavir）或替诺福韦酯（tenofovir）是具有高遗传抗性屏障的核苷类似物，作为慢性乙肝一线治疗药物；拉米夫定因耐药率高，已不优先使用。
+  - 治疗目标：消除或永久抑制HBV，减少肝炎活动，减缓或阻止肝脏疾病进展。
+  - 抗病毒药物须遵医嘱长期服用，不可自行停药——擅自停药可导致病毒剧烈反弹（flare），甚至引发急性肝衰竭。
+  pdf_page: 505
+
+- id: HCV_CHRONIC_MANAGEMENT
+  title: 慢性丙型肝炎——流行病学、治疗目标与DAA时代
+  source_page: 486
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢性丙型肝炎患者中高达75%有HCV急性暴露史。感染后20年内，高达20%的HCV感染进展为肝硬化。
+  - 抗病毒治疗目标为持续病毒学应答（SVR）：治疗停止6个月后血HCV RNA仍维持正常水平。
+  - 直接作用抗病毒药物（DAA）联合方案（如sofosbuvir + simeprevir 12周）使高达90%的基因型1型丙肝患者实现SVR；基因型2/3型亦可采用无干扰素方案。
+  - HCV有6种主要基因型，基因型决定治疗方案和疗程；在美国最常见为基因型1，中国以基因型1b为主。
+  - HCV无保护性免疫，治愈后仍可再感染；暴露后注射血清免疫球蛋白对预防HCV无效，目前无HCV疫苗。
+  pdf_page: 505
+
+- id: HEPATITIS_PREVENTION
+  title: 病毒性肝炎预防——疫苗与暴露后处理
+  source_page: 484
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - HAV疫苗：适用于12月龄以上儿童、流行地区旅行者、免疫缺陷或慢性肝病患者、高风险职业人群；主动免疫效果优于暴露后注射免疫球蛋白。
+  - HBV暴露后预防：在7天内注射乙型肝炎免疫球蛋白（HBIg）并接种HBV疫苗；高危人群（医务人员、血液透析患者、慢性肝病患者）及儿童应主动接种HBV疫苗。
+  - HCV无有效疫苗；输血筛查已使输血相关HCV感染基本消失；预防依赖通用防护措施（不共用注射器等）。
+  - 急性甲肝和戊肝发病3周后传染性基本消失；急性乙肝在HBsAg清除前全程具有潜在传染性。
+  pdf_page: 503
+
+- id: HEPATITIS_FAMILY_EDUCATION
+  title: 肝炎患者家属教育——居家防护与随访
+  source_page: 487
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 乙肝/丙肝传播途径：血液传播（共用针头/剃须刀/牙刷等）、性传播、母婴传播；日常接触（共餐、握手、拥抱）不传播。
+  - 家属/性伴侣应尽快检测乙肝表面抗体（抗-HBs），若阴性应接种全程乙肝疫苗（3针）。
+  - 抗病毒治疗期间患者须定期复查：HBV DNA或HCV RNA载量、肝功能（ALT/AST）、腹部超声（肝癌筛查）。
+  - 对于已有慢性肝炎的患者，禁止饮酒（酒精会加速肝纤维化进展）；慎用可能肝损伤的药物，就医时主动告知肝病史。
+  - 自身免疫性肝炎（AIH）首选糖皮质激素联合硫唑嘌呤治疗，>80%患者有效；该方案可延长患者生存期，须长期维持，不可擅自停药。
+  pdf_page: 506

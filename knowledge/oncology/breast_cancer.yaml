@@ -1,0 +1,136 @@
+specialty: oncology
+specialty_zh: oncology
+disease: breast_cancer
+disease_zh: breast_cancer
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: BC_RISK_FACTORS
+  title: 乳腺癌危险因素
+  source_page: 657
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 年龄增长、家族史、初潮早、绝经晚是常见危险因素。
+  - 未生育或首次怀孕超过25岁、肥胖也增加风险。
+  - 长期使用外源性雌激素或接受电离辐射需警惕。
+  pdf_page: 47
+- id: BC_GENETIC_TESTING
+  title: 遗传咨询与基因检测
+  source_page: 657
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 家族有多位乳腺癌或男性乳腺癌患者，建议遗传咨询。
+  - 双侧乳腺癌、年轻患者（<45-50岁）或卵巢癌患者应检测BRCA基因。
+  - 德裔犹太人等高危民族也需考虑基因检测。
+  pdf_page: 47
+- id: BC_SCREENING
+  title: 乳腺癌筛查建议
+  source_page: 657
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 50-74岁女性每年做一次乳腺X线检查。
+  - 40-50岁女性可考虑每年或每两年检查一次。
+  - 高危女性（如家族史）还需加做乳腺MRI。
+  pdf_page: 47
+- id: BC_SYMPTOM_EVALUATION
+  title: 肿块评估与就医
+  source_page: 658
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 触摸到乳房肿块，即使X线或MRI正常，也需全面评估。
+  - 乳腺皮肤水肿、红斑（炎性乳腺癌）需立即就医。
+  - 早期发现可提高治愈率，不要忽视任何异常。
+  pdf_page: 48
+- id: BC_STAGING_TESTS
+  title: 分期检查与转移评估
+  source_page: 658
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 肿瘤>5cm或腋窝淋巴结阳性，需做骨扫描、胸腹CT。
+  - 小肿瘤且无淋巴结转移，通常无需额外分期检查。
+  - 仅不到10%患者初诊时已有远处转移。
+  pdf_page: 48
+- id: BC_TREATMENT_TEAM
+  title: 多学科团队治疗
+  source_page: 658
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期乳腺癌应由放射科、外科、肿瘤科等多学科协作。
+  - 保乳手术加放疗是多数早期患者的标准方案。
+  - 肿瘤大时可先化疗再手术，增加保乳机会。
+  pdf_page: 48
+- id: BC_ADJUVANT_THERAPY
+  title: 术后辅助治疗
+  source_page: 658
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 术后化疗和内分泌治疗可提高生存率，无论绝经前后。
+  - HER2阳性患者需加用曲妥珠单抗治疗一年。
+  - 导管原位癌（DCIS）通常不需化疗，但需评估淋巴结。
+  pdf_page: 48
+- id: BC_HIGH_RISK_PREVENTION
+  title: 高危人群预防措施
+  source_page: 658
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - BRCA基因携带者可考虑预防性切除双侧乳腺和卵巢。
+  - 选择非手术者需密切随访：体检、X线、MRI。
+  - 卵巢切除或抗雌激素药物也可降低风险。
+  pdf_page: 48
+- id: BC_METASTATIC_MANAGEMENT
+  title: 转移性乳腺癌管理
+  source_page: 658
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 常见转移部位：骨、肝、肺、中枢神经系统。
+  - 转移性乳腺癌无法治愈，但平均生存期可达数年。
+  - 治疗取决于转移范围、症状严重度和既往治疗。
+  pdf_page: 48
+- id: BC_SURVIVOR_FOLLOWUP
+  title: 愈后随访与监测
+  source_page: 659
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 前3年每3-6个月复查，之后2年每6-12个月，5年后每年一次。
+  - 低风险患者一年后可转入常规随访项目。
+  - 无需额外影像学检查，除非有症状。
+  pdf_page: 49
+- id: BC_LATE_EFFECTS
+  title: 治疗远期副作用
+  source_page: 659
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 化疗（蒽环类）可能增加白血病或心衰风险。
+  - 曲妥珠单抗也可能导致心衰，需监测症状。
+  - 乏力、抑郁、性功能障碍常见，应及时告知医生。
+  pdf_page: 49
+- id: BC_LIFESTYLE_ADVICE
+  title: 健康生活方式建议
+  source_page: 659
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 鼓励低盐饮食、规律锻炼和限制饮酒。
+  - 健康生活方式有助于改善预后和生活质量。
+  - 避免肥胖，控制体重。
+  pdf_page: 49
+- id: BC_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 658
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 发现乳房肿块、皮肤改变（水肿、红斑）立即就医。
+  - 治疗后出现乏力、气短（可能心衰）需及时评估。
+  - 任何新发疼痛、骨痛、咳嗽等转移症状应就诊。
+  pdf_page: 48

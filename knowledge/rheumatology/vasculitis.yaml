@@ -1,0 +1,41 @@
+specialty: rheumatology
+specialty_zh: 风湿免疫系统
+disease: vasculitis
+disease_zh: 系统性血管炎（ANCA相关血管炎、巨细胞动脉炎）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AAV_OVERVIEW
+  title: ANCA相关血管炎（AAV）——GPA/MPA/EGPA
+  source_page: 860
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - AAV发病率约10~20/百万/年；包括肉芽肿性多血管炎（GPA，原韦格纳肉芽肿）、显微镜下多血管炎（MPA）、嗜酸性肉芽肿性多血管炎（EGPA，原Churg-Strauss综合征）。
+  - ANCA分型：GPA主要为cANCA/抗PR3；MPA主要为pANCA/抗MPO；约90%活动性AAV血清ANCA阳性。
+  - 肾受累（坏死性新月体性肾小球肾炎）是AAV致命并发症；GPA经典三联征：上呼吸道（鼻窦/耳）+肺+肾。
+  - EGPA特点：哮喘+嗜酸粒细胞增多+坏死性血管炎；心脏受累是最常见死因。
+  pdf_page: 860
+
+- id: AAV_TREATMENT
+  title: AAV的诱导与维持治疗
+  source_page: 862
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诱导缓解：利妥昔单抗（rituximab）与环磷酰胺（cyclophosphamide）疗效相当（RITUXVAS和RAVE试验，1级证据）；利妥昔单抗推荐用于育龄期女性及预防环磷酰胺毒性（膀胱炎、不育、继发肿瘤）。
+  - 维持缓解：硫唑嘌呤或低剂量甲氨蝶呤；复发率高，可能需要长期低剂量免疫抑制。
+  - 治疗中糖皮质激素减量：诱导完成后尽快减量（骨质疏松、感染等副作用风险）；同时补充钙/维生素D/双膦酸盐预防骨质疏松。
+  pdf_page: 862
+
+- id: GCA_TAKAYASU
+  title: 巨细胞动脉炎（GCA）与大动脉炎
+  source_page: 863
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - GCA：平均起病年龄70~75岁，女:男=3:1；临床特征：新发头痛+颞动脉压痛/结节+下颌跛行+ESR显著升高（>50mm/h）。
+  - 最危险并发症：视觉丧失（缺血性视神经病变）；视觉症状出现后24小时内立即给予糖皮质激素（泼尼松1mg/kg/d）——延误可导致永久性失明。
+  - 颞动脉活检：诊断金标准；活检标本长度≥2~3cm（跳跃性病变可致假阴性）；在糖皮质激素治疗后2周内活检仍有诊断价值。
+  - GCA缺血预防：低剂量阿司匹林（减少缺血事件风险，II级证据）；所有长期激素治疗患者补充钙/维生素D/双膦酸盐。
+  - 大动脉炎（Takayasu动脉炎）：<50岁女性，主要累及主动脉及其主要分支；脉搏不等、四肢血压差异、血管杂音；ESR/CRP升高；治疗：激素诱导，必要时手术血运重建。
+  pdf_page: 864

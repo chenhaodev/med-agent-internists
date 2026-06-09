@@ -1,0 +1,107 @@
+specialty: neurology
+specialty_zh: neurology
+disease: autonomic
+disease_zh: autonomic
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ANS_OVERVIEW
+  title: 自主神经系统疾病概述
+  source_page: 1080
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自主神经控制心跳、血压、出汗、消化等无意识功能。
+  - 良性自主神经功能障碍很常见，如晕厥、多汗。
+  - 直立性低血压是自主神经衰竭中最致残的症状。
+  pdf_page: 468
+- id: ANS_RISK_FACTORS
+  title: 病因与危险因素
+  source_page: 1080
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 糖尿病是最常见的自主神经病原因，约30%患者受影响。
+  - 衰老、缺乏运动增加直立性低血压风险。
+  - 某些药物（如利尿剂、降压药）可诱发或加重症状。
+  pdf_page: 468
+- id: ANS_DIAGNOSIS
+  title: 诊断方法
+  source_page: 1082
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 医生会询问症状与体位、饮食、环境的关系。
+  - 测量卧位和站立1-3分钟后的血压是核心检查。
+  - 直立性低血压定义为站立时收缩压下降≥20mmHg。
+  pdf_page: 470
+- id: ANS_ORTHOSTATIC_HYPOTENSION
+  title: 直立性低血压管理
+  source_page: 1083
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 避免长时间卧床，逐步增加站立时间。
+  - 每日饮水2-2.5升，增加盐摄入（10-20克/天）。
+  - 穿弹力袜或束腹带，减少腿部血液淤积。
+  - 避免大量进食碳水化合物，以防餐后低血压。
+  pdf_page: 471
+- id: ANS_MEDICATION_MANAGEMENT
+  title: 药物注意事项
+  source_page: 1083
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 停用或减少可能降低血压的药物（如利尿剂）。
+  - 药物如米多君、氟氢可的松需在医生指导下使用。
+  - 药物可能加重卧位高血压，需监测血压变化。
+  pdf_page: 471
+- id: ANS_SYMPTOMS_WATCH
+  title: 需警惕的症状
+  source_page: 1081
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 站立时头晕、视力模糊、疲劳，坐下可缓解。
+  - 严重无汗症增加中暑风险，需注意体温调节。
+  - 便秘、胃轻瘫、排尿困难、男性勃起功能障碍。
+  pdf_page: 469
+- id: ANS_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 1082
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复晕厥或站立时意识丧失需立即就医。
+  - 直立性低血压影响日常生活时需评估。
+  - 糖尿病患者出现体位性头晕或消化问题应就诊。
+  pdf_page: 470
+- id: ANS_EXERCISE
+  title: 运动与康复
+  source_page: 1083
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 规律耐力训练可改善直立不耐受（A级证据）。
+  - 老年人适度锻炼可弥补年龄相关的自主功能下降。
+  - 避免在炎热环境或饱餐后立即运动。
+  pdf_page: 471
+- id: ANS_HYPERHIDROSIS
+  title: 多汗症处理
+  source_page: 1082
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 口服抗胆碱药（如胃长宁）可控制全身多汗。
+  - 外用胃长宁或肉毒杆菌注射对局部多汗有效。
+  - 严重病例可考虑内镜下胸交感神经切除术。
+  pdf_page: 470
+- id: ANS_PROGNOSIS
+  title: 预后与注意事项
+  source_page: 1083
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 良性晕厥通常可自行改善，预后良好。
+  - 糖尿病自主神经病变增加无症状心肌缺血风险。
+  - 严重直立性低血压伴淀粉样变预后较差。
+  pdf_page: 471

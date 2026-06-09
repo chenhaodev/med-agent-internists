@@ -1,0 +1,42 @@
+specialty: cardiology
+specialty_zh: 心血管系统
+disease: valve_disease
+disease_zh: 瓣膜性心脏病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AORTIC_STENOSIS
+  title: 主动脉瓣狭窄——临床表现与外科指征
+  source_page: 81
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 病因：发达国家以退行性变（钙化）为主；二叶主动脉瓣（人群发生率约2%）可导致早发狭窄；风湿热（同时累及二尖瓣）。
+  - 瓣膜性心脏病患病率随年龄增长，≥75岁老年人患病率高达13.2%。
+  - 重度主动脉瓣狭窄症状出现顺序（预后逐渐恶化）：心绞痛（平均生存5年）→晕厥（3年）→充血性心力衰竭（2年）（Ross和Braunwald，1968）。
+  - 主动脉瓣置换术（AVR）是有症状重度主动脉瓣狭窄的I类适应证（B级证据），可使生存率恢复至接近正常。
+  - 经皮主动脉瓣植入术（TAVI/TAVR）：FDA 2012年批准用于外科手术高风险患者，经股动脉导管路径；并发症包括瓣周反流、卒中和外周血管损伤。
+  pdf_page: 102
+
+- id: MITRAL_VALVE_DISEASE
+  title: 二尖瓣疾病——狭窄与反流
+  source_page: 83
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 二尖瓣狭窄（MS）几乎所有原因均为风湿热（有时合并三尖瓣病变）；风湿性MS是发展中国家的主要心脏病。
+  - 重度MS定义：二尖瓣瓣口面积（MVA）<1.5cm2；症状性重度MS可行经皮二尖瓣球囊成形术（PMBV）。
+  - 二尖瓣反流（MR）最常见原因：二尖瓣脱垂（发达国家最常见）、左心室扩张（功能性MR）、缺血性（后壁/乳头肌），急性MR原因包括乳头肌或腱索断裂、心内膜炎。
+  - 慢性MR手术指征：有症状，或无症状但LVEF<60%或左心室收缩末期内径（LVESD）>40mm。
+  - 所有瓣膜性心脏病随机试验很少，ACC/AHA指南大部分基于C级证据（专家共识）。
+  pdf_page: 83
+
+- id: VALVE_REPLACEMENT_CHOICE
+  title: 人工瓣膜选择原则
+  source_page: 83
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 机械瓣膜：血流动力学特性更好，可终身使用，但需要终身抗凝治疗（华法林），增加出血风险。
+  - 生物瓣膜（猪/牛来源）：不需要长期抗凝，但耐久性有限，植入后10~20年通常需再次置换。
+  - 换瓣术前需评估冠状动脉疾病（有创或CT造影），以决定是否同期行冠脉搭桥。
+  pdf_page: 83

@@ -1,0 +1,145 @@
+specialty: palliative
+specialty_zh: palliative
+disease: palliative_care
+disease_zh: palliative_care
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PALLIATIVE_GOAL
+  title: 姑息治疗的目标
+  source_page: 1222
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 姑息治疗主要目标是减少患者痛苦，提高生活质量。
+  - 通过跨学科团队提供症状控制、沟通和心理支持。
+  - 帮助患者理解病情，制定未来目标，包括临终准备。
+  pdf_page: 609
+- id: DISEASE_TRAJECTORY
+  title: 常见疾病轨迹
+  source_page: 1222
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 癌症患者功能保持到晚期后急剧下降。
+  - 心衰、慢阻肺等慢性病有急性加重和突然死亡风险。
+  - 痴呆患者长期缓慢下降，需关注照顾者负担。
+  - 严重神经损伤如卒中可导致突然残疾。
+  pdf_page: 609
+- id: COMMUNICATION_SKILLS
+  title: 沟通与治疗目标协商
+  source_page: 1223
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 召开家庭会议前了解患者和家属的理解程度。
+  - 使用“问-讲-问”策略，少量信息并检查理解。
+  - 表达同感，重建希望，承诺不放弃患者。
+  - 讨论预后时避免过度乐观或悲观。
+  pdf_page: 610
+- id: PROGNOSIS_COMMUNICATION
+  title: 预后评估与沟通
+  source_page: 1224
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 预后评估包括生存期、症状、功能和生活质量。
+  - 医生可能高估生存期，需结合模型和临床判断。
+  - 沟通时传达不确定性，如“几周到几个月”。
+  - 避免过度乐观导致无效治疗，延误临终关怀。
+  pdf_page: 611
+- id: PAIN_MANAGEMENT
+  title: 疼痛管理原则
+  source_page: 1224
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛分躯体痛、内脏痛、神经痛，需详细评估。
+  - 轻度疼痛用非阿片药，中度用弱阿片，重度用强阿片。
+  - 长期疼痛需持续用药，并监测滥用风险。
+  - 便秘是常见副作用，需预防性治疗。
+  pdf_page: 611
+- id: OPIOID_SAFETY
+  title: 阿片类药物安全使用
+  source_page: 1224
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 有药物滥用史者需严格处方和剂量限制。
+  - 所有阿片类药物由一位医生开具，同一药店取药。
+  - 老年或虚弱患者起始剂量减半。
+  - 肾功能不全避免吗啡，优先用美沙酮或芬太尼。
+  pdf_page: 611
+- id: NONPAIN_SYMPTOMS
+  title: 非疼痛症状管理
+  source_page: 1226
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见症状包括呼吸困难、恶心、便秘、疲劳等。
+  - 每个症状需查找病因并制定治疗方案。
+  - 了解患者预后和偏好，调整管理策略。
+  pdf_page: 613
+- id: PSYCHOLOGICAL_DISTRESS
+  title: 心理压力识别与处理
+  source_page: 1226
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抑郁、焦虑和谵妄常见但易被忽视。
+  - 用“你沮丧吗”和“有兴趣吗”筛查抑郁。
+  - 避免仅凭躯体症状诊断抑郁症。
+  - 治疗需药物和非药物结合，跨学科团队参与。
+  pdf_page: 613
+- id: DELIRIUM_MANAGEMENT
+  title: 谵妄的识别与处理
+  source_page: 1226
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄表现为意识波动，活动可亢进或减退。
+  - 80%为活动减低型，易误诊为抑郁。
+  - 常见原因包括药物、代谢紊乱和感染。
+  - 环境干预如安慰、减少夜间打扰有帮助。
+  pdf_page: 613
+- id: SPIRITUAL_DISTRESS
+  title: 精神与生存困境支持
+  source_page: 1226
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重疾病患者常面临意义、价值和关系问题。
+  - 开放性问题如“你最痛苦之处是什么”可引导讨论。
+  - 精神支持帮助患者在绝望中找到希望。
+  - 家属也需参与，获得心理和灵性关怀。
+  pdf_page: 613
+- id: WHEN_TO_SEEK_HELP
+  title: 何时寻求专业帮助
+  source_page: 1222
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 疼痛控制不佳或症状加重时及时联系医生。
+  - 出现谵妄、严重抑郁或焦虑需专业评估。
+  - 家属负担过重或无法应对时寻求支持。
+  - 临终决策困难时咨询姑息治疗团队。
+  pdf_page: 609
+- id: PAL_DIET
+  title: 临终期饮食与营养支持
+  source_page: 1228
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 临终期患者食物和液体摄入量逐渐减少是自然衰退过程，大多数患者不会感到饥饿或口渴
+  - 不应强迫临终患者进食，人工营养（鼻饲/静脉营养）在临终阶段通常不能改善舒适度
+  - 少量口腔护理（湿润口腔）可缓解口干不适，比强制进食更能提高舒适度
+  pdf_page: 615
+- id: PAL_HOME_CARE
+  title: 姑息治疗与家庭护理
+  source_page: 1222
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 姑息治疗可在多种机构提供，包括医院、家庭护理、养老院及门诊，患者可根据需求选择
+  - 家庭护理模式允许患者在熟悉的环境中接受专业医疗护理和症状管理
+  - 家属是家庭护理的重要参与者，需了解护理技能（如皮肤护理、口腔护理、体位变换）及如何呼叫专业支持
+  pdf_page: 609

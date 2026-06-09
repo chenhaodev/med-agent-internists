@@ -1,0 +1,126 @@
+specialty: neurology
+specialty_zh: neurology
+disease: epilepsy
+disease_zh: epilepsy
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: EPI_DEFINITION
+  title: 癫痫定义与基本概念
+  source_page: 1147
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 癫痫是慢性脑部疾病，表现为反复无诱因的痫性发作。
+  - 一次发作不一定是癫痫，需两次以上或高度复发风险。
+  - 痫性发作是大脑异常放电，症状因部位不同而异。
+  pdf_page: 535
+- id: EPI_CAUSES
+  title: 癫痫的病因与危险因素
+  source_page: 1147
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 常见继发性原因包括代谢紊乱、中毒、头部创伤和缺氧。
+  - 遗传因素和脑外伤可降低发作阈值，增加癫痫易感性。
+  - 睡眠剥夺、饮酒、感染和压力可诱发或加重发作。
+  pdf_page: 535
+- id: EPI_DIAGNOSIS
+  title: 癫痫的诊断标准
+  source_page: 1147
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断需至少两次间隔24小时的无诱因发作。
+  - 一次发作加上脑电图异常或高复发风险也可诊断。
+  - 医生会结合发作类型、病因、影像和基因检测综合判断。
+  pdf_page: 535
+- id: EPI_LIFESTYLE
+  title: 生活方式管理与安全
+  source_page: 1148
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 避免驾驶、操作重型机械、无人看管的游泳或洗澡。
+  - 建议淋浴而非盆浴，减少溺水风险。
+  - 保持规律作息，避免睡眠剥夺和过量饮酒。
+  pdf_page: 536
+- id: EPI_MEDICATION
+  title: 药物管理注意事项
+  source_page: 1149
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 抗癫痫药物需规律服用，不可随意停药或改量。
+  - 某些药物如拉莫三嗪可能加重Dravet综合征。
+  - 药物选择需个体化，遵医嘱调整。
+  pdf_page: 537
+- id: EPI_COMPLICATION
+  title: 并发症预防与处理
+  source_page: 1150
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 发作时侧身以防吸入唾液，避免舌咬伤。
+  - 注意口腔外伤、骨折和吸入性肺炎等并发症。
+  - 罕见但需警惕癫痫原因不明的猝死（SUDEP）。
+  pdf_page: 538
+- id: EPI_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 1150
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 发作持续超过5分钟或连续发作需紧急就医。
+  - 发作后意识模糊、头痛或肌肉酸痛持续数小时应就诊。
+  - 新发或频繁发作需及时评估调整治疗方案。
+  pdf_page: 538
+- id: EPI_SEIZURE_TYPES
+  title: 痫性发作类型识别
+  source_page: 1149
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 部分性发作局限于大脑局部，可伴或不伴意识障碍。
+  - 全面性发作累及双侧大脑，常见强直-阵挛发作。
+  - 发作后可有托德瘫痪，表现为暂时性局部无力。
+  pdf_page: 537
+- id: EPI_SYNDROMES
+  title: 常见癫痫综合征
+  source_page: 1150
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 颞叶癫痫最常见，常伴自动症如咂嘴或手部运动。
+  - 额叶癫痫夜间多发，易与心因性发作混淆。
+  - 儿童良性癫痫如BECTS预后良好，青春期可缓解。
+  pdf_page: 538
+- id: EPI_GENETIC
+  title: 遗传因素与基因突变
+  source_page: 1148
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 部分癫痫与离子通道基因突变相关，如SCN1A。
+  - Dravet综合征需避免某些药物，如拉莫三嗪。
+  - 遗传咨询可帮助评估家族复发风险。
+  pdf_page: 536
+- id: NEURO_EPI_DIET
+  title: 癫痫饮食治疗（生酮饮食）
+  source_page: 1157
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 生酮饮食（极高脂肪、低碳水化合物和蛋白质）可减少部分儿童和成人癫痫患者的发作频率
+  - 生酮饮食需在专业营养师和神经科医生指导下进行，不可自行实施
+  - 通常用于2种以上抗癫痫药物治疗无效的难治性癫痫患者
+  pdf_page: 545
+- id: NEURO_EPI_ALCOHOL
+  title: 癫痫患者戒酒建议
+  source_page: 1147
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒酒过程中（酒精戒断）可诱发癫痫发作，有癫痫病史的患者应完全戒酒
+  - 大量饮酒本身和饮酒后睡眠剥夺均可降低癫痫发作阈值
+  - 服用抗癫痫药物期间饮酒可能影响药物代谢，增加毒副作用风险
+  pdf_page: 535

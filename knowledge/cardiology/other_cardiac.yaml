@@ -1,0 +1,38 @@
+specialty: cardiology
+specialty_zh: 心血管系统
+disease: other_cardiac
+disease_zh: 其他心脏疾病（心脏肿瘤、心脏创伤、主动脉疾病）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CARDIAC_TUMORS
+  title: 心脏肿瘤——原发性与继发性
+  source_page: 153
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 心脏黏液瘤（myxoma）是最常见的原发性心脏肿瘤；90%位于左心房（卵圆窝处）；90%为良性；症状包括栓塞、梗阻（类似二尖瓣狭窄）、系统性症状（发热、体重减轻）。
+  - 心脏转移瘤（恶性肿瘤转移）比原发性心脏肿瘤常见得多；约1/5的癌症死亡患者发现心脏受累；最常见原发灶：肺癌、乳腺癌、肾癌。
+  - 心脏黏液瘤治疗：外科切除；切除后可复发（家族性黏液瘤综合征）。
+  pdf_page: 153
+
+- id: CARDIAC_TRAUMA
+  title: 心脏创伤与主动脉损伤
+  source_page: 154
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 钝性心脏损伤（如车祸）：肌钙蛋白（troponin）升高对心肌损伤具有特异性，应常规检测。
+  - 主动脉损伤：螺旋CT对主动脉损伤诊断敏感性99%；紧急诊断和处理至关重要。
+  - 穿透性心脏损伤（刀伤/枪伤）：需紧急外科手术干预。
+  pdf_page: 154
+
+- id: AORTIC_DISSECTION
+  title: 主动脉夹层
+  source_page: 166
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Stanford A型（升主动脉受累）：紧急外科手术；Stanford B型（仅降主动脉）：先内科保守治疗（降压、降心率），必要时介入或手术。
+  - Stanford B型夹层约20%发生肾动脉受累导致肾功能衰竭。
+  - 急性主动脉夹层特征性症状：突发撕裂样剧烈胸痛（向背部放射）；双侧上肢血压差异或脉搏消失；诊断首选增强CT。
+  pdf_page: 155

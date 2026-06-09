@@ -1,0 +1,41 @@
+specialty: infectious
+specialty_zh: 感染性疾病
+disease: lower_resp_infection
+disease_zh: 下呼吸道感染（社区获得性肺炎）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CAP_ETIOLOGY
+  title: 社区获得性肺炎病原学
+  source_page: 948
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 肺炎链球菌（肺炎球菌）是最常见病原体；经典表现：急起发热、寒战、铁锈色痰、单肺叶实变。
+  - 非典型病原体：肺炎支原体（轻症，主要<20岁）、肺炎衣原体（轻症，门诊多见）、嗜肺军团菌（可引起重症肺炎，环境暴发）。
+  - 金黄色葡萄球菌（含MRSA）：流感后继发细菌性肺炎的重要病原；医院获得性肺炎以革兰氏阴性杆菌（含铜绿假单胞菌）为主。
+  - 真菌性肺炎（荚膜组织胞浆菌、粗球孢子菌、皮炎芽生菌）：限于特定地理区域，免疫正常者也可感染。
+  pdf_page: 336
+
+- id: CAP_SEVERITY_TREATMENT
+  title: CAP严重程度评估（CURB-65）与治疗
+  source_page: 951
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CURB-65评分（每项1分）：意识障碍（Confusion）、血尿素氮升高（Urea）、呼吸频率≥30次/分（Respiratory rate）、血压降低（Blood pressure：收缩压<90或舒张压≤60mmHg）、年龄≥65岁。
+  - 评分0~1分：门诊治疗；≥2分：住院；≥3分：考虑ICU。
+  - 经验性抗生素治疗（确定病原前）：门诊患者β-内酰胺+大环内酯类，或呼吸氟喹诺酮（莫西沙星/左氧氟沙星）；住院患者静脉使用。
+  - 军团菌肺炎：首选大环内酯类或喹诺酮类；不推荐β-内酰胺（军团菌天然耐药β-内酰胺）。
+  - 青霉素使菌血症性肺炎球菌肺炎死亡率从84%降至17%（历史数据）。
+  pdf_page: 951
+
+- id: CAP_PREVENTION
+  title: 肺炎预防与疫苗接种
+  source_page: 952
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 流感疫苗：预防流感，同时减少继发细菌性肺炎风险；推荐≥65岁未接种人群接种。
+  - 肺炎球菌疫苗（PCV7/PPSV23）：显著减少肺炎球菌感染发病率，尤其对<2岁和≥65岁人群。
+  - 住院肺炎球菌肺炎合并菌血症死亡率（21%）高于未合并菌血症者（13%）；多叶受累、白细胞减少者预后更差。
+  pdf_page: 952

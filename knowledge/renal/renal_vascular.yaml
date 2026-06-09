@@ -1,0 +1,40 @@
+specialty: renal
+specialty_zh: 肾脏系统
+disease: renal_vascular
+disease_zh: 肾血管性疾病（肾血管性高血压、TTP/HUS、肾危象）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: RENOVASCULAR_HYPERTENSION
+  title: 肾血管性高血压与肾动脉狭窄（RAS）
+  source_page: 361
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 动脉粥样硬化性RAS见于约5%的高血压患者（老年男性、糖尿病/吸烟史）；>50~60%狭窄才有血流动力学意义。
+  - 纤维肌性发育不良（FMD）：年轻女性，占肾血管性高血压10~25%；串珠样改变，首选经皮腔内血管成形术（PTA）。
+  - 双侧RAS或孤立肾合并RAS时使用ACEI/ARB可引起AKI（抑制出球小动脉收缩→肾小球滤过压骤降）——使用前评估肾功能，用药后密切监测肌酐变化。
+  - 单侧RAS：ACEI/ARB可作为降压一线用药（保护对侧肾），但用后肌酐轻度升高<30%可接受。
+  pdf_page: 361
+
+- id: TTP_HUS
+  title: 血栓性血小板减少性紫癜（TTP）与溶血尿毒综合征（HUS）
+  source_page: 370
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - TTP：ADAMTS13活性<5%（vWF裂解酶缺乏）→微血管血栓→血小板减少+微血管病性溶血+神经系统症状；首选血浆置换（plasma exchange）治疗，可挽救生命。
+  - HUS：典型HUS由产Shiga毒素大肠杆菌（STEC，O157:H7）引起；临床特征：血性腹泻→溶血性贫血+血小板减少+急性肾损伤（5联征部分）。
+  - HUS处理关键禁忌：抗生素治疗STEC相关性HUS可增加Shiga毒素释放，显著增加HUS发生风险——应避免使用抗生素！
+  - 非典型HUS（aHUS）：补体调节基因突变，可用依库珠单抗（eculizumab）治疗。
+  pdf_page: 370
+
+- id: PREECLAMPSIA_SRC
+  title: 子痫前期与硬皮病肾危象
+  source_page: 372
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 子痫前期：妊娠20周后高血压（≥140/90mmHg）+蛋白尿（>0.3g/24h）；唯一根治方法是分娩；治疗目标：控制血压防止重度子痫（抽搐）；硫酸镁预防子痫发作。
+  - 硬皮病肾危象（SRC）：弥漫性皮肤型系统性硬化（dcSSc）患者突发高血压危象+AKI；发生率5~10%；使用ACEI（卡托普利首选）可将1年死亡率从75%降至<15%（3级证据）——dcSSc患者须每周监测血压。
+  - 抗磷脂综合征：反复血栓+妊娠丢失；华法林抗凝目标INR 2~3（动脉血栓者INR 3~4）；孕期改用肝素。
+  pdf_page: 372

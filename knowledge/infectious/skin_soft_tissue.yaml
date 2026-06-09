@@ -1,0 +1,41 @@
+specialty: infectious
+specialty_zh: 感染性疾病
+disease: skin_soft_tissue
+disease_zh: 皮肤软组织感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SSTI_COMMON_PATHOGENS
+  title: 皮肤软组织感染常见病原体与分类
+  source_page: 962
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 最常见病原体：酿脓链球菌（A组β-溶血性链球菌）、金黄色葡萄球菌（含MRSA）、无乳链球菌（B组链球菌）。
+  - 社区获得性MRSA（CA-MRSA）是急诊科最常见的SSTI病原；含多种毒素基因（细胞毒素导致白细胞破坏和组织坏死）。
+  - 蜂窝织炎：皮肤和皮下组织浅表炎症，红热痛但边界不清；最常见致病菌为A组链球菌和金黄色葡萄球菌。
+  - 丹毒：表浅蜂窝织炎特殊形式，主要由酿脓链球菌（产毒素型）引起；边界清晰、高起的火红色斑块，淋巴受累。
+  pdf_page: 962
+
+- id: NECROTIZING_FASCIITIS
+  title: 坏死性筋膜炎——外科急症
+  source_page: 963
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 坏死性筋膜炎：深层筋膜炎症，进展迅速，继发皮下组织坏死；真皮血管血栓形成导致组织坏死。
+  - I型（多菌混合）：需氧菌（链球菌、葡萄球菌、革兰阴性杆菌）+厌氧菌（消化链球菌、拟杆菌、梭菌）混合感染；阴囊会阴累及称Fournier坏疽。
+  - II型（单菌型）：化脓性链球菌；常与链球菌中毒性休克综合征并发。
+  - 识别要点：与严重程度不符的剧烈疼痛、皮肤变色（灰紫色）、捻发音（组织气体）；影像学（CT）发现筋膜气体高度提示。
+  - 处理：立即外科清创（手术是唯一有效治疗）+广谱抗生素（含抗厌氧菌方案），任何延误均增加死亡率。
+  pdf_page: 963
+
+- id: STREPTOCOCCAL_TSS
+  title: 中毒性休克综合征与严重链球菌感染
+  source_page: 963
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 链球菌中毒性休克综合征（链球菌TSS）：低血压+多系统受累（急性肾损伤、转氨酶升高、皮疹、软组织坏死、凝血功能异常）；从无菌部位分离出化脓性链球菌可明确诊断。
+  - 葡萄球菌TSS：常与卫生棉条、分娩后、手术后或皮肤病变相关；急起发热、弥漫红皮病、低血压、多系统受累。
+  - 动物咬伤注意：犬咬嗜二氧化碳嗜细胞菌（Capnocytophaga）与犬/猫咬伤相关，无脾患者感染后脓毒症风险高。
+  pdf_page: 963

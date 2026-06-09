@@ -1,0 +1,46 @@
+specialty: respiratory
+specialty_zh: 呼吸系统
+disease: critical_care
+disease_zh: 危重症医学（ARDS、休克、机械通气）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: RESPIRATORY_FAILURE_TYPES
+  title: 急性呼吸衰竭分型与机械通气指征
+  source_page: 274
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Ⅰ型呼吸衰竭（低氧血症型）：V/Q失调、肺内分流（如肺炎、ARDS、肺栓塞）；PaO2降低，PaCO2正常或降低。
+  - Ⅱ型呼吸衰竭（高碳酸血症型）：通气功能障碍（如COPD加重、重症肌无力）；PaCO2升高。
+  - 机械通气指征：呼吸频率>30次/分、意识状态改变、血流动力学不稳定。
+  - 无创正压通气（NPPV）适用于COPD急性加重和心源性肺水肿（I级证据）；可避免气管插管。
+  - auto-PEEP（内源性PEEP）在COPD/哮喘机械通气中危险：导致气压伤及血流动力学紊乱，需警惕。
+  pdf_page: 295
+
+- id: ARDS
+  title: 急性呼吸窘迫综合征（ARDS）——柏林定义与治疗
+  source_page: 277
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 2012柏林定义：急性起病（<1周）；双肺浸润影（排除心源性）；轻度：PaO2/FiO2 200-300mmHg（PEEP≥5cmH2O）；中度：100-200；重度：≤100。
+  - 美国每年约150 000例ARDS；最常见病因：吸入性肺炎和脓毒症；死亡率30%~50%。
+  - 小潮气量通气（6ml/kg理想体重IBW）可提高生存率（Ⅰ级证据）——高潮气量加重肺损伤。
+  - 保守性液体管理（FACTT研究）相对充足液体管理可减少机械通气时间2.5d和ICU住院时间2.2d（Ⅰ级证据）。
+  - 不推荐：糖皮质激素、肺表面活性物质替代、高频振荡通气（HFOV）——未证实有益或有害。
+  - ECMO：CESAR试验证实重度呼吸衰竭患者生存率提高（Ⅰ级证据），但溶血/抗凝并发症限制使用。
+  pdf_page: 298
+
+- id: SHOCK_MANAGEMENT
+  title: 休克的分型与处理原则
+  source_page: 278
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 休克四类：心源性（心功能障碍）、低血容量性（血管内容量减少）、感染性/分布性（体循环阻力降低）、梗阻性（血流受阻）。
+  - 初始处理：快速开放血管通路+积极液体补充，适用于低血容量性和感染性休克。
+  - 感染性休克：液体复苏+抗生素+感染灶引流（三联）。
+  - 心源性休克：以改善心功能为主（正性肌力药），必要时心脏辅助装置。
+  - 中心静脉血氧饱和度（ScvO2）与混合静脉血氧饱和度（SvO2）结果相似，可用于评估组织灌注。
+  - 肺动脉导管（Swan-Ganz导管）：FACTT研究（1级证据）未显示有利；可增加并发症（心律失常），脓毒症中不能准确评估液体反应性。
+  pdf_page: 278

@@ -1,0 +1,193 @@
+specialty: womens_health
+specialty_zh: womens_health
+disease: womens_health
+disease_zh: womens_health
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: WOMEN_HEALTH_SPECIALTY
+  title: 女性健康特殊性
+  source_page: 754
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性健康关注女性特有疾病、更常见疾病及性别差异疾病。
+  - 女性心脏病、性传播感染等表现和治疗与男性不同。
+  pdf_page: 144
+- id: GENDER_DIFF_PHYSIOLOGY
+  title: 男女生理差异影响
+  source_page: 754
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性肾脏较小，肌酐清除率比男性低15%。
+  - 女性血管较细，心脏导管治疗技术难度更大。
+  - 女性通过增快心率增加心排血量，男性通过增加每搏量。
+  - 女性交感神经活性弱，易出现直立性低血压和晕厥。
+  pdf_page: 144
+- id: DRUG_METABOLISM_GENDER
+  title: 药物代谢性别差异
+  source_page: 754
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性体重轻、器官小、体脂高，影响药物代谢。
+  - 女性QT间期天生较长，使用某些药物易致心律失常。
+  - 使用抗生素、抗心律失常药等需监测QT间期。
+  pdf_page: 144
+- id: MENSTRUAL_CYCLE_BASICS
+  title: 正常月经周期特点
+  source_page: 755
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常月经周期25-35天，经期2-7天。
+  - 月经初潮延迟或周期异常需就医排查激素或结构问题。
+  - 月经周期由卵泡期、排卵期和黄体期组成。
+  pdf_page: 145
+- id: ADOLESCENT_HEALTH_ISSUES
+  title: 青少年健康关注点
+  source_page: 756
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 青少年性身份和性取向问题需安全、公正地讨论。
+  - 女同性恋、男同性恋等青少年是药物滥用高危人群。
+  - 鼓励青少年健康性选择，包括避孕和屏障保护。
+  pdf_page: 146
+- id: EATING_DISORDERS_SCREEN
+  title: 进食障碍筛查
+  source_page: 756
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 进食障碍常见于青少年，表现为扭曲身体形象和行为。
+  - 监测体重和BMI，筛查身体形象和行为变化。
+  - 治疗需多学科团队：医生、心理医生和营养师。
+  pdf_page: 146
+- id: STI_SCREENING_YOUTH
+  title: 青少年性传播感染筛查
+  source_page: 756
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 13-21岁每年筛查衣原体和淋菌感染。
+  - 13-64岁每年进行艾滋病毒检测。
+  - HPV疫苗推荐9-11岁接种，可预防宫颈癌。
+  pdf_page: 146
+- id: PRIMARY_AMENORRHEA
+  title: 原发性闭经病因
+  source_page: 757
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 16岁第二性征已发育或14岁未发育仍无月经需评估。
+  - 常见原因包括遗传或解剖结构异常。
+  - 需检查子宫、乳房发育及FSH/LH水平。
+  pdf_page: 147
+- id: PREVENTIVE_HEALTH_WOMEN
+  title: 女性疾病预防建议
+  source_page: 757
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 18岁起筛查饮酒行为，不良饮酒需干预。
+  - 评估心血管风险，45岁起筛查血脂。
+  - 40岁起每年乳腺X线摄影筛查乳腺癌。
+  - 所有女性筛查抑郁症，可简单询问情绪问题。
+  pdf_page: 147
+- id: CERVICAL_CANCER_SCREEN
+  title: 宫颈癌筛查指南
+  source_page: 758
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 21岁以下不建议筛查，即使性生活活跃。
+  - 21-29岁每3年一次细胞学筛查，不查HPV。
+  - 30-65岁每5年一次HPV和细胞学联合筛查。
+  - 65岁以上既往筛查正常可停止筛查。
+  pdf_page: 148
+- id: CONTRACEPTION_CHOICE
+  title: 避孕方法选择
+  source_page: 759
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 避孕效果取决于正确使用和依从性。
+  - 有血栓家族史者禁用口服避孕药。
+  - 屏障避孕法如男用避孕套可预防性传播感染。
+  - 复方口服避孕药可调节月经、预防卵巢癌。
+  pdf_page: 149
+- id: HORMONAL_CONTRACEPTION_CAUTION
+  title: 激素避孕注意事项
+  source_page: 759
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 有血栓、脑血管病、冠心病史者禁用。
+  - 未控制高血压、先兆偏头痛、35岁后吸烟者禁用。
+  - 每天同一时间服药，漏服需补服。
+  pdf_page: 149
+- id: MENOPAUSE_ESTROGEN_DECLINE
+  title: 绝经期雌激素变化
+  source_page: 755
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 绝经通常在45-55岁，雌激素水平下降。
+  - 雌激素下降影响生殖器官、骨骼、心血管等。
+  - 绝经后需关注骨质疏松和心血管健康。
+  pdf_page: 145
+- id: MENOPAUSE_HOT_FLASH_MANAGEMENT
+  title: 更年期潮热管理
+  source_page: 766
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 非药物措施安全有效：穿着分层（便于调节体温）、规律锻炼、减压技巧、避免已知诱发因素（辛辣食物、咖啡、酒精等），可缓解部分女性症状
+  - 激素替代治疗（雌激素）是缓解潮热最有效的方法，但需由医生评估适应证与禁忌证（如乳腺癌史、血栓史等），不可自行使用
+  - 非激素药物选项：帕罗西汀是美国FDA唯一批准用于治疗潮热的非激素类药物；文拉法辛、加巴喷丁和可乐定也有一定效果，但均需遵医嘱使用
+  - 草药制剂（大豆异黄酮、黑升麻等）在强有力随机对照研究中均未被证实可减轻潮热
+  must_warn:
+  - 激素替代治疗必须由医生评估适应证和禁忌证后决定，不可自行启动或停药
+  - 非激素类处方药（帕罗西汀、文拉法辛、加巴喷丁等）须在医生指导下使用，不可自行购买
+  pdf_page: 155
+- id: SOCIAL_DETERMINANTS_HEALTH
+  title: 社会因素对健康影响
+  source_page: 756
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性收入低、贫困、单身家长比例高。
+  - 男性吸烟、饮酒、超重比例更高。
+  - 鼓励健康生活方式预防慢性病。
+  pdf_page: 146
+- id: WH_EXERCISE
+  title: 女性健康与运动
+  source_page: 756
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 女性缺乏体力活动的比例较高，规律有氧锻炼有助于维持心血管健康、骨密度和整体健康
+  - 过度运动或体重过低可导致功能性下丘脑性闭经，影响月经周期和生育能力，需评估锻炼强度
+  - 运动强度和频率应根据个人健康状况、年龄和生命阶段（如妊娠、更年期）进行调整
+  pdf_page: 146
+- id: WH_SMOKING
+  title: 女性健康与戒烟
+  source_page: 757
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 所有女性均应接受心血管疾病风险评估，其中戒烟是降低女性心血管风险最重要的可改变因素之一
+  - 吸烟女性使用激素避孕药（尤其35岁后）风险显著增加（血栓、卒中），必须戒烟后才可使用
+  - 戒烟支持（行为干预+药物辅助）可帮助女性成功戒烟，怀孕前后尤需彻底戒烟
+  pdf_page: 147
+- id: WH_DIET
+  title: 女性健康饮食管理
+  source_page: 768
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 包括药物及强调饮食和心理社会因素干预在内的多学科方案，对女性特有健康问题效果优于单纯药物治疗
+  - 育龄期女性应注意铁和叶酸的充足摄入（叶酸用于预防神经管缺陷，适用于备孕/孕期）；绝经后女性应重点保证钙和维生素D摄入，叶酸补充已不是主要优先事项
+  - 限制高糖、高脂饮食，维持健康体重，有助于降低多囊卵巢综合征、乳腺癌等风险
+  pdf_page: 158

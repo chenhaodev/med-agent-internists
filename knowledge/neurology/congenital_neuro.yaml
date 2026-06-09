@@ -1,0 +1,96 @@
+specialty: neurology
+specialty_zh: neurology
+disease: congenital_neuro
+disease_zh: congenital_neuro
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NTD_FOLATE
+  title: 神经管缺陷与叶酸预防
+  source_page: 1121
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 孕前及孕期补充叶酸可显著降低神经管缺陷风险。
+  - 神经管缺陷常见于脊柱裂，需产前筛查。
+  pdf_page: 509
+- id: CM1_SYMPTOMS
+  title: Chiari畸形1型症状识别
+  source_page: 1121
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 头痛、眩晕、睡眠障碍、平衡问题可能是Chiari畸形1型表现。
+  - 严重时需手术减压，轻症可保守观察。
+  pdf_page: 509
+- id: MMC_CARE
+  title: 脊髓脊膜膨出术后护理
+  source_page: 1121
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出生后需手术修复脊髓脊膜膨出，常需脑积水分流。
+  - 膀胱功能障碍需间歇导尿，预防感染。
+  pdf_page: 509
+- id: SYRINGOMYELIA_MONITOR
+  title: 脊髓空洞症观察要点
+  source_page: 1122
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 颈部或上肢痛温觉丧失、肌肉萎缩需警惕脊髓空洞症。
+  - 部分可自愈，保守治疗为主，严重时考虑手术。
+  pdf_page: 510
+- id: ASD_EARLY_SIGNS
+  title: 自闭症早期识别信号
+  source_page: 1122
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 儿童缺乏社交兴趣、回应少、语言发育迟缓需警惕自闭症。
+  - 早期行为训练可改善社交和沟通能力。
+  pdf_page: 510
+- id: ADHD_BEHAVIOR
+  title: ADHD行为管理建议
+  source_page: 1123
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 注意力不集中、多动、冲动持续6个月以上需评估ADHD。
+  - 行为干预和药物治疗（如哌甲酯）可改善症状。
+  pdf_page: 511
+- id: RETT_GENETIC
+  title: Rett综合征遗传咨询
+  source_page: 1123
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 女性患儿1岁后头围增长减慢、手功能丧失需基因检测。
+  - MECP2基因突变可确诊，需长期支持治疗。
+  pdf_page: 511
+- id: FX_FEATURES
+  title: 脆性X综合征特征识别
+  source_page: 1124
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 长脸、大耳、智力低下、社交焦虑需考虑脆性X综合征。
+  - 基因检测可确诊，行为训练和教育是关键。
+  pdf_page: 512
+- id: FXTAS_OLDER
+  title: 脆性X相关震颤/共济失调
+  source_page: 1124
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 60岁左右出现震颤、共济失调需排查FXTAS。
+  - 支持治疗为主，需与帕金森病鉴别。
+  pdf_page: 512
+- id: NEUROCUTANEOUS_SKIN
+  title: 神经皮肤疾病皮肤警示
+  source_page: 1124
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 皮肤异常（如色素斑、结节）伴神经系统症状需排查神经皮肤疾病。
+  - 常见包括神经纤维瘤病、结节性硬化症。
+  pdf_page: 512

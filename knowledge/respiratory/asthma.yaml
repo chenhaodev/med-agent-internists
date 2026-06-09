@@ -1,0 +1,125 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: asthma
+disease_zh: 支气管哮喘
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ASTHMA_DEF
+  title: 支气管哮喘定义
+  source_page: 231
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 支气管哮喘是一种气道慢性炎症，导致反复发作的喘息、气急、胸闷或咳嗽。
+  - 与慢阻肺不同，哮喘的气流受限通常是可逆的，且常与过敏原有关。
+  pdf_page: 252
+- id: ASTHMA_SYMPTOM
+  title: 哮喘典型症状
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 哮喘典型症状包括阵发性呼吸困难、咳嗽、气急，常在夜间或凌晨加重。
+  - 症状可能由环境诱因（如花粉、尘螨、冷空气）触发。
+  pdf_page: 253
+- id: ASTHMA_DIAG
+  title: 哮喘诊断方法
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肺功能检查是诊断哮喘的关键，显示可变的气流阻塞。
+  - 使用支气管扩张剂后FEV1显著改善，或乙酰甲胆碱激发试验阳性可确诊。
+  - 一氧化碳弥散量（DLCO）正常或升高，有助于与慢阻肺鉴别。
+  pdf_page: 253
+- id: ASTHMA_TRIGGER
+  title: 哮喘常见诱因
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 哮喘发作常由变应原（如花粉、尘螨、宠物皮屑）或刺激物（如烟雾、冷空气）诱发。
+  - 避免已知诱因可减少哮喘发作频率和严重程度。
+  pdf_page: 253
+- id: ASTHMA_LIFESTYLE
+  title: 哮喘生活方式管理
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 保持室内空气清洁，使用空气净化器，避免吸烟和二手烟。
+  - 定期监测症状和峰流速，记录哮喘日记，及时调整管理方案。
+  - 适度锻炼（如散步、游泳）可改善肺功能，但需避免剧烈运动诱发发作。
+  pdf_page: 254
+- id: ASTHMA_MEDICATION
+  title: 哮喘药物管理注意事项
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 哮喘药物分为控制性药物（如吸入糖皮质激素）和缓解性药物（如短效支气管扩张剂）。
+  - 遵医嘱规律使用控制性药物，不可随意停药，即使无症状时也需维持。
+  - 缓解性药物仅用于急性发作时，频繁使用提示控制不佳，需就医调整方案。
+  pdf_page: 254
+- id: ASTHMA_ACUTE
+  title: 哮喘急性加重处理
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性加重时立即使用缓解性药物（如沙丁胺醇吸入剂），并保持坐位。
+  - 若症状未缓解或加重（如说话困难、嘴唇发紫），需立即就医或拨打急救电话。
+  - 避免自行增加药物剂量，尤其是口服激素，需医生指导。
+  pdf_page: 254
+- id: ASTHMA_COMPLICATION
+  title: 哮喘并发症预防
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 长期控制不佳可导致气道重塑和肺功能不可逆下降。
+  - 预防并发症的关键是规范治疗和定期随访，避免频繁急性发作。
+  - 接种流感疫苗和肺炎疫苗可减少感染诱发的哮喘加重。
+  pdf_page: 254
+- id: ASTHMA_WHEN_TO_SEEK
+  title: 哮喘何时就医
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现夜间憋醒、活动耐力下降或缓解药物使用频率增加时，需及时就医。
+  - 急性发作时使用缓解药物后症状无改善，或出现呼吸困难、意识模糊，立即急诊。
+  - 每年至少复查一次肺功能，评估控制水平并调整治疗方案。
+  pdf_page: 253
+- id: RESP_ASTHMA_SMOKING
+  title: 呼吸道疾病患者戒烟
+  source_page: 225
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟是慢阻肺最主要的病因，也会加重哮喘症状；戒烟是预防和控制慢性气道疾病的首要措施
+  - 任何年龄、任何阶段戒烟均可延缓肺功能下降，戒烟效果因人而异但均有益
+  - 戒烟支持包括行为干预和药物辅助（如尼古丁替代疗法、伐尼克兰），可提高戒烟成功率
+  pdf_page: 246
+- id: RESP_PULM_REHAB
+  title: 慢性肺病肺康复
+  source_page: 227
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 综合性肺康复计划可改善慢性肺病患者的生活质量并减少主观呼吸困难感（1级证据）
+  - 肺康复包括运动训练、呼吸技巧、营养支持和心理支持，通常持续8-12周
+  - 肺康复不能替代药物治疗，但可显著提高患者的运动耐量和日常生活能力
+  pdf_page: 248
+- id: ASTHMA_STEP_THERAPY
+  title: 哮喘阶梯式药物治疗方案
+  source_page: 233
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 短效β2受体激动剂（SABA，如沙丁胺醇——最常用的速效支气管扩张剂）用于症状快速缓解（1级证据）。
+  - 吸入性糖皮质激素（ICS）是除轻度间断性哮喘以外所有患者维持治疗的基础，可显著改善哮喘控制（1级证据）。
+  - 可加用长效β2受体激动剂（LABA）增强系统性控制（1级证据）；但LABA不可单药使用（无法控制气道炎症，并会增加死亡率）。
+  - 白三烯调节剂可作为维持治疗备选方案（1级证据），但疗效不如ICS。
+  - 严重哮喘（哮喘持续状态）需雾化SABA、静脉糖皮质激素及血氧监测；出现PaCO2升高提示可能需要机械通气。
+  pdf_page: 254

@@ -1,0 +1,180 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: diabetes_t2
+disease_zh: 2型糖尿病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: DM_DIAGNOSIS
+  title: 糖尿病诊断标准
+  source_page: 709
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 空腹血糖≥126mg/dl或随机血糖≥200mg/dl可诊断糖尿病
+  - 糖化血红蛋白≥6.5%也可诊断糖尿病
+  - 无高血糖症状时需重复检测一次确认
+  pdf_page: 99
+- id: DM_PREDIABETES
+  title: 糖尿病前期识别
+  source_page: 709
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 糖化血红蛋白5.7%-6.4%或空腹血糖100-125mg/dl为糖尿病前期
+  - 每年约6%的糖尿病前期患者会进展为糖尿病
+  - 糖尿病前期患者心血管疾病风险增加
+  pdf_page: 99
+- id: GDM_DIAGNOSIS
+  title: 妊娠期糖尿病诊断
+  source_page: 710
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 妊娠期空腹血糖≥92mg/dl可诊断妊娠期糖尿病
+  - 妊娠24-28周需做75g糖耐量试验筛查
+  - 未治疗的妊娠期糖尿病可能增加胎儿畸形和分娩风险
+  pdf_page: 100
+- id: T1DM_EPIDEMIOLOGY
+  title: 1型糖尿病流行病学
+  source_page: 711
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 1型糖尿病发病年龄高峰为6-14岁，但约一半患者20岁后发病
+  - 兄弟姐妹患病风险约5%，父亲患病后代风险6%
+  - 同卵双胞胎患病一致性30%-50%，提示遗传和环境共同作用
+  pdf_page: 101
+- id: T1DM_SYMPTOMS
+  title: 1型糖尿病临床表现
+  source_page: 712
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型症状包括多尿、多饮、体重减轻、乏力和嗜睡
+  - 儿童多尿可表现为尿床，成人表现为夜尿增多
+  - 约25%的患者以酮症酸中毒起病
+  pdf_page: 102
+- id: T1DM_TREATMENT_TEAM
+  title: 1型糖尿病治疗团队
+  source_page: 713
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 治疗需由医生、教育护士、营养师组成的团队共同管理
+  - 患者及家属需接受胰岛素注射、血糖监测、营养和运动教育
+  - 医疗建议和心理支持应持续、长期、个体化
+  pdf_page: 103
+- id: T1DM_BLOOD_GLUCOSE_CONTROL
+  title: 1型糖尿病血糖控制目标
+  source_page: 713
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 糖化血红蛋白控制目标一般为7%
+  - 对低血糖不敏感或肾衰竭患者目标可个体化至8%或更高
+  - 强化血糖控制可减少微血管并发症和心血管疾病风险
+  pdf_page: 103
+- id: T1DM_INSULIN_THERAPY
+  title: 1型糖尿病胰岛素治疗
+  source_page: 713
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 1型糖尿病患者绝对需要外源胰岛素治疗
+  - 常用方案为基础-餐时方案：长效胰岛素+餐时速效胰岛素
+  - 胰岛素泵可提供更灵活的剂量调整
+  pdf_page: 103
+- id: T1DM_SELF_MONITORING
+  title: 1型糖尿病自我血糖监测
+  source_page: 713
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 建议监测空腹、餐前、餐后2小时、睡前及凌晨血糖
+  - 记录血糖值、食物摄入、运动和症状有助于调整治疗
+  - 每3个月检测一次糖化血红蛋白
+  pdf_page: 103
+- id: T1DM_COMPLICATION_SCREENING
+  title: 1型糖尿病并发症筛查
+  source_page: 713
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 定期检查足部、外周神经功能、视网膜和肾脏功能
+  - 早期发现并发症可及时干预治疗
+  - 同时需控制血脂和血压水平
+  pdf_page: 103
+- id: T2DM_RISK_FACTORS
+  title: 2型糖尿病危险因素
+  source_page: 710
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肥胖是2型糖尿病的主要危险因素（80%-90%患者肥胖）
+  - 久坐生活方式和年龄增长增加患病风险
+  - 既往妊娠期糖尿病史也是危险因素
+  pdf_page: 100
+- id: T2DM_DIAGNOSIS_FEATURES
+  title: 2型糖尿病诊断特点
+  source_page: 710
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 2型糖尿病起病缓慢，可经历数年甚至数十年
+  - 通常保留部分胰岛素分泌能力，不易发生酮症酸中毒
+  - 与1型糖尿病鉴别需检测自身抗体和C肽水平
+  pdf_page: 100
+- id: DM_LIFESTYLE_MANAGEMENT
+  title: 糖尿病生活方式管理
+  source_page: 713
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 合理饮食和规律运动是血糖管理的基础
+  - 建议每餐固定摄入相同量的碳水化合物
+  - 运动前后需监测血糖，预防低血糖
+  pdf_page: 103
+- id: DM_WHEN_TO_SEEK_CARE
+  title: 糖尿病何时就医
+  source_page: 713
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现多尿、多饮、体重减轻等典型症状时应就医
+  - 血糖持续高于目标范围或出现酮症酸中毒症状需紧急就医
+  - 定期复查糖化血红蛋白和并发症筛查
+  pdf_page: 103
+- id: DM_EXERCISE_GUIDANCE
+  title: 糖尿病运动锻炼指导
+  source_page: 715
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 建议每次30分钟、每周至少5次中等强度的体育锻炼
+  - 中等强度锻炼包括快步走、骑自行车、游泳等有氧运动
+  - 运动前后需监测血糖，避免低血糖发生
+  - 长期坚持规律锻炼可改善胰岛素敏感性和血糖控制
+  pdf_page: 105
+- id: DM_HYPOGLYCEMIA_MGMT
+  title: 糖尿病低血糖识别与处理
+  source_page: 715
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 低血糖症状：出汗、焦虑、发抖（肾上腺素能症状）；血糖显著降低时可出现思考困难、思维混乱、反应迟钝甚至意识丧失（中枢神经系统症状）。
+  - 血糖<70mg/dl（约3.9mmol/L）时确认低血糖，立即摄取10～15g可快速吸收的碳水化合物（橙汁、饼干、片剂葡萄糖或管状葡萄糖溶液）。
+  - 血糖<50mg/dl（约2.8mmol/L）时需摄取20～30g碳水化合物（严重低血糖）。
+  - 补糖15分钟后再次检测血糖；若血糖仍低或症状未缓解，再次补充糖分，直至低血糖纠正。
+  - 替代方案：注射胰高血糖素。若患者曾发生需他人救助的严重低血糖（包括意识丧失），家庭成员掌握胰高血糖素注射技术非常重要。
+  - 严重低血糖存在受伤风险（跌倒、交通事故），持续低血糖可造成神经系统损伤。
+  pdf_page: 105
+- id: DM_SMOKING_CESSATION
+  title: 糖尿病患者戒烟建议
+  source_page: 720
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟患者每次就诊时应接受戒烟重要性和戒烟策略的宣教
+  - 吸烟显著增加糖尿病患者心血管并发症和微血管病变风险
+  - 戒烟是糖尿病综合管理的重要组成部分
+  pdf_page: 110

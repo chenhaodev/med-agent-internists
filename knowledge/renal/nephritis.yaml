@@ -1,0 +1,134 @@
+specialty: renal
+specialty_zh: 肾
+disease: nephritis
+disease_zh: 肾小球肾炎
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: GN_OVERVIEW
+  title: 肾小球疾病概述
+  source_page: 332
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾小球损伤可导致血尿、蛋白尿、高血压、水肿和肾功能下降。
+  - 常见临床表现包括镜下血尿、肾炎综合征、肾病综合征等。
+  pdf_page: 353
+- id: GN_URINE_TEST
+  title: 尿液检查关键指标
+  source_page: 332
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 尿红细胞镜检找变形红细胞和管型是重要检查。
+  - 肾小球源性血尿通常为棕色或可乐色，无痛。
+  - 24小时尿蛋白定量是诊断金标准，尿蛋白肌酐比值可替代。
+  pdf_page: 353
+- id: GN_PROTEINURIA
+  title: 蛋白尿分类与意义
+  source_page: 332
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正常尿蛋白<150mg/天，微量蛋白尿30-300mg/天。
+  - 显性蛋白尿>300mg/天，肾病范畴蛋白尿>3.5g/天。
+  - 持续性肾病范畴蛋白尿通常由肾小球疾病引起。
+  pdf_page: 353
+- id: NEPHROTIC_SYNDROME
+  title: 肾病综合征定义与并发症
+  source_page: 332
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾病综合征：尿蛋白>3.5g/天，血白蛋白<30g/L。
+  - 常见并发症包括感染、血栓、维生素D缺乏和贫血。
+  - 严重蛋白流失>10g/天且白蛋白<20g/L时血栓风险高。
+  pdf_page: 353
+- id: NEPHROTIC_MANAGEMENT
+  title: 肾病综合征治疗建议
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 使用利尿剂控制水肿，推荐ACEI或ARB降压。
+  - 限制蛋白摄入0.8-1g/kg/天，钠盐<4g/天。
+  - 高凝状态需考虑抗凝治疗，尤其膜性肾病或淀粉样变性。
+  pdf_page: 354
+- id: NEPHRITIC_SYNDROME
+  title: 肾炎综合征表现
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 肾炎综合征：少尿、水肿、高血压、蛋白尿<3.5g/天。
+  - 尿常规异常伴变形红细胞或管型。
+  pdf_page: 354
+- id: RPGN_DIAGNOSIS
+  title: 急进性肾小球肾炎诊断
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - RPGN表现为数日至数月内肾功能快速恶化。
+  - 肾活检免疫荧光染色对分类至关重要。
+  - IgG线样沉积提示抗GBM病，颗粒样沉积提示狼疮等。
+  pdf_page: 354
+- id: MCD_CHILDREN
+  title: 微小病变肾病（儿童）
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 儿童肾病综合征最常见病因，通常无血尿和高血压。
+  - 大剂量激素治疗4-8周后90%以上患儿可缓解。
+  - 激素无效需肾活检，替代治疗包括利妥昔单抗。
+  pdf_page: 354
+- id: FSGS_MANAGEMENT
+  title: 局灶节段肾小球硬化管理
+  source_page: 334
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - FSGS常伴高血压和镜下血尿，30%有肾功能受损。
+  - ACEI/ARB可降低蛋白尿并延长肾脏存活。
+  - 持续大量蛋白尿>10g/天易进展至终末期肾病。
+  pdf_page: 355
+- id: MEMBRANOUS_NEPHROPATHY
+  title: 膜性肾病特点与治疗
+  source_page: 335
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 膜性肾病是白种人肾病综合征主因，40-50岁高发。
+  - 70%患者有抗磷脂酶A2受体抗体，1/3可自发缓解。
+  - 治疗包括ACEI/ARB、低盐低蛋白饮食和降脂。
+  pdf_page: 356
+- id: POSTSTREP_GN
+  title: 链球菌感染后肾炎
+  source_page: 336
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 链球菌感染后1-4周突发肾炎综合征，儿童多见。
+  - ASO抗体阳性、C3补体降低支持诊断。
+  - 治疗以支持为主，儿童预后好，1-2个月恢复。
+  pdf_page: 357
+- id: IGA_NEPHROPATHY
+  title: IgA肾病管理
+  source_page: 337
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - IgA肾病是最常见原发性肾小球病，上感后血尿常见。
+  - 60%患者良性病程，40%在10-25年内进展至肾衰竭。
+  - 尿蛋白>1g/天或肾功能下降需大剂量激素治疗。
+  pdf_page: 358
+- id: MPGN_CLASSIFICATION
+  title: 膜增生性肾炎分类
+  source_page: 337
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MPGN分免疫复合物介导和补体介导两类。
+  - 免疫复合物型由感染、自身免疫病等诱发。
+  - 补体型与遗传或获得性补体旁路失调相关。
+  pdf_page: 358

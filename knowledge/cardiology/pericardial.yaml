@@ -1,0 +1,42 @@
+specialty: cardiology
+specialty_zh: 心血管系统
+disease: pericardial
+disease_zh: 心包与心肌疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ACUTE_PERICARDITIS
+  title: 急性心包炎——病因与治疗
+  source_page: 143
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 病因：85%为特发性或病毒性；少见病因包括细菌感染（含结核）、肿瘤、尿毒症、结缔组织病（SLE、RA）、心肌梗死后（Dressler综合征）。
+  - 典型症状：锐性胸痛、与体位相关——仰卧/吸气/咳嗽加重，坐起前倾减轻；可向颈部、肩部放射（类似心肌缺血）。
+  - 心包摩擦音：高调，前倾体位+呼气末最清晰，可能间歇性出现。
+  - 心电图：早期广泛ST段抬高（凹面向上）+ PR间期缩短（先于ST改变）；随后ST回落、T波倒置。
+  - 治疗：高剂量NSAIDs为主；秋水仙碱联合NSAIDs或单药治疗可缓解症状、减少复发；糖皮质激素可迅速缓解但复发率更高。
+  pdf_page: 164
+
+- id: CARDIAC_TAMPONADE
+  title: 心脏压塞——识别与急救
+  source_page: 144
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 病理：心包积液迅速增加→心包腔压力升高→心室充盈受限→心排血量下降；100~200ml快速积聚即可引起；慢性积液>1500ml可不产生压塞。
+  - 经典体征（Beck三联征）：低血压、颈静脉扩张（y波消失）、心音低钝/消失；奇脉（吸气时收缩压下降>10mmHg）是特征性体征。
+  - 超声心动图：右心房、右心室塌陷，上腔静脉扩张，心室间相互作用增强，为首选诊断检查。
+  - 心脏压塞是危及生命的急症，需要紧急心包穿刺引流；同时可液体复苏增加前负荷；强心药升压药作用有限。
+  - 高危病因（产生压塞概率高）：细菌性（含结核）心包炎、肿瘤侵犯、尿毒症性心包炎、外伤。
+  pdf_page: 165
+
+- id: CONSTRICTIVE_PERICARDITIS
+  title: 缩窄性心包炎
+  source_page: 145
+  evidence_level: 中
+  recommendation: 参考
+  key_points:
+  - 定义：僵硬瘢痕化的心包限制心室舒张期充盈，导致心腔内压力升高。
+  - 常见病因：感染（含结核，在发展中国家最常见）、心脏术后、外伤、放射损伤；很多原因不明。
+  - 与心脏压塞的鉴别：心包填塞 = 心腔动力性受压（急性），缩窄性心包炎 = 慢性舒张功能受限；两者均有颈静脉扩张，但缩窄性心包炎有Kussmaul征（吸气时颈静脉压升高）。
+  pdf_page: 165

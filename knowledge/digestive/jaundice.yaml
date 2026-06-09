@@ -1,0 +1,39 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: jaundice
+disease_zh: 黄疸（高胆红素血症）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: JAUNDICE_CLASSIFICATION
+  title: 黄疸的定义、分类与临床识别
+  source_page: 476
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - 黄疸在胆红素>2.5mg/dl时肉眼可见（皮肤/巩膜黄染）；正常血清胆红素<1mg/dl。
+  - 分类：溶血性/肝前性（间接高胆红素血症为主）、肝细胞性（间接+直接均升高）、梗阻性/胆汁淤积性（直接胆红素为主）。
+  - Gilbert综合征：人群约7%，UDP-GT基因多态性→间接胆红素轻度升高（<3mg/dl），禁食/应激加重，完全良性；无需治疗，需告知患者排除其他病因。
+  pdf_page: 495
+
+- id: JAUNDICE_DIFFERENTIAL
+  title: 黄疸的鉴别诊断——梗阻性vs肝细胞性
+  source_page: 477
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 梗阻性黄疸（胆汁淤积）：ALP升高>3倍正常值 + AST/ALT<5~10倍；最常见病因：胆总管结石、胰头癌。
+  - 肝细胞性黄疸：AST/ALT升高>10倍 + ALP<1/3正常值；最常见病因：病毒性肝炎、药物性肝损伤、酒精性肝炎。
+  - 腹部超声：首选影像学检查，判断胆管是否扩张；扩张提示梗阻性原因（需ERCP/MRCP进一步评估）。
+  - ERCP：对原发性硬化性胆管炎（PSC）既是诊断手段，也可进行治疗性干预（胆道支架）。
+  pdf_page: 476
+
+- id: JAUNDICE_MANAGEMENT
+  title: 黄疸患者的评估流程与处理
+  source_page: 478
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 评估要点：病史（旅行史、输血史、用药史、饮酒史）；黄疸颜色（浓茶色尿提示直接胆红素）；大便颜色（白陶土色大便提示梗阻）；腹部触诊（无痛性胆囊肿大=库瓦西耶征→提示胰头癌）。
+  - 实验室：全套肝功能（ALT/AST/ALP/GGT/总/直接胆红素）、凝血酶原时间（肝合成功能）、血清白蛋白（慢性肝功能）。
+  - 光照退黄：新生儿直接胆红素升高超过治疗阈值时使用光疗（可见光使胆红素分解为可排泄产物）。
+  pdf_page: 477

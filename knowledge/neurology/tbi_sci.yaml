@@ -1,0 +1,144 @@
+specialty: neurology
+specialty_zh: neurology
+disease: tbi_sci
+disease_zh: tbi_sci
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: TBI_CAUSE
+  title: 创伤性脑损伤常见原因
+  source_page: 1142
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见原因包括跌倒、车祸、运动损伤和袭击。
+  - 超过80%的TBI为轻度，即脑震荡。
+  pdf_page: 530
+- id: TBI_MILD_DIAG
+  title: 轻度脑震荡诊断方法
+  source_page: 1142
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 目击者怀疑头部受伤时，可用标准化脑震荡评估（SAC）筛查。
+  - SAC得分小于25分提示脑震荡高风险，需就医。
+  pdf_page: 530
+- id: TBI_MILD_MANAGE
+  title: 轻度脑震荡处理原则
+  source_page: 1143
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 立即从学习或工作场所移开，防止二次损伤。
+  - 完全恢复前避免再次头部受伤，否则可能致命。
+  - 休息是主要治疗，无特效药物。
+  pdf_page: 531
+- id: TBI_HEADACHE
+  title: 脑震荡后头痛处理
+  source_page: 1143
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 头痛可用对乙酰氨基酚或布洛芬缓解。
+  - 若头痛像偏头痛，可咨询医生使用曲普坦类药物。
+  pdf_page: 531
+- id: TBI_RETURN
+  title: 脑震荡后重返学习工作
+  source_page: 1143
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 至少休息24小时，经医生允许后方可恢复活动。
+  - 症状完全消失后，可通过运动测试确认是否安全。
+  pdf_page: 531
+- id: TBI_SEVERE_ABC
+  title: 重度脑损伤紧急处理
+  source_page: 1143
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 首要维持气道、呼吸和循环（ABC）。
+  - 怀疑颅内压升高时，头部抬高30度并居中。
+  - 尽快做头部CT检查，判断是否需要手术。
+  pdf_page: 531
+- id: TBI_ICP
+  title: 控制颅内压的方法
+  source_page: 1143
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 医生可能使用甘露醇或高渗盐水降低颅内压。
+  - 必要时使用药物诱导昏迷或手术减压。
+  pdf_page: 531
+- id: TBI_PCS
+  title: 脑震荡后综合征症状
+  source_page: 1144
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见症状包括头痛、注意力不集中、食欲改变、睡眠异常和易怒。
+  - 症状可持续数周至一年以上，需对症治疗。
+  pdf_page: 532
+- id: SCI_CAUSE
+  title: 脊髓损伤常见原因
+  source_page: 1142
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 原因与TBI相似，包括跌倒、车祸和运动损伤。
+  - 约50%的脊髓损伤患者同时伴有脑损伤。
+  pdf_page: 530
+- id: SCI_EMERGENCY
+  title: 脊髓损伤紧急处理
+  source_page: 1144
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 立即固定颈部，使用硬性颈托和背板。
+  - 保持气道通畅，必要时紧急插管。
+  - 维持血压稳定，避免低血压加重损伤。
+  pdf_page: 532
+- id: SCI_NEUROSHOCK
+  title: 神经源性休克表现
+  source_page: 1145
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型三联征：心动过缓、低血压和皮肤血管扩张。
+  - 需输液和血管升压药维持血压。
+  pdf_page: 533
+- id: SCI_BREATHING
+  title: 脊髓损伤呼吸管理
+  source_page: 1145
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - C5及以上损伤常需呼吸机辅助呼吸。
+  - 低位损伤可能咳嗽无力，需协助排痰防肺炎。
+  pdf_page: 533
+- id: SCI_DVT
+  title: 预防深静脉血栓
+  source_page: 1145
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 所有脊髓损伤患者需用抗凝药和弹力袜预防血栓。
+  - 低分子肝素是首选，出血风险高时可用下腔静脉过滤器。
+  pdf_page: 533
+- id: SCI_BOWEL
+  title: 脊髓损伤肠道管理
+  source_page: 1145
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中下胸段损伤可致肠梗阻，需放置鼻胃管减压。
+  - 肠功能恢复后（约2-3周）开始肠内喂养。
+  pdf_page: 533
+- id: SCI_BLADDER
+  title: 脊髓损伤膀胱管理
+  source_page: 1145
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性期需留置导尿5-7天，监测尿量和肾功能。
+  - 休克恢复后改用间歇导尿或膀胱训练。
+  pdf_page: 533

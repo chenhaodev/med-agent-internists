@@ -1,0 +1,126 @@
+specialty: bone_mineral
+specialty_zh: bone_mineral
+disease: bone_physiology
+disease_zh: bone_physiology
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CALCIUM_BALANCE
+  title: 钙平衡的重要性
+  source_page: 792
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 血钙水平影响神经和肌肉功能，过高或过低都会引起严重症状。
+  - 骨骼是人体最大的钙库，维持骨矿含量可预防骨折。
+  - 细胞内钙参与信号传导，对细胞生存至关重要。
+  pdf_page: 181
+- id: SERUM_CALCIUM_TYPES
+  title: 血清钙的类型与检测
+  source_page: 792
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 血清总钙包括结合钙、复合钙和离子钙，离子钙有生理活性。
+  - 白蛋白低时总钙可能下降，但离子钙正常，需直接检测离子钙。
+  - 检测离子钙对评估钙平衡紊乱更准确。
+  pdf_page: 181
+- id: CALCIUM_REGULATION_ORGANS
+  title: 钙平衡的三大调控器官
+  source_page: 792
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肠道、肾脏和骨骼共同维持血钙稳定。
+  - 肠道吸收钙受活性维生素D调节。
+  - 肾脏重吸收钙受甲状旁腺激素调控。
+  pdf_page: 181
+- id: INTESTINAL_CALCIUM_ABSORPTION
+  title: 肠道钙吸收机制
+  source_page: 793
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每日饮食摄入约1000mg钙，净吸收约150mg。
+  - 活性维生素D促进肠道钙吸收。
+  - 高钙摄入或维生素D过多可导致高钙血症。
+  pdf_page: 182
+- id: RENAL_CALCIUM_HANDLING
+  title: 肾脏对钙的处理
+  source_page: 793
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肾脏每日滤过约10000mg钙，大部分被重吸收。
+  - 甲状旁腺激素促进远端肾小管钙重吸收。
+  - 肾脏是血钙水平的实时调控者。
+  pdf_page: 182
+- id: BONE_REMODELING
+  title: 骨重构与钙平衡
+  source_page: 793
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 骨骼每3-10年完成一次完全重构。
+  - 破骨细胞吸收旧骨释放钙，成骨细胞形成新骨沉积钙。
+  - 骨重构对维持血钙和骨强度至关重要。
+  pdf_page: 182
+- id: PTH_FUNCTION
+  title: 甲状旁腺激素的作用
+  source_page: 795
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲状旁腺激素由四个腺体分泌，监测血钙浓度。
+  - 低血钙刺激甲状旁腺激素分泌，高血钙抑制其分泌。
+  - 甲状旁腺激素促进肾钙重吸收、骨钙释放和维生素D活化。
+  pdf_page: 184
+- id: VITAMIN_D_METABOLISM
+  title: 维生素D的代谢与功能
+  source_page: 795
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 维生素D需在肝脏和肾脏两次羟化后才具有活性。
+  - 活性维生素D促进肠道钙吸收。
+  - 25(OH)D是评估维生素D营养状态的常用指标。
+  pdf_page: 184
+- id: CALCITONIN_ROLE
+  title: 降钙素的作用
+  source_page: 796
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 降钙素由甲状腺C细胞分泌，高血钙时释放。
+  - 药理剂量降钙素可降低血钙，但生理作用有限。
+  - 降钙素在人体钙稳态中作用不明确。
+  pdf_page: 185
+- id: HIGH_CALCIUM_RESPONSE
+  title: 高钙摄入时的身体反应
+  source_page: 796
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 短期高钙摄入时，甲状旁腺激素下降，增加尿钙排泄。
+  - 长期高钙摄入可能导致高尿钙、肾结石和骨硬化。
+  - 慢性适应包括维生素D下降和骨形成减少。
+  pdf_page: 185
+- id: LOW_CALCIUM_RESPONSE
+  title: 低钙摄入时的身体反应
+  source_page: 796
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 短期低钙摄入时，甲状旁腺激素升高，减少尿钙并动员骨钙。
+  - 长期低钙摄入时，甲状旁腺激素持续升高，增加维生素D和肠钙吸收。
+  - 慢性适应可维持血钙正常，但骨转换增加。
+  pdf_page: 185
+- id: WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 792
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 出现惊厥、肌肉痉挛或手足抽搐时需立即就医。
+  - 不明原因的昏迷或肌无力应检查血钙水平。
+  - 反复骨折或骨痛需评估骨矿含量。
+  pdf_page: 181

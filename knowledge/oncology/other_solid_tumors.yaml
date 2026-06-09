@@ -1,0 +1,146 @@
+specialty: oncology
+specialty_zh: oncology
+disease: other_solid_tumors
+disease_zh: other_solid_tumors
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HNC_RISK
+  title: 头颈部肿瘤危险因素
+  source_page: 660
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 长期吸烟和饮酒是头颈部肿瘤的高危因素。
+  - HPV感染可导致口咽癌，与性行为史相关。
+  - 鼻咽癌与EB病毒感染有关。
+  pdf_page: 50
+- id: HNC_SYMPTOM
+  title: 头颈部肿瘤常见症状
+  source_page: 660
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 口腔溃疡、疼痛、声音嘶哑、吞咽困难需警惕。
+  - 颈部淋巴结肿大可能是HPV相关口咽癌的首发表现。
+  - 鼻出血或耳闷感可能提示鼻咽癌。
+  pdf_page: 50
+- id: HNC_DIAG
+  title: 头颈部肿瘤诊断方法
+  source_page: 660
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 确诊需通过活检病理检查。
+  - CT、MRI和PET可评估肿瘤范围和转移。
+  - 第二原发肿瘤风险高，需全面检查。
+  pdf_page: 50
+- id: HNC_TREAT
+  title: 头颈部肿瘤治疗原则
+  source_page: 661
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期可手术或放疗治愈，5年生存率约90%。
+  - 局部晚期需同步放化疗，但毒性较大。
+  - 转移性肿瘤不可治愈，化疗可缓解症状。
+  pdf_page: 51
+- id: MELANOMA_RISK
+  title: 黑色素瘤危险因素
+  source_page: 661
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 强烈或间歇性紫外线照射（尤其儿童期）是主要风险。
+  - 家族史、多发性痣或非典型痣增加风险。
+  - 浅肤色人群更易患病。
+  pdf_page: 51
+- id: MELANOMA_ABCDE
+  title: 黑色素瘤自查ABCDE准则
+  source_page: 662
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - A：不对称性；B：边缘不规则；C：颜色不均匀。
+  - D：直径大于6mm；E：病变增大或变化。
+  - 出现以上特征应及时就医。
+  pdf_page: 52
+- id: MELANOMA_DIAG
+  title: 黑色素瘤诊断与分期
+  source_page: 662
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 可疑病变需完整切除活检，避免刮取。
+  - 肿瘤厚度和溃疡决定预后和分期。
+  - 厚肿瘤或淋巴结转移需CT等影像检查。
+  pdf_page: 52
+- id: MELANOMA_TREAT
+  title: 黑色素瘤治疗进展
+  source_page: 663
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期手术切除可治愈，切缘1-2cm。
+  - BRAF突变患者可用靶向药（维罗非尼等）。
+  - 免疫治疗（伊匹木单抗）可延长转移患者生存。
+  pdf_page: 53
+- id: SARCOMA_RISK
+  title: 肉瘤危险因素
+  source_page: 663
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 多数肉瘤散发，放射线暴露是已知风险。
+  - 遗传综合征（如Li-Fraumeni）增加风险。
+  - HHV-8感染与卡波西肉瘤相关。
+  pdf_page: 53
+- id: SARCOMA_SYMPTOM
+  title: 肉瘤常见表现
+  source_page: 663
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 四肢或头颈无痛性肿块需警惕软组织肉瘤。
+  - 骨肉瘤常表现为疼痛，好发于股骨、胫骨。
+  - 腹腔肉瘤可致早饱、腹胀等非特异症状。
+  pdf_page: 53
+- id: SARCOMA_TREAT
+  title: 肉瘤治疗原则
+  source_page: 663
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 局限性肉瘤首选手术切除。
+  - 术前或术后放疗可降低局部复发。
+  - GIST可用靶向药伊马替尼，效果显著。
+  pdf_page: 53
+- id: CUP_DEF
+  title: 原发不明肿瘤定义
+  source_page: 664
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 指经全面检查仍找不到原发部位的恶性肿瘤。
+  - 常见来源为隐匿性肺、肾、膀胱或胰胆肿瘤。
+  - 约占新发肿瘤的2%。
+  pdf_page: 54
+- id: CUP_SYMPTOM
+  title: 原发不明肿瘤症状
+  source_page: 664
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 常见非特异症状：厌食、体重下降、乏力。
+  - 骨转移可致疼痛，少数出现腹水或血栓。
+  - 部分患者仅表现为淋巴结肿大。
+  pdf_page: 54
+- id: CUP_TREAT
+  title: 原发不明肿瘤治疗
+  source_page: 664
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 治疗以姑息为主，化疗可缓解症状。
+  - 特定表现（如腋窝淋巴结转移）可按乳腺癌治疗。
+  - 分子检测可帮助确定原发部位，指导治疗。
+  pdf_page: 54

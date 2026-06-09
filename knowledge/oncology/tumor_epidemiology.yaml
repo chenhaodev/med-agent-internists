@@ -1,0 +1,146 @@
+specialty: oncology
+specialty_zh: oncology
+disease: tumor_epidemiology
+disease_zh: tumor_epidemiology
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CANCER_BURDEN
+  title: 全球及美国肿瘤负担概况
+  source_page: 624
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 全球每年新发肿瘤超1100万例，死亡约700万例。
+  - 美国每年新发约170万例，死亡超58.5万例。
+  - 恶性肿瘤是40-80岁人群首位死因。
+  pdf_page: 14
+- id: COMMON_CANCERS
+  title: 常见肿瘤发病与死亡
+  source_page: 624
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 女性最常见非皮肤肿瘤是乳腺癌，男性是前列腺癌。
+  - 肺癌是男女肿瘤死因首位，约占30%。
+  - 近几十年胃癌和宫颈癌死亡率下降。
+  pdf_page: 14
+- id: MORTALITY_TRENDS
+  title: 肿瘤死亡率变化趋势
+  source_page: 624
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 20世纪90年代以来总死亡率下降约20%。
+  - 男性结直肠癌、前列腺癌、肺癌死亡率下降明显。
+  - 女性结直肠癌、乳腺癌死亡率下降明显。
+  pdf_page: 14
+- id: RISK_FACTORS_GENETIC
+  title: 遗传性肿瘤危险因素
+  source_page: 625
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 少数肿瘤以孟德尔方式遗传，如视网膜母细胞瘤。
+  - 常见肿瘤如乳腺癌、结直肠癌有家族聚集性。
+  - 基因检测可用于部分遗传性肿瘤综合征的预防。
+  pdf_page: 15
+- id: RISK_FACTORS_SMOKING
+  title: 吸烟是最大可避免危险因素
+  source_page: 626
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟者肿瘤风险是不吸烟者的20倍以上。
+  - 美国1/3肿瘤可归因于吸烟。
+  - 戒烟是最直接有效的肿瘤预防措施。
+  pdf_page: 16
+- id: RISK_FACTORS_DIET
+  title: 饮食与体重相关危险因素
+  source_page: 626
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 过量饮酒增加肝、头颈、食管和乳腺肿瘤风险。
+  - 肥胖和高脂饮食与结肠癌、乳腺癌相关。
+  - 中心型肥胖增加多种肿瘤发病率和死亡率。
+  pdf_page: 16
+- id: RISK_FACTORS_INFECTION
+  title: 感染因素与肿瘤风险
+  source_page: 627
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 人乳头瘤病毒16和18型是宫颈癌病因。
+  - 慢性乙肝和丙肝病毒感染与肝癌相关。
+  - 针对HPV的疫苗已上市，可预防宫颈癌。
+  pdf_page: 17
+- id: RISK_FACTORS_RADIATION
+  title: 辐射暴露与肿瘤风险
+  source_page: 627
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 紫外线照射增加皮肤癌风险，应避免过度日晒。
+  - 电离辐射增加白血病和多种实体瘤风险。
+  - 儿童期反复CT检查可能增加日后肿瘤风险。
+  pdf_page: 17
+- id: RISK_FACTORS_CHEMICAL
+  title: 化学物质与职业暴露
+  source_page: 628
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 石棉是职业性肿瘤最常见致癌物，与间皮瘤相关。
+  - 苯、联苯胺等化学物增加特定肿瘤风险。
+  - 某些化疗药物和免疫抑制剂也可能增加肿瘤风险。
+  pdf_page: 18
+- id: PREVENTION_LIFESTYLE
+  title: 一级预防：改变生活方式
+  source_page: 628
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒烟是预防肿瘤最有效的措施。
+  - 规律体育锻炼和合理膳食可降低风险。
+  - 避免过度日晒和人工日光浴。
+  pdf_page: 18
+- id: PREVENTION_CHEMOPREVENTION
+  title: 化学预防措施
+  source_page: 628
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 每天服用阿司匹林可能降低结肠癌风险。
+  - 乙肝疫苗可降低肝癌发病率。
+  - HPV疫苗有望预防宫颈癌。
+  pdf_page: 18
+- id: SCREENING_PRINCIPLES
+  title: 肿瘤筛查的基本原则
+  source_page: 628
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 筛查应高灵敏度发现癌前病变或早期肿瘤。
+  - 理想筛查方法应非侵入性、低成本、特异度高。
+  - 筛查结果需考虑领先时间和病程长短偏倚。
+  pdf_page: 18
+- id: SCREENING_METHODS
+  title: 推荐的肿瘤筛查方法
+  source_page: 629
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 乳腺癌筛查：临床检查和乳腺X线。
+  - 宫颈癌筛查：巴氏涂片和HPV DNA检测。
+  - 结肠癌筛查：结肠镜检查。
+  pdf_page: 19
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医：高危人群筛查
+  source_page: 629
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 有家族史或遗传倾向者应咨询遗传咨询。
+  - 肺癌高危个体可考虑低剂量CT筛查。
+  - 出现不明原因肿块、出血、消瘦等症状及时就医。
+  pdf_page: 19

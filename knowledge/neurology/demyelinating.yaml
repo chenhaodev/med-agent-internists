@@ -1,0 +1,146 @@
+specialty: neurology
+specialty_zh: neurology
+disease: demyelinating
+disease_zh: demyelinating
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: MS_EPIDEMIOLOGY
+  title: 多发性硬化流行病学
+  source_page: 1167
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 全球超过200万人患多发性硬化，女性多于男性。
+  - 北欧后裔高发，环境因素如维生素D缺乏、肥胖、吸烟增加风险。
+  - EB病毒感染后患病风险升高，尤其有传染性单核细胞增多症史。
+  pdf_page: 555
+- id: MS_SYMPTOMS
+  title: 多发性硬化常见症状
+  source_page: 1167
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 症状多样，包括视力下降、复视、肢体无力、感觉异常。
+  - 可能出现排尿障碍、疼痛、认知功能下降。
+  - 首次发作称为临床孤立综合征，需警惕后续复发。
+  pdf_page: 555
+- id: MS_DIAGNOSIS
+  title: 多发性硬化诊断标准
+  source_page: 1168
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 诊断需证明中枢神经系统病变在时间和空间上播散。
+  - MRI、脑脊液检查、诱发电位等辅助诊断。
+  - McDonald标准帮助确诊，需排除其他疾病。
+  pdf_page: 556
+- id: MS_MRI_FEATURES
+  title: 多发性硬化MRI特征
+  source_page: 1169
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 典型病灶在T2加权像呈高信号，位于脑室旁、皮质下等。
+  - 钆增强扫描显示活动性病灶，提示血脑屏障破坏。
+  - 慢性病灶可形成低信号“黑洞”，提示组织损伤。
+  pdf_page: 557
+- id: MS_CSF_ANALYSIS
+  title: 脑脊液检查意义
+  source_page: 1169
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 超过90%患者脑脊液寡克隆区带阳性。
+  - IgG指数升高提示鞘内免疫球蛋白合成增加。
+  - 复发期脑脊液淋巴细胞轻度升高。
+  pdf_page: 557
+- id: MS_ACUTE_TREATMENT
+  title: 急性复发期治疗
+  source_page: 1170
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 首选大剂量糖皮质激素静脉滴注，连用3-5天。
+  - 可短期口服激素减量，轻症可口服治疗。
+  - 激素治疗需监测血压、血糖、电解质和情绪。
+  pdf_page: 558
+- id: MS_PLASMA_EXCHANGE
+  title: 重症复发血浆置换
+  source_page: 1170
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 对激素无效的重症患者可考虑血浆置换。
+  - 早期启动血浆置换可改善神经功能恢复。
+  - 适用于多发性硬化、视神经脊髓炎等。
+  pdf_page: 558
+- id: MS_DMT_OVERVIEW
+  title: 疾病修正药物概述
+  source_page: 1171
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多种药物可降低复发率约30%，延缓疾病进展。
+  - 药物选择需个体化，考虑病程、严重程度和共患病。
+  - 常见药物包括干扰素、醋酸格拉默、芬戈莫德等。
+  pdf_page: 559
+- id: MS_INTERFERON
+  title: 干扰素治疗注意事项
+  source_page: 1171
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 干扰素可降低复发率，延缓临床孤立综合征转化。
+  - 常见不良反应为流感样症状，可用非甾体抗炎药缓解。
+  - 需监测肝功能和血常规，备孕期间建议停药。
+  pdf_page: 559
+- id: MS_GLATIRAMER
+  title: 醋酸格拉默治疗特点
+  source_page: 1171
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每日或每周三次皮下注射，无需常规监测。
+  - 不良反应包括注射局部反应和脂肪萎缩。
+  - 备孕期间相对安全，为妊娠B类药物。
+  pdf_page: 559
+- id: MS_NATALIZUMAB
+  title: 那他珠单抗风险
+  source_page: 1172
+  evidence_level: 高
+  recommendation: 可考虑
+  key_points:
+  - 高效降低复发率和残疾进展，但需警惕进行性多灶性白质脑病。
+  - 仅用于其他药物无效或不耐受的患者。
+  - 需参加风险缓解项目，在认证机构治疗。
+  pdf_page: 560
+- id: MS_FINGOLIMOD
+  title: 芬戈莫德使用注意
+  source_page: 1172
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 口服每日一次，降低复发率50%。
+  - 首次服药后需监测心率至少6小时。
+  - 禁忌用于近期心肌梗死、未控制心衰等患者。
+  pdf_page: 560
+- id: MS_SYMPTOM_MANAGEMENT
+  title: 症状对症治疗
+  source_page: 1171
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 痉挛可用巴氯芬或替扎尼定。
+  - 疲劳可用金刚烷胺或莫达非尼。
+  - 步态异常可用氨吡啶缓释片。
+  pdf_page: 559
+- id: MS_WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 1167
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现新发视力下降、复视、肢体无力或感觉异常时及时就医。
+  - 急性症状加重或复发时需紧急处理。
+  - 定期随访监测疾病活动性和药物不良反应。
+  pdf_page: 555

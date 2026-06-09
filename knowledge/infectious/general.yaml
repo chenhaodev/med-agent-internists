@@ -1,0 +1,126 @@
+specialty: infectious
+specialty_zh: 感染
+disease: general
+disease_zh: 感染性疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: FEVER_DEFINITION
+  title: 发热的定义与判断
+  source_page: 906
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 发热指核心体温超过36.8℃±0.4℃的正常范围。
+  - 发热是感染的重要信号，但也可能由非感染疾病引起。
+  - 测量体温时注意下午或傍晚可能更高。
+  pdf_page: 294
+- id: FEVER_MECHANISM
+  title: 发热的发病机制
+  source_page: 906
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 感染时免疫细胞释放致热因子，使下丘脑调高体温。
+  - 退热药如对乙酰氨基酚可阻断致热因子合成。
+  - 发热可增强免疫力，但过高体温可能有害。
+  pdf_page: 294
+- id: FEVER_RISK_GROUPS
+  title: 发热的高危人群
+  source_page: 906
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 老年人、心脏病或脑病患者发热时易出现意识模糊或心衰。
+  - 儿童发热应避免使用阿司匹林，以防瑞氏综合征。
+  - 有基础病的患者发热需及时就医。
+  pdf_page: 294
+- id: HYPERPYREXIA_EMERGENCY
+  title: 高热与中暑的紧急处理
+  source_page: 907
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 体温超过41℃或105.8℉为高热，需立即降温。
+  - 中暑时用湿敷料覆盖身体并静脉补液。
+  - 高热对退热药无效，必须物理降温。
+  pdf_page: 295
+- id: FEVER_EVALUATION
+  title: 发热患者的诊断方法
+  source_page: 907
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 记录发热规律：寒战提示细菌感染，波动大可能为脓肿。
+  - 有旅行史需考虑疟疾、登革热等输入性疾病。
+  - 老年或免疫抑制患者可能不出现明显发热。
+  pdf_page: 295
+- id: VIRAL_FEVER_COMMON
+  title: 常见病毒性发热疾病
+  source_page: 907
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 上呼吸道症状如流涕、咳嗽多为自限性病毒感染。
+  - 流感发热通常不超过5天，超过需警惕细菌二重感染。
+  - 每年接种流感疫苗可预防流感。
+  pdf_page: 295
+- id: BACTERIAL_FEVER_WARNING
+  title: 细菌感染发热的警示信号
+  source_page: 908
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 寒战、高热伴皮疹或心脏杂音需警惕菌血症或心内膜炎。
+  - 静脉用药者、透析者易发生金黄色葡萄球菌感染。
+  - 使用抗生素前应抽血培养以明确病原。
+  pdf_page: 296
+- id: FEVER_WITH_RASH
+  title: 发热伴皮疹的鉴别
+  source_page: 909
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 发热伴瘀点皮疹需警惕脑膜炎球菌血症或心内膜炎。
+  - 水疱性皮疹可能为水痘或带状疱疹。
+  - 游走性红斑提示莱姆病，需及时就医。
+  pdf_page: 297
+- id: TRAVEL_FEVER_CAUSES
+  title: 旅行后发热的常见原因
+  source_page: 908
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 从疟疾流行区返回后发热需立即查血涂片。
+  - 伤寒常见于印度次大陆旅行者，表现为持续发热。
+  - 登革热潜伏期4-8天，伴头痛、肌痛。
+  pdf_page: 296
+- id: FEVER_WHEN_TO_SEEK_CARE
+  title: 何时就医：发热的紧急指征
+  source_page: 909
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 体温超过40℃或持续不退需立即就医。
+  - 发热伴意识模糊、呼吸困难或皮疹需急诊。
+  - 有基础病或免疫抑制者发热应尽早就诊。
+  pdf_page: 297
+- id: FEVER_MANAGEMENT_HOME
+  title: 家庭发热管理要点
+  source_page: 906
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 多饮水、休息，必要时使用对乙酰氨基酚退热。
+  - 避免过度包裹，保持环境通风。
+  - 儿童发热首选对乙酰氨基酚，避免阿司匹林。
+  pdf_page: 294
+- id: INF_REHAB
+  title: 严重感染后康复
+  source_page: 925
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 严重感染（如细菌性脑膜炎、败血症）患者急性期治疗后可能需要在专业机构进行长期康复护理
+  - 部分患者可能留有永久性残疾（如肾功能损伤、神经功能障碍），康复目标应个体化
+  - 家属应了解康复是一个长期过程，出院后仍需持续随访和功能训练
+  pdf_page: 313

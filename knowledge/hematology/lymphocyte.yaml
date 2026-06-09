@@ -1,0 +1,84 @@
+specialty: hematology
+specialty_zh: 血液
+disease: lymphocyte
+disease_zh: lymphocyte
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: LYMPH_OVERVIEW
+  title: 淋巴细胞疾病概述
+  source_page: 558
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 淋巴细胞是免疫系统的核心细胞，负责抵抗感染和维持免疫记忆。
+  - 淋巴细胞疾病包括淋巴瘤、白血病、免疫缺陷和反应性淋巴结肿大。
+  - B细胞和T细胞是两种主要淋巴细胞，功能不同。
+- id: NHL_RISK_FACTORS
+  title: 非霍奇金淋巴瘤危险因素
+  source_page: 561
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 大多数非霍奇金淋巴瘤病因不明，无明显遗传倾向。
+  - 先天性免疫缺陷或自身免疫病患者风险增加。
+  - 某些病毒如EB病毒、HTLV-1与特定淋巴瘤亚型相关。
+  - 幽门螺杆菌感染与胃MALT淋巴瘤有关，抗生素治疗可消退。
+- id: NHL_SYMPTOMS
+  title: 非霍奇金淋巴瘤常见症状
+  source_page: 561
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多数患者表现为无痛性淋巴结肿大，可累及颈部、腋下或腹股沟。
+  - 约20%患者出现发热、夜间盗汗、体重下降等全身症状。
+  - 侵袭性淋巴瘤更易出现全身症状和结外器官受累。
+- id: LYMPHADENOPATHY_CAUSES
+  title: 淋巴结肿大的常见原因
+  source_page: 561
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 淋巴结肿大常见于感染，如上呼吸道感染、传染性单核细胞增多症。
+  - 自身免疫性疾病如类风湿关节炎、系统性红斑狼疮也可引起。
+  - 药物反应如苯妥英、别嘌醇可导致淋巴结肿大。
+  - 锁骨上淋巴结肿大提示恶性肿瘤可能，需及时活检。
+- id: NHL_DIAGNOSIS
+  title: 非霍奇金淋巴瘤诊断方法
+  source_page: 562
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 确诊需淋巴结或淋巴组织活检，细针抽吸通常不够。
+  - 病理分析包括组织学和免疫表型，确定细胞来源和亚型。
+  - 流式细胞术可用于血液或骨髓受累患者的诊断。
+  - 若活检阴性但淋巴结肿大持续，需重复活检。
+- id: NHL_STAGING
+  title: 非霍奇金淋巴瘤分期评估
+  source_page: 562
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 分期评估包括病史、体格检查、血液检查和影像学检查。
+  - 常用检查有全血细胞计数、乳酸脱氢酶、CT和PET扫描。
+  - 骨髓穿刺和活检是分期的重要组成部分。
+  - 分期决定治疗方案和预后判断。
+- id: FOLLICULAR_LYMPHOMA
+  title: 滤泡性淋巴瘤特点
+  source_page: 563
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 滤泡性淋巴瘤是最常见的惰性淋巴瘤，占所有淋巴瘤1/3。
+  - 特征性染色体易位t(14;18)导致BCL-2蛋白过度表达。
+  - 免疫表型为CD10、CD19、CD20阳性，CD5阴性。
+  - 生长缓慢，常表现为反复出现和消退的淋巴结肿大。
+- id: WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 561
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现无痛性淋巴结肿大且持续不消退，应及时就医。
+  - 伴有发热、夜间盗汗、体重下降等全身症状需警惕。
+  - 锁骨上淋巴结肿大应尽快就诊。
+  - 淋巴结肿大伴感染症状如发热、咽痛，需排除传染性单核细胞增多症。

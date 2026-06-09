@@ -1,0 +1,117 @@
+specialty: neurology
+specialty_zh: neurology
+disease: consciousness
+disease_zh: consciousness
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: COMA_DEFINITION
+  title: 昏迷的定义与特征
+  source_page: 1051
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 昏迷是患者闭眼、对强刺激无反应的睡眠样状态。
+  - 弱反应状态（如烦躁、谵妄）可能为昏迷早期，需同样重视。
+  pdf_page: 439
+- id: COMA_CAUSES_STRUCTURAL
+  title: 昏迷的结构性病因
+  source_page: 1051
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脑干或双侧大脑半球功能障碍可导致意识丧失。
+  - 大脑半球占位性病变（如肿瘤、出血）需足够大才能引起昏迷。
+  - 脑干病变可直接压迫网状结构导致昏迷。
+  pdf_page: 439
+- id: COMA_CAUSES_METABOLIC
+  title: 昏迷的代谢性病因
+  source_page: 1052
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 代谢异常（如低血糖、低钠血症、器官衰竭）可导致昏迷。
+  - 代谢性昏迷通常无偏瘫或单侧瞳孔散大等定位体征。
+  - 药物中毒可损害脑干，导致反射性眼球运动消失。
+  pdf_page: 440
+- id: MENINGITIS_SIGNS
+  title: 脑膜炎的识别与处理
+  source_page: 1052
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 所有昏迷患者应检查脑膜刺激征（如被动屈颈）。
+  - 出现Brudzinski征（屈颈时下肢屈曲）需立即脑脊液检查。
+  - 腰椎穿刺前如无偏瘫体征，可立即进行，无需CT。
+  pdf_page: 440
+- id: EMERGENCY_TREATMENT
+  title: 昏迷的急救措施
+  source_page: 1053
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 确保气道通畅，维持呼吸和循环。
+  - 立即抽血查血糖、电解质、肝肾功能等。
+  - 静脉注射维生素B1和葡萄糖，预防低血糖昏迷。
+  - 纳洛酮可用于阿片类药物中毒昏迷。
+  pdf_page: 441
+- id: PHYSICAL_EXAM
+  title: 昏迷的神经系统查体要点
+  source_page: 1053
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 查体聚焦运动反应、瞳孔对光反射和反射性眼球运动。
+  - 不对称肢体运动提示占位性病变。
+  - 代谢性昏迷通常瞳孔反应存在，眼球反射运动可保留。
+  pdf_page: 441
+- id: NONCONVULSIVE_SEIZURE
+  title: 非惊厥性癫痫持续状态
+  source_page: 1054
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 抽搐停止后仍昏迷，需警惕非惊厥性癫痫。
+  - 症状包括波动性意识障碍、面部肌肉痉挛或眼球震颤。
+  - 诊断依赖脑电图，延迟治疗可导致预后不良。
+  pdf_page: 442
+- id: PROGNOSIS_AFTER_CA
+  title: 心搏骤停后昏迷的预后评估
+  source_page: 1054
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低温治疗可改善心搏骤停后昏迷患者的神经系统预后。
+  - 瞳孔反射、角膜反射和运动反应是床边最佳预后指标。
+  - NSE>30ng/ml或SSEP双侧N20缺失提示预后不良。
+  - 评估低温治疗患者预后需观察72小时以上。
+  pdf_page: 442
+- id: LOCKED_IN_SYNDROME
+  title: 闭锁综合征的识别
+  source_page: 1055
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 闭锁综合征患者意识清楚，但四肢瘫痪、不能言语。
+  - 可通过睁眼、闭眼或眨眼回答问题。
+  - 脑电图正常，需与昏迷和心因性无反应状态鉴别。
+  pdf_page: 443
+- id: VEGETATIVE_STATE
+  title: 植物状态的特征与预后
+  source_page: 1055
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 植物状态患者有睡眠-觉醒周期，但无意识反应。
+  - 持续植物状态超过3个月（非创伤）或12个月（创伤）可能永久。
+  - MRI显示胼胝体和脑干背外侧损害提示预后不良。
+  pdf_page: 443
+- id: WHEN_TO_SEEK_HELP
+  title: 何时就医：昏迷警示信号
+  source_page: 1051
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 突发意识丧失或持续意识模糊需立即就医。
+  - 昏迷前有头痛、偏瘫或失语症状提示脑卒中。
+  - 任何头部外伤后意识改变需紧急评估。
+  pdf_page: 439

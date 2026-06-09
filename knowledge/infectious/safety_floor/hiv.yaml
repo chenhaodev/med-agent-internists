@@ -1,0 +1,8 @@
+safety_floor_name: HIV 家庭照护安全底线
+scope: [hiv]
+entries:
+  - title: 接触血液与伤口处理
+    source: 安全底线
+    items:
+      - 处理伤口、接触血液或体液时戴手套，事后用肥皂彻底洗手
+      - 沾血的敷料、纱布或物品单独密封处理，避免家中其他人直接接触

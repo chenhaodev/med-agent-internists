@@ -1,0 +1,136 @@
+specialty: geriatrics
+specialty_zh: geriatrics
+disease: elderly_care
+disease_zh: elderly_care
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: AGING_POPULATION
+  title: 老年人口增长趋势
+  source_page: 1206
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 65岁以上人口快速增长，预计2030年达7200万。
+  - 85岁以上高龄老人增长更快，需关注其照护需求。
+  pdf_page: 593
+- id: FRAILTY_DEFINITION
+  title: 衰弱表型识别
+  source_page: 1209
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 衰弱表现为非预期体重下降、虚弱、行动缓慢等。
+  - 满足3项及以上标准可判断为衰弱，需及时干预。
+  pdf_page: 596
+- id: MULTIMORBIDITY_IMPACT
+  title: 共病对功能的影响
+  source_page: 1210
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 80%以上老人至少有一种慢性病，50%有两种以上。
+  - 多种疾病共存会加重功能衰退，需综合管理。
+  pdf_page: 597
+- id: FUNCTIONAL_ASSESSMENT
+  title: 日常生活能力评估
+  source_page: 1210
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 评估基本生活能力如洗澡、穿衣、进食等。
+  - 工具性能力包括购物、用药管理、使用电话等。
+  pdf_page: 597
+- id: ATYPICAL_PRESENTATION
+  title: 老年疾病不典型表现
+  source_page: 1210
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 老年甲亢可表现为冷漠、抑郁，而非典型心悸。
+  - 感染可能不发热，需警惕精神状态变化或跌倒。
+  pdf_page: 597
+- id: POLYPHARMACY_RISK
+  title: 多重用药风险
+  source_page: 1211
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 老人平均服用3-5种药物，增加相互作用风险。
+  - 定期审查用药清单，避免不必要的药物。
+  pdf_page: 598
+- id: KIDNEY_FUNCTION_MONITOR
+  title: 肾功能与药物调整
+  source_page: 1211
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 年龄增长导致肾小球滤过率下降，影响药物清除。
+  - 用药前需计算肌酐清除率，调整剂量。
+  pdf_page: 598
+- id: FALL_PREVENTION
+  title: 跌倒预防策略
+  source_page: 1209
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 衰弱老人跌倒风险高，需评估平衡和步态。
+  - 改善家居环境，如增加扶手、减少障碍物。
+  pdf_page: 596
+- id: NUTRITION_MANAGEMENT
+  title: 营养管理要点
+  source_page: 1208
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 热量限制可能延长寿命，但需在医生指导下进行。
+  - 保证蛋白质和微量元素摄入，预防营养不良。
+  pdf_page: 595
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医警示
+  source_page: 1210
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 出现非特异性症状如意识改变、跌倒、尿失禁。
+  - 功能突然下降或日常生活能力恶化需及时就医。
+  pdf_page: 597
+- id: GER_EXERCISE
+  title: 老年人运动能力与跌倒预防
+  source_page: 1214
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 步速是衡量老年人运动能力和整体健康状况的重要指标，步速减慢提示跌倒和功能下降风险增加
+  - 计时起立行走测试（TUG）超过12秒提示跌倒风险显著增加，应进行专科评估
+  - 规律的平衡训练、力量锻炼（如太极、步行）可降低跌倒风险，改善老年人功能状态
+  pdf_page: 601
+- id: GER_DIET
+  title: 老年人营养与饮食管理
+  source_page: 1216
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 老年患者应评估吞咽功能，有吞咽困难者需调整饮食质地（软食/流质）以预防误吸
+  - 营养不良在老年人中常见，可影响功能康复速度和住院预后
+  - 既往饮食限制（如低盐、低蛋白）在老年阶段需重新评估，改善营养是整体生活方式管理的重要组成
+  pdf_page: 603
+- id: GER_REHAB
+  title: 老年人急性期后康复
+  source_page: 1218
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 老年评估管理（GEM）单元提供专业的、多学科团队协作的急性期后康复
+  - 康复目标是帮助患者尽可能恢复到患病前的功能水平，包括日常生活能力和行动能力
+  - 早期启动康复（住院期间即开始）比延迟康复能获得更好的功能恢复结果
+  pdf_page: 605
+- id: GER_HOME_CARE
+  title: 老年人居家护理要点
+  source_page: 1219
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 居家护理和个人护理服务（如助浴、送餐、家政）是维持老年人社区独立生活的重要支持
+  - 家庭护理（家庭照护者）需了解患者的日常护理需求，必要时申请专业居家护理机构的支持
+  - 出院前应评估家庭环境安全（如防滑、扶手、照明），并做好家庭改造以预防跌倒
+  pdf_page: 606

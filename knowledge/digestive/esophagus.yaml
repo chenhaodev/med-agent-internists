@@ -1,0 +1,41 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: esophagus
+disease_zh: 食管疾病（GERD、Barrett食管、食管动力障碍）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: GERD_EPIDEMIOLOGY
+  title: 胃食管反流病（GERD）流行病学与发病机制
+  source_page: 424
+  evidence_level: 高
+  recommendation: 参考
+  key_points:
+  - GERD是最常见的食管疾病；美国近50%成年人偶有烧心，7%每日发生；每年直接医疗花费100~120亿美元。
+  - 主要机制：下食管括约肌（LES）一过性松弛（最主要，餐后生理性反流）；LES基线压力降低；腹内压突然升高（压力性反流）。
+  - 危险因素：食管裂孔疝（疝大小与反流严重程度相关）；系统性硬化（LES压力降低、食管蠕动减少，反流严重）。
+  pdf_page: 444
+
+- id: GERD_DIAGNOSIS_TREATMENT
+  title: GERD诊断与治疗
+  source_page: 425
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 烧心（胃灼热）是最特异症状（至少75%烧心来自GERD）；伴反酸/苦水反流支持诊断。
+  - 报警症状（必须内镜检查）：吞咽困难、吞咽疼痛、食欲缺乏、体重减轻、上消化道出血。
+  - 治疗：轻症→生活方式改变+抗酸药；中重度糜烂性食管炎（洛杉矶C/D级）→质子泵抑制剂（PPI）是唯一选择，必要时剂量加倍；PPI疗效优于H2受体阻滞剂。
+  - 非心源性胸痛：大部分病因为GERD，可先行经验性PPI治疗。
+  - GERD外症状：慢性咳嗽、哮喘、声音嘶哑、慢性咽喉炎——需考虑GERD相关可能。
+  pdf_page: 425
+
+- id: BARRETT_ESOPHAGUS
+  title: Barrett食管——癌前病变与监测
+  source_page: 426
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Barrett食管：长期酸暴露导致食管下段鳞状上皮化生为柱状上皮（肠化生），是食管腺癌的癌前病变。
+  - 长期有GERD症状的患者（尤其男性>50岁、肥胖、白人）需内镜筛查Barrett食管。
+  - 无异型增生Barrett食管：每3~5年内镜随访一次；低度异型增生：每年随访；高度异型增生：立即处理（内镜切除或手术）。
+  - 内镜检查是诊断Barrett食管和GERD并发症（食管溃疡、狭窄）的金标准。
+  pdf_page: 426

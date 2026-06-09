@@ -1,0 +1,97 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: ibd
+disease_zh: 炎症性肠病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: IBD_DEFINITION
+  title: 炎性肠病定义与分类
+  source_page: 447
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 炎性肠病包括溃疡性结肠炎和克罗恩病，是慢性肠道炎症。
+  - 溃疡性结肠炎只累及大肠，克罗恩病可累及全消化道。
+  pdf_page: 467
+- id: IBD_RISK_FACTORS
+  title: 病因与危险因素
+  source_page: 447
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传因素：一级亲属患病风险高10-15倍。
+  - 吸烟：对克罗恩病有害，对溃疡性结肠炎有保护作用。
+  - 环境因素如卫生状况、饮食可能影响发病。
+  pdf_page: 467
+- id: IBD_SYMPTOMS_UC
+  title: 溃疡性结肠炎症状
+  source_page: 449
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见症状：腹泻、腹痛、排便窘迫、黏液血便。
+  - 病情加重时可能出现发热、脱水、心率快。
+  pdf_page: 469
+- id: IBD_SYMPTOMS_CD
+  title: 克罗恩病症状
+  source_page: 449
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见症状：右下腹痛、发热、体重减轻、腹泻。
+  - 可形成瘘管、脓肿，肛周病变常见。
+  pdf_page: 469
+- id: IBD_EXTRAINTESTINAL
+  title: 肠外表现
+  source_page: 449
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 关节炎、皮肤病变（坏疽性脓皮病、结节性红斑）常见。
+  - 眼部炎症如葡萄膜炎、巩膜外层炎需及时就医。
+  pdf_page: 469
+- id: IBD_DIAGNOSIS
+  title: 诊断方法
+  source_page: 450
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断依靠临床表现、内镜、影像学和组织学检查。
+  - 结肠镜是主要检查，胶囊内镜用于小肠病变。
+  pdf_page: 470
+- id: IBD_LIFESTYLE
+  title: 生活方式管理
+  source_page: 448
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 克罗恩病患者避免吸烟，溃疡性结肠炎患者可咨询医生。
+  - 要素饮食可能减轻克罗恩病炎症，但无特定饮食禁忌。
+  pdf_page: 468
+- id: IBD_MEDICATION_5ASA
+  title: 5-氨基水杨酸药物
+  source_page: 453
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 用于轻中度溃疡性结肠炎诱导和维持缓解。
+  - 副作用包括头痛、恶心，需补充叶酸。
+  pdf_page: 473
+- id: IBD_COMPLICATIONS
+  title: 并发症预防
+  source_page: 449
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 克罗恩病可致肠梗阻、瘘管、脓肿，需定期监测。
+  - 溃疡性结肠炎严重时可能发生中毒性巨结肠。
+  pdf_page: 469
+- id: IBD_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 449
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现严重腹痛、发热、脱水、便血或体重减轻时立即就医。
+  - 儿童生长迟缓可能是唯一表现，需警惕。
+  pdf_page: 469

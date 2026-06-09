@@ -1,0 +1,118 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: gi
+disease_zh: 胃肠疾病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PUD_DEF
+  title: 消化性溃疡定义与风险
+  source_page: 433
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 消化性溃疡是胃或十二指肠黏膜缺损，常见于25-64岁人群。
+  - 主要危险因素是幽门螺杆菌感染和长期使用非甾体抗炎药。
+  - 精神压力、饮酒等环境因素本身不会直接导致溃疡。
+  pdf_page: 453
+- id: HP_INFECTION
+  title: 幽门螺杆菌感染
+  source_page: 434
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 幽门螺杆菌是常见细菌，全球约50%人群感染，通过粪口传播。
+  - 感染后可能引起胃炎、溃疡甚至胃癌，需根除治疗。
+  - 改善卫生条件可降低感染风险，感染通常是终身的。
+  pdf_page: 454
+- id: NSAID_RISK
+  title: 非甾体抗炎药与溃疡
+  source_page: 435
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 长期使用非甾体抗炎药（如布洛芬、阿司匹林）增加溃疡风险。
+  - 这类药物会损伤胃黏膜，导致出血或穿孔。
+  - 使用前应咨询医生，必要时加用胃保护药。
+  pdf_page: 455
+- id: GASTRIC_ACID
+  title: 胃酸与溃疡关系
+  source_page: 433
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 胃酸是溃疡形成的必要条件，但多数溃疡患者胃酸分泌正常。
+  - 胃黏膜防御因素（如黏液、血流）受损时，正常胃酸也可致溃疡。
+  - 控制胃酸是治疗溃疡的重要环节。
+  pdf_page: 453
+- id: SYMPTOMS_WARN
+  title: 何时就医警示
+  source_page: 436
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 出现上腹痛、黑便、呕血或不明原因贫血时需立即就医。
+  - 溃疡穿孔可致剧烈腹痛，需紧急处理。
+  - 长期使用非甾体抗炎药者应定期检查胃镜。
+  pdf_page: 456
+- id: LIFESTYLE_MANAGE
+  title: 生活方式管理建议
+  source_page: 433
+  evidence_level: 低
+  recommendation: 可考虑
+  key_points:
+  - 避免过度饮酒和吸烟，可能加重溃疡。
+  - 饮食规律，少食多餐，避免辛辣刺激食物。
+  - 管理压力，保持良好作息，但压力本身不直接致病。
+  pdf_page: 453
+- id: DRUG_MANAGE
+  title: 药物管理注意事项
+  source_page: 432
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 质子泵抑制剂（如奥美拉唑）可有效抑制胃酸，促进溃疡愈合。
+  - H2受体拮抗剂（如雷尼替丁）也可减少胃酸分泌。
+  - 所有药物需遵医嘱使用，不可自行调整剂量。
+  pdf_page: 452
+- id: COMPLICATION_PREVENT
+  title: 并发症预防
+  source_page: 436
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 根除幽门螺杆菌可显著降低溃疡复发和出血风险。
+  - 避免同时使用多种非甾体抗炎药，减少胃损伤。
+  - 定期随访，监测溃疡愈合情况，防止穿孔。
+  pdf_page: 456
+- id: HP_TREATMENT
+  title: 幽门螺杆菌根除治疗
+  source_page: 435
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 根除幽门螺杆菌可治愈多数溃疡，并降低胃癌风险。
+  - 治疗通常需联合使用抗生素和抑酸药，疗程10-14天。
+  - 治疗后需复查确认根除成功。
+  pdf_page: 455
+- id: MUCOSAL_PROTECT
+  title: 胃黏膜保护因素
+  source_page: 432
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 胃黏液和碳酸氢盐形成保护层，防止胃酸损伤。
+  - 充足的血流和细胞更新有助于黏膜修复。
+  - 避免损伤因素（如酒精、某些药物）可保护黏膜。
+  pdf_page: 452
+- id: GI_BLEED_ENDOSCOPY
+  title: 上消化道出血内镜评估与内镜下止血
+  source_page: 439
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - PUD是上消化道出血最常见原因，约占50%；80%患者出血可自发停止；死亡率5%～10%。
+  - 所有上消化道出血患者均应尽早行上消化道内镜检查，进行内镜下止血治疗及再出血风险评估。
+  - 内镜下溃疡特征与再出血风险：基底洁净5%、黑色斑点10%、附着血凝块22%、无活动性出血的血管显露（NBVV）43%、活动性渗血或喷射样出血55%。
+  - 内镜下止血措施包括：多极电凝术、热凝固疗法、注射肾上腺素、放置止血夹；内镜治疗可降低死亡率并减少输血及手术需求。
+  - 严重上消化道出血应首先给予负荷剂量PPI（泮托拉唑80mg）静脉推注，随后持续静脉输注（8mg/h）辅助内镜止血治疗。
+  pdf_page: 459

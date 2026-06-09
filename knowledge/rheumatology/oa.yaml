@@ -1,0 +1,114 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: oa
+disease_zh: oa
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: OA_DEFINITION
+  title: 骨关节炎定义与特点
+  source_page: 872
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 骨关节炎是最常见的关节炎，也称退行性关节病。
+  - 主要影响关节软骨，导致疼痛和活动受限。
+  - 超过2690万美国成年人患病，随年龄增长发病率升高。
+- id: OA_RISK_FACTORS
+  title: 危险因素
+  source_page: 872
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 年龄增长、女性（尤其50岁后）、非裔美国人风险更高。
+  - 肥胖、关节重复劳损或创伤、家族史是重要危险因素。
+  - 代谢疾病如血色素沉着症、褐黄病也可增加风险。
+- id: OA_SYMPTOMS
+  title: 常见症状
+  source_page: 873
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 主要症状是关节疼痛，活动或负重时加重，休息后缓解。
+  - 晨僵通常少于30分钟，无发热等全身症状。
+  - 晚期可能出现静息痛、关节僵硬、活动受限。
+- id: OA_DIAGNOSIS
+  title: 诊断方法
+  source_page: 874
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 医生根据症状和体格检查诊断，X线可辅助但非必需。
+  - 典型X线表现包括关节间隙狭窄、骨赘和软骨下硬化。
+  - 需与类风湿关节炎等炎性关节病鉴别。
+- id: OA_LIFESTYLE_EXERCISE
+  title: 运动与锻炼
+  source_page: 874
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 日常进行分阶段有氧运动、肌肉强化和关节活动度训练。
+  - 太极、步行辅助器（如拐杖）可减轻疼痛、改善功能。
+  - 物理治疗师可提供个性化运动指导。
+- id: OA_LIFESTYLE_DIET
+  title: 饮食与体重管理
+  source_page: 874
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 超重患者应积极减肥，每减1公斤体重可减轻膝盖负荷4公斤。
+  - 肥胖是膝关节骨关节炎最可改变的危险因素。
+  - 健康饮食有助于控制体重和减轻关节压力。
+- id: OA_LIFESTYLE_JOINT_PROTECTION
+  title: 关节保护与辅助器具
+  source_page: 874
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 使用护膝可减轻疼痛、改善稳定性，减少跌倒风险。
+  - 选择合适的鞋子，必要时使用脊柱矫形器。
+  - 热疗、超声或经皮神经电刺激可短期缓解症状。
+- id: OA_MEDICATION_SAFETY
+  title: 药物使用注意事项
+  source_page: 874
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 对乙酰氨基酚可用于轻中度疼痛，但不超过每日3克。
+  - 非甾体抗炎药需最低有效剂量短期使用，注意胃肠和心血管风险。
+  - 局部外用非甾体抗炎药或辣椒素可作为替代或辅助。
+- id: OA_INJECTION_THERAPY
+  title: 关节注射治疗
+  source_page: 874
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 关节内皮质类固醇注射（不超过每4个月一次）可短期缓解症状。
+  - 对中重度疼痛伴积液或炎症的患者效果较好。
+  - 关节内透明质酸注射目前证据显示益处很少或没有。
+- id: OA_SURGERY_INDICATIONS
+  title: 手术时机与选择
+  source_page: 874
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 全关节置换术可有效缓解疼痛、改善功能，适用于保守治疗无效者。
+  - 其他手术包括截骨术和单室膝关节置换术。
+  - 关节镜手术不推荐用于膝关节骨关节炎治疗。
+- id: OA_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 874
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 关节疼痛持续或加重，影响日常活动时需就医。
+  - 出现关节红肿、皮温升高或持续积液时需及时就诊。
+  - 疼痛性质改变或出现新症状（如夜间痛）应咨询医生。
+- id: OA_COMPLICATION_PREVENTION
+  title: 并发症预防
+  source_page: 874
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 控制体重是预防膝关节骨关节炎进展的关键。
+  - 避免关节重复劳损和创伤，保持适度活动。
+  - 定期随访，监测关节畸形或不稳定，及时干预。

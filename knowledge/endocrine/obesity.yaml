@@ -1,0 +1,97 @@
+specialty: endocrine
+specialty_zh: 内分泌代谢
+disease: obesity
+disease_zh: 肥胖症
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: OBESITY_DEFINITION
+  title: 肥胖症的定义与分级
+  source_page: 728
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肥胖症通常用体质指数（BMI）≥30kg/m²来定义。
+  - BMI 30-34.9为1级肥胖，35-39.9为2级，≥40为3级或重度肥胖。
+  - 腰围大（男>102cm，女>88cm）提示内脏脂肪多，健康风险更高。
+  pdf_page: 118
+- id: OBESITY_RISK_FACTORS
+  title: 肥胖症的病因与危险因素
+  source_page: 728
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 遗传因素：父母肥胖，孩子有80%可能肥胖。
+  - 环境因素：高热量饮食和久坐不动是主要诱因。
+  - 社会经济地位低、教育水平低、戒烟后体重增加也增加风险。
+  pdf_page: 118
+- id: OBESITY_HEALTH_RISKS
+  title: 肥胖相关的健康风险
+  source_page: 730
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肥胖增加2型糖尿病、高血压、冠心病、脑卒中的风险。
+  - 还可能导致睡眠呼吸暂停、脂肪肝、骨关节炎和某些癌症。
+  - 体重减轻7%-10%可显著降低上述疾病风险。
+  pdf_page: 120
+- id: OBESITY_DIAGNOSIS
+  title: 肥胖症的诊断与评估
+  source_page: 731
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 医生常用BMI和腰围评估肥胖程度和健康风险。
+  - 腰臀比男>1或女>0.8提示内脏脂肪多，风险高。
+  - 腹部CT或MRI可精确测量内脏脂肪，但成本高。
+  pdf_page: 121
+- id: OBESITY_LIFESTYLE
+  title: 生活方式干预：饮食与运动
+  source_page: 732
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每天减少250-500千卡热量摄入，逐步减重。
+  - 饮食中碳水化合物占40%-45%，脂肪占30%-35%，蛋白质占20%-30%。
+  - 每天摄入20-35克可溶性纤维（如水果、蔬菜）。
+  - 从每天10-20分钟中等强度步行开始，逐步增加运动量。
+  pdf_page: 122
+- id: OBESITY_MEDICATION
+  title: 药物治疗注意事项
+  source_page: 731
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 药物治疗适用于BMI≥27伴合并症，或BMI≥30的患者。
+  - 药物需在医生指导下使用，不可自行购买。
+  - 药物不能替代生活方式改变，需联合使用。
+  pdf_page: 121
+- id: OBESITY_SURGERY
+  title: 减重手术的适用情况
+  source_page: 731
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 减重手术适用于BMI≥40，或BMI≥35伴合并症的患者。
+  - 手术可显著减重（初始体重的15%-25%），并改善糖尿病。
+  - 术后需长期随访，调整饮食和补充营养。
+  pdf_page: 121
+- id: OBESITY_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 728
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 如果BMI≥30，或腰围男>102cm、女>88cm，建议就医评估。
+  - 出现肥胖相关症状如呼吸困难、关节痛、血糖升高时及时就诊。
+  - 儿童或青少年体重增长过快，应咨询儿科或内分泌科医生。
+  pdf_page: 118
+- id: ENDO_OBE_EXERCISE
+  title: 肥胖症体力活动管理
+  source_page: 732
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 有效的生活方式干预包括膳食结构调整和个体化体力活动方案两个核心部分
+  - 行为矫正和患者教育是实现目标体重和长期维持减重效果的重要手段
+  - 建议在专业人员指导下制定适合个人身体状况的锻炼计划（如步行、游泳），逐步增加活动量
+  pdf_page: 122

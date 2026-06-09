@@ -1,0 +1,116 @@
+specialty: neurology
+specialty_zh: neurology
+disease: movement_disorders
+disease_zh: movement_disorders
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: MOV_DIS_INTRO
+  title: 运动系统功能障碍概述
+  source_page: 1106
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 运动系统分为锥体系统和锥体外系统，分别控制随意运动和协调运动。
+  - 基底神经节和小脑是锥体外系统的关键部分，影响运动协调。
+  - 运动功能障碍的诊断需结合病史和体格检查，定位受累区域。
+  pdf_page: 494
+- id: MOV_DIS_SYMPTOMS
+  title: 运动系统疾病的常见症状
+  source_page: 1106
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者可能主诉乏力、麻木、肢体不灵活、平衡或步态异常。
+  - 精细动作困难如系纽扣、书写困难，提示远端肢体问题。
+  - 球部乏力表现为言语不清和吞咽困难，需及时就医。
+  pdf_page: 494
+- id: UPPER_MOTOR_NEURON
+  title: 上运动神经元功能障碍体征
+  source_page: 1107
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 上运动神经元病变导致对侧或同侧无力，远端重于近端。
+  - 体征包括痉挛性肌张力增高、腱反射亢进和巴宾斯基征阳性。
+  - 急性脊髓损伤初期可能表现为弛缓性瘫痪，后转为痉挛状态。
+  pdf_page: 495
+- id: BASAL_GANGLIA_DIS
+  title: 基底核功能障碍表现
+  source_page: 1109
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 基底核问题导致随意运动损害和不自主运动，如震颤或舞蹈。
+  - 患者可能出现步态障碍、姿势不稳和声调异常。
+  - 不自主运动在清醒时出现，睡眠中消失。
+  pdf_page: 497
+- id: CEREBELLAR_DIS
+  title: 小脑功能障碍体征
+  source_page: 1109
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 小脑问题导致协调困难，如步态不稳、言语含糊和意向性震颤。
+  - 眼球运动异常包括眼球震颤和扫视过度。
+  - 患者可能表现为辨距不良，如指鼻试验不准。
+  pdf_page: 497
+- id: PERIPHERAL_MOTOR_DIS
+  title: 周围运动系统功能障碍
+  source_page: 1109
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 周围神经病变导致无力、肌肉萎缩和腱反射减弱。
+  - 多神经病表现为远端袜套-手套样感觉缺失和无力。
+  - 神经肌肉接头障碍如重症肌无力，表现为波动性无力易疲劳。
+  pdf_page: 497
+- id: PARKINSONISM_DIAG
+  title: 帕金森综合征诊断要点
+  source_page: 1110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 帕金森综合征核心症状：运动迟缓、肌僵直、震颤和姿势不稳。
+  - 原发性帕金森病常见于60岁左右，男性稍多，由多巴胺神经元缺失引起。
+  - 诊断支持指标包括单侧起病、持续不对称和左旋多巴治疗有效。
+  pdf_page: 498
+- id: PARKINSON_WARNING
+  title: 帕金森病警示征象
+  source_page: 1111
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早期姿势不稳或跌倒提示非典型帕金森综合征如多系统萎缩。
+  - 早期吞咽困难或幻觉需警惕进行性核上性麻痹或路易体痴呆。
+  - 抗精神病药物暴露史可能提示药物所致帕金森综合征。
+  pdf_page: 499
+- id: PARKINSON_TREATMENT
+  title: 帕金森病治疗药物
+  source_page: 1111
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 左旋多巴是主要治疗药物，常与多巴脱羧酶抑制剂合用减少副作用。
+  - 其他药物包括多巴胺受体激动剂、MAO-B抑制剂和COMT抑制剂。
+  - 治疗需在医生指导下进行，避免自行调整剂量。
+  pdf_page: 499
+- id: ATYPICAL_PARKINSON
+  title: 非典型帕金森综合征
+  source_page: 1111
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多系统萎缩表现为帕金森症状加自主神经或小脑功能障碍。
+  - 进行性核上性麻痹早期步态不稳、吞咽困难，平均生存期5年。
+  - 路易体痴呆在运动症状前或1年内出现痴呆，精神症状风险高。
+  pdf_page: 499
+- id: WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 1106
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现不明原因的乏力、步态不稳或跌倒，需及时就医评估。
+  - 不自主运动如震颤、舞蹈或肌张力障碍，应咨询神经科医生。
+  - 吞咽困难或言语不清可能提示球部受累，需紧急处理。
+  pdf_page: 494

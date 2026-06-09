@@ -1,0 +1,148 @@
+specialty: renal
+specialty_zh: 肾
+disease: ckd
+disease_zh: 慢性肾脏病
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CKD_DEFINITION
+  title: 慢性肾脏病定义与分期
+  source_page: 385
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢性肾脏病是肾功能持续下降超过3个月的疾病。
+  - 根据肾小球滤过率和尿蛋白水平分为不同阶段。
+  - 早期可能无症状，晚期需透析或肾移植。
+  pdf_page: 406
+- id: CKD_RISK_FACTORS
+  title: 主要病因与危险因素
+  source_page: 386
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 糖尿病和高血压是导致肾衰竭的最常见原因。
+  - 肾小球疾病、遗传因素也可能导致慢性肾脏病。
+  - 控制血糖和血压可减缓疾病进展。
+  pdf_page: 407
+- id: CKD_DIAGNOSIS
+  title: 诊断标准与筛查
+  source_page: 388
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断需有肾脏损伤证据（如尿蛋白）持续超过3个月。
+  - 高风险人群（糖尿病、高血压、家族史）应定期筛查。
+  - 尿蛋白/肌酐比值超过30mg/g需警惕慢性肾脏病。
+  pdf_page: 409
+- id: CKD_LIFESTYLE_DIET
+  title: 生活方式与饮食管理
+  source_page: 389
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 限制蛋白质摄入（每日每公斤体重0.6克）可能有益。
+  - 控制盐、钾、磷摄入有助于减缓疾病进展。
+  - 建议在营养师指导下进行饮食调整。
+  must_warn:
+  - 布洛芬等非甾体抗炎药（NSAIDs）对慢性肾病患者禁用，即便感冒或头痛也不可自行服用，须就诊时主动告知医生有肾病史
+  pdf_page: 410
+- id: CKD_MEDICATION_AVOID
+  title: 避免肾毒性药物
+  source_page: 389
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 避免使用非甾体抗炎药（如布洛芬）和某些抗生素。
+  - 造影剂可能加重肾损伤，检查前需充分水化。
+  - 含马兜铃酸的中草药应避免使用。
+  pdf_page: 410
+- id: CKD_HYPERTENSION_MGMT
+  title: 高血压管理
+  source_page: 389
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 控制血压低于140/90mmHg可减缓肾病进展。
+  - ACEI或ARB类药物对保护肾脏有额外益处。
+  - 定期监测血压，遵医嘱调整药物。
+  pdf_page: 410
+- id: CKD_DIABETES_MGMT
+  title: 糖尿病管理
+  source_page: 389
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 严格控制血糖，糖化血红蛋白目标低于7%。
+  - 注意低血糖风险，尤其在肾功能下降时。
+  - ACEI或ARB可用于有蛋白尿的糖尿病患者。
+  pdf_page: 410
+- id: CKD_COMPLICATIONS_CARDIO
+  title: 心血管并发症预防
+  source_page: 387
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢性肾脏病患者心血管疾病风险高，需定期检查。
+  - 控制血压、血脂和血糖可降低心脏问题。
+  - 左心室肥大常见，需超声心动监测。
+  pdf_page: 408
+- id: CKD_COMPLICATIONS_ANEMIA
+  title: 贫血管理
+  source_page: 388
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 肾脏病常导致贫血，因促红细胞生成素减少。
+  - 补充铁剂和人工促红素可改善症状。
+  - 血红蛋白目标不宜超过12g/dl，避免心血管风险。
+  pdf_page: 409
+- id: CKD_COMPLICATIONS_BONE
+  title: 骨病与钙磷平衡
+  source_page: 388
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 肾功能下降导致钙磷失衡和甲状旁腺功能亢进。
+  - 控制血磷水平，补充活性维生素D可预防骨病。
+  - 定期检查血钙、血磷和甲状旁腺激素。
+  pdf_page: 409
+- id: CKD_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 390
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现尿量减少、水肿、恶心呕吐、疲劳等症状需就医。
+  - 肾功能突然恶化（如血肌酐快速升高）应立即就诊。
+  - 准备透析或肾移植前应咨询肾脏专科医生。
+  pdf_page: 411
+- id: CKD_RRT_OPTIONS
+  title: 肾脏替代治疗选择
+  source_page: 390
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肾衰竭时可选透析（血液或腹膜）或肾移植。
+  - 肾移植提供更好的生活质量和生存率。
+  - 透析通常在出现尿毒症症状或eGFR≤10时开始。
+  pdf_page: 411
+- id: REN_CKD_SMOKING
+  title: 慢性肾病患者戒烟
+  source_page: 389
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 戒烟是慢性肾病管理的重要措施，与控制高血压、糖尿病等危险因素并列
+  - 吸烟可加速肾功能下降，增加终末期肾病风险
+  - 同时需应用RAAS阻断药物（如普利类或沙坦类）并调整饮食，共同延缓肾功能进展
+  pdf_page: 410
+- id: REN_CKD_REHAB
+  title: 慢性肾病肾移植与康复
+  source_page: 390
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 符合条件的慢性肾病患者应鼓励考虑肾移植，移植可提供比透析更好的生活质量和更高的生存率
+  - 成功肾移植后患者有更多的康复机会，能够恢复更接近正常的生活和工作能力
+  - 移植等待期间仍需维持透析治疗并积极管理并发症，保持身体状况以备移植
+  pdf_page: 411

@@ -1,0 +1,87 @@
+specialty: infectious
+specialty_zh: 感染
+disease: sepsis
+disease_zh: sepsis
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SEPSIS_DEFINITION
+  title: 脓毒症定义与诊断标准
+  source_page: 918
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 脓毒症是感染引起的全身炎症反应，可导致器官功能障碍。
+  - 诊断需结合发热、心率快、呼吸急促、白细胞异常等指标。
+  - 严重脓毒症表现为组织灌注不足和器官功能损伤。
+- id: SEPSIS_RISK_FACTORS
+  title: 脓毒症危险因素
+  source_page: 919
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 早产儿、高龄（尤其85岁以上）是高风险人群。
+  - 静脉置管、人工装置植入者感染风险增加。
+  - 严重烧伤、血液系统恶性肿瘤患者易患脓毒症。
+- id: SEPSIS_PATHOGENS
+  title: 常见病原体与宿主因素
+  source_page: 920
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 常见细菌包括金黄色葡萄球菌、大肠杆菌、链球菌等。
+  - 免疫功能低下者易感染假丝酵母菌（真菌）。
+  - 无脾患者需警惕肺炎链球菌等有荚膜细菌。
+- id: SEPSIS_SYMPTOMS
+  title: 脓毒症临床表现
+  source_page: 922
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 常见症状包括发热、寒战、呼吸急促、精神状态改变。
+  - 老年患者可能不发热，低体温提示病情更重。
+  - 皮肤出现瘀点、紫癜或坏死性脓疮需警惕。
+- id: SEPSIS_HYPOTENSION
+  title: 低血压与休克表现
+  source_page: 922
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低血压伴少尿是脓毒症常见表现，需及时补液。
+  - 暖休克（四肢温暖）早期常见，冷休克（肢端冰冷）提示恶化。
+  - 对补液无效的休克死亡率超过70%，需紧急就医。
+- id: SEPSIS_ORGAN_DYSFUNCTION
+  title: 器官功能障碍表现
+  source_page: 922
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性肾损伤表现为少尿、肌酐升高。
+  - 急性呼吸窘迫综合征（ARDS）导致严重缺氧。
+  - 凝血异常可致血小板减少和弥散性血管内凝血（DIC）。
+- id: SEPSIS_WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 922
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现发热、寒战、呼吸急促或意识模糊时立即就医。
+  - 低血压、少尿或皮肤花斑提示病情危重。
+  - 有感染史或置管者出现上述症状需紧急评估。
+- id: SEPSIS_TREATMENT_PRINCIPLES
+  title: 治疗原则与注意事项
+  source_page: 922
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期识别和及时抗感染治疗是关键。
+  - 需进行血液和体液培养以明确病原体。
+  - 疑似感染源（如导管）应尽早移除。
+- id: SEPSIS_COMPLICATION_PREVENTION
+  title: 并发症预防
+  source_page: 923
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 监测尿量和肾功能，预防急性肾损伤。
+  - 注意呼吸状态，避免缺氧加重。
+  - 观察皮肤出血点，预防弥散性血管内凝血。

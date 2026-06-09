@@ -1,0 +1,143 @@
+specialty: cardiology
+specialty_zh: 心血管
+disease: arrhythmia
+disease_zh: 心律失常
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ARRHYTHMIA_CLASSIFICATION
+  title: 心律失常分类
+  source_page: 116
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心律失常分为激动起源异常和传导异常，临床常按心率快慢分类。
+  - 快速性心律失常包括心动过速，慢速性包括心动过缓。
+  pdf_page: 137
+- id: ECG_DIAGNOSIS
+  title: 心电图诊断心律失常
+  source_page: 117
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 发作时12导联心电图是鉴别室上速和室速的关键工具。
+  - 基线心电图可提示心肌梗死、遗传性心肌病或离子通道病。
+  pdf_page: 138
+- id: HOLTER_MONITOR
+  title: 动态心电图监测
+  source_page: 117
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Holter可记录24-48小时心电，适用于频繁症状患者。
+  - 外部事件记录仪可佩戴30天，症状时触发记录。
+  - 植入式循环记录器用于症状少于每月一次的患者。
+  pdf_page: 138
+- id: EP_STUDY
+  title: 电生理检查
+  source_page: 117
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 电生理检查可明确快速性心律失常机制并指导治疗。
+  - 用于评估窦房结和房室结功能，指导除颤器植入。
+  pdf_page: 138
+- id: DRUG_CLASSIFICATION
+  title: 抗心律失常药物分类
+  source_page: 117
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 药物按Singh-Vaughan Williams分类，分为I-IV类。
+  - I类为钠通道阻滞剂，II类为β受体阻滞剂，III类为钾通道阻滞剂，IV类为钙通道阻滞剂。
+  pdf_page: 138
+- id: DRUG_RISK
+  title: 抗心律失常药物风险
+  source_page: 118
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 除β受体阻滞剂外，其他抗心律失常药物可能增加死亡率。
+  - 心力衰竭患者使用抗心律失常药物需谨慎。
+  pdf_page: 139
+- id: CLASS_IA_DRUGS
+  title: IA类抗心律失常药
+  source_page: 118
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - IA类药物如奎尼丁、普鲁卡因胺，用于室上速、房颤等。
+  - 奎尼丁副作用包括腹泻、血小板减少和QT间期延长。
+  pdf_page: 139
+- id: CLASS_IB_DRUGS
+  title: IB类抗心律失常药
+  source_page: 118
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - IB类药物如利多卡因、美西律，仅用于室性心律失常。
+  - 利多卡因对缺血心肌效果更佳。
+  pdf_page: 139
+- id: CLASS_IC_DRUGS
+  title: IC类抗心律失常药
+  source_page: 118
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - IC类药物如氟卡尼、普罗帕酮，限用于无冠心病和严重心脏病患者。
+  - 氟卡尼可能增加心肌梗死后死亡率。
+  pdf_page: 139
+- id: BETA_BLOCKERS
+  title: β受体阻滞剂
+  source_page: 118
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - β受体阻滞剂减慢心率、降低房室结传导，用于多种心律失常。
+  - 副作用包括心动过缓、低血压和乏力。
+  pdf_page: 139
+- id: CALCIUM_CHANNEL_BLOCKERS
+  title: 钙通道阻滞剂
+  source_page: 118
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 非二氢吡啶类钙通道阻滞剂如维拉帕米，用于房速心率控制。
+  - 房颤合并WPW综合征时避免使用。
+  pdf_page: 139
+- id: CLASS_III_DRUGS
+  title: III类抗心律失常药
+  source_page: 119
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - III类药物如胺碘酮、索他洛尔，延长动作电位时程。
+  - 胺碘酮可用于结构性心脏病，但副作用包括肺纤维化和甲状腺问题。
+  pdf_page: 140
+- id: AMIODARONE_SIDE_EFFECTS
+  title: 胺碘酮副作用
+  source_page: 120
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 胺碘酮严重副作用包括肺纤维化、视神经损伤和肝毒性。
+  - 停药率高达20%，需定期监测甲状腺和肺功能。
+  pdf_page: 141
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 117
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现心悸、晕厥、胸痛或呼吸困难时需立即就医。
+  - 症状发作时记录心电图有助于诊断。
+  pdf_page: 138
+- id: CARD_ARR_EXERCISE
+  title: 心律失常患者的运动注意事项
+  source_page: 140
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - 部分遗传性心律失常（如LQT1型）在运动或高肾上腺素状态下危险度增加
+  - 心律失常患者运动强度和类型需经医生评估，不可自行判断运动安全性
+  - 植入起搏器或除颤器的患者应遵循医嘱决定可参与的运动项目
+  pdf_page: 161

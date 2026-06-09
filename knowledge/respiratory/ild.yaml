@@ -1,0 +1,102 @@
+specialty: respiratory
+specialty_zh: 呼吸
+disease: ild
+disease_zh: ild
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: ILD_DEFINITION
+  title: 间质性肺疾病概述
+  source_page: 235
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - ILD是一组影响肺间质的疾病，导致肺纤维化和呼吸困难。
+  - 常见症状包括干咳和活动后气短，需及时就医评估。
+- id: ILD_RISK_FACTORS
+  title: ILD的危险因素
+  source_page: 236
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 吸烟、环境暴露（如石棉、二氧化硅）和某些药物可增加ILD风险。
+  - 有结缔组织病（如类风湿关节炎）或家族史者需警惕。
+- id: ILD_SYMPTOMS
+  title: ILD的常见症状
+  source_page: 235
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 主要症状为干咳和活动后呼吸困难，可能伴有乏力。
+  - 早期症状不典型，出现持续咳嗽或气短应尽早就诊。
+- id: ILD_DIAGNOSIS
+  title: ILD的诊断方法
+  source_page: 236
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 诊断需结合病史、高分辨率CT和肺功能检查。
+  - 部分患者需肺活检明确类型，家属应配合医生完成检查。
+- id: ILD_SMOKING_CESSATION
+  title: 戒烟对ILD的重要性
+  source_page: 236
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 吸烟是ILD的重要危险因素，戒烟可减缓疾病进展。
+  - 家属应鼓励患者戒烟，并提供戒烟支持或咨询医生。
+- id: ILD_ENVIRONMENT_AVOIDANCE
+  title: 避免环境暴露
+  source_page: 236
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 避免接触石棉、二氧化硅、鸟类或霉菌等可能诱发ILD的物质。
+  - 职业暴露者需使用防护设备，并定期体检。
+- id: ILD_MEDICATION_MANAGEMENT
+  title: 药物管理注意事项
+  source_page: 237
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 某些药物（如胺碘酮）可能引起ILD，用药前需告知医生病史。
+  - 免疫抑制剂仅对特定ILD有效，需遵医嘱使用，不可自行停药。
+- id: ILD_OXYGEN_THERAPY
+  title: 氧疗与肺康复
+  source_page: 237
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 氧疗可改善低氧血症，肺康复训练有助于提高活动能力。
+  - 家属应协助患者坚持康复锻炼，并监测血氧饱和度。
+- id: ILD_COMPLICATION_PREVENTION
+  title: 并发症预防
+  source_page: 236
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - ILD可导致肺动脉高压和右心衰竭，需定期监测心脏功能。
+  - 预防感染（如接种疫苗）可减少急性加重风险。
+- id: ILD_WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 235
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现呼吸困难加重、持续干咳或血氧下降时需立即就医。
+  - 若出现下肢水肿或颈静脉怒张，可能提示心衰，需紧急处理。
+- id: IPF_SPECIFIC
+  title: 特发性肺纤维化要点
+  source_page: 239
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - IPF是ILD中最常见类型，多见于老年人，预后较差。
+  - 典型症状为干咳和进行性气短，诊断需排除其他病因。
+- id: ILD_EXERCISE
+  title: 体力活动建议
+  source_page: 237
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 适度运动（如散步）可改善肺功能，但需避免过度劳累。
+  - 运动时监测血氧，若出现气短加重应暂停并咨询医生。

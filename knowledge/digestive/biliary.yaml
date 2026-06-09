@@ -1,0 +1,105 @@
+specialty: digestive
+specialty_zh: 消化（含肝）
+disease: biliary
+disease_zh: biliary
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: GALLSTONE_RISK
+  title: 胆囊结石危险因素
+  source_page: 505
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 肥胖、糖尿病、久坐、快速减肥增加结石风险
+  - 女性、妊娠、口服避孕药也易形成结石
+  - 肝硬化、溶血、回肠切除患者风险更高
+- id: ASYMPTOMATIC_GALLSTONE
+  title: 无症状胆囊结石管理
+  source_page: 506
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 多数无症状结石无需手术，每年仅2-3%出现症状
+  - 定期门诊随访即可，无需特殊治疗
+  - 高危人群（如糖尿病、瓷化胆囊）需考虑预防性切除
+- id: BILLARY_COLIC
+  title: 胆绞痛识别与处理
+  source_page: 507
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型表现为右上腹或上腹突发持续性疼痛，可放射至右肩
+  - 疼痛持续30分钟至数小时，常伴恶心呕吐
+  - 无发热或腹部包块，需与急性胆囊炎区分
+- id: ACUTE_CHOLECYSTITIS
+  title: 急性胆囊炎症状与就医
+  source_page: 507
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 突发右上腹痛持续数小时，伴发热、恶心呕吐
+  - 查体Murphy征阳性，可能触及肿大胆囊
+  - 需立即就医，首选腹部B超确诊
+- id: CHRONIC_CHOLECYSTITIS
+  title: 慢性胆囊炎管理
+  source_page: 508
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 反复胆绞痛发作，但无急性炎症体征
+  - 腹部B超可发现微小结石（≤3mm）
+  - 腹腔镜胆囊切除术是主要治疗方式
+- id: GALLBLADDER_POLYP
+  title: 胆囊息肉监测与处理
+  source_page: 508
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 多数息肉非肿瘤，但直径>1cm或合并结石需警惕
+  - 年龄>60岁或息肉增大者应手术切除
+  - 小于1cm的息肉需定期超声随访
+- id: CHOLEDOCHOLITHIASIS
+  title: 胆总管结石诊断与治疗
+  source_page: 508
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 约15%胆囊结石患者合并胆总管结石
+  - 可无症状或出现黄疸、腹痛、胰腺炎
+  - 超声内镜或MRCP可确诊，ERCP用于取石
+- id: ACUTE_CHOLANGITIS
+  title: 急性胆管炎紧急处理
+  source_page: 508
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型三联征：腹痛、黄疸、发热（Charcot三联征）
+  - 可迅速进展为败血症，需立即就医
+  - 治疗包括广谱抗生素和ERCP取石
+- id: GALLSTONE_PANCREATITIS
+  title: 胆石性胰腺炎管理
+  source_page: 509
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 胆囊结石可诱发胰腺炎，复发率约25%
+  - 胰腺炎治愈后应行胆囊切除术
+  - 合并黄疸时需ERCP取石
+- id: DIET_LIFESTYLE
+  title: 生活方式与饮食建议
+  source_page: 506
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 避免高脂肪、高胆固醇饮食，减少肥胖风险
+  - 规律运动，避免久坐，有助于预防结石
+  - 快速减肥可能增加结石风险，应缓慢减重
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 507
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 突发右上腹持续疼痛伴发热、呕吐需急诊
+  - 黄疸、尿色深、大便颜色变浅提示胆道梗阻
+  - 胆绞痛反复发作影响生活应就诊评估

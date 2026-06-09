@@ -1,0 +1,42 @@
+specialty: hematology
+specialty_zh: 血液系统
+disease: myeloid_clonal
+disease_zh: 骨髓增殖性肿瘤（CML/PV/ET/PMF）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CML_TREATMENT
+  title: 慢性髓性白血病（CML）——BCR/ABL与TKI治疗
+  source_page: 531
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - CML特征：BCR/ABL融合基因（费城染色体t(9;22)(q34;q11)），存在于>95%的CML患者；CML占所有白血病15%~20%。
+  - 自然病程：慢性期（3~5年）→加速期→急变期（2/3转为AML，1/3转为ALL）。
+  - 伊马替尼（imatinib）：第一个成功的靶向抗癌药；新诊断慢性期CML患者约90%获得完全遗传学缓解（CCR）；总体生存率约89%；需终身服用（停药导致复发）。
+  - 达沙替尼/尼洛替尼（第二代TKI）：相比伊马替尼，特定时间点遗传学缓解率更高，也用于初治；若对伊马替尼不耐受或耐药可换用。
+  - 监测：3、6、12个月标准化RT-PCR检测BCR/ABL分子缓解；约1/3患者因副作用或耐药而停用伊马替尼。
+  pdf_page: 531
+
+- id: POLYCYTHEMIA_VERA
+  title: 真性红细胞增多症（PV）
+  source_page: 525
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - PV诊断标准：Hgb>18.5g/dl（男）或>16.5g/dl（女）+ JAK2 V617F突变（97%阳性）；同时排除继发性红细胞增多症。
+  - 血栓风险极高：未治疗PV患者50%在18个月内因血栓死亡；治疗目标：红细胞比容Hct<45%（男）或<42%（女）。
+  - 治疗：静脉放血（phlebotomy）维持Hct达标+低剂量阿司匹林（减少血栓）；高危患者（>60岁或有血栓史）加用羟基脲（hydroxyurea）。
+  - 长期风险：PV转化为AML约2.3%（10年）、5.5%（15年）；可转化为PMF（JAK2阳性）。
+  pdf_page: 527
+
+- id: ET_PMF
+  title: 原发性血小板增多症（ET）与原发性骨髓纤维化（PMF）
+  source_page: 528
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - ET诊断：血小板≥450×10^9/L + JAK2 V617F突变（50%+）或除外反应性血小板增多；ET患者寿命与正常人相似，白血病转化风险3%~4%。
+  - ET治疗：低剂量阿司匹林用于所有患者（出血风险低者）；高危患者（>60岁/有血栓史）加羟基脲（一线，致畸不用于育龄女性）或阿那格雷（二线，有致畸/心脏副作用）；妊娠期干扰素-α+肝素。
+  - PMF诊断：骨髓纤维化（网状/胶原纤维）+排除其他原因；中位生存期诊断后2~5年；脾大（髓外造血）。
+  - PMF治疗：鲁索利替尼（ruxolitinib，JAK1/2抑制剂）：FDA批准用于中高危PMF；COMFORT-I/II随机试验证实脾缩小和症状改善显著，总体生存期延长；低危患者可观察等待；中高危年轻患者考虑异基因造血干细胞移植（SCT）。
+  pdf_page: 529

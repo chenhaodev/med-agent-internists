@@ -1,0 +1,109 @@
+specialty: perioperative
+specialty_zh: perioperative
+disease: periop_management
+disease_zh: periop_management
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: PERIOP_RISK_OVERVIEW
+  title: 围术期心脏并发症风险
+  source_page: 288
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 术后心脏并发症发生率约0.5%-1%，一旦发生死亡率超25%。
+  - 术后心肌梗死患者2年内死亡风险是无并发症者的2倍。
+  pdf_page: 309
+- id: PREOP_SCREENING
+  title: 术前筛查问卷
+  source_page: 288
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 标准化问卷可识别中高危患者，需详细评估。
+  - 问题包括年龄、心脏问题、糖尿病、肾脏疾病等。
+  pdf_page: 309
+- id: SURGERY_RISK_CLASS
+  title: 手术风险分类
+  source_page: 288
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低风险手术（如结肠镜）MACE风险<1%。
+  - 高风险手术MACE风险≥1%，需重点评估。
+  pdf_page: 309
+- id: EXERCISE_TOLERANCE
+  title: 运动耐量评估
+  source_page: 289
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 运动耐量差：不能步行4个街区或爬2层楼梯。
+  - 高运动耐量者（如爬楼MET≥4）极少需额外检查。
+  pdf_page: 310
+- id: RCRI_SCORE
+  title: 修正心脏风险指数
+  source_page: 289
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - RCRI评分0分：心脏并发症风险0.4%-0.5%。
+  - 评分≥3分：风险升至9%-11%，需重点干预。
+  pdf_page: 310
+- id: PREOP_CARDIAC_TEST
+  title: 术前无创心脏检查
+  source_page: 290
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 仅对高风险患者（如RCRI≥3且运动耐量差）推荐。
+  - 阴性结果可放心，阳性预测值低（<20%）。
+  pdf_page: 311
+- id: BETA_BLOCKER_USE
+  title: β受体阻滞剂使用
+  source_page: 291
+  evidence_level: 高
+  recommendation: 可考虑
+  key_points:
+  - 已使用者继续用药，突然停药增加死亡率。
+  - 新用者需谨慎，避免大剂量起始。
+  pdf_page: 312
+- id: STATIN_THERAPY
+  title: 他汀类药物使用
+  source_page: 293
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 已使用者继续用药，减少心脏并发症。
+  - 血管手术患者无论有无危险因素均推荐使用。
+  pdf_page: 314
+- id: ANTIHYPERTENSIVE_PREOP_MGMT
+  title: 术前降压药管理原则
+  source_page: 291
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 【核心原则】大多数降压药（β受体阻滞剂、钙通道阻滞剂、利尿剂等）手术当天应继续服用，不得擅自停药。
+  - β受体阻滞剂必须继续，突然停药会显著增加心脏事件和死亡风险。
+  - 例外：ACEI/ARB类药物（如依那普利、厄贝沙坦）通常在非心脏手术前24小时停用，以避免麻醉后顽固性低血压；术后恢复后可恢复使用。
+  - 降压药是否继续、如何调整，须在术前评估时由麻醉科和外科医生共同决定，患者不得自行判断。
+  must_warn:
+  - 不可将ACEI/ARB停药的规则推广到所有降压药——大多数降压药手术当天必须继续服用；混淆此规则可能导致围术期血压危机
+  pdf_page: 312
+- id: ANTIPLATELET_RISK
+  title: 抗血小板药物管理
+  source_page: 293
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 双联抗血小板治疗增加出血和输血风险。
+  - 需个体化评估停药时机。
+  pdf_page: 314
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 288
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 术后出现胸痛、气短、心悸需立即就医。
+  - 术前有心脏症状加重也应咨询医生。
+  pdf_page: 309

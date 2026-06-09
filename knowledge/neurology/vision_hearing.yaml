@@ -1,0 +1,116 @@
+specialty: neurology
+specialty_zh: neurology
+disease: vision_hearing
+disease_zh: vision_hearing
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: VISION_CHECK
+  title: 视力检查方法
+  source_page: 1094
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 戴矫正眼镜者测试时需戴上眼镜
+  - 使用Snellen视力表在20英尺距离测试
+  - 视力20/40表示正常人在40英尺能看到的字母，患者需在20英尺处看到
+  pdf_page: 482
+- id: COLOR_VISION
+  title: 色觉测试意义
+  source_page: 1094
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 使用Ishihara色板测试每只眼
+  - 视神经损伤者可能感觉颜色变淡或褪色
+  - 即使视力正常，色觉异常也提示视神经问题
+  pdf_page: 482
+- id: VISUAL_FIELD
+  title: 视野缺损识别
+  source_page: 1094
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 视野缺损可定位视觉通路病变位置
+  - 同向性偏盲提示视交叉后病变
+  - 象限盲可能提示颞叶或顶叶病变
+  pdf_page: 482
+- id: PUPIL_EXAM
+  title: 瞳孔检查要点
+  source_page: 1095
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 注意瞳孔大小不对称是否随光线变化
+  - 交替光试验可检测瞳孔传入障碍
+  - 瞳孔对光反射消失但调节反射存在提示阿-罗瞳孔
+  pdf_page: 483
+- id: PTOSIS_ALERT
+  title: 上睑下垂警示
+  source_page: 1095
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 上睑下垂伴瞳孔散大、对光反射消失提示动眼神经病变
+  - 急性疼痛性动眼神经麻痹需紧急排查颅内动脉瘤
+  - 上睑下垂伴瞳孔缩小提示霍纳综合征
+  pdf_page: 483
+- id: DIPLOPIA_EVAL
+  title: 复视评估方法
+  source_page: 1096
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 复视在白天有变化提示重症肌无力
+  - 近视力复视更糟提示内直肌或动眼神经损伤
+  - 单眼复视通常由视网膜或晶状体疾病引起
+  pdf_page: 484
+- id: OPTIC_NEURITIS
+  title: 视神经炎识别
+  source_page: 1097
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状包括单眼视力模糊、颜色变暗、眼球运动时疼痛
+  - 视力损害通常在3-7天内达高峰
+  - 需及时使用大剂量静脉皮质类固醇治疗
+  pdf_page: 485
+- id: TRANSIENT_VISION_LOSS
+  title: 短暂性视力丧失
+  source_page: 1098
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 单眼短暂失明可能由颈动脉斑块引起
+  - 需紧急处理以防永久性视力丧失
+  - 可能需皮质类固醇、降眼压或抗血小板治疗
+  pdf_page: 486
+- id: HEARING_LOSS_TYPE
+  title: 听力损失分类
+  source_page: 1098
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 传导性听力损失涉及外耳或中耳
+  - 感觉性听力损失常由耳蜗或听神经损害引起
+  - 中枢性听力损失罕见，需双侧听觉通路损伤
+  pdf_page: 486
+- id: TINNITUS_EVAL
+  title: 耳鸣评估流程
+  source_page: 1099
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 搏动性耳鸣提示血管异常如动脉瘤
+  - 非搏动性耳鸣需区分传导性或感觉神经性
+  - 耳鸣特征常不能定位，需依赖伴随症状
+  pdf_page: 487
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 1095
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性疼痛性动眼神经麻痹需紧急就医
+  - 短暂性视力丧失需立即处理
+  - 特发性颅内高压需迅速检查和治疗以防视力损伤
+  pdf_page: 483

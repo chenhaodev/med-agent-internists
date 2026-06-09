@@ -1,0 +1,146 @@
+specialty: neurology
+specialty_zh: neurology
+disease: nmj_disease
+disease_zh: nmj_disease
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: MG_OVERVIEW
+  title: 重症肌无力概述
+  source_page: 1200
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 重症肌无力是自身免疫病，影响神经肌肉信号传递。
+  - 常见于40岁以下女性和50岁以上男性。
+  - 约10%患者伴有胸腺瘤，65%有胸腺增生。
+  pdf_page: 588
+- id: MG_SYMPTOMS
+  title: 重症肌无力症状
+  source_page: 1200
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 主要表现是骨骼肌易疲劳，症状波动，如眼睑下垂、复视。
+  - 可累及四肢、吞咽、呼吸肌，导致声音嘶哑、呼吸困难。
+  - 15%-20%患者可能出现肌无力危象，需紧急就医。
+  pdf_page: 588
+- id: MG_DIAGNOSIS
+  title: 重症肌无力诊断方法
+  source_page: 1200
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 冰袋试验：闭眼敷冰袋2分钟，眼睑改善支持诊断。
+  - 血清AChR抗体检测阳性率约80%（全身型）。
+  - 胸部CT检查可排除胸腺瘤。
+  pdf_page: 588
+- id: MG_TREATMENT
+  title: 重症肌无力治疗原则
+  source_page: 1201
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 口服溴吡斯的明可缓解症状，需遵医嘱调整。
+  - 严重症状可用激素、免疫抑制剂或血浆置换。
+  - 伴胸腺瘤者需手术切除，非胸腺瘤患者也可考虑。
+  pdf_page: 589
+- id: MG_AVOID_DRUGS
+  title: 重症肌无力避免药物
+  source_page: 1201
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 避免使用D-青霉胺、α干扰素、肉毒毒素。
+  - 慎用氨基糖苷类抗生素、镁制剂、某些麻醉药。
+  - 用药前需告知医生患有重症肌无力。
+  pdf_page: 589
+- id: MG_WHEN_SEEK
+  title: 重症肌无力何时就医
+  source_page: 1200
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现吞咽困难、呼吸困难、声音嘶哑需立即就医。
+  - 肌无力危象是急症，需ICU支持治疗。
+  - 症状突然加重或药物无效时及时复诊。
+  pdf_page: 588
+- id: LEMS_OVERVIEW
+  title: 兰伯特-伊顿综合征概述
+  source_page: 1201
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - LEMS是自身免疫病，影响神经末梢钙通道。
+  - 约60%与恶性肿瘤相关，尤其小细胞肺癌。
+  - 男性多发，症状可早于肿瘤发现。
+  pdf_page: 589
+- id: LEMS_SYMPTOMS
+  title: 兰伯特-伊顿综合征症状
+  source_page: 1201
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型三主征：肌肉无力、口干、腱反射降低。
+  - 下肢无力更明显，行走困难常见。
+  - 自主神经症状如勃起障碍、直立性低血压。
+  pdf_page: 589
+- id: LEMS_DIAGNOSIS
+  title: 兰伯特-伊顿综合征诊断
+  source_page: 1201
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 血清P/Q型VGCC抗体阳性率约90%。
+  - 电生理检查可帮助确诊。
+  - 需常规胸部CT筛查肺癌。
+  pdf_page: 589
+- id: LEMS_TREATMENT
+  title: 兰伯特-伊顿综合征治疗
+  source_page: 1201
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 3,4-二氨基吡啶可改善肌力，需医生指导。
+  - 溴吡斯的明也可辅助缓解症状。
+  - 严重者可用免疫抑制剂或血浆置换。
+  pdf_page: 589
+- id: BOTULISM_OVERVIEW
+  title: 肉毒中毒概述
+  source_page: 1202
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肉毒中毒由肉毒杆菌毒素引起，可致死。
+  - 常见类型：食物传播、伤口感染、婴儿中毒。
+  - 婴儿中毒多因蜂蜜中孢子定植。
+  pdf_page: 590
+- id: BOTULISM_SYMPTOMS
+  title: 肉毒中毒症状
+  source_page: 1202
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 典型表现：下行性对称性软瘫，从眼部开始。
+  - 婴儿症状：进食差、吸吮无力、便秘、哭声低。
+  - 感觉正常，精神状态清醒。
+  pdf_page: 590
+- id: BOTULISM_TREATMENT
+  title: 肉毒中毒治疗
+  source_page: 1202
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 立即就医，需重症监护和呼吸支持。
+  - 24小时内使用抗毒素可阻止病情进展。
+  - 婴儿避免喂食蜂蜜以防感染。
+  pdf_page: 590
+- id: ORGANOPHOSPHATE
+  title: 有机磷中毒处理
+  source_page: 1202
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 有机磷中毒可危及生命，需紧急处理。
+  - 治疗包括阿托品、胆碱酯酶重活化剂等。
+  - 接触后出现呼吸衰竭需立即就医。
+  pdf_page: 590

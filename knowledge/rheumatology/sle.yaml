@@ -1,0 +1,96 @@
+specialty: rheumatology
+specialty_zh: 风湿骨
+disease: sle
+disease_zh: 系统性红斑狼疮
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: SLE_DEFINITION
+  title: 系统性红斑狼疮概述
+  source_page: 845
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 系统性红斑狼疮是一种自身免疫病，病因不明，无法治愈。
+  - 主要影响育龄女性，但男性和老年人也可患病。
+  - 病情在活动期和静止期间波动，反复活动可导致器官损伤。
+  pdf_page: 234
+- id: SLE_RISK_FACTORS
+  title: 危险因素与病因
+  source_page: 845
+  evidence_level: 中
+  recommendation: 未注明
+  key_points:
+  - 遗传因素：同卵双胞胎患病一致率超过20%，其他兄弟姐妹低于5%。
+  - 环境诱因：微生物感染和紫外线照射可能诱发或加重病情。
+  - 激素因素：女性患病率显著高于男性，妊娠可能影响疾病活动。
+  pdf_page: 234
+- id: SLE_DIAGNOSIS
+  title: 诊断标准（家属可理解）
+  source_page: 847
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 诊断需结合病史、体格检查和实验室检查，无单一确诊检查。
+  - 满足11项标准中的4项（如颧部红斑、关节炎、肾脏病变等）可确诊。
+  - 抗核抗体（ANA）阳性是重要线索，但需结合临床表现。
+  pdf_page: 236
+- id: SLE_SYMPTOMS
+  title: 常见症状识别
+  source_page: 845
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 疲劳是最常见症状（超过90%），需排除贫血、甲状腺问题等。
+  - 皮肤表现：颧部蝴蝶状红斑、盘状病变、脱发、光过敏。
+  - 关节痛和关节炎常见（超过75%），通常不导致关节变形。
+  pdf_page: 234
+- id: SLE_LIFESTYLE
+  title: 生活方式管理
+  source_page: 849
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 使用防晒指数≥50的防晒霜和防护服，预防光敏性皮疹。
+  - 建议接种灭活疫苗（如流感、肺炎球菌疫苗）。
+  - 心理支持很重要，因疾病可能导致抑郁和无助感。
+  pdf_page: 238
+- id: SLE_MEDICATION
+  title: 药物管理注意事项
+  source_page: 849
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 羟氯喹是标准治疗药物，对疲劳、关节炎和皮肤症状有效。
+  - 服用羟氯喹需每年眼科检查，监测视网膜毒性。
+  - 糖皮质激素需谨慎使用，长期使用可能导致肥胖、糖尿病等副作用。
+  pdf_page: 238
+- id: SLE_COMPLICATIONS
+  title: 并发症预防
+  source_page: 846
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肾炎是主要死亡原因，表现为血尿和蛋白尿，需定期监测。
+  - 抗磷脂抗体阳性患者需预防血栓，可考虑低剂量阿司匹林。
+  - 注意心血管疾病风险，因疾病和治疗可能加速动脉粥样硬化。
+  pdf_page: 235
+- id: SLE_WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 845
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 出现新发或加重的疲劳、发热、关节痛、皮疹时及时就医。
+  - 出现血尿、蛋白尿、呼吸困难、胸痛等可能提示器官受累。
+  - 妊娠期需密切监测，因可能影响疾病活动和胎儿健康。
+  pdf_page: 234
+- id: RHE_SLE_EXERCISE
+  title: 系统性红斑狼疮体力活动建议
+  source_page: 850
+  evidence_level: 中
+  recommendation: 建议
+  key_points:
+  - SLE的疲劳和关节症状可能限制体力活动，导致骨强度降低，增加骨质疏松风险
+  - 病情稳定期应在医生指导下进行适量运动，有助于维持骨密度和整体体能
+  - 避免阳光直射（SLE患者对紫外线敏感），户外运动时应做好防晒措施
+  pdf_page: 239

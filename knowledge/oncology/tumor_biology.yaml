@@ -1,0 +1,107 @@
+specialty: oncology
+specialty_zh: oncology
+disease: tumor_biology
+disease_zh: tumor_biology
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: TUMOR_DEFINITION
+  title: 肿瘤是基因病
+  source_page: 621
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肿瘤是正常细胞基因改变后失控增殖形成的疾病。
+  - 基因突变可遗传或后天获得，影响细胞生长。
+  pdf_page: 11
+- id: TUMOR_HALLMARKS
+  title: 肿瘤的十大特征
+  source_page: 621
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肿瘤细胞能自给自足生长信号，不依赖外界指令。
+  - 肿瘤能逃避凋亡和免疫攻击，无限增殖。
+  - 肿瘤会诱导血管生成，并侵袭转移至其他器官。
+  pdf_page: 11
+- id: METASTASIS_IMPACT
+  title: 转移是主要死因
+  source_page: 621
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 超过90%的肿瘤患者死亡与转移有关。
+  - 早期发现和干预可降低转移风险。
+  pdf_page: 11
+- id: GENOMIC_INSTABILITY
+  title: 基因组不稳定促进肿瘤
+  source_page: 622
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 基因组不稳定导致更多突变，加速肿瘤进展。
+  - 这也是肿瘤对治疗产生耐药的重要原因。
+  pdf_page: 12
+- id: INFLAMMATION_ROLE
+  title: 炎症促进肿瘤生长
+  source_page: 622
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 慢性炎症环境可能帮助肿瘤维持和进展。
+  - 控制炎症可能有助于延缓肿瘤发展。
+  pdf_page: 12
+- id: ONCOGENE_MUTATIONS
+  title: 癌基因突变驱动肿瘤
+  source_page: 622
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 癌基因突变（如KRAS）可单独导致肿瘤发生。
+  - 针对癌基因的靶向药（如EGFR抑制剂）已用于治疗。
+  pdf_page: 12
+- id: TUMOR_SUPPRESSOR_GENES
+  title: 抑癌基因失活促癌
+  source_page: 622
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 抑癌基因（如TP53）失活需要两个等位基因都突变。
+  - TP53突变是最常见的散发性肿瘤基因异常。
+  pdf_page: 12
+- id: HEREDITARY_SYNDROMES
+  title: 遗传性肿瘤综合征
+  source_page: 622
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - Li-Fraumeni综合征（TP53突变）增加多种癌症风险。
+  - Lynch综合征（错配修复基因缺陷）易患结肠癌和子宫内膜癌。
+  - 有家族史者应咨询遗传咨询和早期筛查。
+  pdf_page: 12
+- id: STABILITY_GENES
+  title: 稳定性基因修复错误
+  source_page: 623
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 稳定性基因负责修复DNA复制错误，防止突变积累。
+  - 这些基因缺陷（如BRCA1/2）增加乳腺癌和卵巢癌风险。
+  pdf_page: 13
+- id: CANCER_STAGES
+  title: 肿瘤发展分阶段
+  source_page: 623
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 肿瘤从正常细胞经癌前病变逐步发展为恶性肿瘤。
+  - 结肠镜和宫颈涂片可发现癌前病变，预防癌症。
+  pdf_page: 13
+- id: CANCER_STEM_CELLS
+  title: 肿瘤干细胞导致耐药
+  source_page: 623
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 肿瘤中存在自我更新的干细胞样细胞，可能抵抗治疗。
+  - 这是部分肿瘤复发和难治的原因之一。
+  pdf_page: 13

@@ -1,0 +1,86 @@
+specialty: neurology
+specialty_zh: neurology
+disease: neuro_exam
+disease_zh: neuro_exam
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NEURO_HISTORY
+  title: 神经系统病史采集要点
+  source_page: 1045
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 描述症状的部位、性质和时间，避免模糊词如‘昏眩’。
+  - 通过家人确认患者信息，包括既往病史和用药情况。
+  - 症状演变速度可提示病因：退行性疾病缓慢，血管疾病迅速。
+  pdf_page: 433
+- id: NEURO_EXAM_OVERVIEW
+  title: 神经系统查体基本内容
+  source_page: 1047
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 查体包括精神状态、脑神经、运动、感觉、反射和协调。
+  - 根据病史选择针对性检查，异常体征需追溯病史。
+  - 查体帮助定位病变：上运动神经元损伤导致痉挛，下运动神经元导致无力。
+  pdf_page: 435
+- id: NEURO_REFLEX
+  title: 反射检查与病理反射
+  source_page: 1047
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准反射（如膝反射）分级0-4级，异常提示神经损伤。
+  - 病理反射（如巴宾斯基征）出现提示中枢神经系统病变。
+  - 反射亢进常见于上运动神经元损伤，反射减弱见于下运动神经元损伤。
+  pdf_page: 435
+- id: NEURO_GAIT
+  title: 步态与协调功能检查
+  source_page: 1047
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自然行走观察摆臂、步基宽窄、慌张步态等异常。
+  - 踵趾步态和单脚跳立可发现共济失调或肌张力障碍。
+  - 闭眼站立不稳提示感觉性共济失调，需进一步检查。
+  pdf_page: 435
+- id: NEURO_LUMBAR_PUNCTURE
+  title: 腰椎穿刺的指征与风险
+  source_page: 1048
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腰椎穿刺用于诊断脑膜炎、脑炎等中枢感染。
+  - 穿刺前需排除颅内占位和凝血障碍等禁忌证。
+  - 常见并发症包括头痛和背痛，严重但罕见的有脑疝。
+  pdf_page: 436
+- id: NEURO_ELECTROPHYSIOLOGY
+  title: 电生理检查的作用
+  source_page: 1048
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脑电图用于癫痫诊断和脑死亡评估。
+  - 肌电图帮助鉴别肌肉、神经肌肉接头和周围神经疾病。
+  - 诱发电位检查可评估视神经、听觉和感觉通路病变。
+  pdf_page: 436
+- id: NEURO_IMAGING
+  title: CT与MRI的选择
+  source_page: 1049
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - CT是急性脑出血的首选检查，快速且普及。
+  - MRI提供更详细图像，可多平面成像，用于肿瘤和脱髓鞘疾病。
+  - 增强扫描有助于发现血脑屏障破坏的病变。
+  pdf_page: 437
+- id: NEURO_BIOPSY
+  title: 组织活检的适用情况
+  source_page: 1048
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 活检包括脑、神经、肌肉和皮肤，用于明确诊断。
+  - 仅在专病中心进行，是某些疾病的唯一确诊手段。
+  - 需权衡风险与获益，避免不必要的操作。
+  pdf_page: 436

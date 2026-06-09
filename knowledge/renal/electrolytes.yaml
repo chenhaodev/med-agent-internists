@@ -1,0 +1,154 @@
+specialty: renal
+specialty_zh: 肾
+disease: electrolytes
+disease_zh: electrolytes
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HYPONATREMIA_DEF
+  title: 低钠血症定义与危险因素
+  source_page: 317
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低钠血症是血钠浓度低于正常，常见于老年人、住院患者。
+  - 危险因素包括高龄、药物、疾病和输注低张液体。
+  - 噻嗪类利尿剂是诱发低钠血症的最常见药物。
+- id: HYPONATREMIA_SYMPTOMS
+  title: 低钠血症症状与就医时机
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 症状包括恶心、头痛、嗜睡、肌肉痉挛、定向障碍。
+  - 严重时出现烦躁、动作笨拙，需立即就医。
+  - 急性低钠血症（48小时内）易致脑水肿，需紧急处理。
+- id: HYPONATREMIA_TREATMENT
+  title: 低钠血症治疗注意事项
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 慢性低钠血症纠正速度需缓慢，24小时内不超过10-12 mmol/L。
+  - 过快纠正可能引发渗透性脱髓鞘，导致永久性脑损伤。
+  - 住院患者需监测电解质和尿量，避免低张液体。
+- id: HYPERNATREMIA_DEF
+  title: 高钠血症定义与危险因素
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高钠血症是血钠浓度升高，常见于老年人和危重症患者。
+  - 主要原因是水摄入不足，如意识障碍或无法饮水。
+  - 口渴感减退是老年人高钠血症的常见诱因。
+- id: HYPERNATREMIA_SYMPTOMS
+  title: 高钠血症症状与就医时机
+  source_page: 320
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 症状包括嗜睡、虚弱、肌肉震颤、癫痫发作和昏迷。
+  - 高钠血症是重症监护室死亡率的独立危险因素。
+  - 出现上述症状需立即就医，尤其是老年患者。
+- id: HYPERNATREMIA_TREATMENT
+  title: 高钠血症治疗注意事项
+  source_page: 320
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高钠血症应通过静脉补水逐渐纠正，24小时内纠正50%。
+  - 纠正过快可能导致脑水肿，需密切监测血钠水平。
+  - 治疗需计算缺水量，并考虑持续失水。
+- id: HYPOKALEMIA_DEF
+  title: 低钾血症定义与常见原因
+  source_page: 320
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 低钾血症是血钾浓度低于正常，常见于腹泻或利尿剂使用。
+  - 肾脏或胃肠道丢失钾过多是主要原因。
+  - 镁缺乏可导致肾钾排泄增加，加重低钾血症。
+- id: HYPOKALEMIA_SYMPTOMS
+  title: 低钾血症症状与就医时机
+  source_page: 321
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 症状包括肌肉无力、麻痹，严重时可致呼吸衰竭。
+  - 心电图变化如ST段压低、T波低平，需警惕心律失常。
+  - 长期低钾血症可导致多尿、肾损伤，需及时就医。
+- id: HYPOKALEMIA_TREATMENT
+  title: 低钾血症治疗注意事项
+  source_page: 321
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 治疗需明确病因，如腹泻或利尿剂导致需调整用药。
+  - 补钾需在医生指导下进行，避免过量导致高钾血症。
+  - 合并镁缺乏时需同时补镁，否则低钾难以纠正。
+- id: POLYURIA_EVAL
+  title: 多尿评估与鉴别
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多尿可能由糖尿病、利尿剂或尿崩症引起。
+  - 尿渗透压测定有助于区分原因，如大于300提示渗透性利尿。
+  - 夜尿增多提示尿崩症，需进一步检查。
+- id: DIABETES_INSIPIDUS
+  title: 尿崩症识别与处理
+  source_page: 320
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 尿崩症表现为多尿、多饮，患者偏爱冰水。
+  - 中枢性尿崩症起病急，肾性尿崩症起病慢。
+  - 血钠大于140 mmol/L提示尿崩症，需就医明确诊断。
+- id: FLUID_BALANCE
+  title: 体液平衡与日常管理
+  source_page: 317
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 正常成人每日可排泄20-30升水，但需避免过量饮水。
+  - 老年人应监测体重和电解质，预防医源性低钠血症。
+  - 术后患者需限制液体，避免低张溶液。
+- id: MEDICATION_RISK
+  title: 药物相关电解质异常
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 噻嗪类利尿剂、非甾体抗炎药和SSRI可增加低钠风险。
+  - 利尿剂使用前2周需监测血钠，尤其是老年女性。
+  - β受体激动剂可导致低钾，心脏病患者需警惕。
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 319
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现恶心、头痛、肌肉痉挛或意识改变需立即就医。
+  - 多尿、多饮伴夜尿增多需排查尿崩症。
+  - 电解质异常患者应避免自行补液或补钾。
+- id: HYPERKALEMIA_RISK
+  title: 高钾血症危险性与临床表现
+  source_page: 323
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 高钾血症导致静息膜电位去极化，心脏最为敏感：急性血钾>6 mmol/L出现心电图改变（T波高尖、P-R延长、QRS增宽），最终可发展至心室颤动和心脏停搏。
+  - 慢性高钾血症时，血钾可高达8～9 mmol/L而心电图仍正常；不可仅凭症状判断危险程度。
+  - 神经肌肉表现：上升性麻痹和弛缓性四肢瘫痪，症状与血钾升高速度相关。
+  - 常见原因：肾功能减退（GFR<10 ml/min）、ACE抑制剂/ARB、螺内酯等保钾药物、代谢性酸中毒伴组织损伤（横纹肌溶解、烧伤）。
+  pdf_page: 344
+- id: HYPERKALEMIA_TREATMENT
+  title: 高钾血症急慢性处理原则
+  source_page: 324
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性高钾血症：①葡萄糖酸钙/氯化钙（首选，稳定心脏膜电位）；②葡萄糖+胰岛素（将K+转入细胞内）；③β2受体激动剂沙丁胺醇；④NaHCO3（酸中毒时适用）——以上措施仅解救急性毒性，不减少体内总钾量。
+  - 降低体内总钾：聚苯乙烯磺酸钠（离子交换树脂）或血液透析。
+  - 慢性高钾血症：停用损害肾排钾的药物（NSAIDs、ACEI/ARB、螺内酯），低钾饮食，避免氯化钾盐代替品，eGFR>30时可用噻嗪类利尿剂，更重时需袢利尿剂。
+  - 就医紧急信号：肌肉无力/瘫痪、心跳异常、意识改变 → 立即急诊。
+  pdf_page: 345
