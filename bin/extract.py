@@ -85,7 +85,16 @@ SPECIALTY_META = {
         "specialty_zh": "感染",
         "source": "《西氏内科学精要》（中文版）",
         "diseases": {
-            "general": "感染性疾病",
+            "general":             "感染性疾病",
+            "head_neck_infection": "头颈部感染",
+            "cv_infection":        "心血管感染（感染性心内膜炎）",
+            "abdominal_infection": "腹腔感染",
+            "infectious_diarrhea": "感染性腹泻",
+            "bone_joint_infection": "骨和关节感染",
+            "hospital_infection":  "医院相关性感染",
+            "sti":                 "性传播感染",
+            "immunocompromised":   "免疫缺陷宿主中的感染",
+            "travel_infection":    "旅行者感染（原虫和蠕虫感染）",
         }
     },
     "rheumatology": {
@@ -151,7 +160,7 @@ def call_deepseek(api_key: str, model: str, system: str, user: str, max_retries:
     payload = json.dumps({
         "model": model,
         "temperature": 0,
-        "max_tokens": 3000,
+        "max_tokens": 8000,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user",   "content": user}

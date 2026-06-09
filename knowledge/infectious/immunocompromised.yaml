@@ -1,0 +1,128 @@
+specialty: infectious
+specialty_zh: 感染
+disease: immunocompromised
+disease_zh: 免疫缺陷宿主中的感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: NEUT_DEF_RISK
+  title: 中性粒细胞缺乏感染风险
+  source_page: 1027
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 中性粒细胞计数低于500/μL时感染风险高，尤其真菌和细菌感染。
+  - 口腔、皮肤、肺部易感染，需密切观察。
+  - 化疗药物可导致黏膜炎，增加细菌感染风险。
+- id: NEUT_RISK_PREVENT
+  title: 粒缺患者日常预防感染
+  source_page: 1031
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每日用无菌水或盐水漱口4-6次，轻柔刷牙防止牙周感染。
+  - 避免接触鲜花、干花、盆栽植物，减少真菌感染。
+  - 避免使用肛门温度计、栓剂、灌肠剂和卫生棉条。
+  - 居家避免装修区域，外出戴口罩。
+- id: CELL_IMMUNE_DEF
+  title: 细胞免疫缺陷常见原因
+  source_page: 1027
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - HIV、丙肝、巨细胞病毒感染可导致细胞免疫缺陷。
+  - 器官移植后使用免疫抑制剂（如环孢素、激素）导致。
+  - T细胞淋巴瘤、常见变异型免疫缺陷病也是原因。
+- id: HUMORAL_IMMUNE_DEF
+  title: 体液免疫缺陷常见原因
+  source_page: 1029
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 脾切除、低丙种球蛋白血症、慢性淋巴细胞白血病易感染。
+  - 使用利妥昔单抗等药物可导致B细胞功能缺陷。
+  - 荚膜细菌（肺炎链球菌、脑膜炎奈瑟菌）感染风险高。
+- id: ATYPICAL_SYMPTOMS
+  title: 感染时症状不典型需警惕
+  source_page: 1029
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 免疫缺陷患者感染时可能不发烧、不红肿、白细胞不升高。
+  - 轻微寒战、出汗可能是唯一信号。
+  - 肛周疼痛不伴红肿可能是肛周脓肿表现。
+- id: HAND_HYGIENE
+  title: 手卫生预防感染
+  source_page: 1030
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 执行手卫生是预防感染最重要措施之一。
+  - 家属和患者都需勤洗手，避免交叉感染。
+- id: FEVER_NEUTROPENIA
+  title: 粒缺发热需紧急就医
+  source_page: 1029
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 中性粒细胞缺乏患者一旦发热，需立即就医。
+  - 经验性抗菌治疗需覆盖铜绿假单胞菌。
+  - 延迟治疗可导致死亡风险升高。
+- id: HSCT_INFECTION_RISK
+  title: 造血干细胞移植后感染分期
+  source_page: 1031
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 移植后早期（30-100天）中性粒细胞缺乏，易感染。
+  - 移植物抗宿主病（GVHD）增加长期感染风险。
+  - 1-2年后体液免疫功能才恢复，需重新接种疫苗。
+- id: SOT_INFECTION_RISK
+  title: 实体器官移植后感染分期
+  source_page: 1032
+  evidence_level: 高
+  recommendation: 未注明
+  key_points:
+  - 移植后1个月内：手术相关感染（尿路、肺炎、伤口）。
+  - 常见医院感染和机会性感染。
+- id: ANTIBIOTIC_PREVENTION
+  title: 预防性使用抗菌药原则
+  source_page: 1030
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - 预计粒缺持续≥7天可预防性使用喹诺酮类抗生素。
+  - 有黏膜炎时加用青霉素预防链球菌。
+  - T细胞严重受损者需预防伊氏肺孢子菌感染。
+- id: IVIG_PREVENTION
+  title: 低丙种球蛋白血症预防
+  source_page: 1031
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 每月静脉输注免疫球蛋白（IVIG）可预防荚膜菌感染。
+  - 血清抗体阳转率低，需持续预防。
+- id: GCSF_USE
+  title: 粒细胞集落刺激因子注意事项
+  source_page: 1030
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - G-CSF可缩短粒缺时间，降低感染风险。
+  - 骨髓增生异常或髓系恶性肿瘤患者禁用。
+- id: FUNGAL_PREVENTION
+  title: 侵袭性真菌感染预防
+  source_page: 1031
+  evidence_level: 高
+  recommendation: 推荐
+  key_points:
+  - HSCT患者和诱导化疗的血液肿瘤患者可预防性使用伏立康唑或泊沙康唑。
+  - 环境控制（HEPA房间、避免施工区）也重要。
+- id: DIET_ENVIRONMENT
+  title: 饮食与环境感染防控
+  source_page: 1031
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 低微生物饮食：避免新鲜果蔬，食用煮熟食物。
+  - 避免接触干花、鲜花、盆栽植物。
+  - 饮用井水需过滤防止隐孢子虫。

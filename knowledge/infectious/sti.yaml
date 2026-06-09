@@ -1,0 +1,86 @@
+specialty: infectious
+specialty_zh: 感染
+disease: sti
+disease_zh: 性传播感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: CHLAMYDIA_OVERVIEW
+  title: 衣原体感染
+  source_page: 1001
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 衣原体是常见细菌性性病，多无症状但可传染。
+  - 性活跃女性25岁以下应每年筛查。
+  - 男性同性恋者至少每年筛查一次。
+  - 感染后即使治愈也可能再次感染，需定期复查。
+- id: GONORRHEA
+  title: 淋病感染
+  source_page: 1002
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 淋病由淋球菌引起，症状为尿道脓性分泌物。
+  - 女性多数无症状，但可导致盆腔炎和不孕。
+  - 治疗需联合两种抗生素以应对耐药。
+  - 性伴侣需同时治疗，避免再感染。
+- id: STI_PREVENTION
+  title: 性安全与预防
+  source_page: 1000
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 坚持正确使用避孕套可有效降低传播风险。
+  - 减少性伴侣数量，避免高危性行为。
+  - 定期进行性病检测，尤其有新伴侣时。
+  - 告知性伴侣感染情况，共同治疗。
+- id: VAGINITIS
+  title: 阴道炎类型
+  source_page: 1003
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阴道炎常见三种：念珠菌、滴虫、细菌性阴道病。
+  - 滴虫病和细菌性阴道病可通过性传播。
+  - 症状包括白带异常、瘙痒、异味。
+  - 治疗需针对病原体，口服或局部用药。
+- id: SYPHILIS
+  title: 梅毒感染
+  source_page: 1004
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 梅毒由梅毒螺旋体引起，早期表现为无痛溃疡。
+  - 不治疗可进展至二期、三期，影响全身器官。
+  - 通过血液检测诊断，青霉素治疗有效。
+  - 孕妇感染可传给胎儿，需孕期筛查。
+- id: GENITAL_HERPES
+  title: 生殖器疱疹
+  source_page: 1004
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 由单纯疱疹病毒引起，表现为疼痛性水疱。
+  - 病毒潜伏神经节，易复发。
+  - 抗病毒药可减轻症状和复发频率。
+  - 传染性强，无保护性行为可传播。
+- id: CHLAMYDIA_COMP
+  title: 衣原体并发症
+  source_page: 1001
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性未治疗可致盆腔炎、异位妊娠和不孕。
+  - 男性可致附睾炎、直肠炎。
+  - 妊娠期感染可影响胎儿。
+  - 治疗后需复查确认治愈，避免后遗症。
+- id: WHEN_TO_SEEK
+  title: 何时就医
+  source_page: 1000
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现尿道分泌物、排尿灼痛、生殖器溃疡或疣体应及时就医。
+  - 女性出现异常阴道分泌物、下腹痛、性交出血。
+  - 接触STI患者后即使无症状也应检测。
+  - 孕妇发现感染应立即治疗保护胎儿。

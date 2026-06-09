@@ -1,0 +1,122 @@
+specialty: infectious
+specialty_zh: 感染
+disease: abdominal_infection
+disease_zh: 腹腔感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: APP_CAUSE
+  title: 阑尾炎常见病因
+  source_page: 970
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常因阑尾管腔被阑尾石堵塞引起
+  - 较少见原因包括肿瘤、寄生虫等
+- id: APP_RISK
+  title: 阑尾炎高危人群
+  source_page: 970
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 人一生中患病风险约7%-12%
+  - 男性略高于女性
+- id: APP_SYMPTOM
+  title: 阑尾炎典型症状
+  source_page: 971
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 从食欲不振、肚脐周围疼痛开始
+  - 几小时后疼痛转移到右下腹
+  - 多数患者有1-2次呕吐
+  - 可能伴有发热或心跳加快
+- id: APP_PERTONEAL
+  title: 阑尾炎腹部体征
+  source_page: 971
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹部肌肉紧张，按压后松开时疼痛加重（反跳痛）
+  - 屈曲右侧髋关节或伸展右大腿可诱发疼痛
+  - 按压左下腹可引起右下腹疼痛（Rovsing征）
+- id: APP_DIAG
+  title: 阑尾炎的诊断方法
+  source_page: 972
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 医生结合病史、腹部检查和血常规、C反应蛋白判断
+  - Alvarado评分系统可辅助评估
+  - 腹部CT是常用且准确的方法
+  - 超声和磁共振用于儿童、孕妇等人群
+- id: APP_SURGERY
+  title: 阑尾炎治疗选择
+  source_page: 973
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 首选手术切除阑尾（腹腔镜或开腹）
+  - 术前常规使用抗生素预防感染
+  - 若阑尾已破裂，术后需继续抗生素5-7天
+- id: APP_ANTIBIO
+  title: 阑尾炎抗生素使用注意事项
+  source_page: 973
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抗生素需覆盖需氧菌（如大肠杆菌）和厌氧菌（如脆弱拟杆菌）
+  - 无并发症者术后可停用抗生素
+  - 阑尾破裂者需较长疗程
+- id: APP_COMP
+  title: 阑尾炎并发症风险
+  source_page: 973
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 破裂后死亡率增加（全部患者约1%，老年约5%）
+  - 伤口感染发生率1%-20%
+  - 孕妇患者流产风险升高，破裂者可达20%-35%
+- id: APP_WARN
+  title: 阑尾炎何时需立即就医
+  source_page: 971
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹痛从肚脐周围转移到右下腹
+  - 触摸右下腹剧痛，活动腿部时腹痛加重
+  - 伴有发热、恶心呕吐、食欲不振
+  - 腹部肌肉发硬，按压松开后疼痛加重
+- id: DIV_CAUSE
+  title: 憩室炎是什么
+  source_page: 973
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 憩室是结肠壁向外突出的囊袋，多见于乙状结肠
+  - 憩室穿孔引发炎症和感染即为憩室炎
+- id: DIV_RISK
+  title: 憩室炎危险因素
+  source_page: 973
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 年龄增长是重要因素（40岁以下10%，80岁以上50%-80%）
+  - 低纤维饮食可能增加风险
+  - 高纤维饮食（如蔬菜水果全谷物）有保护作用
+- id: DIV_DIET
+  title: 饮食与憩室炎预防
+  source_page: 973
+  evidence_level: 低
+  recommendation: 可考虑
+  key_points:
+  - 高纤维饮食可能降低憩室炎风险
+  - 非洲和亚洲传统高纤维饮食人群发病率极低
+  - 建议多摄入蔬菜、水果、全谷物
+- id: DIV_TREAT
+  title: 憩室炎治疗原则
+  source_page: 973
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 治疗与阑尾炎类似，使用覆盖需氧和厌氧菌的抗生素
+  - 严重病例可能需要手术和引流

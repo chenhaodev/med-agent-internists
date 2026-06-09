@@ -1,0 +1,123 @@
+specialty: infectious
+specialty_zh: 感染
+disease: head_neck_infection
+disease_zh: 头颈部感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: COLD_CAUSE
+  title: 感冒的病因与传播
+  source_page: 942
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 感冒由多种病毒引起，主要通过直接接触传播。
+  - 成人每年患2-3次，儿童5-7次，注意手卫生。
+  - 症状包括咽喉痛、流涕、鼻塞、咳嗽，3-6天达峰。
+- id: COLD_TREAT
+  title: 感冒的对症治疗
+  source_page: 942
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 感冒以对症治疗为主，可用减充血剂缓解鼻塞。
+  - 发热、肌痛可用非甾体抗炎药（NSAID）。
+  - 无证据显示锌或松果菊有效，抗生素无效。
+- id: SINUS_DIAG
+  title: 鼻窦炎的诊断要点
+  source_page: 943
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 鼻窦炎症状与感冒相似，但症状持续超过10天或加重。
+  - 特征：流脓涕、面部疼痛、上颌牙痛，发热。
+  - 影像学CT可辅助诊断，但感冒也可阳性。
+- id: SINUS_CARE
+  title: 鼻窦炎的家庭护理
+  source_page: 944
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 鼻腔内盐水冲洗可明显缓解鼻窦炎症状。
+  - 冲洗时使用无菌盐水或专用冲洗器。
+  - 有过敏性鼻炎者可加用鼻用激素，但需医生指导。
+- id: SINUS_SEEK
+  title: 鼻窦炎的就医指征
+  source_page: 944
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 症状持续超过10天无改善，应及时就医。
+  - 出现严重头痛、发热、眼部或颅内症状需急诊。
+  - 抗生素治疗48-72小时无效需复诊调整方案。
+- id: PHARY_DANGER
+  title: 咽炎的危险征象
+  source_page: 945
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 咽痛超过1周不改善需就医。
+  - 出现呼吸困难、流涎、吞咽困难、咽部出血等急症。
+  - 颈部可触及肿物或剧烈疼痛不伴红肿需警惕。
+- id: GAS_TREAT
+  title: GAS咽炎的抗生素治疗
+  source_page: 945
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 链球菌咽炎需口服青霉素或阿莫西林10天。
+  - 青霉素过敏可用头孢菌素、克林霉素或阿奇霉素。
+  - 及时治疗可预防风湿热和扁桃体周围脓肿。
+- id: ORAL_THRUSH
+  title: 口腔鹅口疮的识别与处理
+  source_page: 946
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 鹅口疮表现为口腔内白色斑块，可引起疼痛。
+  - 常见于免疫力低下者（如HIV、用激素者）。
+  - 治疗可用局部抗真菌药或口服氟康唑5-7天。
+- id: EPIGLOTTITIS
+  title: 会厌炎的紧急征象
+  source_page: 946
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 会厌炎表现为发热、流涎、吞咽困难、头前伸。
+  - 需立即就医，维持气道通畅是首要。
+  - 儿童已因疫苗减少，成人更常见，需警惕。
+- id: OTITIS_EXT_CARE
+  title: 外耳炎的家庭处理
+  source_page: 946
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 游泳后耳部瘙痒疼痛可能是外耳炎。
+  - 可用乙酸和乙醇混合液灌洗耳道。
+  - 局部滴用环丙沙星等抗生素滴耳液。
+- id: OM_RISK
+  title: 中耳炎的易感因素
+  source_page: 946
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中耳炎最常见于儿童，因咽鼓管短而水平。
+  - 通常继发于感冒，病毒感染导致咽鼓管堵塞。
+  - 约1/3儿童易反复发作，需注意预防感冒。
+- id: OM_ANTIBIOTIC
+  title: 中耳炎的观察与抗生素使用
+  source_page: 947
+  evidence_level: 未注明
+  recommendation: 可考虑
+  key_points:
+  - 中耳炎多数为自限性，可观察48-72小时。
+  - 若症状持续或加重（耳痛、发热），应使用抗生素。
+  - 首选阿莫西林或阿莫西林-克拉维酸。
+- id: OM_COMPLICATION
+  title: 中耳炎的并发症预防
+  source_page: 947
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 抗生素治疗可预防乳突炎、脑脓肿等并发症。
+  - 浆液性中耳炎超过3月伴听力下降需放置引流管。
+  - 注意儿童听力变化，定期随访。

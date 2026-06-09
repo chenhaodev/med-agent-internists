@@ -1,0 +1,93 @@
+specialty: infectious
+specialty_zh: 感染
+disease: hospital_infection
+disease_zh: 医院相关性感染
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: HAI_DEFINITION
+  title: 医院相关性感染定义
+  source_page: 993
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 医院相关性感染是指入院时不存在的感染，48小时后或出院30天内发生。
+  - 常见于所有医疗保健机构，包括急诊、护理院、透析等。
+- id: HAND_HYGIENE
+  title: 手卫生预防感染
+  source_page: 994
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 手卫生是预防所有类型医院感染的最基本措施。
+  - 医护人员和访客接触患者前后必须彻底洗手。
+  - 使用肥皂和水或含酒精的洗手液。
+- id: CAUTI_PREVENTION_INDICATION
+  title: 导尿管使用指征
+  source_page: 995
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 仅在必要情况下放置导尿管，如尿潴留、精确记尿量。
+  - 使用替代方案如阴茎套式导尿管或间歇导尿。
+  - 每日评估是否可拔除导尿管。
+- id: VAP_PREVENTION
+  title: 呼吸机肺炎预防措施
+  source_page: 994
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 插管患者应保持床头抬高30-45度。
+  - 每日进行口腔护理，使用氯己定漱口。
+  - 每日评估镇静深度和尝试自主呼吸。
+- id: CLABSI_PREVENTION
+  title: 中心静脉导管感染预防
+  source_page: 994
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 插管前用酒精和氯己定消毒皮肤，使用最大无菌屏障。
+  - 操作者戴帽、口罩、无菌衣和手套。
+  - 每日评估是否需要保留导管。
+- id: SSI_PREVENTION
+  title: 手术部位感染预防
+  source_page: 994
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 术前用剪刀脱毛，避免剃刀剃毛。
+  - 术前戒烟，控制血糖（糖化血红蛋白<7%）。
+  - 术中维持正常体温和血糖。
+- id: CDI_PREVENTION
+  title: 艰难梭菌感染预防
+  source_page: 994
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 对确诊或疑似患者实施接触隔离。
+  - 离开房间后用肥皂和水洗手（酒精无效）。
+  - 使用含漂白剂的清洁剂消毒环境。
+- id: CAUTI_DIAGNOSIS
+  title: 导尿管感染诊断
+  source_page: 995
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 发热（≥38℃）和尿培养细菌>10万CFU是主要诊断依据。
+  - 脓尿（尿白细胞>5个/ml）不是可靠指标，无需治疗无症状菌尿。
+- id: HAP_DIAGNOSIS
+  title: 医院肺炎诊断标准
+  source_page: 996
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 临床肺部感染评分≥6分提示肺炎，包括体温、白细胞、痰液、氧合等。
+  - 发热、脓痰、白细胞高、胸片有浸润需警惕。
+- id: ANTIBIOTIC_TREATMENT
+  title: 抗生素治疗注意事项
+  source_page: 996
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 治疗前必须留取标本做培养和药敏。
+  - 经验性治疗根据住院时间（早发或晚发）选择覆盖耐药菌药物。
+  - 治疗时长通常7-14天，根据病情调整。

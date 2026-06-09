@@ -1,0 +1,106 @@
+specialty: infectious
+specialty_zh: 感染
+disease: infectious_diarrhea
+disease_zh: 感染性腹泻
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: INF_DIARRHEA_DEFINITION
+  title: 感染性腹泻定义与病原体
+  source_page: 979
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹泻指每天排便≥3次稀便，持续<2周为急性。
+  - 感染性腹泻由细菌、病毒或寄生虫引起。
+  - 常见病原体包括轮状病毒、诺如病毒、沙门菌、志贺菌等。
+- id: INF_DIARRHEA_RISK
+  title: 危险因素
+  source_page: 979
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 胃酸缺乏（如胃切除后）易感染沙门菌等。
+  - 免疫缺陷者更易发生病毒、细菌和寄生虫感染。
+  - 使用广谱抗生素可导致难辨梭菌感染。
+- id: INF_DIARRHEA_WHEN_SEEK_CARE
+  title: 何时就医
+  source_page: 983
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 每日排便≥6次、腹泻>1周、发热（体温≥38.5℃）、血便需就医。
+  - 脱水迹象（皮肤弹性差、口干、尿少、心跳快）应立即就医。
+  - 儿童或老人出现严重腹泻需及时就诊。
+- id: INF_DIARRHEA_DIAGNOSTIC_TESTS
+  title: 粪便检查指征
+  source_page: 983
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 严重腹泻（每日≥6次）、发热、血便、病程>1周需做粪便培养。
+  - 近期用抗生素或住院者需检测难辨梭菌毒素。
+  - 慢性腹泻>7天应检查寄生虫和虫卵。
+- id: INF_DIARRHEA_ORAL_REHYDRATION
+  title: 口服补液治疗
+  source_page: 983
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 口服补液盐是首选，可补充水和电解质。
+  - 昏迷或严重脱水时才需要静脉补液。
+  - 少量多次饮用，避免一次性大量饮水。
+- id: INF_DIARRHEA_DIET
+  title: 腹泻期间饮食
+  source_page: 983
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 推荐BRAT饮食：香蕉、米饭、苹果酱、烤面包片。
+  - 避免奶制品，可能加重腹泻。
+  - 持续进食有助于恢复，不要禁食。
+- id: INF_DIARRHEA_VACCINE
+  title: 轮状病毒疫苗
+  source_page: 982
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 轮状病毒疫苗可显著降低儿童严重腹泻风险。
+  - 建议按照儿童免疫计划接种。
+  - 疫苗广泛使用后轮状病毒腹泻大幅减少。
+- id: INF_DIARRHEA_ANTIBIOTIC_USE
+  title: 抗生素使用原则
+  source_page: 981
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数感染性腹泻为自限性，不需要抗生素。
+  - 严重感染或免疫缺陷者才在医生指导下使用抗生素。
+  - 抗生素可能延长排菌时间或增加并发症，避免自行使用。
+- id: INF_DIARRHEA_AVOID_ANTIBIOTIC
+  title: 避免特定抗生素
+  source_page: 981
+  evidence_level: 未注明
+  recommendation: 强推荐
+  key_points:
+  - 非伤寒沙门菌感染不推荐用抗生素。
+  - 产志贺毒素大肠杆菌（STEC）感染应避免抗生素。
+  - 抗生素可能增加溶血尿毒综合征风险。
+- id: INF_DIARRHEA_COMPLICATIONS
+  title: 并发症与预防
+  source_page: 981
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 部分感染可致溶血尿毒综合征（血便、少尿需警惕）。
+  - 弯曲菌感染可能引发吉兰-巴雷综合征。
+  - 志贺菌感染可能引起反应性关节炎。
+  - 充分补液和及时就医可降低并发症风险。
+- id: INF_DIARRHEA_TRAVELER
+  title: 旅行者腹泻预防
+  source_page: 983
+  evidence_level: 未注明
+  recommendation: 推荐
+  key_points:
+  - 到热带或亚热带地区注意饮食卫生。
+  - 避免生食、未煮熟食物和不洁饮水。
+  - 旅行者腹泻多为细菌感染，出现症状可经验性用药（需咨询医生）。

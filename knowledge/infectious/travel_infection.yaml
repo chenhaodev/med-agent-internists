@@ -1,0 +1,96 @@
+specialty: infectious
+specialty_zh: 感染
+disease: travel_infection
+disease_zh: 旅行者感染（原虫和蠕虫感染）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: TRAVEL_PREP_VACC
+  title: 旅行前疫苗接种
+  source_page: 1036
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出国前1-2周完成甲肝、流感、乙脑等疫苗接种
+  - 黄热病疫苗需在指定中心接种，保护至少10年
+  - 孕妇及免疫缺陷者接种前需医生评估风险
+- id: MALARIA_DRUG
+  title: 疟疾药物预防
+  source_page: 1037
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 前往疟疾流行区需在医生指导下服用预防药物
+  - 氯喹仅用于氯喹敏感地区；耐药地区改用其他药物
+  - 甲氟喹有神经副作用风险，医生需权衡
+- id: MOSQUITO_PROTECT
+  title: 防蚊叮咬措施
+  source_page: 1037
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 使用蚊帐、纱窗和含氯菊酯处理过的衣物
+  - 户外活动涂抹驱虫剂，减少夜间暴露
+  - 防蚊是预防疟疾、乙脑等疾病的关键
+- id: DIARRHEA_FOOD
+  title: 腹泻预防：饮食卫生
+  source_page: 1038
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 所有水和冰视为不洁，只喝瓶装或煮沸水
+  - 沙拉和街头食品易被污染，尽量避免
+  - 食物彻底煮熟，不吃未灭菌奶制品
+- id: DIARRHEA_TREAT
+  title: 旅行者腹泻治疗
+  source_page: 1038
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻度腹泻可用止泻药缓解症状，遵医嘱使用
+  - 伴发热、血便或高热需立即就医
+  - 抗生素治疗需医生处方，避免自行用药
+- id: FEVER_AFTER_TRAVEL
+  title: 回国后发热就医
+  source_page: 1039
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 从疟疾区归来发热，首先排查疟疾（血涂片）
+  - 延误治疗可致命，务必及时就医
+  - 其他原因如登革热、伤寒等也需考虑
+- id: DIARRHEA_PERSIST
+  title: 回国后持续腹泻
+  source_page: 1038
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 腹泻超过2周或抗生素无效，需检查贾第虫等
+  - 留取3次粪便标本检测虫卵和虫体
+  - 可能需经验性抗虫治疗，遵医嘱
+- id: GIARDIASIS
+  title: 贾第虫病管理
+  source_page: 1039
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见症状：非血性腹泻、腹胀，持续2-4周
+  - 通过污染食物或水传播，归国腹泻者需检查
+  - 治疗可用甲硝唑，按医嘱完成疗程
+- id: AMEBIASIS
+  title: 阿米巴病处理
+  source_page: 1039
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血性水样泻伴腹痛，需警惕阿米巴感染
+  - 80%感染者无症状，但可发展为肝脓肿
+  - 治疗首选甲硝唑，医生指导下用药
+- id: HELMINTH_INFECTION
+  title: 肠道蠕虫感染预防
+  source_page: 1040
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 蛔虫、鞭虫等通过粪便污染传播，注意卫生
+  - 归国后出现肛周瘙痒、腹痛等应检查粪便
+  - 治疗常用阿苯达唑，需医生确诊后用药

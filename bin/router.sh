@@ -100,6 +100,15 @@ KW_INFECTIOUS_CNS="脑膜炎|脑炎|颅内感染|中枢神经感染|细菌性脑
 KW_INFECTIOUS_FEVER="不明原因发热|FUO|发热待查|疟疾|伤寒|布鲁氏菌|旅行.*发热|旅行.*发烧|回国.*发热|回国.*发烧|回来.*发烧|境外.*发烧|热带.*发热|东南亚.*发"
 KW_INFECTIOUS_LOWER_RESP="社区获得性肺炎|CAP|CURB-65|军团菌|支原体肺炎|非典型肺炎.*抗生素|肺炎.*抗菌药物选择"
 KW_INFECTIOUS_SKIN="皮肤软组织感染|蜂窝织炎|坏死性筋膜炎|MRSA.*皮肤|CA-MRSA|皮肤脓肿.*感染|链球菌.*皮肤|坏死性感染"
+KW_INFECTIOUS_HEAD_NECK="头颈部感染|扁桃体周脓肿|咽后脓肿|会厌炎|路德维希咽峡炎|颈深部感染|牙源性感染|乳突炎|化脓性腮腺炎"
+KW_INFECTIOUS_CV="感染性心内膜炎|心内膜炎|瓣膜赘生物|赘生物|Duke标准|人工瓣膜.*感染|起搏器.*感染|心脏装置.*感染"
+KW_INFECTIOUS_ABDOMINAL="腹腔感染|腹膜炎|腹腔脓肿|肝脓肿|膈下脓肿|自发性细菌性腹膜炎|SBP|继发性腹膜炎"
+KW_INFECTIOUS_DIARRHEA="感染性腹泻|细菌性痢疾|霍乱|沙门菌|志贺菌|艰难梭菌|伪膜性肠炎|旅行者腹泻|食物中毒.*腹泻|肠道感染.*腹泻"
+KW_INFECTIOUS_BONE_JOINT="骨髓炎|化脓性关节炎|感染性关节炎|人工关节.*感染|关节假体.*感染|椎体骨髓炎|骨关节.*感染"
+KW_INFECTIOUS_HOSPITAL="医院感染|院内感染|医院获得性|医疗相关感染|导管相关.*感染|CLABSI|CAUTI|呼吸机相关肺炎|VAP|手术部位感染|多重耐药.*医院"
+KW_INFECTIOUS_STI="性传播感染|性传播疾病|性病|淋病|淋球菌|衣原体.*感染|生殖器疱疹|尖锐湿疣|HPV.*感染|滴虫.*感染|非淋菌性尿道炎"
+KW_INFECTIOUS_IMMUNOCOMPROMISED="免疫缺陷.*感染|免疫抑制.*感染|免疫低下.*感染|粒缺|粒细胞缺乏|中性粒细胞减少|化疗后.*白细胞|白细胞低.*化疗|机会性感染|移植.*感染|化疗.*感染防"
+KW_INFECTIOUS_TRAVEL="寄生虫感染|原虫感染|蠕虫感染|血吸虫|阿米巴|贾第虫|钩虫|蛔虫|绦虫|包虫|热带寄生虫|旅行.*寄生虫"
 KW_INFECTIOUS_GENERAL="感染|发烧|发热|细菌感染|病毒感染|抗生素|抗感染|结核|TB|梅毒"
 
 # 风湿骨
@@ -222,6 +231,15 @@ check "infectious:cns_infection"   "$KW_INFECTIOUS_CNS"
 check "infectious:fever"           "$KW_INFECTIOUS_FEVER"
 check "infectious:lower_resp_infection" "$KW_INFECTIOUS_LOWER_RESP"
 check "infectious:skin_soft_tissue" "$KW_INFECTIOUS_SKIN"
+check "infectious:cv_infection"    "$KW_INFECTIOUS_CV"
+check "infectious:sti"             "$KW_INFECTIOUS_STI"
+check "infectious:abdominal_infection" "$KW_INFECTIOUS_ABDOMINAL"
+check "infectious:infectious_diarrhea" "$KW_INFECTIOUS_DIARRHEA"
+check "infectious:bone_joint_infection" "$KW_INFECTIOUS_BONE_JOINT"
+check "infectious:head_neck_infection" "$KW_INFECTIOUS_HEAD_NECK"
+check "infectious:hospital_infection" "$KW_INFECTIOUS_HOSPITAL"
+check "infectious:immunocompromised" "$KW_INFECTIOUS_IMMUNOCOMPROMISED"
+check "infectious:travel_infection" "$KW_INFECTIOUS_TRAVEL"
 check "infectious:general"         "$KW_INFECTIOUS_GENERAL"
 
 check "rheumatology:ra"            "$KW_RHEUMATOLOGY_RA"
@@ -280,7 +298,7 @@ if [[ ${#matched[@]} -eq 0 ]]; then
   fi
 
   if [[ -n "${DEEPSEEK_API_KEY:-}" ]]; then
-    DOMAINS_LIST="cardiology:hypertension, cardiology:heart_failure, cardiology:cad, cardiology:arrhythmia, cardiology:valve_disease, endocrine:diabetes_t2, endocrine:thyroid, endocrine:dyslipidemia, endocrine:gout, endocrine:obesity, respiratory:copd, respiratory:asthma, respiratory:pneumonia, respiratory:ild, respiratory:pulmonary_vascular, digestive:liver, digestive:gi, digestive:ibd, digestive:hepatitis, digestive:biliary, digestive:pancreas, renal:ckd, renal:nephritis, renal:aki, renal:electrolytes, hematology:anemia, hematology:bleeding_disorders, hematology:thrombosis, hematology:lymphocyte, infectious:general, infectious:hiv, infectious:uti, infectious:sepsis, infectious:cns_infection, rheumatology:ra, rheumatology:sle, rheumatology:osteoporosis, rheumatology:oa, oncology:lung_cancer, oncology:gi_cancer, oncology:breast_cancer, oncology:tumor_complications, neurology:stroke, neurology:movement_disorders, neurology:dementia, neurology:epilepsy, neurology:headache_pain, neurology:sleep_disorders, neurology:mood_behavior, womens_health:womens_health, mens_health:mens_health, geriatrics:elderly_care, palliative:palliative_care, substance_use:alcohol_drugs, perioperative:periop_management"
+    DOMAINS_LIST="cardiology:hypertension, cardiology:heart_failure, cardiology:cad, cardiology:arrhythmia, cardiology:valve_disease, endocrine:diabetes_t2, endocrine:thyroid, endocrine:dyslipidemia, endocrine:gout, endocrine:obesity, respiratory:copd, respiratory:asthma, respiratory:pneumonia, respiratory:ild, respiratory:pulmonary_vascular, digestive:liver, digestive:gi, digestive:ibd, digestive:hepatitis, digestive:biliary, digestive:pancreas, renal:ckd, renal:nephritis, renal:aki, renal:electrolytes, hematology:anemia, hematology:bleeding_disorders, hematology:thrombosis, hematology:lymphocyte, infectious:general, infectious:hiv, infectious:uti, infectious:sepsis, infectious:cns_infection, infectious:cv_infection, infectious:sti, infectious:abdominal_infection, infectious:infectious_diarrhea, infectious:bone_joint_infection, infectious:head_neck_infection, infectious:hospital_infection, infectious:immunocompromised, infectious:travel_infection, rheumatology:ra, rheumatology:sle, rheumatology:osteoporosis, rheumatology:oa, oncology:lung_cancer, oncology:gi_cancer, oncology:breast_cancer, oncology:tumor_complications, neurology:stroke, neurology:movement_disorders, neurology:dementia, neurology:epilepsy, neurology:headache_pain, neurology:sleep_disorders, neurology:mood_behavior, womens_health:womens_health, mens_health:mens_health, geriatrics:elderly_care, palliative:palliative_care, substance_use:alcohol_drugs, perioperative:periop_management"
 
     CLASSIFY_PAYLOAD=$(python3 -c "
 import json, os, sys
@@ -300,7 +318,7 @@ print(json.dumps(payload))
 
     if [[ -n "$CLASSIFY_PAYLOAD" ]]; then
       CLASSIFIED=$(echo "$CLASSIFY_PAYLOAD" | "$SCRIPT_DIR/call_deepseek.sh" 2>/dev/null | tr -s ' ' | xargs) || true
-      VALID_TAGS="cardiology:hypertension cardiology:heart_failure cardiology:cad cardiology:arrhythmia cardiology:valve_disease cardiology:pericardial cardiology:congenital_hd cardiology:other_cardiac cardiology:general endocrine:diabetes_t2 endocrine:thyroid endocrine:obesity endocrine:gout endocrine:dyslipidemia endocrine:pituitary endocrine:adrenal endocrine:nutrition endocrine:general respiratory:copd respiratory:asthma respiratory:pneumonia respiratory:ild respiratory:pulmonary_vascular respiratory:sleep_breathing respiratory:pleural respiratory:lung_tumor respiratory:critical_care respiratory:general digestive:liver digestive:ibd digestive:gi digestive:hepatitis digestive:esophagus digestive:pancreas digestive:biliary digestive:jaundice digestive:general renal:ckd renal:nephritis renal:aki renal:electrolytes renal:renal_vascular renal:general hematology:anemia hematology:myeloid_clonal hematology:lymphocyte hematology:bleeding_disorders hematology:thrombosis hematology:general infectious:fever infectious:sepsis infectious:hiv infectious:uti infectious:lower_resp_infection infectious:cns_infection infectious:skin_soft_tissue infectious:general rheumatology:ra rheumatology:sle rheumatology:osteoporosis rheumatology:oa rheumatology:vasculitis rheumatology:spa rheumatology:systemic_sclerosis rheumatology:general oncology:lung_cancer oncology:gi_cancer oncology:breast_cancer oncology:gu_cancer oncology:other_solid_tumors oncology:tumor_complications oncology:tumor_treatment_principles oncology:general neurology:stroke neurology:movement_disorders neurology:dementia neurology:epilepsy neurology:headache_pain neurology:sleep_disorders neurology:mood_behavior neurology:dizziness neurology:consciousness neurology:general womens_health:womens_health mens_health:mens_health bone_mineral:mineral_disorders bone_mineral:metabolic_bone geriatrics:elderly_care palliative:palliative_care substance_use:alcohol_drugs perioperative:periop_management"
+      VALID_TAGS="cardiology:hypertension cardiology:heart_failure cardiology:cad cardiology:arrhythmia cardiology:valve_disease cardiology:pericardial cardiology:congenital_hd cardiology:other_cardiac cardiology:general endocrine:diabetes_t2 endocrine:thyroid endocrine:obesity endocrine:gout endocrine:dyslipidemia endocrine:pituitary endocrine:adrenal endocrine:nutrition endocrine:general respiratory:copd respiratory:asthma respiratory:pneumonia respiratory:ild respiratory:pulmonary_vascular respiratory:sleep_breathing respiratory:pleural respiratory:lung_tumor respiratory:critical_care respiratory:general digestive:liver digestive:ibd digestive:gi digestive:hepatitis digestive:esophagus digestive:pancreas digestive:biliary digestive:jaundice digestive:general renal:ckd renal:nephritis renal:aki renal:electrolytes renal:renal_vascular renal:general hematology:anemia hematology:myeloid_clonal hematology:lymphocyte hematology:bleeding_disorders hematology:thrombosis hematology:general infectious:fever infectious:sepsis infectious:hiv infectious:uti infectious:lower_resp_infection infectious:cns_infection infectious:skin_soft_tissue infectious:cv_infection infectious:sti infectious:abdominal_infection infectious:infectious_diarrhea infectious:bone_joint_infection infectious:head_neck_infection infectious:hospital_infection infectious:immunocompromised infectious:travel_infection infectious:general rheumatology:ra rheumatology:sle rheumatology:osteoporosis rheumatology:oa rheumatology:vasculitis rheumatology:spa rheumatology:systemic_sclerosis rheumatology:general oncology:lung_cancer oncology:gi_cancer oncology:breast_cancer oncology:gu_cancer oncology:other_solid_tumors oncology:tumor_complications oncology:tumor_treatment_principles oncology:general neurology:stroke neurology:movement_disorders neurology:dementia neurology:epilepsy neurology:headache_pain neurology:sleep_disorders neurology:mood_behavior neurology:dizziness neurology:consciousness neurology:general womens_health:womens_health mens_health:mens_health bone_mineral:mineral_disorders bone_mineral:metabolic_bone geriatrics:elderly_care palliative:palliative_care substance_use:alcohol_drugs perioperative:periop_management"
       VALID_RESULT=""
       for d in $CLASSIFIED; do
         if echo "$VALID_TAGS" | grep -qw "$d"; then

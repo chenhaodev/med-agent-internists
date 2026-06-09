@@ -1,0 +1,95 @@
+specialty: infectious
+specialty_zh: 感染
+disease: cv_infection
+disease_zh: 心血管感染（感染性心内膜炎）
+source: 《西氏内科学精要》（中文版）
+entries:
+- id: IE_DEFINITION
+  title: 感染性心内膜炎定义
+  source_page: 953
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 感染性心内膜炎是心脏瓣膜或心壁内膜的感染，形成赘生物（感染的血小板和纤维蛋白血栓）。
+  - 早期诊断和抗生素治疗可有效降低死亡率。
+- id: IE_RISK_FACTORS
+  title: 心脏易感因素
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 退行性瓣膜病、风湿性心脏病、先天性心脏病（如法洛四联症、室缺）增加风险。
+  - 二尖瓣脱垂约占自体瓣膜心内膜炎的20%。
+- id: IE_NONCARDIOVASCULAR_RISK
+  title: 非心脏危险因素
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中心静脉导管、心脏内装置、静脉药物滥用是重要危险因素。
+  - 侵入性操作（如牙科）可引起一过性菌血症，诱发心内膜炎。
+- id: IE_SYMPTOMS_SBE
+  title: 亚急性心内膜炎症状
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见发热（<38.9℃）、出汗、乏力、厌食、背痛、关节痛。
+  - 可出现Osler结节（指垫痛性结节）、Janeway病变、Roth斑。
+- id: IE_SYMPTOMS_ABE
+  title: 急性心内膜炎症状
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高热（>38.9℃）、寒战、呼吸困难、胸膜炎性胸痛（右心）。
+  - 病情进展快，易出现心力衰竭。
+- id: IE_DIAGNOSIS_DUKE
+  title: 诊断标准（改良Duke）
+  source_page: 956
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要标准：两次血培养阳性（典型病原体）或超声心动图见赘生物/脓肿。
+  - 次要标准：发热≥38℃，血管现象（栓塞、出血），免疫现象（肾小球肾炎、结节）。
+  - 确诊需2条主要、或1主3次、或5次标准。
+- id: IE_ECHOCARDIOGRAPHY
+  title: 超声心动图检查
+  source_page: 957
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 所有疑似患者都应做超声心动图，经食管超声（TEE）比经胸（TTE）更敏感。
+  - TEE对发现小赘生物、瓣周脓肿和人工瓣膜感染更准确。
+- id: IE_WHEN_TO_SEE_DOCTOR
+  title: 何时就医
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 出现无法解释的发热（>38℃）且持续不退，尤其伴有心脏杂音时需就医。
+  - 新发的肢体栓塞、卒中、腰痛、关节痛也应排查心内膜炎。
+- id: IE_TREATMENT_ADHERENCE
+  title: 治疗注意事项
+  source_page: 953
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抗生素治疗需足疗程（通常4-6周），必须严格遵医嘱，不可自行停药。
+  - 部分患者需手术置换感染瓣膜，术后仍需抗感染。
+- id: IE_COMPLICATIONS
+  title: 常见并发症
+  source_page: 954
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 栓塞（脑、肺、脾）、心力衰竭、肾衰竭、瓣周脓肿。
+  - 出现胸痛、呼吸困难、单侧肢体无力或腰痛需警惕并发症。
+- id: IE_PVE_RISK
+  title: 人工瓣膜心内膜炎
+  source_page: 955
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早期（术后<2月）常由毒性强的金葡菌引起，晚期（>2月）类似亚急性。
+  - 机械瓣和生物瓣均有风险，需注意感染迹象。
