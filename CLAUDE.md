@@ -67,8 +67,13 @@ injection, keyed `guideline_name`) and `{specialty}/safety_floor/*.yaml` (layer-
    per-specialty section prompt (`prompts/sections/*.md`) + disease YAML knowledge (+ guideline/safety-floor
    injection where applicable).
 4. **Generation** (`bin/call_deepseek.sh`, or `_stream.sh`) — sha256 payload cache under `.cache/deepseek/`.
-5. **Verify + reroll** (`--accurate` only, `bin/verify_claims.py`) — grep-checks atomic claims, rerolls once.
-6. **Postprocess** (`bin/postprocess.sh`) — validates section structure against `schema/sections.yaml`.
+5. **Verify + reroll** (`--accurate` only) — `bin/verify_claims.py` grep-checks atomic claims; rerolls once
+   when any claim fails **or** (doctor mode) when `doctor_checks.py --reroll-note` reports evidence-grade
+   homogenization. The reroll prompt carries the failed-claim list (`_VERIFY_JSON`) and/or the doctor note
+   (`_DOCTOR_REROLL_NOTE`) into `build_prompt.sh --reroll`.
+6. **Postprocess** (`bin/postprocess.sh`) — validates section structure against `schema/sections.yaml`. For
+   doctor answers it first runs `doctor_checks.py --fix-summary` to deterministically rewrite the
+   【证据等级汇总】 table from the body's evidence-grade counts (zero-API, idempotent).
 
 ### Two orthogonal axes
 
@@ -83,7 +88,19 @@ injection, keyed `guideline_name`) and `{specialty}/safety_floor/*.yaml` (layer-
 1. **Evidence grades are real.** Unlike the DSM (which has none, so psy hard-codes `未注明`), the Cecil book
    has evidence levels and recommendation strengths. The **doctor schema includes 【证据等级汇总】** (an
    evidence-grade summary table), gold cases assert `doctor_must_have_tags: 证据等级`, and `doctor_checks.py`
-   analyzes the doctor answer for evidence-grade presence/homogeneity.
+   (zero-API, deterministic) does three jobs on the doctor answer:
+   - **default** (no flag) → emits a check JSON (`homogeneous_evidence`, `dosing_hits`, `summary_mismatch`, …)
+     consumed by the eval workers as judge flags.
+   - `--fix-summary` → repairs the 【证据等级汇总】 table to match the body's per-grade counts (used by
+     `postprocess.sh` live and by both eval workers before judging). The count table is a deterministic
+     function of the body annotations, so it is computed rather than left to the model to tally.
+   - `--reroll-note` → returns the homogenization reroll instruction (or empty), the single source of that
+     note text, used by the `--accurate` reroll trigger in `ask.sh` / `eval_deep_worker.sh`.
+   Dosing-leak detection stays **flag-only** (the prescription red-line is enforced by the prompt, not by a
+   deterministic strip).
+   Mode-specific gold: shared cases whose `expected_topics` are patient-shaped may carry
+   `doctor_expected_topics` (clinical-pitched); the eval workers prefer it in doctor mode so doctor coverage
+   is judged on clinical points, not patient-education detail.
 2. **Section schema is internal-medicine-shaped** (see headings above), not DSM-shaped.
 3. **OOB gate is action-based** (surgery/chemo/diagnosis/dosing), not psy's suicide-crisis-first model. There
    is **no `check_crisis.py`**; OOB recall is measured by `eval_oob.sh` against `eval/oob_gold.yaml`.
