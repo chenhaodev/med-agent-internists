@@ -80,14 +80,10 @@ set -e
 
 DID_REROLL="false"
 
-# 首稿 doctor 检查：证据等级同质化也作为回炉触发条件（在回炉决策之前评估首稿）
+# 首稿 doctor 检查：证据等级同质化也作为回炉触发条件（doctor_checks.py 单次给出回炉指令或空串）
 DOCTOR_REROLL_NOTE=""
-if [[ "$EVAL_MODE" == "doctor" ]]; then
-  FIRST_CHECKS=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
-  if printf '%s' "$FIRST_CHECKS" | python3 -c "import json,sys; sys.exit(0 if json.load(sys.stdin).get('homogeneous_evidence') else 1)" 2>/dev/null; then
-    DOCTOR_REROLL_NOTE="证据等级同质化——【循证管理】各条证据等级被统一标成同一级。请逐 entry 依注入片段的「证据质量」字段分别取级（高→高级别证据、中→中级别证据、未注明→临床常用），勿为图省事压成同一级。"
-  fi
-fi
+[[ "$EVAL_MODE" == "doctor" ]] && \
+  DOCTOR_REROLL_NOTE=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" --reroll-note 2>/dev/null || true)
 
 # ─── 4) 有 ✗ 声明 或 证据等级同质化 → 回炉一次 ─────────────
 if [[ "$VERIFY_EXIT" == "1" || -n "$DOCTOR_REROLL_NOTE" ]]; then

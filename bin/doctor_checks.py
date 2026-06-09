@@ -205,6 +205,19 @@ def fix_summary(text):
     return text[: summ_m.start(1)] + new_content + text[summ_m.end(1):]
 
 
+# 证据等级同质化时注入回炉 prompt 的指令（ask.sh / eval_deep_worker.sh 共用此唯一来源）
+_HOMOGENEOUS_REROLL_NOTE = (
+    "证据等级同质化——【循证管理】各条证据等级被统一标成同一级。"
+    "请逐 entry 依注入片段的「证据质量」字段分别取级"
+    "（高→高级别证据、中→中级别证据、未注明→临床常用），勿为图省事压成同一级。"
+)
+
+
+def reroll_note(text):
+    """若证据等级同质化，返回回炉指令文本；否则返回空串。供回炉触发判定单次调用。"""
+    return _HOMOGENEOUS_REROLL_NOTE if _evidence_levels(text or "")[0] else ""
+
+
 def check(text):
     text = text or ""
     homogeneous, levels, count = _evidence_levels(text)
@@ -220,10 +233,13 @@ def check(text):
 
 
 def main():
-    # --fix-summary：读全文，确定性改写汇总表后整篇输出（零 API，幂等）；
+    # --fix-summary：读全文，确定性改写汇总表后整篇输出（零 API，幂等）。
+    # --reroll-note：读全文，同质化则输出回炉指令文本（否则空）——单次调用即得回炉判定。
     # 否则默认：输出检查结果 JSON。
     if "--fix-summary" in sys.argv[1:]:
         sys.stdout.write(fix_summary(sys.stdin.read()))
+    elif "--reroll-note" in sys.argv[1:]:
+        sys.stdout.write(reroll_note(sys.stdin.read()))
     else:
         print(json.dumps(check(sys.stdin.read()), ensure_ascii=False))
 
