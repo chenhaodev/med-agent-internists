@@ -1,9 +1,49 @@
 specialty: digestive
 specialty_zh: 消化（含肝）
 disease: hepatitis
-disease_zh: 病毒性肝炎（乙型/丙型/自身免疫性）
+disease_zh: 肝炎（病毒性/酒精性/药物性）
 source: 《西氏内科学精要》（中文版）
 entries:
+- id: ACUTE_HEPATITIS_DEF
+  title: 急性肝炎定义与病因
+  source_page: 481
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 急性肝炎是近期发生的肝脏炎症，病程不超过6个月。
+  - 常见原因包括病毒（甲、乙、丙、丁、戊型）和药物、酒精等。
+  - 部分患者可完全恢复，少数可能进展为肝衰竭。
+  pdf_page: 500
+- id: VIRAL_HEPATITIS_TYPES
+  title: 五种肝炎病毒特点
+  source_page: 481
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 甲肝和戊肝通过粪-口传播，乙肝、丙肝、丁肝通过血液、性接触传播。
+  - 甲肝和戊肝不转为慢性，乙肝、丙肝、丁肝可转为慢性。
+  - 乙肝和丙肝有疫苗或抗病毒治疗，甲肝和戊肝以对症支持为主。
+  pdf_page: 500
+- id: ACUTE_HEPATITIS_DIAGNOSIS
+  title: 急性肝炎诊断方法
+  source_page: 482
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 通过血液检测病毒抗原、抗体或核酸来确诊。
+  - 乙肝表面抗原（HBsAg）阳性表示存在感染。
+  - 丙肝抗体阳性需进一步查HCV-RNA确认。
+  pdf_page: 501
+- id: ACUTE_HEPATITIS_SYMPTOMS
+  title: 急性肝炎常见症状
+  source_page: 482
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 早期症状包括乏力、食欲差、恶心、呕吐、肌肉酸痛、低热。
+  - 部分患者出现黄疸（皮肤、眼睛发黄）、尿色深、大便颜色变浅。
+  - 许多患者无症状或仅有轻微不适，容易被忽视。
+  pdf_page: 501
 - id: HBV_EPIDEMIOLOGY
   title: 乙型肝炎病毒（HBV）流行病学与传播
   source_page: 482
@@ -16,7 +56,87 @@ entries:
   - 西方成人急性HBV感染中，5%～10%不能清除病毒，进展为慢性肝炎；婴幼儿感染慢性化率更高。
   - HBV具有高度传染性，家属/性伴侣应接种乙肝疫苗；不共用牙刷、剃须刀等可能接触血液的物品。
   pdf_page: 501
-
+- id: ACUTE_HEPATITIS_COMPLICATIONS
+  title: 急性肝炎并发症
+  source_page: 483
+  evidence_level: 中
+  recommendation: 可考虑
+  key_points:
+  - 少数患者可出现淤胆型肝炎（持续黄疸、瘙痒）。
+  - 极少数（<1%）发展为暴发型肝炎（急性肝衰竭），危及生命。
+  - 乙肝、丙肝若超过6个月未愈，可能转为慢性肝炎。
+  pdf_page: 502
+- id: WHEN_TO_SEEK_CARE
+  title: 何时就医
+  source_page: 483
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 出现黄疸（皮肤、眼睛发黄）、尿色深、大便颜色变浅时。
+  - 持续乏力、恶心、呕吐、右上腹痛超过1周。
+  - 有意识模糊、行为异常、出血倾向（如牙龈出血、皮肤瘀斑）时立即就医。
+  pdf_page: 502
+- id: ACUTE_HEPATITIS_MANAGEMENT
+  title: 急性肝炎管理原则
+  source_page: 484
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 多数急性肝炎可自愈，需充分休息、保证营养、多喝水。
+  - 绝对避免饮酒，以免加重肝损伤。
+  - 若出现意识模糊、出血倾向，需立即住院治疗。
+  pdf_page: 503
+- id: ALCOHOLIC_LIVER_DISEASE
+  title: 酒精性肝病概述
+  source_page: 484
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - 长期大量饮酒（男性每日40-80克，持续10-15年）可导致肝损伤。
+  - 女性对酒精更敏感，饮酒量更少即可致病。
+  - 酒精性肝病包括脂肪肝、酒精性肝炎和肝硬化，前两者可逆。
+  pdf_page: 503
+- id: HEPATITIS_PREVENTION
+  title: 病毒性肝炎预防——疫苗与暴露后处理
+  source_page: 484
+  evidence_level: 高
+  recommendation: 强推荐
+  key_points:
+  - HAV疫苗：适用于12月龄以上儿童、流行地区旅行者、免疫缺陷或慢性肝病患者、高风险职业人群；主动免疫效果优于暴露后注射免疫球蛋白。
+  - HBV暴露后预防：在7天内注射乙型肝炎免疫球蛋白（HBIg）并接种HBV疫苗；高危人群（医务人员、血液透析患者、慢性肝病患者）及儿童应主动接种HBV疫苗。
+  - HCV无有效疫苗；输血筛查已使输血相关HCV感染基本消失；预防依赖通用防护措施（不共用注射器等）。
+  - 急性甲肝和戊肝发病3周后传染性基本消失；急性乙肝在HBsAg清除前全程具有潜在传染性。
+  pdf_page: 503
+- id: ALCOHOLIC_HEPATITIS_TREATMENT
+  title: 酒精性肝炎治疗要点
+  source_page: 485
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 彻底戒酒是最关键的治疗措施。
+  - 保证充足营养，尤其是蛋白质和维生素。
+  - 部分重症患者可在医生指导下使用激素，但需排除感染和出血。
+  pdf_page: 504
+- id: DIG_LIVER_REHAB
+  title: 药物性肝损伤康复要点
+  source_page: 485
+  evidence_level: 中
+  recommendation: 强推荐
+  key_points:
+  - 轻至中度药物性肝损伤（DILI）在及时停用相关药物后通常能够自行康复
+  - 康复期间应避免再次接触可疑肝毒性药物，避免饮酒，定期复查肝功能
+  - 部分DILI有特异性解毒剂（如对乙酰氨基酚中毒用N-乙酰半胱氨酸），应由医生决定
+  pdf_page: 504
+- id: DRUG_INDUCED_LIVER_INJURY
+  title: 药物性肝损伤
+  source_page: 485
+  evidence_level: 中
+  recommendation: 推荐
+  key_points:
+  - 超过1000种药物可能引起肝损伤，抗生素最常见。
+  - 症状类似病毒性肝炎：乏力、恶心、黄疸、尿色深。
+  - 一旦怀疑，应立即停用可疑药物，多数可恢复。
+  pdf_page: 504
 - id: HBV_CHRONIC_MANAGEMENT
   title: 慢性乙型肝炎——诊断标准与抗病毒治疗指征
   source_page: 486
@@ -30,7 +150,6 @@ entries:
   - 治疗目标：消除或永久抑制HBV，减少肝炎活动，减缓或阻止肝脏疾病进展。
   - 抗病毒药物须遵医嘱长期服用，不可自行停药——擅自停药可导致病毒剧烈反弹（flare），甚至引发急性肝衰竭。
   pdf_page: 505
-
 - id: HCV_CHRONIC_MANAGEMENT
   title: 慢性丙型肝炎——流行病学、治疗目标与DAA时代
   source_page: 486
@@ -43,19 +162,6 @@ entries:
   - HCV有6种主要基因型，基因型决定治疗方案和疗程；在美国最常见为基因型1，中国以基因型1b为主。
   - HCV无保护性免疫，治愈后仍可再感染；暴露后注射血清免疫球蛋白对预防HCV无效，目前无HCV疫苗。
   pdf_page: 505
-
-- id: HEPATITIS_PREVENTION
-  title: 病毒性肝炎预防——疫苗与暴露后处理
-  source_page: 484
-  evidence_level: 高
-  recommendation: 强推荐
-  key_points:
-  - HAV疫苗：适用于12月龄以上儿童、流行地区旅行者、免疫缺陷或慢性肝病患者、高风险职业人群；主动免疫效果优于暴露后注射免疫球蛋白。
-  - HBV暴露后预防：在7天内注射乙型肝炎免疫球蛋白（HBIg）并接种HBV疫苗；高危人群（医务人员、血液透析患者、慢性肝病患者）及儿童应主动接种HBV疫苗。
-  - HCV无有效疫苗；输血筛查已使输血相关HCV感染基本消失；预防依赖通用防护措施（不共用注射器等）。
-  - 急性甲肝和戊肝发病3周后传染性基本消失；急性乙肝在HBsAg清除前全程具有潜在传染性。
-  pdf_page: 503
-
 - id: HEPATITIS_FAMILY_EDUCATION
   title: 肝炎患者家属教育——居家防护与随访
   source_page: 487
