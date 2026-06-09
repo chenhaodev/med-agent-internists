@@ -191,11 +191,21 @@ for c in d.get('claims', []):
 " >&2 2>/dev/null || true
   fi
 
-  # D. 有 ✗ → 回炉一次
-  if [[ "$VERIFY_EXIT" == "1" ]]; then
-    [[ "$DEBUG" == "true" ]] && echo "[DEBUG --deep] 发现 ✗ 声明，启动回炉..." >&2
+  # D. 首稿 doctor 检查：证据等级同质化也触发回炉
+  DOCTOR_REROLL_NOTE=""
+  if [[ "$MODE" == "doctor" ]]; then
+    FIRST_CHECKS=$(printf '%s' "$RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
+    if printf '%s' "$FIRST_CHECKS" | python3 -c "import json,sys; sys.exit(0 if json.load(sys.stdin).get('homogeneous_evidence') else 1)" 2>/dev/null; then
+      DOCTOR_REROLL_NOTE="证据等级同质化——【循证管理】各条证据等级被统一标成同一级。请逐 entry 依注入片段的「证据质量」字段分别取级（高→高级别证据、中→中级别证据、未注明→临床常用），勿为图省事压成同一级。"
+    fi
+  fi
+
+  # E. 有 ✗ 声明 或 证据等级同质化 → 回炉一次
+  if [[ "$VERIFY_EXIT" == "1" || -n "$DOCTOR_REROLL_NOTE" ]]; then
+    [[ "$DEBUG" == "true" ]] && echo "[DEBUG --deep] 触发回炉（✗声明/证据同质化）..." >&2
 
     export _VERIFY_JSON="$VERIFY_JSON"
+    export _DOCTOR_REROLL_NOTE="$DOCTOR_REROLL_NOTE"
 
     set +e
     REROLL_RESPONSE=$(
@@ -204,6 +214,7 @@ for c in d.get('claims', []):
     )
     REROLL_EXIT=$?
     set -e
+    unset _DOCTOR_REROLL_NOTE
 
     if [[ "$REROLL_EXIT" == "0" && -n "$REROLL_RESPONSE" ]]; then
       RESPONSE="$REROLL_RESPONSE"

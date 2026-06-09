@@ -80,8 +80,10 @@ if [[ "$IS_OOB_RESPONSE" == "false" ]]; then
 fi
 
 # ─── doctor 确定性静态检查（处方剂量泄漏 / 证据等级同质化）──
-# 仅 stderr 警告，不改变正文与退出码（不阻断 live 回答）
+# 证据等级汇总表：确定性按正文计数改写（零 API，幂等）；剂量/同质化仅 stderr 警告。
 if [[ "$MODE" == "doctor" ]]; then
+  FIXED=$(printf '%s' "$RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" --fix-summary 2>/dev/null || true)
+  [[ -n "${FIXED// /}" ]] && RESPONSE="$FIXED"
   DC=$(printf '%s' "$RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
   DC_WARN=$(DC="$DC" python3 - <<'PYEOF' 2>/dev/null || true
 import json, os

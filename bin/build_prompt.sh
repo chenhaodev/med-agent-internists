@@ -210,21 +210,28 @@ if is_reroll:
     verify_json_str = os.environ.get("_VERIFY_JSON", "")
     verify_data = json.loads(verify_json_str) if verify_json_str.strip() else {}
     failed = [c for c in verify_data.get("claims", []) if c["status"] == "✗"]
-    failed_lines = "\n".join(
-        f"- [{c['kind']}] {c['claim']} — {c['evidence']}"
-        for c in failed
-    )
+    # doctor 确定性检查（如证据等级同质化）派生的回炉指令，由 worker 设入
+    doctor_note = os.environ.get("_DOCTOR_REROLL_NOTE", "").strip()
+
     if mode == "doctor":
         schema_note = "请重新生成完整的证据档案式回答（5段：定义/循证管理/红旗/证据等级汇总/参考）。"
     else:
         schema_note = "请重新生成完整的5段式回答。"
-    user_content = (
-        f"原始问题：{question}\n\n"
-        "VERIFY_FAILED — 以下声明在教材原文中找不到支撑，"
-        "请在修订版中删除或依据注入知识片段更正：\n\n"
-        f"{failed_lines}\n\n"
-        f"{schema_note}"
-    )
+
+    blocks = [f"原始问题：{question}"]
+    if failed:
+        failed_lines = "\n".join(
+            f"- [{c['kind']}] {c['claim']} — {c['evidence']}" for c in failed
+        )
+        blocks.append(
+            "VERIFY_FAILED — 以下声明在教材原文中找不到支撑，"
+            "请在修订版中删除或依据注入知识片段更正：\n\n"
+            f"{failed_lines}"
+        )
+    if doctor_note:
+        blocks.append(doctor_note)
+    blocks.append(schema_note)
+    user_content = "\n\n".join(blocks)
 else:
     user_content = question
 

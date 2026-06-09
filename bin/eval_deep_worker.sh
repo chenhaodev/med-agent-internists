@@ -80,9 +80,20 @@ set -e
 
 DID_REROLL="false"
 
-# ─── 4) 有 ✗ 声明 → 回炉一次 ─────────────────────────
-if [[ "$VERIFY_EXIT" == "1" ]]; then
+# 首稿 doctor 检查：证据等级同质化也作为回炉触发条件（在回炉决策之前评估首稿）
+DOCTOR_REROLL_NOTE=""
+if [[ "$EVAL_MODE" == "doctor" ]]; then
+  FIRST_CHECKS=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
+  if printf '%s' "$FIRST_CHECKS" | python3 -c "import json,sys; sys.exit(0 if json.load(sys.stdin).get('homogeneous_evidence') else 1)" 2>/dev/null; then
+    DOCTOR_REROLL_NOTE="证据等级同质化——【循证管理】各条证据等级被统一标成同一级。请逐 entry 依注入片段的「证据质量」字段分别取级（高→高级别证据、中→中级别证据、未注明→临床常用），勿为图省事压成同一级。"
+  fi
+fi
+
+# ─── 4) 有 ✗ 声明 或 证据等级同质化 → 回炉一次 ─────────────
+if [[ "$VERIFY_EXIT" == "1" || -n "$DOCTOR_REROLL_NOTE" ]]; then
   DID_REROLL="true"
+  export _VERIFY_JSON="$VERIFY_JSON"
+  export _DOCTOR_REROLL_NOTE="$DOCTOR_REROLL_NOTE"
   set +e
   REROLL=$(
     "$SCRIPT_DIR/build_prompt.sh" --reroll --mode "$EVAL_MODE" "$DOMAINS" "$QTEXT" \
@@ -91,11 +102,15 @@ if [[ "$VERIFY_EXIT" == "1" ]]; then
   REROLL_EXIT=$?
   set -e
   [[ "$REROLL_EXIT" == "0" && -n "${REROLL// /}" ]] && MODEL_RESPONSE="$REROLL"
+  unset _DOCTOR_REROLL_NOTE
 fi
 
 # doctor 确定性静态检查（处方剂量泄漏 / 证据等级同质化），零 API；回炉后的终稿上跑
 DOCTOR_CHECKS="{}"
 if [[ "$EVAL_MODE" == "doctor" ]]; then
+  # 终稿先确定性改写证据等级汇总表（与 postprocess.sh 一致），再跑检查/判官
+  FIXED=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" --fix-summary 2>/dev/null || true)
+  [[ -n "${FIXED// /}" ]] && MODEL_RESPONSE="$FIXED"
   DOCTOR_CHECKS=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
 fi
 export DOCTOR_CHECKS
@@ -105,11 +120,15 @@ export DOMAINS MODEL_RESPONSE VERIFY_JSON DID_REROLL
 JUDGE_PAYLOAD=$(python3 - <<'PYEOF'
 import json, os
 q = json.loads(os.environ["QUESTION_OBJ"])
+# doctor 模式优先用临床要点版期望（若提供）；否则回退到共用 expected_topics。
+_is_doctor = os.environ.get("EVAL_MODE") == "doctor"
+_topics = q.get("doctor_expected_topics") if (_is_doctor and q.get("doctor_expected_topics")) \
+    else q.get("expected_topics", [])
 judge_input = {
     "question": q["question"],
     "model_response": os.environ["MODEL_RESPONSE"],
     "gold": {
-        "expected_topics": q.get("expected_topics", []),
+        "expected_topics": _topics,
         "must_warn":       q.get("must_warn", []),
         "source_refs":     q.get("source_refs", []),
         "must_not":        q.get("must_not", []),

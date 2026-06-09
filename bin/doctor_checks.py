@@ -12,11 +12,15 @@
       "summary_detail": {...}         # 不符的等级及差异，如 {"高级别": {"table":8,"body":4}}
     }
 
-被 eval_worker.sh / eval_deep_worker.sh（确定性 flag）与 postprocess.sh（live WARN）复用。
-三类检查对应 eval 中反复出现的 doctor 失分模式：
-  - 证据等级全标同级（ENDO_NUTR_DR_01 / RESP_PLEURAL_DR_01）
-  - 循证管理里写出具体处方剂量（DIGE_GI_DR_01 泮托拉唑80mg iv / SUBS_ALC_DR_01）
-  - 证据等级汇总表条目数与正文不一致（AKI_MONITOR_01 / CNS_ENCEPH_01 / GERI_FALL_01）
+另有 `--fix-summary` 模式（stdin→stdout）：按【循证管理】正文标注计数确定性重写
+【证据等级汇总】表（幂等；相符则原样输出），把易错的手工计数从模型卸载到脚本。
+
+被 eval_worker.sh / eval_deep_worker.sh 与 postprocess.sh 复用：
+  - 证据等级汇总表计数不符 → `--fix-summary` 确定性修复（postprocess + 两个 eval worker，零 API）
+  - 证据等级全标同级 → 同质化触发一次回炉（eval_deep_worker / ask.sh --deep），并作 flag
+  - 循证管理里写出具体处方剂量 → flag-only（处方红线主要靠 prompt 约束）
+三类检查对应 eval 中反复出现的 doctor 失分模式（同质化 ENDO_NUTR_DR_01 / RESP_PLEURAL_DR_01；
+处方剂量 DIGE_GI_DR_01 泮托拉唑80mg iv / SUBS_ALC_DR_01；汇总计数 AKI_MONITOR_01 / GERI_FALL_01）。
 """
 import json
 import re
@@ -140,6 +144,67 @@ def _check_summary_mismatch(text):
     return bool(detail), detail
 
 
+# ── 汇总表确定性改写 ──────────────────────────────────────────
+# body 关键词 → 表格等级显示名（_TABLE_TO_BODY 的反向）
+_BODY_TO_TABLE = {b: d for d, b in _TABLE_TO_BODY.items()}
+# 表格行固定顺序（与 output_schema_doctor.md 一致）
+_LEVEL_ORDER = ("高级别", "中级别", "低级别", "指南推荐", "临床常用")
+# 三列数据行：| 等级 | N | 代表来源 |
+_TABLE_ROW3 = re.compile(r"\|\s*([^|]+?)\s*\|\s*(\d+)\s*\|\s*([^|]*?)\s*\|")
+
+
+def _existing_sources(summary_text):
+    """从原汇总表抽取每个 body 等级的「代表来源」单元格，供改写时保留。"""
+    sources: dict = {}
+    for row in _TABLE_ROW3.finditer(summary_text):
+        raw = row.group(1).strip()
+        if any(h in raw for h in _TABLE_HEADER_KEYS):
+            continue
+        norm = _TABLE_TO_BODY.get(raw, raw)
+        if norm in _LEVEL_KEYS:
+            sources[norm] = row.group(3).strip() or "—"
+    return sources
+
+
+def _build_table(body_counts, sources):
+    """按正文计数 + 保留的来源，重建【证据等级汇总】表块（仅 >0 的等级行）。"""
+    lines = ["| 等级 | 条目数 | 代表来源 |", "|------|--------|----------|"]
+    for key in _LEVEL_ORDER:
+        n = body_counts.get(key, 0)
+        if n <= 0:
+            continue
+        display = _BODY_TO_TABLE.get(key, key)
+        lines.append(f"| {display} | {n} | {sources.get(key, '—')} |")
+    return "\n".join(lines)
+
+
+def fix_summary(text):
+    """若【证据等级汇总】表计数与正文不符，用正文计数确定性重写该表。幂等：相符则原样返回。"""
+    text = text or ""
+    mismatch, _ = _check_summary_mismatch(text)
+    if not mismatch:
+        return text
+    summ_m = _SUMMARY_SECTION.search(text)
+    body_m = _MGMT_SECTION.search(text)
+    if not summ_m or not body_m:
+        return text
+    body = _body_level_counts(body_m.group(1))
+    if not body:
+        return text
+
+    content = summ_m.group(1)
+    lines = content.split("\n")
+    tbl_idx = [i for i, ln in enumerate(lines) if "|" in ln]
+    if not tbl_idx:
+        return text
+
+    new_table = _build_table(body, _existing_sources(content))
+    start, end = tbl_idx[0], tbl_idx[-1]
+    new_lines = lines[:start] + new_table.split("\n") + lines[end + 1:]
+    new_content = "\n".join(new_lines)
+    return text[: summ_m.start(1)] + new_content + text[summ_m.end(1):]
+
+
 def check(text):
     text = text or ""
     homogeneous, levels, count = _evidence_levels(text)
@@ -155,7 +220,12 @@ def check(text):
 
 
 def main():
-    print(json.dumps(check(sys.stdin.read()), ensure_ascii=False))
+    # --fix-summary：读全文，确定性改写汇总表后整篇输出（零 API，幂等）；
+    # 否则默认：输出检查结果 JSON。
+    if "--fix-summary" in sys.argv[1:]:
+        sys.stdout.write(fix_summary(sys.stdin.read()))
+    else:
+        print(json.dumps(check(sys.stdin.read()), ensure_ascii=False))
 
 
 if __name__ == "__main__":

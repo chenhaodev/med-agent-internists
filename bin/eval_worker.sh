@@ -74,6 +74,9 @@ fi
 # doctor 确定性静态检查（处方剂量泄漏 / 证据等级同质化），零 API
 DOCTOR_CHECKS="{}"
 if [[ "$EVAL_MODE" == "doctor" ]]; then
+  # 先按正文计数确定性改写证据等级汇总表（与 postprocess.sh 一致），再跑检查/判官
+  FIXED=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" --fix-summary 2>/dev/null || true)
+  [[ -n "${FIXED// /}" ]] && MODEL_RESPONSE="$FIXED"
   DOCTOR_CHECKS=$(printf '%s' "$MODEL_RESPONSE" | python3 "$SCRIPT_DIR/doctor_checks.py" 2>/dev/null || echo "{}")
 fi
 export DOCTOR_CHECKS
@@ -83,11 +86,16 @@ export DOMAINS MODEL_RESPONSE
 JUDGE_PAYLOAD=$(python3 - <<'PYEOF'
 import json, os
 q = json.loads(os.environ["QUESTION_OBJ"])
+# doctor 模式优先用临床要点版期望（若提供）；否则回退到共用 expected_topics。
+# 共用 gold 的 expected_topics 多为患教化具体动作，doctor prompt 主动剥离 → 会被结构性误扣覆盖度。
+_is_doctor = os.environ.get("EVAL_MODE") == "doctor"
+_topics = q.get("doctor_expected_topics") if (_is_doctor and q.get("doctor_expected_topics")) \
+    else q.get("expected_topics", [])
 judge_input = {
     "question": q["question"],
     "model_response": os.environ["MODEL_RESPONSE"],
     "gold": {
-        "expected_topics": q.get("expected_topics", []),
+        "expected_topics": _topics,
         "must_warn": q.get("must_warn", []),
         "source_refs": q.get("source_refs", []),
         "must_not": q.get("must_not", []),
