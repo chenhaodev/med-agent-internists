@@ -17,8 +17,13 @@ psychiatry agent), reusing the internal-medicine domain data of the older `../me
 core pipeline scripts are nearly identical across all three projects (common ancestor); the divergences are
 listed under "Internal-medicine specifics" below.
 
-Coverage: **17 specialties / ~100 diseases** (`knowledge/{specialty}/{disease}.yaml`). The slice currently
-tuned/eval'd end-to-end is `cardiology + respiratory + digestive`; the rest are migrated and pass the gates.
+Coverage: **17 specialties / ~110 diseases** (`knowledge/{specialty}/{disease}.yaml`), spanning 101 of the
+~109 patient-facing clinical chapters in the book. Known remaining gaps (patient-facing chapters not yet
+extracted): `acute_liver_failure`, rheumatology `sjogrens`/`soft_tissue`, hematology `neutrophil`, renal
+`non_glomerular`, endocrine `male_repro_endo` (gout/osteoporosis are covered under a sibling specialty). To
+close a gap: the chapter MD already exists under `source/chapters/`, so run `extract.py` on it then wire
+router keywords + gold (see "Adding a disease"). Infectious disease was the largest gap and is now fully
+covered (16/16 chapters).
 
 ## Architecture
 
