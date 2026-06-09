@@ -35,6 +35,9 @@ SPECIALTY_META = {
             "heart_failure": "心力衰竭",
             "cad":           "冠心病",
             "arrhythmia":    "心律失常",
+            "cv_structure":  "心脏和血管的正常结构与功能",
+            "cv_assessment": "心血管疾病患者的评估",
+            "cv_diagnostics": "心血管疾病的辅助检查",
         }
     },
     "endocrine": {
@@ -46,6 +49,7 @@ SPECIALTY_META = {
             "dyslipidemia": "血脂异常",
             "gout":         "痛风与高尿酸血症",
             "obesity":      "肥胖症",
+            "male_repro_endo": "男性生殖内分泌学",
         }
     },
     "respiratory": {
@@ -55,6 +59,9 @@ SPECIALTY_META = {
             "copd":      "慢性阻塞性肺疾病",
             "asthma":    "支气管哮喘",
             "pneumonia": "肺炎",
+            "lung_basics": "健康肺与病肺",
+            "resp_assessment": "呼吸疾病患者的诊治思路",
+            "lung_function": "肺结构与功能的评估",
         }
     },
     "digestive": {
@@ -64,6 +71,10 @@ SPECIALTY_META = {
             "liver": "病毒性肝炎与肝硬化",
             "gi":    "胃肠疾病",
             "ibd":   "炎症性肠病",
+            "gi_symptoms": "胃肠道疾病的常见临床表现",
+            "gi_diagnostics": "内镜及影像学检查",
+            "liver_labs": "肝脏疾病的实验室检查",
+            "acute_liver_failure": "急性肝衰竭",
         }
     },
     "renal": {
@@ -72,6 +83,9 @@ SPECIALTY_META = {
         "diseases": {
             "ckd":       "慢性肾脏病",
             "nephritis": "肾小球肾炎",
+            "renal_structure": "肾脏的结构与功能",
+            "renal_patient": "了解肾脏病患者",
+            "non_glomerular": "常见非肾小球疾病",
         }
     },
     "hematology": {
@@ -79,6 +93,9 @@ SPECIALTY_META = {
         "source": "《西氏内科学精要》（中文版）",
         "diseases": {
             "anemia": "贫血",
+            "hematopoiesis": "造血与造血衰竭",
+            "neutrophil": "中性粒细胞相关临床疾病",
+            "coagulation_basics": "生理止血",
         }
     },
     "infectious": {
@@ -95,6 +112,8 @@ SPECIALTY_META = {
             "sti":                 "性传播感染",
             "immunocompromised":   "免疫缺陷宿主中的感染",
             "travel_infection":    "旅行者感染（原虫和蠕虫感染）",
+            "host_defense":        "宿主如何防御感染",
+            "infect_lab_diagnosis": "感染性疾病的实验室诊断",
         }
     },
     "rheumatology": {
@@ -118,44 +137,18 @@ SPECIALTY_META = {
     },
 }
 
-# ─── 全书全覆盖新增章节的中文名（背景章 + 余下患者向缺口）──────────────────
-# 这些 slug 不在上方按疾病组织的 SPECIALTY_META.diseases 里，单独登记中文名以美化
-# YAML header（缺省会回落到 slug，不影响门禁，仅影响可读性）。
-EXTRA_DISEASE_ZH = {
-    "cardiology": {
-        "cv_structure":   "心脏和血管的正常结构与功能",
-        "cv_assessment":  "心血管疾病患者的评估",
-        "cv_diagnostics": "心血管疾病的辅助检查",
-    },
-    "respiratory": {
-        "lung_basics":    "健康肺与病肺",
-        "resp_assessment": "呼吸疾病患者的诊治思路",
-        "lung_function":  "肺结构与功能的评估",
-    },
-    "renal": {
-        "renal_structure": "肾脏的结构与功能",
-        "renal_patient":   "了解肾脏病患者",
-        "non_glomerular":  "常见非肾小球疾病",
-    },
-    "digestive": {
-        "gi_symptoms":     "胃肠道疾病的常见临床表现",
-        "gi_diagnostics":  "内镜及影像学检查",
-        "liver_labs":      "肝脏疾病的实验室检查",
-        "acute_liver_failure": "急性肝衰竭",
-    },
-    "hematology": {
-        "hematopoiesis":   "造血与造血衰竭",
-        "neutrophil":      "中性粒细胞相关临床疾病",
-        "coagulation_basics": "生理止血",
-    },
-    "endocrine": {
-        "male_repro_endo": "男性生殖内分泌学",
-    },
-    "infectious": {
-        "host_defense":         "宿主如何防御感染",
-        "infect_lab_diagnosis": "感染性疾病的实验室诊断",
-    },
-}
+# 两份提取提示共享的「绝不可漂移」规则块，抽成常量以保证患者向与背景章两种模式
+# 对 source_page 归属、跨页取舍、证据词汇、剂量禁令的解释**永远一致**（改一处即两处生效）。
+_PAGE_RULES = (
+    "- **source_page 填印刷页码**：文本中每个 [p.N | 页码 F] 标记里，F 就是印刷页码；"
+    '只有旧格式 [p.N] 时，从块内容第 2-3 行的独立数字（如 "1071"）读取印刷页码。'
+    "**绝不使用 [p.N] 里的 N（那是 PDF 物理页，不是印刷页码）**\n"
+    "- 若同一知识点跨多页，填内容最多的那页的印刷页码"
+)
+_EVIDENCE_RULES = (
+    '- evidence_level 和 recommendation 如原文有明确说明则引用，否则填"未注明"\n'
+    "- 不包含任何具体药物剂量"
+)
 
 EXTRACT_SYSTEM_PROMPT = """你是医学知识结构化提取专家。
 从输入的教材章节文本中，提取适合患者家属查询的核心知识条目。
@@ -179,12 +172,10 @@ EXTRACT_SYSTEM_PROMPT = """你是医学知识结构化提取专家。
 
 要求：
 - 每章提取 5-15 个条目，覆盖：病因/危险因素、诊断标准（家属可理解）、生活方式管理、药物管理注意事项（不写剂量）、并发症预防、何时就医
-- **source_page 填印刷页码**：文本中每个 [p.N | 页码 F] 标记里，F 就是印刷页码；只有旧格式 [p.N] 时，从块内容第 2-3 行的独立数字（如 "1071"）读取印刷页码。**绝不使用 [p.N] 里的 N（那是 PDF 物理页，不是印刷页码）**
-- 若同一知识点跨多页，填内容最多的那页的印刷页码
+""" + _PAGE_RULES + """
 - **patient_facing 章节必须提取生活方式条目**：若原文涉及运动/锻炼/饮食/体力活动/戒烟/戒酒/康复/居家护理，必须各自单独成条，不得合并到诊断或治疗条目中
 - key_points 用家属能理解的语言，避免专业缩写堆砌
-- evidence_level 和 recommendation 如原文有明确说明则引用，否则填"未注明"
-- 不包含任何具体药物剂量"""
+""" + _EVIDENCE_RULES
 
 
 # 背景章（解剖/生理/患者评估/辅助检查/检验/宿主防御等 patient_facing:false 章节）专用提示。
@@ -213,11 +204,9 @@ BACKGROUND_SYSTEM_PROMPT = """你是医学知识结构化提取专家。
 
 要求：
 - 每章提取 5-15 个条目，覆盖：基本概念/正常值与意义、各项检查能查出什么/适用场景、结果如何解读（不做诊断）、检查注意事项与风险、何时需进一步评估或就医
-- **source_page 填印刷页码**：文本中每个 [p.N | 页码 F] 标记里，F 就是印刷页码；只有旧格式 [p.N] 时，从块内容第 2-3 行的独立数字（如 "1071"）读取印刷页码。**绝不使用 [p.N] 里的 N（那是 PDF 物理页，不是印刷页码）**
-- 若同一知识点跨多页，填内容最多的那页的印刷页码
+""" + _PAGE_RULES + """
 - key_points 用患者/家属能理解的语言，避免专业缩写堆砌；解释类条目可适当展开但勿冗长
-- evidence_level 和 recommendation 如原文有明确说明则引用，否则填"未注明"
-- 不包含任何具体药物剂量"""
+""" + _EVIDENCE_RULES
 
 
 def load_env() -> str:
@@ -286,11 +275,7 @@ def extract_chapter(md_file: Path, out_yaml: Path, api_key: str, model: str,
     disease = md_file.stem
 
     meta = SPECIALTY_META.get(specialty, {})
-    disease_zh = (
-        meta.get("diseases", {}).get(disease)
-        or EXTRA_DISEASE_ZH.get(specialty, {}).get(disease)
-        or disease
-    )
+    disease_zh = meta.get("diseases", {}).get(disease, disease)
     specialty_zh = meta.get("specialty_zh", specialty)
     source = meta.get("source", "《西氏内科学精要》（中文版）")
     system_prompt = BACKGROUND_SYSTEM_PROMPT if background else EXTRACT_SYSTEM_PROMPT
