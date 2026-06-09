@@ -14,11 +14,11 @@
 
 **这个项目怎么做**：把一本权威内科教材整本拆成一张张「带页码的知识卡片」存进仓库。用户提问时——
 
-1. 先用**关键词规则**判断这问的是哪个专科、哪种病（不调用 AI，纯文本匹配，毫秒级）；
+1. 先用**关键词规则**判断这问的是哪个专科、哪种病（不调用大模型，纯文本匹配，毫秒级）；
 2. 把对应的几张知识卡片**原样塞给大模型**，要求它「只能照着卡片讲、并标出处页码」；
 3. 最后检查答案是不是按规定的小节格式写的、页码对不对。
 
-> **一句话**：不是让 AI「凭记忆作答」，而是**先替它把书翻到正确那一页，再让它照着讲清楚**——
+> **一句话**：不是让大模型「凭记忆作答」，而是**先替它把书翻到正确那一页，再让它照着讲清楚**——
 > 于是每句结论都能一句句翻回书里核对。
 
 ---
@@ -27,9 +27,9 @@
 
 后面会反复用到，先用大白话讲清楚，读起来就不卡了（更全的解释见文末[名词速查](#附录名词速查)）：
 
-- **溯源**：答案里每条结论都能**翻回原书的具体页码**核对，而不是 AI 自己「想」出来的。这是本项目的头号目标。
+- **溯源**：答案里每条结论都能**翻回原书的具体页码**核对，而不是大模型自己「想」出来的。这是本项目的头号目标。
 - **幻觉**：大模型一本正经地**编造**看似可信、其实查无实据的内容。「溯源」就是用来压制幻觉的。
-- **RAG / 向量库**：当下让 AI「带着资料作答」的主流技术（把资料切碎、按语义相似度捞回最像的几段）。
+- **RAG / 向量库**：当下让大模型「带着资料作答」的主流技术（把资料切碎、按语义相似度捞回最像的几段）。
   本项目**刻意不用**它，改用更可控的「关键词规则 + 整段知识卡片」——为什么，见[为什么这样设计](#为什么这样设计)。
 - **越界**：超出「科普问答」边界的请求（比如要手术决策、化疗剂量、让它替你确诊）。系统会**直接拦下来给模板**，
   绝不硬答。
@@ -166,7 +166,7 @@ flowchart TB
 
 > 不支持 mermaid 的查看器，可读作：
 > **离线** `PDF → ingest.py → 章节 MD → extract.py → 病种 YAML`；
-> **在线** `问题 → OOB闸 → 路由 → 组装prompt(注入知识) → 生成 →(accurate 核验回炉)→ 后处理 → 回答`。
+> **在线** `问题 → 越界闸 → 路由 → 组装提示词(注入知识) → 生成 →(精确模式核验回炉)→ 后处理 → 回答`。
 
 名词对照：**OOB**＝越界闸；**folio / 折页码**＝书印刷出来的页码（区别于 PDF 物理页）；
 **源页 `source_page`**＝每条知识标注的折页码，也是溯源审计对齐的目标。
@@ -176,13 +176,13 @@ flowchart TB
 ## 快速开始
 
 ```bash
-# 1. 依赖（极简：仅 pymupdf + pyyaml）
+# ① 安装依赖（极简：仅 pymupdf + pyyaml）
 pip install -r requirements.txt
 
-# 2. 配置唯一的外部依赖：DeepSeek API Key
-cp .env.example .env          # 填入 DEEPSEEK_API_KEY
+# ② 配置唯一的外部依赖：DeepSeek API 密钥
+cp .env.example .env                             # 把密钥填进 .env 的 DEEPSEEK_API_KEY
 
-# 3. 提问
+# ③ 提问
 ./bin/ask.sh "我爸有高血压，平时饮食要注意什么？"
 ./bin/ask.sh --mode doctor "高血压的血压控制目标是多少？"
 ./bin/ask.sh --accurate "肺栓塞的抗凝怎么做？"
@@ -190,41 +190,41 @@ cp .env.example .env          # 填入 DEEPSEEK_API_KEY
 ```
 
 > 注：书的 PDF 与抽取出的 `source/` 为本机私有、**不随仓库分发**（见 `.gitignore`）；
-> 自行问答只需 `knowledge/` 中已抽取好的 YAML + 一个 DeepSeek API Key。
+> 自行问答只需 `knowledge/` 中已抽取好的 YAML + 一个 DeepSeek API 密钥。
 
-### CLI 速查（`ask.sh`）
+### 命令行参数速查（`ask.sh`）
 
-| 旗标 | 含义 |
+| 参数 | 含义 |
 |------|------|
 | `--fast` | **默认**。单次生成，最低延迟 |
-| `--accurate` / `--deep` | 原子声明 grep 核验 + 必要时回炉自纠（降幻觉，约 2–3 倍调用） |
-| `--mode patient \| doctor` | 受众模式（默认 `patient`；与精度模式正交） |
+| `--accurate` / `--deep` | 把答案拆成原子声明逐条核验 + 必要时回炉自纠（降幻觉，约 2–3 倍调用） |
+| `--mode patient \| doctor` | 受众模式（默认 `patient`；与精度模式可自由组合） |
 | `--domain 专科:病种` | 强制领域，跳过自动路由（如 `cardiology:hypertension`） |
-| `--stream` | 流式输出（增量 token 实时显示，默认关） |
-| `--debug` | 打印路由与 payload 信息到 stderr |
+| `--stream` | 流式输出（生成时逐字实时显示，默认关） |
+| `--debug` | 把路由与请求负载信息打印到标准错误（stderr） |
 
 ---
 
 ## 构建与评测
 
 ```bash
-# 构建（ingest 无需 API；extract 需 DeepSeek）
-python3 bin/ingest.py --all                      # 两卷 PDF → source/chapters/*.md（页码闸依赖此产物）
-python3 bin/extract.py --specialty cardiology    # 章节 MD → 病种 YAML
+# ① 构建知识库（ingest 不调用 API；extract 调用 DeepSeek）
+python3 bin/ingest.py --all                      # 两卷 PDF → 章节 Markdown（页码审计依赖此产物）
+python3 bin/extract.py --specialty cardiology    # 章节 Markdown → 病种 YAML 知识卡片
 
-# 闸门——进入 eval 前必须全部 exit 0，一条命令跑全：
-./bin/check.sh        # audit_routing · audit_grounding · audit_grounding_sample · audit_schema · smoke
-./bin/check.sh --with-oob                        # 额外跑 OOB 拦截评测（消耗 API）
+# ② 闸门检查（进入评测前必须全部通过，一条命令跑全）
+./bin/check.sh                                   # 路由 · 溯源 · 抽样溯源 · 结构 · 冒烟，共五项审计
+./bin/check.sh --with-oob                        # 额外跑越界拦截评测（消耗 API）
 
-# 评测
-./bin/eval.sh --mode both --concurrency 8        # 跑完整 gold.yaml（183 题标准考题）
-./bin/eval_deep.sh                               # accurate 模式（核验+回炉）
+# ③ 评测
+./bin/eval.sh --mode both --concurrency 8        # 跑完整的 183 题标准考题
+./bin/eval_deep.sh                               # 精确模式（核验 + 回炉）
 ./bin/eval_oob.sh                                # 越界拦截评测
 ```
 
 「考官打分」的实现：`eval/judge_prompt*.md`（评分细则）+ `bin/parse_judge.py`（解析分数）；
 标准考题在 `eval/gold.yaml`。其中**强溯源审计** `audit_grounding_sample.py` 会强制每条知识的页码
-落在该疾病所属章节的折页范围内（±2 容差），否则 gate 不通过。
+落在该疾病所属章节的折页范围内（±2 容差），否则该项审计不通过。
 
 ---
 
@@ -239,8 +239,8 @@ knowledge/      18 个专科目录，每个病种一份 *.yaml（带 source_page
 prompts/        system_*.md · output_schema_*.md · sections/{专科}.md · oob_templates*.md
 schema/         sections.yaml —— 五段式小节标题的唯一真源
 eval/           gold.yaml（183 例）· oob_gold.yaml · judge_prompt*.md · results/
-source/         章节 Markdown（ingest 产物，git-ignored）
-pdfs/           两卷原书 PDF（私有，git-ignored）
+source/         章节 Markdown（ingest 产物，已被 git 忽略）
+pdfs/           两卷原书 PDF（私有，已被 git 忽略）
 ```
 
 18 个专科：`cardiology` · `respiratory` · `digestive` · `renal` · `endocrine` · `hematology` ·
@@ -258,7 +258,7 @@ pdfs/           两卷原书 PDF（私有，git-ignored）
 - **病种 ↔ 章节 1:1**：页码溯源以此为前提。一个病种横跨多章时（如 肝炎 vs 肝硬化）需拆成不同病种文件，
   否则页码闸会失败。
 - **数据私有**：原书 PDF 受版权保护，不分发；运行问答需自备书（用于重新 ingest/extract）或直接复用
-  仓库内已抽取的 `knowledge/`，并自备 DeepSeek API Key。
+  仓库内已抽取的 `knowledge/`，并自备 DeepSeek API 密钥。
 
 ---
 
@@ -268,8 +268,8 @@ pdfs/           两卷原书 PDF（私有，git-ignored）
 
 | 名词 | 一句话解释 |
 |------|------------|
-| **RAG / 向量库** | 主流做法：把资料切碎、转成向量，提问时按「语义相似度」捞回最像的几段再让 AI 参考。本项目**刻意不用**，改用关键词规则直接定位整章知识。 |
-| **溯源 / grounding** | 答案里的每条结论都能指回原书的**具体页码**，可逐句核对，而不是 AI 自己「想」出来的。 |
+| **RAG / 向量库** | 主流做法：把资料切碎、转成向量，提问时按「语义相似度」捞回最像的几段再让大模型参考。本项目**刻意不用**，改用关键词规则直接定位整章知识。 |
+| **溯源 / grounding** | 答案里的每条结论都能指回原书的**具体页码**，可逐句核对，而不是大模型自己「想」出来的。 |
 | **幻觉（hallucination）** | 大模型一本正经地编造看似可信、其实不存在的内容。强溯源就是用来压制它的。 |
 | **路由（routing）** | 判断「这个问题属于哪个专科 / 哪种病」，从而决定喂哪几张知识卡片。本项目用关键词表，毫秒级、不花钱。 |
 | **折页码 / folio** | 书**印刷出来的页码**（书页角上印的那个数字），区别于 PDF 的物理页序。溯源对齐的就是它。 |
@@ -277,8 +277,8 @@ pdfs/           两卷原书 PDF（私有，git-ignored）
 | **gold 集** | 人工准备的「标准考题」集合（本项目 183 题），用来量化评测系统答得好不好。 |
 | **LLM-judge** | 用另一个大模型按评分细则给答案打分（覆盖/准确/安全/溯源四项），实现自动化评测。 |
 | **核验 + 回炉（`--accurate`）** | 生成后把答案拆成一条条小声明，逐条回去 grep 知识卡片核对；对不上就让模型重写一次。 |
-| **DeepSeek** | 本项目调用的大模型服务，是唯一的外部依赖（需自备 API Key）。 |
+| **DeepSeek** | 本项目调用的大模型服务，是唯一的外部依赖（需自备 API 密钥）。 |
 
 ---
 
-> 工程细节、命令全集与每个 gotcha 的来龙去脉，见 [`CLAUDE.md`](./CLAUDE.md)。
+> 工程细节、命令全集与各种「坑」的来龙去脉，见 [`CLAUDE.md`](./CLAUDE.md)。
