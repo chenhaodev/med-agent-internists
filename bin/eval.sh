@@ -20,6 +20,7 @@ ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
 LIMIT=999
 FILTER_ID=""
+FILTER_SPECIALTY=""
 JUDGE_MODEL="${JUDGE_MODEL:-deepseek-v4-flash}"
 EVAL_MODE="patient"
 EVAL_CONCURRENCY="${EVAL_CONCURRENCY:-8}"
@@ -29,6 +30,7 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --limit)        LIMIT="$2";            shift 2 ;;
     --id)           FILTER_ID="$2";        shift 2 ;;
+    --specialty)    FILTER_SPECIALTY="$2"; shift 2 ;;
     --judge-model)  JUDGE_MODEL="$2";      shift 2 ;;
     --concurrency)  EVAL_CONCURRENCY="$2"; shift 2 ;;
     --cache)        EVAL_NO_CACHE=0;       shift ;;
@@ -41,8 +43,10 @@ if [[ "$EVAL_MODE" == "both" ]]; then
   CACHE_FLAG=()
   [[ "$EVAL_NO_CACHE" == "0" ]] && CACHE_FLAG=(--cache)
   "$0" --mode patient ${LIMIT:+--limit "$LIMIT"} ${FILTER_ID:+--id "$FILTER_ID"} \
+       ${FILTER_SPECIALTY:+--specialty "$FILTER_SPECIALTY"} \
        --judge-model "$JUDGE_MODEL" --concurrency "$EVAL_CONCURRENCY" "${CACHE_FLAG[@]+"${CACHE_FLAG[@]}"}"
   "$0" --mode doctor  ${LIMIT:+--limit "$LIMIT"} ${FILTER_ID:+--id "$FILTER_ID"} \
+       ${FILTER_SPECIALTY:+--specialty "$FILTER_SPECIALTY"} \
        --judge-model "$JUDGE_MODEL" --concurrency "$EVAL_CONCURRENCY" "${CACHE_FLAG[@]+"${CACHE_FLAG[@]}"}"
   exit 0
 fi
@@ -86,9 +90,16 @@ with open("${ROOT_DIR}/eval/gold.yaml") as f:
 questions = data.get("questions", [])
 questions = [q for q in questions if q.get("mode", "both") in ("${EVAL_MODE}", "both")]
 filter_id = "${FILTER_ID}"
+filter_specialty = "${FILTER_SPECIALTY}"
 if filter_id:
     questions = [q for q in questions if q.get("id") == filter_id]
 else:
+    if filter_specialty:
+        specs = {s.strip() for s in filter_specialty.split(",") if s.strip()}
+        questions = [
+            q for q in questions
+            if any(d.split(":")[0] in specs for d in q.get("expected_domain", []))
+        ]
     questions = questions[:${LIMIT}]
 
 for i, q in enumerate(questions):
